@@ -3,7 +3,7 @@
 scrape.py – Pharma-industry RFP harvester
 ========================================
 * Visits each landing page listed in SITES
-* Finds links to .pdf / .doc / .docx (BeautifulSoup first, regex fallback)
+* Finds links to .pdf (and gracefully ignores .doc/.docx)
 * Downloads new docs into ./data/<sha1>.pdf
 * Extracts "Issued / Deadline" dates from page 1
 * Merges everything into latest_rfps.json for GPT ingestion
@@ -37,35 +37,32 @@ SITES = {
 }
 
 DATA_DIR  = pathlib.Path("data")
-DATA_DIR.mkdir(exist_ok=True)
-
 JSON_PATH = pathlib.Path("latest_rfps.json")
+
+# Make sure DATA_DIR exists from the start
+DATA_DIR.mkdir(exist_ok=True)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 # ---------------------------------------------------------------------
-# 1. Retry-capable requests.Session with browser User-Agent
+# 1. Retry-capable requests.Session
 # ---------------------------------------------------------------------
 def build_session(retries: int = 3, backoff: int = 2, timeout: int = 30) -> requests.Session:
     sess = requests.Session()
     retry_cfg = Retry(
-        total=retries,
-        connect=retries,
-        read=retries,
-        backoff_factor=backoff,
-        status_forcelist=[502, 503, 504],
-        raise_on_status=False,
+        total=retries, read=retries, connect=retries,
+        backoff_factor=backoff, status_forcelist=[502, 503, 504]
     )
     adapter = HTTPAdapter(max_retries=retry_cfg)
     sess.mount("https://", adapter)
     sess.mount("http://",  adapter)
-    # Pretend to be Chrome – many corp sites block default Python UA
-    sess.headers.update(
-        {"User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                        "AppleWebKit/537.36 (KHTML, like Gecko) "
-                        "Chrome/124.0 Safari/537.36")}
-    )
-    sess.request_timeout = timeout
+    sess.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    })
+    # This attribute is not standard for requests.Session, but we can set it for our use.
+    # It seems you intended to use it with `session.get(..., timeout=session.request_timeout)`
+    # The timeout parameter should be passed directly to the get method.
+    # We will pass the timeout value directly in the get calls.
     return sess
 
 session = build_session()
@@ -73,58 +70,57 @@ session = build_session()
 # ---------------------------------------------------------------------
 # 2. Helpers
 # ---------------------------------------------------------------------
-PDF_RE = re.compile(r"https://[^\s\"']+\.pdf", re.I)        # fallback pattern
-date_pat = re.compile(r"(Issued|Posted):\s*([\dA-Za-z ,]+)", re.I)
-ddl_pat  = re.compile(r"(Deadline|Due):\s*([\dA-Za-z ,]+)",  re.I)
+PDF_RE = re.compile(r"https://[^\s\"']+\.pdf", re.I)
+date_pat = re.compile(r"(Issued|Posted):\s*([\d\w ,-]+)", re.I)
+ddl_pat  = re.compile(r"(Deadline|Due):\s*([\d\w ,-]+)", re.I)
 
 def doc_links(url: str):
     """
     Yield absolute URLs for every PDF / Word doc found on `url`.
-    1) scan <a> tags; 2) if none found, scan raw HTML with regex.
     Network errors are logged and swallowed.
     """
     try:
-        resp = session.get(url, timeout=session.request_timeout)
+        resp = session.get(url, timeout=30) # Pass timeout directly
         resp.raise_for_status()
     except RequestException as e:
         logging.warning(f"SKIP {url} ↯ {e}")
         return
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    found = 0
+    found_links = set() # Use a set to auto-handle duplicates on a page
+
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if href.lower().endswith((".pdf", ".doc", ".docx")):
-            found += 1
-            yield href if href.startswith("http") else \
-                  requests.compat.urljoin(url, href)
+            full_url = href if href.startswith("http") else requests.compat.urljoin(url, href)
+            found_links.add(full_url)
 
-    # Fallback: regex hunt for *.pdf if nothing was found via <a> scan
-    if found == 0:
+    if not found_links:
         for m in PDF_RE.findall(resp.text):
-            yield m
+            found_links.add(m)
+    
+    yield from found_links
 
 def parse_pdf(path: pathlib.Path) -> dict[str, str]:
-    """Return {posted, deadline, snippet} from first ~1 500 chars."""
+    """Return {posted, deadline, snippet} from first ~1500 chars."""
     try:
         with pdfplumber.open(path) as pdf:
-            txt = pdf.pages[0].extract_text() or ""
+            if not pdf.pages:
+                raise ValueError("PDF has no pages.")
+            txt = pdf.pages[0].extract_text(x_tolerance=2) or ""
             txt = txt[:1500]
     except Exception as e:
-        logging.warning(f"⚠️  PDF parse failed {path.name}: {e}")
-        return {"posted": "n/a", "deadline": "n/a", "snippet": ""}
+        logging.warning(f"⚠️  PDF parse failed for {path.name}: {e}")
+        return {"posted": "n/a", "deadline": "n/a", "snippet": f"Error parsing PDF: {e}"}
 
     posted   = date_pat.search(txt)
     deadline = ddl_pat.search(txt)
     return {
         "posted":   posted.group(2).strip()   if posted   else "n/a",
         "deadline": deadline.group(2).strip() if deadline else "n/a",
-        "snippet":  " ".join(txt.splitlines()[:5]),
+        "snippet":  " ".join(txt.replace("\n", " ").split()[:60]), # Create a clean, space-separated snippet
     }
 
-# ---------------------------------------------------------------------
-# 3. Main driver
-# ---------------------------------------------------------------------
 # ---------------------------------------------------------------------
 # 3. Main driver
 # ---------------------------------------------------------------------
@@ -132,26 +128,25 @@ def main() -> None:
     ts = datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z"
     logging.info("🌀  Scraper start %s", ts)
 
-    out: list[dict] = []
+    newly_scraped_rfps: list[dict] = []
     seen_hashes = {p.stem for p in DATA_DIR.glob("*.pdf")}
 
     for tag, url in SITES.items():
         logging.info("🌐  %-10s → %s", tag, url)
         for link in doc_links(url):
-            # FIX 1: Only process .pdf files since that's all we can parse.
+            # --- FIX 1: Gracefully skip non-PDF files ---
             if not link.lower().endswith(".pdf"):
-                logging.info("ℹ️   Skipping non-PDF: %s", link)
+                logging.info("ℹ️   Skipping non-PDF link: %s", link)
                 continue
 
             h = hashlib.sha1(link.encode()).hexdigest()
             if h in seen_hashes:
                 continue
 
-            logging.info("⬇️   %s", link)
+            logging.info("⬇️   Downloading %s", link)
             try:
-                # Use a specific variable for PDF content
-                pdf_response = session.get(link, timeout=session.request_timeout)
-                pdf_response.raise_for_status() # Check for download errors
+                pdf_response = session.get(link, timeout=30)
+                pdf_response.raise_for_status()
                 pdf_bytes = pdf_response.content
             except RequestException as e:
                 logging.warning("⚠️  Download failed %s: %s", link, e)
@@ -159,30 +154,42 @@ def main() -> None:
 
             file_path = DATA_DIR / f"{h}.pdf"
             file_path.write_bytes(pdf_bytes)
-            meta = parse_pdf(file_path) | {"portal": tag, "source": link}
-            out.append(meta)
+            
+            meta = parse_pdf(file_path)
+            meta["portal"] = tag
+            meta["source"] = link
+            newly_scraped_rfps.append(meta)
 
-    # FIX 2: Make JSON loading robust to corruption or empty files.
+    # --- FIX 2: Robustly load existing JSON, even if empty or corrupted ---
     existing_rfps = []
     if JSON_PATH.exists():
         try:
-            # Only read if file is not empty
+            # Only try to load if the file is not empty
             if JSON_PATH.stat().st_size > 0:
                 existing_rfps = json.loads(JSON_PATH.read_text())
+            else:
+                logging.info(f"ℹ️  {JSON_PATH} is empty. Starting fresh.")
         except json.JSONDecodeError:
-            logging.warning(f"⚠️  Could not decode {JSON_PATH}. Starting fresh.")
-            # Overwrite the corrupted file later. existing_rfps is already []
+            logging.warning(f"⚠️  Could not decode {JSON_PATH}. It may be corrupted. Starting fresh.")
+    
+    # --- FIX 3: Improved merge and deduplication logic ---
+    # Create a dictionary of existing RFPs for quick lookups
+    final_rfps_dict = {item['source']: item for item in existing_rfps}
+    
+    # Update the dictionary with newly scraped items.
+    # This overwrites any old entries with fresh data if the source URL is the same.
+    for item in newly_scraped_rfps:
+        final_rfps_dict[item['source']] = item
+        
+    # Convert the dictionary back to a list
+    final_rfps_list = list(final_rfps_dict.values())
+    
+    logging.info(f"✅  Found {len(newly_scraped_rfps)} new RFPs. Total is now {len(final_rfps_list)}.")
 
-    out.extend(existing_rfps)
-
-    # Remove duplicates based on the 'source' link
-    # This prevents the list from growing indefinitely with old links
-    final_out = list({item['source']: item for item in out}.values())
+    # Always write the result. If no RFPs are found, this will create an empty JSON array `[]`.
+    JSON_PATH.write_text(json.dumps(final_rfps_list, indent=2))
+    logging.info(f"✅  Wrote {len(final_rfps_list)} total RFP entries to {JSON_PATH}")
 
 
-    if not final_out and not JSON_PATH.exists():
-        # Ensure file exists so GPT Builder can ingest even if empty on the very first run
-        logging.info("ℹ️  No new entries; writing empty JSON for first run")
-
-    JSON_PATH.write_text(json.dumps(final_out, indent=2))
-    logging.info("✅  Wrote %d total RFP entries to %s", len(final_out), JSON_PATH)
+if __name__ == "__main__":
+    main()
