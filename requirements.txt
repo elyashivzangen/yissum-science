@@ -1,3 +1,7 @@
 beautifulsoup4
 requests
 pdfplumber
+requests
+pdfplumber
+beautifulsoup4
+python-docx
