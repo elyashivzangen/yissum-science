@@ -8,6 +8,12 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
+    # --- THIS IS THE FIX ---
+    # Grant the GITHUB_TOKEN write permission to commit back to the repository.
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -21,20 +27,17 @@ jobs:
       - name: Run scraper
         run: python scrape.py
 
-      # --- Option A: commit JSON back to repo (recommended) ---
       - name: Commit & push if changed
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        # This step now has the permission it needs to push.
         run: |
           git config user.name  "RFP-Bot"
           git config user.email "bot@users.noreply.github.com"
-          git add latest_rfps.json data/*.pdf || true
-          git diff --staged --quiet || \
-             (git commit -m "Weekly update $(date -u '+%Y-%m-%d')" && \
-              git push "https://${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main)
-
-      # --- Option B: publish as build artifact (remove if using A) ---
-      # - uses: actions/upload-artifact@v4
-      #   with:
-      #     name: latest_rfps
-      #     path: latest_rfps.json
+          git add latest_rfps.json data/
+          # The `|| true` is removed from `git add` as it's better to let it fail if no files are found.
+          # The following lines handle cases where there are no changes.
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit."
+          else
+            git commit -m "Weekly update $(date -u '+%Y-%m-%d')"
+            git push
+          fi
