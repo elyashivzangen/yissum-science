@@ -125,6 +125,9 @@ def parse_pdf(path: pathlib.Path) -> dict[str, str]:
 # ---------------------------------------------------------------------
 # 3. Main driver
 # ---------------------------------------------------------------------
+# ---------------------------------------------------------------------
+# 3. Main driver
+# ---------------------------------------------------------------------
 def main() -> None:
     ts = datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z"
     logging.info("🌀  Scraper start %s", ts)
@@ -135,13 +138,21 @@ def main() -> None:
     for tag, url in SITES.items():
         logging.info("🌐  %-10s → %s", tag, url)
         for link in doc_links(url):
+            # FIX 1: Only process .pdf files since that's all we can parse.
+            if not link.lower().endswith(".pdf"):
+                logging.info("ℹ️   Skipping non-PDF: %s", link)
+                continue
+
             h = hashlib.sha1(link.encode()).hexdigest()
             if h in seen_hashes:
                 continue
 
             logging.info("⬇️   %s", link)
             try:
-                pdf_bytes = session.get(link, timeout=session.request_timeout).content
+                # Use a specific variable for PDF content
+                pdf_response = session.get(link, timeout=session.request_timeout)
+                pdf_response.raise_for_status() # Check for download errors
+                pdf_bytes = pdf_response.content
             except RequestException as e:
                 logging.warning("⚠️  Download failed %s: %s", link, e)
                 continue
@@ -151,17 +162,27 @@ def main() -> None:
             meta = parse_pdf(file_path) | {"portal": tag, "source": link}
             out.append(meta)
 
-    # Merge with existing JSON (keeps history)
+    # FIX 2: Make JSON loading robust to corruption or empty files.
+    existing_rfps = []
     if JSON_PATH.exists():
-        existing = json.loads(JSON_PATH.read_text())
-        out.extend(existing)
-    elif not out:
-        # Ensure file exists so GPT Builder can ingest even if empty
+        try:
+            # Only read if file is not empty
+            if JSON_PATH.stat().st_size > 0:
+                existing_rfps = json.loads(JSON_PATH.read_text())
+        except json.JSONDecodeError:
+            logging.warning(f"⚠️  Could not decode {JSON_PATH}. Starting fresh.")
+            # Overwrite the corrupted file later. existing_rfps is already []
+
+    out.extend(existing_rfps)
+
+    # Remove duplicates based on the 'source' link
+    # This prevents the list from growing indefinitely with old links
+    final_out = list({item['source']: item for item in out}.values())
+
+
+    if not final_out and not JSON_PATH.exists():
+        # Ensure file exists so GPT Builder can ingest even if empty on the very first run
         logging.info("ℹ️  No new entries; writing empty JSON for first run")
 
-    JSON_PATH.write_text(json.dumps(out, indent=2))
-    logging.info("✅  Wrote %d total RFP entries to %s", len(out), JSON_PATH)
-
-
-if __name__ == "__main__":
-    main()
+    JSON_PATH.write_text(json.dumps(final_out, indent=2))
+    logging.info("✅  Wrote %d total RFP entries to %s", len(final_out), JSON_PATH)
