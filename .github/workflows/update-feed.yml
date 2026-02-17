@@ -22,6 +22,8 @@ jobs:
 
           curl -L --fail --show-error --silent \
             "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7xZnyhVukJaz32HSP1mvxl9PO_rZlUkXvcrsMIzDzrELpMM9M3UPpy_c9pGpaE5qTmO5aotvfh28l/pub?gid=852070582&single=true&output=csv" \
+            git status --porcelain
+            git check-ignore -v data/feed.csv || true
             -o data_new_updater/feed.csv
   
           echo "Saved:"
