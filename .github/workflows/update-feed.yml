@@ -15,38 +15,40 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch CSV from Google Sheets
+      - name: Fetch CSV from Google Sheets (debug)
         run: |
           set -euxo pipefail
           mkdir -p data
-
+      
           curl -L --fail --show-error --silent \
             "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7xZnyhVukJaz32HSP1mvxl9PO_rZlUkXvcrsMIzDzrELpMM9M3UPpy_c9pGpaE5qTmO5aotvfh28l/pub?gid=852070582&single=true&output=csv" \
-            git status --porcelain
-            git check-ignore -v data/feed.csv || true
-            -o data_new_updater/feed.csv
-  
-          echo "Saved:"
+            -o data/feed.csv
+      
+          echo "---- Git status (before add) ----"
+          git status --porcelain || true
+      
+          echo "---- Ignore check ----"
+          git check-ignore -v data/feed.csv || true
+      
+          echo "---- File preview ----"
           ls -lah data/feed.csv
-          echo "Preview:"
           head -n 3 data/feed.csv
-
-          # fail fast if Google returned HTML instead of CSV
-          if head -n 1 data/feed.csv | grep -qi "<html"; then
-            echo "ERROR: got HTML, not CSV (sharing/publish issue)."
-            exit 1
-          fi
 
       - name: Commit if changed
         run: |
           set -euxo pipefail
-          if git diff --quiet; then
-            echo "No changes."
-            exit 0
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/feed.csv
+      
+          git add -f data/feed.csv
+      
+          echo "---- Staged diff? ----"
+          git diff --cached --name-only || true
+      
+          if git diff --cached --quiet; then
+            echo "No staged changes."
+            exit 0
+          fi
+      
           git commit -m "Update feed.csv"
           git push
