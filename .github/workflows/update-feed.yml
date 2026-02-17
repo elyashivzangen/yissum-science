@@ -2,7 +2,6 @@ name: Update CSV feed from Google Sheets
 
 on:
   schedule:
-    # every 30 minutes
     - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
@@ -18,13 +17,27 @@ jobs:
 
       - name: Fetch CSV from Google Sheets
         run: |
+          set -euxo pipefail
           mkdir -p data
-          curl -L --fail --silent \
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7xZnyhVukJaz32HSP1mvxl9PO_rZlUkXvcrsMIzDzrELpMM9M3UPpy_c9pGpaE5qTmO5aotvfh28l/pubhtml" \
-            -o data_new_updater/feed.csv
+
+          curl -L --fail --show-error --silent \
+            "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7xZnyhVukJaz32HSP1mvxl9PO_rZlUkXvcrsMIzDzrELpMM9M3UPpy_c9pGpaE5qTmO5aotvfh28l/pub?gid=852070582&single=true&output=csv" \
+            -o data/feed.csv
+
+          echo "Saved:"
+          ls -lah data/feed.csv
+          echo "Preview:"
+          head -n 3 data/feed.csv
+
+          # fail fast if Google returned HTML instead of CSV
+          if head -n 1 data/feed.csv | grep -qi "<html"; then
+            echo "ERROR: got HTML, not CSV (sharing/publish issue)."
+            exit 1
+          fi
 
       - name: Commit if changed
         run: |
+          set -euxo pipefail
           if git diff --quiet; then
             echo "No changes."
             exit 0
