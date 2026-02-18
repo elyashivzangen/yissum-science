@@ -5,17 +5,22 @@ on:
     - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
+# Needed so GITHUB_TOKEN can push commits back to the repo
 permissions:
   contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
-      - name: Fetch CSV from Google Sheets (debug)
+      - name: Fetch CSV from Google Sheets
         run: |
           set -euxo pipefail
           mkdir -p data_new_updater
@@ -117,7 +122,9 @@ jobs:
           head -n 3 data_new_updater/feed_compact.csv
           head -n 3 data_new_updater/feed_titles.csv
 
-      - name: Commit if changed
+      - name: Commit & push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euxo pipefail
           git config user.name "github-actions[bot]"
@@ -129,7 +136,7 @@ jobs:
             data_new_updater/feed_compact.csv \
             data_new_updater/feed_titles.csv
 
-          echo "---- Staged diff? ----"
+          echo "---- Staged files ----"
           git diff --cached --name-only || true
 
           if git diff --cached --quiet; then
@@ -138,4 +145,7 @@ jobs:
           fi
 
           git commit -m "Update feed outputs"
-          git push
+
+          # Ensure push uses token auth (fixes 'could not read Username' in Actions)
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin HEAD:main
