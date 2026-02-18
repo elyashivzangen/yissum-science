@@ -5,7 +5,7 @@ on:
     - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
-# Needed so GITHUB_TOKEN can push commits back to the repo
+# Required so GITHUB_TOKEN can push commits back to the repo
 permissions:
   contents: write
 
@@ -29,11 +29,11 @@ jobs:
             "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7xZnyhVukJaz32HSP1mvxl9PO_rZlUkXvcrsMIzDzrELpMM9M3UPpy_c9pGpaE5qTmO5aotvfh28l/pub?gid=852070582&single=true&output=csv" \
             -o data_new_updater/feed.csv
 
-          echo "---- File preview ----"
+          echo "---- feed.csv preview ----"
           ls -lah data_new_updater/feed.csv
           head -n 3 data_new_updater/feed.csv
 
-      - name: Convert feed.csv to JSONL + compact CSV + titles-only CSV
+      - name: Convert feed.csv to JSONL + compact CSV + titles CSV + compact JSON
         run: |
           set -euxo pipefail
           python - <<'PY'
@@ -42,8 +42,9 @@ jobs:
 
           in_path = pathlib.Path("data_new_updater/feed.csv")
           out_jsonl = pathlib.Path("data_new_updater/feed.jsonl")
-          out_compact = pathlib.Path("data_new_updater/feed_compact.csv")
-          out_titles = pathlib.Path("data_new_updater/feed_titles.csv")
+          out_compact_csv = pathlib.Path("data_new_updater/feed_compact.csv")
+          out_titles_csv = pathlib.Path("data_new_updater/feed_titles.csv")
+          out_compact_json = pathlib.Path("data_new_updater/feed_compact.json")
 
           def norm_domain(u: str) -> str:
             try:
@@ -57,6 +58,7 @@ jobs:
           def clean_text(s) -> str:
             if s is None:
               return ""
+            # collapse whitespace (incl. newlines/tabs) -> single spaces
             return re.sub(r"\s+", " ", str(s)).strip()
 
           def trunc(s, n=260) -> str:
@@ -68,22 +70,29 @@ jobs:
             reader = csv.DictReader(f)
             for r in reader:
               url = (r.get("url") or "").strip()
-              out = dict(r)  # keep all original columns
 
+              # Keep all original columns, but normalize key text fields used in analysis.
+              out = dict(r)
               out["url"] = url
               out["title"] = clean_text(r.get("title") or "")
               out["snippet"] = clean_text(r.get("snippet") or "")
               out["published_date"] = clean_text(r.get("published_date") or "")
               out["source_domain"] = clean_text(r.get("source_domain") or "") or norm_domain(url)
 
+              # Also normalize these if present (helps downstream tooling)
+              if "feed_name_effective" in out:
+                out["feed_name_effective"] = clean_text(out.get("feed_name_effective"))
+              if "feed_name" in out:
+                out["feed_name"] = clean_text(out.get("feed_name"))
+
               rows.append(out)
 
-          # JSONL: one JSON object per line
-          with out_jsonl.open("w", encoding="utf-8") as f:
+          # 1) JSONL: one JSON object per line
+          with out_jsonl.open("w", encoding="utf-8", newline="\n") as f:
             for r in rows:
               f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-          # Compact CSV: sanitized fields so rows don't "break" on embedded newlines
+          # 2) Compact CSV: sanitized fields so rows don't break on embedded newlines
           keys = []
           seen = set()
           for r in rows:
@@ -92,16 +101,26 @@ jobs:
                 seen.add(k)
                 keys.append(k)
 
-          with out_compact.open("w", encoding="utf-8", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=keys, extrasaction="ignore")
+          with out_compact_csv.open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(
+              f,
+              fieldnames=keys,
+              extrasaction="ignore",
+              lineterminator="\n"  # force LF so GitHub/raw viewers count lines correctly
+            )
             w.writeheader()
             for r in rows:
               w.writerow(r)
 
-          # Titles-only CSV: small, analysis-friendly (title/url/query context)
+          # 3) Titles-only CSV: small, analysis-friendly (title/url/query context)
           title_fields = ["published_date", "title", "url", "source_domain", "feed_name_effective", "feed_name"]
-          with out_titles.open("w", encoding="utf-8", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=title_fields, extrasaction="ignore")
+          with out_titles_csv.open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(
+              f,
+              fieldnames=title_fields,
+              extrasaction="ignore",
+              lineterminator="\n"  # force LF
+            )
             w.writeheader()
             for r in rows:
               w.writerow({
@@ -113,14 +132,31 @@ jobs:
                 "feed_name": clean_text(r.get("feed_name","")),
               })
 
-          print("Wrote:", out_jsonl, out_compact, out_titles)
+          # 4) Compact JSON (array): minified JSON for easy download/parse
+          #    (Same content as rows, but minified to reduce size.)
+          with out_compact_json.open("w", encoding="utf-8", newline="\n") as f:
+            json.dump(rows, f, ensure_ascii=False, separators=(",", ":"))
+
+          print("Wrote:", out_jsonl, out_compact_csv, out_titles_csv, out_compact_json)
           PY
 
-          echo "---- Derived files preview ----"
-          ls -lah data_new_updater/feed.jsonl data_new_updater/feed_compact.csv data_new_updater/feed_titles.csv
-          head -n 2 data_new_updater/feed.jsonl
-          head -n 3 data_new_updater/feed_compact.csv
-          head -n 3 data_new_updater/feed_titles.csv
+          echo "---- Outputs: size + previews ----"
+          ls -lah data_new_updater/feed.jsonl data_new_updater/feed_compact.csv data_new_updater/feed_titles.csv data_new_updater/feed_compact.json
+
+          echo "---- Line counts ----"
+          wc -l data_new_updater/feed.jsonl
+          wc -l data_new_updater/feed_compact.csv
+          wc -l data_new_updater/feed_titles.csv
+
+          echo "---- CR/LF sanity (titles) ----"
+          python - <<'PY'
+          p="data_new_updater/feed_titles.csv"
+          b=open(p,"rb").read()
+          print("LF:", b.count(b"\n"), "CR:", b.count(b"\r"))
+          PY
+
+          echo "---- Head (titles) ----"
+          head -n 5 data_new_updater/feed_titles.csv
 
       - name: Commit & push if changed
         env:
@@ -134,7 +170,8 @@ jobs:
             data_new_updater/feed.csv \
             data_new_updater/feed.jsonl \
             data_new_updater/feed_compact.csv \
-            data_new_updater/feed_titles.csv
+            data_new_updater/feed_titles.csv \
+            data_new_updater/feed_compact.json
 
           echo "---- Staged files ----"
           git diff --cached --name-only || true
@@ -146,6 +183,6 @@ jobs:
 
           git commit -m "Update feed outputs"
 
-          # Ensure push uses token auth (fixes 'could not read Username' in Actions)
+          # Ensure token-authenticated push (avoids 'could not read Username' in Actions)
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push origin HEAD:main
