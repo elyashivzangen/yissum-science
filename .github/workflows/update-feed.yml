@@ -19,36 +19,105 @@ jobs:
         run: |
           set -euxo pipefail
           mkdir -p data_new_updater
-      
+
           curl -L --fail --show-error --silent \
             "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7xZnyhVukJaz32HSP1mvxl9PO_rZlUkXvcrsMIzDzrELpMM9M3UPpy_c9pGpaE5qTmO5aotvfh28l/pub?gid=852070582&single=true&output=csv" \
             -o data_new_updater/feed.csv
-      
+
           echo "---- Git status (before add) ----"
           git status --porcelain || true
-      
+
           echo "---- Ignore check ----"
           git check-ignore -v data_new_updater/feed.csv || true
-      
+
           echo "---- File preview ----"
           ls -lah data_new_updater/feed.csv
           head -n 3 data_new_updater/feed.csv
+
+      - name: Convert feed.csv to JSONL + compact CSV
+        run: |
+          set -euxo pipefail
+          python - <<'PY'
+          import csv, json, pathlib, re
+          from urllib.parse import urlparse
+
+          in_path = pathlib.Path("data_new_updater/feed.csv")
+          out_jsonl = pathlib.Path("data_new_updater/feed.jsonl")
+          out_compact = pathlib.Path("data_new_updater/feed_compact.csv")
+
+          def norm_domain(u: str) -> str:
+            try:
+              d = urlparse(u).netloc.lower()
+              if d.startswith("www."):
+                d = d[4:]
+              return d
+            except Exception:
+              return ""
+
+          def clean_text(s) -> str:
+            if s is None:
+              return ""
+            # collapse whitespace (including newlines/tabs) to keep 1-row-per-item safe
+            return re.sub(r"\s+", " ", str(s)).strip()
+
+          rows = []
+          with in_path.open("r", encoding="utf-8", newline="") as f:
+            reader = csv.DictReader(f)
+            for r in reader:
+              url = (r.get("url") or "").strip()
+              out = dict(r)  # keep all original columns
+
+              out["url"] = url
+              out["title"] = clean_text(r.get("title") or "")
+              out["snippet"] = clean_text(r.get("snippet") or "")
+              out["published_date"] = clean_text(r.get("published_date") or "")
+              out["source_domain"] = clean_text(r.get("source_domain") or "") or norm_domain(url)
+
+              rows.append(out)
+
+          # JSONL: one JSON object per line
+          with out_jsonl.open("w", encoding="utf-8") as f:
+            for r in rows:
+              f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+          # Compact CSV: sanitized fields so rows don't "break" on embedded newlines
+          keys = []
+          seen = set()
+          for r in rows:
+            for k in r.keys():
+              if k not in seen:
+                seen.add(k)
+                keys.append(k)
+
+          with out_compact.open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=keys, extrasaction="ignore")
+            w.writeheader()
+            for r in rows:
+              w.writerow(r)
+
+          print("Wrote:", out_jsonl, out_compact)
+          PY
+
+          echo "---- Derived files preview ----"
+          ls -lah data_new_updater/feed.jsonl data_new_updater/feed_compact.csv
+          head -n 2 data_new_updater/feed.jsonl
+          head -n 3 data_new_updater/feed_compact.csv
 
       - name: Commit if changed
         run: |
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-      
-          git add -f data_new_updater/feed.csv
-      
+
+          git add -f data_new_updater/feed.csv data_new_updater/feed.jsonl data_new_updater/feed_compact.csv
+
           echo "---- Staged diff? ----"
           git diff --cached --name-only || true
-      
+
           if git diff --cached --quiet; then
             echo "No staged changes."
             exit 0
           fi
-      
-          git commit -m "Update feed.csv"
+
+          git commit -m "Update feed outputs"
           git push
