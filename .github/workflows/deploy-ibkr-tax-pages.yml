@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - index.html
       - apps/ibkr_tax_israel_static/**
       - .github/workflows/deploy-ibkr-tax-pages.yml
   workflow_dispatch:
