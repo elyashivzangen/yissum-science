@@ -1,0 +1,23 @@
+name: Update BOI FX Rates Cache
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 18 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  update-boi-fx-rates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Update Bank of Israel USD ILS cache
+        run: python apps/ibkr_tax_israel_static/update_boi_fx_rates.py
+      - name: Commit updated cache
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update BOI USD ILS FX rates cache
+          file_pattern: apps/ibkr_tax_israel_static/boi_fx_rates.json
