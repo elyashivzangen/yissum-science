@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Update Bank of Israel USD ILS cache
         env:
-          BOI_START: '2000-01-01'
+          BOI_START: '2024-01-01'
         run: python apps/ibkr_tax_israel_static/update_boi_fx_rates.py
       - name: Commit updated cache
         uses: stefanzweifel/git-auto-commit-action@v5
