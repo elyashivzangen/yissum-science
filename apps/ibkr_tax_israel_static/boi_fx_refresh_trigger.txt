@@ -1,1 +1,2 @@
-refresh 2026-06-23T00:00:00Z
+refresh 2026-06-23T01:00:00Z
+range 2024-01-01 to today
