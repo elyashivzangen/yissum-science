@@ -1,4 +1,6 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used
+07/07/2026,Channel Your Favourite Eclectic Aunt With A Beaded Necklace This Summer - Grazia,graziadaily.co.uk,https://graziadaily.co.uk/fashion/shopping/best-beaded-necklaces/,The key to embracing this new take on the hippy-style trend is to steer clear of all things 1970s (unless you&#39;re a Rachel Zoe kind of girl). Keep&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,
+07/07/2026,"Park Se-young Returns After 4 Years, With &#39;Family Relationship Certificate&#39; Starting at 4.3%",cineplay.co.kr,https://www.cineplay.co.kr/en-us/articles/28585,"To make matters worse, Na Jin-ni runs into Dodo Hee (played by Park Solra), the perpetrator of &#39;school violence&#39; who once drove her to the edge of&nbsp;...",Companies - Batch 01 (Sea-2-Cell→Wonder Veggies),solra,main_article_mismatch,FALSE,"Auto-Reject: Matched entity appears only outside the article title/early article body. Possible sidebar, footer, or related-post match. Context: like i gave birth to you without your consent, i’ll also arrange your marriage the way i want”—the drama carries tense pressure from behind the glass. to make matters worse, na jin-ni runs into dodo hee (played by park solra), the perpetrator of ‘sch",Rejected before AI: main article mismatch.,,,,,,google_alerts,Google Alerts,not_google_news,,
 07/07/2026,Preconception Maternal Trauma Doubles Schizophrenia Risk - Neuroscience News,neurosciencenews.com,https://news.google.com/rss/articles/CBMihgFBVV95cUxNVzhXX0NDS1NKckpyNjZCWk1tclJiMUxxZ3RCbEM5SzM2SGhfT0hESTl0OGg0Qml1Z3hia1ZJVEx0SUZ6b3ZSQUliUUJLVmc1dlRGOW9NbDhNelJRTWk3M3dZWjY5Y05RdHZOQWhxaFRmSGFiNWUyamtCSnJaem5NS0hxSS1ndw?oc=5,Preconception Maternal Trauma Doubles Schizophrenia Risk&nbsp;&nbsp;Neuroscience News,Google News - Researcher - Hochner Hagit,Hochner Hagit (Google News query match),full_keyword,FALSE,"Rejected: The researcher 'Hochner Hagit' is mentioned only in the 'Google News researcher feed' metadata, not within the actual news article title, snippet, or content provided. This indicates a false positive where the alert was triggered by the feed itself, not by a mention in the article.","SNIPPET_ONLY: ```json
 {
   ""relevant"": false,
@@ -183,49 +185,3 @@ Analyze a news item for strategic relevance (BD & Licensing).
     *   `relevant`: false
     *   `reason`: ""Rejected: The provided text is only a title/snippet from EurekAlert! and contains no actual article content, research details, or confirmation of affiliation with Hebrew University.""",,,,,,google_news,EurekAlert!,unresolved_google_news,https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yQTgyQld4bFRBNWVjRWJsWTM5aGFiRjcwbFh4VUdHMkFvaE9jakNyN0I4WG1sakNmSFhLMkdmcFdfVW9nWURYa1E4dDJCVjNBRGxjbEZpck4?oc=5,gemma-4-31b-it
 01/07/2026,Proteomics Firm Pictor Closes $7.5M Bridge Funding Round | GenomeWeb,genomeweb.com,https://www.genomeweb.com/business-news/proteomics-firm-pictor-closes-75m-bridge-funding-round,"We recommend. Pictor Raises $5M in Funding to Support Expansion Into US. GenomeWeb, 2025. Israeli Liquid Biopsy Startup Senseera Raises $7.1M in Seed&nbsp;...",Companies - Batch 01 (Sea-2-Cell→Wonder Veggies),,blacklisted_domain,,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,,,not_google_news,,
-30/06/2026,Scientists discover a completely different way to fight viruses - ScienceDaily,sciencedaily.com,https://www.sciencedaily.com/releases/2026/06/260630020534.htm,Scientists discover a completely different way to fight viruses&nbsp;&nbsp;ScienceDaily,Google News - Researcher - Moran Yehu,yehu moran,full_keyword,TRUE,"Verified: The article discusses a scientific breakthrough led by Prof. Yehu Moran at the Hebrew University of Jerusalem regarding a novel antiviral defense system, which has high translational and commercial potential for antiviral therapeutics.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (Hebrew University TTO).
-    *   Task: Analyze a news item for strategic relevance to Business Development & Licensing.
-    *   Keyword: ""yehu moran"".
-    *   Input News Item: ""Scientists discover a completely different way to fight viruses - ScienceDaily"".
-
-    *   Title: ""Scientists discover a completely different way to fight viruses - ScienceDaily""
-    *   Source: The Hebrew University of Jerusalem.
-    *   Summary: Researchers uncovered an antiviral defense system in sea anemones.
-    *   Key Entities: Ton Sharoni (PhD candidate) and Prof. Yehu Moran.
-    *   Affiliation: Hebrew University of Jerusalem.
-    *   Topic: Discovery of a previously unknown antiviral defense mechanism utilizing a protein resembling human antiviral proteins but performing an opposite function.
-
-    *   Step 1 (Entity Verification): Is this ""Yehu Moran"" the researcher? Yes. The text explicitly mentions ""Prof. Yehu Moran at the Hebrew University"".
-    *   Step 2 (Main Article Validation): Is the entity part of the main article? Yes. Prof. Yehu Moran is credited as a leader of the research in the body of the text.
-    *   Step 3 (Strategic Value): Is the topic relevant for Yissum (TTO)?
-        *   The discovery is a ""previously unknown way that sea anemones defend themselves against viruses.""
-        *   It involves a protein that resembles human antiviral proteins.
-        *   This has high potential for translational research, drug discovery, or therapeutic development (antiviral strategies).
-        *   It's a ""significant fundable scientific breakthrough"" in the context of immunology/virology.
-    *   Step 4 (Strictness): The connection is clear, academic, science-based, and involves a HUJI professor.
-
-    *   Relevant: `true`
-    *   Reason: Verified: The article discusses a scientific breakthrough led by Prof. Yehu Moran at the Hebrew University of Jerusalem regarding a novel antiviral defense system, which has high translational and commercial potential for antiviral therapeutics.",,,,,,google_news,ScienceDaily,resolved,https://news.google.com/rss/articles/CBMib0FVX3lxTE0xVzdBUFh1SzVmSUh5dFVIRUVzM1plTTROSlBDX2JoQXNiTjBTc2VSdlp6SjFLbW1OWG9EQzhvejFkMjhhb1psZU9INndrM0p3SkFDckNBdS1nTE95X25oXzZ6R1U0MWNJTnZPaWh3bw?oc=5,gemma-4-31b-it
-30/06/2026,Scientists discover a completely different way to fight viruses - ScienceDaily,sciencedaily.com,https://news.google.com/rss/articles/CBMib0FVX3lxTE0xVzdBUFh1SzVmSUh5dFVIRUVzM1plTTROSlBDX2JoQXNiTjBTc2VSdlp6SjFLbW1OWG9EQzhvejFkMjhhb1psZU9INndrM0p3SkFDckNBdS1nTE95X25oXzZ6R1U0MWNJTnZPaWh3bw?oc=5,Scientists discover a completely different way to fight viruses&nbsp;&nbsp;ScienceDaily,Google News - Researcher - Moran Yehu,Moran Yehu (Google News query match),full_keyword,FALSE,"Rejected: The keyword 'Moran Yehu' is listed as the trigger for this Google Alert but is not present anywhere in the provided 'Fetched article text' or the article title. The article content does not mention any researcher, Hebrew University affiliation, or specific entity relevant to the search query. This appears to be a false positive where the alert mechanism linked a generic article to the keyword without actual content match.","SNIPPET_ONLY: ```json
-{
-  ""relevant"": false,
-  ""reason"": ""Rejected: The keyword 'Moran Yehu' is listed as the trigger for this Google Alert but is not present anywhere in the provided 'Fetched article text' or the article title. The article content does not mention any researcher, Hebrew University affiliation, or specific entity relevant to the search query. This appears to be a false positive where the alert mechanism linked a generic article to the keyword without actual content match.""
-}
-```",,,,,,google_news,ScienceDaily,unresolved_google_news,https://news.google.com/rss/articles/CBMib0FVX3lxTE0xVzdBUFh1SzVmSUh5dFVIRUVzM1plTTROSlBDX2JoQXNiTjBTc2VSdlp6SjFLbW1OWG9EQzhvejFkMjhhb1psZU9INndrM0p3SkFDckNBdS1nTE95X25oXzZ6R1U0MWNJTnZPaWh3bw?oc=5,gemini-2.5-flash
-30/06/2026,My husband ditched the dinner I took off work to cook because his mom called with a <b>better meal</b>,msn.com,https://www.msn.com/en-us/news/other/my-husband-ditched-the-dinner-i-took-off-work-to-cook-because-his-mom-called-with-a-better-meal/ar-AA26S8Wm,... Better” Meal appeared first on Spoonful...,Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),better meal,full_keyword,,"Rejected: Step 1: Entity Verification. Is ""Better Meal"" a company or researcher? No, it's a common phrase used in a domestic anecdote.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum.
-    *   Task: Validate a Google Alert for strategic relevance.
-    *   Keyword: ""Better Meal"".
-    *   News Item: Title: ""My husband ditched the dinner I took off work to cook because his mom called with a better meal"". Snippet mentions ""Better Meal appeared first on Spoonful"". Full content is mostly JavaScript boilerplate from MSN.
-    *   Criteria:
-        *   Researchers: Must be HUJI affiliated and scientific/technical.
-        *   Portfolio Companies: Must be business/tech relevant (fundraising, clinical trials, M&A, etc.).
-        *   Institutional: Must be TTO relevant.
-
-    *   Entity ""Better Meal"" in this context is clearly a phrase used in a personal story/complaint about a husband and his mother (""...called with a better meal"").
-    *   The snippet suggests a lifestyle/story piece (""appeared first on Spoonful"").
-    *   The full content is mostly code/boilerplate.
-
-    *   Step 1: Entity Verification. Is ""Better Meal"" a company or researcher? No, it's a common phrase used in a domestic anecdote.
-    *   Step 2: Main Article Validation. The phrase is in the title, but it's not a named entity (Company/Person) in a professional context.
-    *   Step 3: Strategic Value. Zero value. It's a personal story about dinner.
-    *   Step 4: Strictness. Definitely False.",,,,,,,,not_google_news,,
