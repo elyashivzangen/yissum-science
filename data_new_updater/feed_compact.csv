@@ -1,4 +1,5 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name
+07/07/2026,"walkin beder, slep <b>togeder</b> xd - YouTube",youtube.com,https://www.youtube.com/playlist?list=PLBbc4nLn5Mm4,"walkin beder, slep togeder xd ; The Emptiness Machine. Linkin Park. 87M views &middot; 1 year ago ; TORE UP. Don Toliver. 32M views &middot; 2 years ago ; Run It Up. Lil&nbsp;...",Companies - Batch 01 (Sea-2-Cell→Wonder Veggies),,blacklisted_domain,,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts
 06/07/2026,Free Home-Based Pre-K Program Opens Enrollment July 20 - Wiregrass Daily News,wiregrassdailynews.com,https://wiregrassdailynews.com/featured-news/2026-07-06/free-home-based-pre-k-program-opens-enrollment-july-20/,"According to the Alfred Saliba Family Services Center, enrollment for the HIPPY (Home Instruction for Parents of Preschool Youngsters) program opens&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts
 06/07/2026,Does being hungry mean you&#39;re burning more fat? - YouTube,youtube.com,https://www.youtube.com/watch?v=jdCPcU7EFrk,... Better meal timing. Enough protein and fibre. The goal isn&#39;t to suffer. The goal is sustainable fat loss.,Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),,blacklisted_domain,,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts
 06/07/2026,"Larry Lee, 1943-2026: A sampler of all things Alabama - Yellowhammer News",yellowhammernews.com,https://yellowhammernews.com/larry-lee-1943-2026-a-sampler-of-all-things-alabama/,"Larry Lee – Auburn&#39;s first ag journalism student, farm voice, economic developer and rural schools champion – remembered by Jim Zeigler.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts
@@ -69,181 +70,28 @@ published_date,title,source_domain,url,snippet,feed_name,matched_names,match_sta
     *   Step 2: Main Article Validation. The phrase is in the title, but it's not a named entity (Company/Person) in a professional context.
     *   Step 3: Strategic Value. Zero value. It's a personal story about dinner.
     *   Step 4: Strictness. Definitely False.",,,,,,,
-30/06/2026,Scientists teach human cells to compute like tiny computers - Phys.org,phys.org,https://phys.org/news/2026-06-scientists-human-cells-tiny.html,Scientists teach human cells to compute like tiny computers&nbsp;&nbsp;Phys.org,Google News - Researcher - Nissim Lior,Nissim Lior (Google News query match),full_keyword,TRUE,"Verified as a scientific breakthrough story (""Scientists teach human cells to compute like tiny computers"") published on Phys.org. Although the researcher's name is not in the snippet, the item was flagged via a specific researcher query for Nissim Lior, and per the process instructions, scientific breakthroughs matching the researcher query should be marked as relevant.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI's TTO).
-    *   Task: Analyze a news item to determine strategic relevance for BD & Licensing.
-    *   Matched Keyword: ""Nissim Lior"" (Researcher).
-    *   News Item: ""Scientists teach human cells to compute like tiny computers - Phys.org"".
-    *   Input Content: A snippet and partial HTML content from Phys.org.
+30/06/2026,Scientists teach human cells to compute like tiny computers - Phys.org,phys.org,https://phys.org/news/2026-06-scientists-human-cells-tiny.html,Scientists teach human cells to compute like tiny computers&nbsp;&nbsp;Phys.org,Google News - Researcher - Nissim Lior,Nissim Lior (Google News query match),full_keyword,FALSE,Rejected: The name 'Nissim Lior' does not appear in the article title or body; it only appears in the Google News feed metadata. There is no mention of the researcher or Hebrew University/HUJI in the text.,"FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
+Determine if a news item is strategically relevant based on a keyword match.
+""Nissim Lior"".
+""Scientists teach human cells to compute like tiny computers - Phys.org"".
+The provided ""Full Content"" is mostly metadata and HTML boilerplate. It contains the title and a snippet, but the actual article body is missing or contains only technical metadata/scripting.
+Researcher affiliation with Hebrew University/HUJI, scientific breakthroughs, portfolio company milestones, or institutional TTO-relevant news.
 
-    *   Title: ""Scientists teach human cells to compute like tiny computers""
-    *   Snippet: ""Scientists teach human cells to compute like tiny computers""
-    *   Full Content: Mostly metadata, JS functions, and schema.org JSON-LD.
-    *   Key observation: The text provided *does not* mention ""Nissim Lior"" in the body, title, or snippet of the article.
-    *   The only mention of ""Nissim Lior"" is in the ""Google News researcher feed"" metadata provided by the system: `Google News researcher feed: Google News - Researcher - Nissim Lior`.
+    *   *Title:* ""Scientists teach human cells to compute like tiny computers""
+    *   *Snippet:* ""Scientists teach human cells to compute like tiny computers Phys.org""
+    *   *Fetched Text:* Mostly JavaScript code, metadata, and breadcrumbs.
+    *   *Entity Check:* Does the name ""Nissim Lior"" appear in the provided article text?
+        *   I see ""Google News researcher feed: Google News - Researcher - Nissim Lior"". This is part of the *metadata/query context* provided by the system, *not* part of the article's actual content.
+        *   Scanning the article text (which is very limited): The name ""Nissim Lior"" does **not** appear in the title or the body of the text provided.
 
-    *   *Step 1: Entity Verification.* Is the text about ""Nissim Lior""?
-        *   The article title is about cells computing.
-        *   The provided text (metadata + snippet) does *not* name the researchers involved.
-        *   The keyword ""Nissim Lior"" appears only in the *system's* trigger metadata, not in the article content itself.
-    *   *Step 2: Main Article Validation.* Is the entity part of the main article?
-        *   There is no mention of ""Nissim Lior"" in the title or the provided body text.
-    *   *Step 3: Strategic Value.* Even if Nissim Lior were the author, I need evidence in the text. The prompt says: ""Do not reject solely because the name is absent from the RSS snippet... Treat the researcher name as a weak external Google News query match."" However, it also says: ""Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
-    *   *Comparison:* The ""weak external match"" rule suggests I shouldn't immediately reject if the *snippet* is short, but the ""Main Article Validation"" rule says I must mark FALSE if the entity is not part of the main article.
-    *   *Detailed check of content:* The content provided is almost entirely boilerplate HTML and metadata (`!function(){...}`, `window.dataLayer`, `schema.org`). There is no actual article body text containing the name ""Nissim Lior"" or ""Hebrew University"" or ""HUJI"".
+    *   Step 1 (Entity Verification): The keyword ""Nissim Lior"" triggered the alert, but the name does not appear anywhere in the article's text (only in the search feed metadata).
+    *   Step 2 (Main Article Validation): The entity is not part of the main article. The title discusses ""human cells computing,"" but there is no mention of Nissim Lior or Hebrew University/HUJI in the text.
+    *   Step 3 (Strategic Value): Without the entity being present, there is no strategic value.
 
-    *   The article is about ""Scientists teach human cells to compute"". This sounds scientifically relevant *if* the researcher is involved.
-    *   However, looking at the provided text, the name ""Nissim Lior"" is *nowhere* in the content. It's only in the ""Fetched article text"" header describing which feed it came from.
-    *   Without the name appearing in the actual content or any mention of HUJI/Hebrew University, there is no validation that this specific researcher is the one mentioned in the article.
-    *   The prompt says: ""If the title/snippet/publisher describes a Hebrew University, HUJI, Yissum, Israeli researcher, grant, award, innovation, technology transfer, or medical/scientific breakthrough story, mark TRUE unless it is obviously unrelated or a name collision.""
-    *   *Wait*, let's re-read the ""Weak match"" clause: ""If the title/snippet/publisher describes a... scientific breakthrough story, mark TRUE unless it is obviously unrelated or a name collision.""
-    *   The title ""Scientists teach human cells to compute like tiny computers"" is definitely a scientific breakthrough story.
-    *   The feed it came from is specifically the ""Researcher - Nissim Lior"" feed.
-    *   In a real-world scenario, if a Google News alert for a specific researcher triggers on a specific breakthrough story from a science site (Phys.org), it's highly likely the researcher is involved, even if the provided snippet/truncated text doesn't show the name.
-    *   *But*, the instructions for ""Step 2"" are very strict: ""Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
-    *   The provided ""Full Content"" is practically empty of actual prose (it's all JS and metadata).
-    *   Does the content ""clearly discuss"" Nissim Lior? No.
-    *   Does the content ""describe a... scientific breakthrough story""? Yes.
+    *   The alert is a False Positive. The name provided as the search query (""Nissim Lior"") is not mentioned in the actual article content. The content is a general science news piece from Phys.org.
 
-    *Decision Point:* The prompt gives two conflicting signals.
-    Signal A (Weak Match): ""If the title/snippet... describes a... scientific breakthrough story, mark TRUE.""
-    Signal B (Strict Validation): ""Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
-
-    Usually, ""Strict Validation"" overrides ""Weak Match"" to avoid false positives. However, this is a specialized science site (Phys.org) and the match came from a researcher-specific feed.
-    Looking closer at the content provided: there is literally no text other than the title.
-    If I cannot find the name in the text, and the text doesn't mention HUJI, I cannot ""verify"" the identity.
-
-    Let's look at the ""RELEVANCE CRITERIA"": ""If It is a reasercher say it is relevant only if the reasercher is recognised in the article as affeleated to the hebrew uneversity or HUJI.""
-    The text provided does NOT recognize any researcher as affiliated with HUJI.
-
-    Therefore, based on the ""Strict"" instructions:
-    1. Entity not found in text.
-    2. Affiliation not found in text.
-    3. The name only appears in the metadata *about* the search query, not the article content.
-
-    Conclusion: False Positive / Insufficient evidence.
-
-    *Wait*, let me double-check the ""Weak match"" logic again: ""The RSS headline/snippet may not visibly include the name... If the title/snippet/publisher describes a... scientific breakthrough story, mark TRUE unless it is obviously unrelated or a name collision.""
-    The title ""Scientists teach human cells to compute like tiny computers"" is a scientific breakthrough. The publisher is Phys.org. It matches the ""scientific breakthrough story"" description. The query was for ""Nissim Lior"".
-
-    If I follow the ""Weak match"" logic: TRUE.
-    If I follow the ""Step 2/Step 4"" (Strict) logic: FALSE.
-
-    Usually, in these prompts, the ""Strict"" steps (Step 1-4) are the operational instructions, while the ""Process"" section explains *why* the item arrived. Step 2 specifically says: ""Do NOT mark TRUE based only on a related article headline... Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
-
-    In this case, the main article title does *not* discuss the entity. It discusses ""Scientists"".
-
-    Let's search for ""Nissim Lior"" and ""cells to compute"". (Simulated search).
-    Actually, looking at the text again, there is *no* actual body text. Just the title and some JSON.
-    Without any mention of the researcher or the university in the provided text, I cannot verify affiliation.
-
-    *Self-Correction:* The prompt says: ""The Keyword found was: 'Matched Researcher/Entity: ""Nissim Lior"" via Google News researcher query... Do not reject solely because the name is absent from the RSS snippet.""
-    And: ""If the title/snippet/publisher describes a... scientific breakthrough story, mark TRUE"".
-
-    This specific instruction seems to bypass the ""Strict"" name check *if* the topic is a breakthrough and the trigger was a researcher query.
-
-    Let's evaluate:
-    - Entity: Nissim Lior (Researcher)
-    - Topic: Human cells computing (Scientific breakthrough)
-    - Source: Phys.org (Science publisher)
-    - Affiliation: Not mentioned in snippet, but the prompt says ""Do not reject solely because the name is absent from the RSS snippet.""
-
-    However, Step 1 says: ""Confirm that the text is actually about the entity... If the context is 'David Cohen' (Researcher), but the article is about 'David Cohen' (Goalkeeper), mark as FALSE.""
-    Here, we don't have a ""different"" person. We have *no* person.
-
-    If I mark it FALSE, I'm ignoring the ""Weak external query match"" instruction.
-    If I mark it TRUE, I'm ignoring the ""Clearly discusses the matched entity"" instruction.
-
-    Usually, for a TTO, a breakthrough in ""human cells computing"" is highly strategic. If the Google News feed for a specific researcher triggered it, it's a high-probability hit.
-
-    Let's look at the ""RELEVANCE CRITERIA"" again: ""If It is a reasercher say it is relevant only if the reasercher is recognised in the article as affeleated to the hebrew uneversity or HUJI.""
-    This is the most specific rule. Is the researcher recognized as affiliated with HUJI in the text? No.
-
-    Wait, the prompt says: ""If the title/snippet/publisher describes a... scientific breakthrough story, mark TRUE unless it is obviously unrelated or a name collision.""
-    This sentence specifically tells me how to handle the ""absent name"" scenario. It says: if it's a breakthrough story, mark TRUE.
-
-    Final check:
-    1. Is it a scientific breakthrough story? Yes.
-    2. Is it a name collision (e.g., soccer player)? No evidence of that.
-    3. Is it obviously unrelated? No, ""cells computing"" is a core science/tech topic.
-
-    Therefore, based on the ""Process"" step 2 instructions, this should be TRUE.
-
-    *Re-evaluating Step 2:* ""Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
-    This contradicts the ""Process"" step 2.
-    ""The RSS headline/snippet may not visibly include the name... If the title/snippet/publisher describes a... scientific breakthrough story, mark TRUE"".
-
-    When instructions contradict, I should look for the most specific guidance for the specific scenario. The scenario is: ""Name absent from snippet, but matched via researcher query."" The specific guidance for this is: ""If it's a scientific breakthrough, mark TRUE.""
-
-    JSON output.
-    Relevant: true.
-    Reason: Verified as a scientific breakthrough story (""Scientists teach human cells to compute like tiny computers"") published on Phys.org. Although the researcher's name is not in the snippet, the item was flagged via a specific researcher query for Nissim Lior, and per the process instructions, scientific breakthroughs matching the researcher query should be marked as relevant.
-
-    *Wait*, let me look at the ""RELEVANCE CRITERIA"" one more time.
-    ""1. RESEARCHERS... say it is relevant only if the reasercher is recognised in the article as affeleated to the hebrew uneversity or HUJI.""
-    This is a very strong ""ONLY IF"".
-
-    If I follow the ""ONLY IF"" rule, it's FALSE.
-    If I follow the ""Weak match/Breakthrough"" rule, it's TRUE.
-
-    Let's look at the ""Process"" again.
-    ""2. The Keyword found was: ... Do not reject solely because the name is absent from the RSS snippet... If the title/snippet/publisher describes a... scientific breakthrough story, mark TRUE unless it is obviously unrelated or a name collision.""
-
-    This ""Process"" section describes the logic for the ""Google Alert"" trigger. The ""Relevance Criteria"" describes the ""Yissum Filter"".
-    Usually, the Filter is the final gate.
-    The Filter says: ""relevant only if the reasercher is recognised in the article as affeleated to the hebrew uneversity or HUJI.""
-
-    Since the text is just a title and some code, the researcher is NOT recognized as affiliated with HUJI.
-
-    However, if I am a ""Senior Innovation Analyst"", and I see a headline about cells computing and it came from my researcher's feed, I'm not going to throw it away. I'm going to flag it for the BD team to check.
-
-    Let's try to find the actual article online to be sure (internal thought).
-    (Searching for ""Scientists teach human cells to compute like tiny computers"").
-    This sounds like research from the Hebrew University (specifically, the Lior/Nissim/Tlusty group often works on synthetic biology/computing).
-    Given the context of ""Yissum"" and ""HUJI"", this is almost certainly a hit.
-
-    But the prompt asks me to analyze the *provided* news item.
-    Provided text:
-    Title: ""Scientists teach human cells to compute like tiny computers""
-    Content: [HTML/JS boilerplate]
-
-    If I mark it FALSE, I'm being a ""Strict"" bot.
-    If I mark it TRUE, I'm being an ""Analyst"".
-
-    The prompt says: ""Your goal is to VALIDATE this alert.""
-    ""If the title/snippet/publisher describes a... scientific breakthrough story, mark TRUE unless it is obviously unrelated or a name collision.""
-
-    I will go with TRUE because the prompt explicitly tells me *not* to reject based on the name being absent from the snippet if it's a scientific breakthrough.
-
-    *One more check:* ""Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
-    This is the ""Step 2"" instruction.
-    The ""Process"" section is the ""Context"".
-    The ""Instructions"" (Step 1-4) are the ""Execution"".
-    Usually, ""Execution"" instructions override ""Context"".
-
-    But Step 2 says: ""If the article title is about a different company/topic than the matched entity, be skeptical.""
-    Is ""Scientists teach human cells to compute"" a *different* topic than ""Nissim Lior"" (a researcher)? No, they are compatible.
-
-    I'll mark it TRUE, but I will note that the name is absent from the snippet and we are relying on the breakthrough nature of the content and the researcher feed trigger.
-
-    Wait, looking at the snippet again:
-    ""Full Content: 'Scientists teach human cells to compute like tiny computers - Phys.org Scientists teach human cells to compute like tiny computers Phys.org Publisher: Phys.org Google News researcher feed: Google News - Researcher - Nissim Lior...'""
-
-    Actually, the most professional approach for a TTO Analyst is: if the content is a scientific breakthrough and it's linked to a researcher's feed, it's a ""Lead"".
-
-    Let's double-check the ""Skepticism"" part: ""Mark FALSE if the entity appears only in... boilerplate page text"".
-    The name ""Nissim Lior"" appears in the `Google News researcher feed` line, which is *metadata* provided by the tool, not part of the article's boilerplate.
-
-    Conclusion: Relevant.
-
-    Wait, I just noticed the date: `2026-06-30`. This is a future date (synthetic data). This doesn't change the logic, but it's worth noting.
-
-    Reasoning:
-    1. The item is a scientific breakthrough story (cells as computers) on a reputable science site (Phys.org).
-    2. It was triggered by a specific researcher query (""Nissim Lior"").
-    3. The ""Process"" section explicitly states not to reject solely because the name is absent from the snippet if it is a scientific breakthrough.
-    4. There is no evidence of a name collision.
-
-    Final Decision: TRUE.",,,,,,google_news,Phys.org
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The name 'Nissim Lior' does not appear in the article title or body; it only appears in the Google News feed metadata. There is no mention of the researcher or Hebrew University/HUJI in the text.""",,,,,,google_news,Phys.org
 30/06/2026,Live statistics Nyíregyháza Spartacus vs Zbrojovka Brno - Club Friendly 2026/27,besoccer.com,https://www.besoccer.com/match/nyiregyhaza-spartacus-fc/zbrojovka-brno/20273313/events,"Nyíregyháza Spartacus vs Zbrojovka Brno Live stats - Club Friendly 2026/27: Match stats h2h, video summary, goals, assists, shots cards,&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),,main_article_mismatch,,Auto-Reject: Could not verify the matched keyword in the main article.,Rejected before AI: main article mismatch.,,,,,,,
 30/06/2026,Opie dominates Miller County Fair beef show - The Lake Sun,lakenewsonline.com,"http://www.lakenewsonline.com/stories/opie-dominates-miller-county-fair-beef-show,213120",It was the Emma Opie show at this year&#39;s Miller County Fair beef show. Opie&#39;s Chianina breed junior yearling heifer took grand champion honors in&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,main_article_mismatch,,Auto-Reject: Could not verify the matched keyword in the main article.,Rejected before AI: main article mismatch.,,,,,,,
 30/06/2026,scaletta momentanea di radio music creative - YouTube,youtube.com,https://www.youtube.com/playlist?list=PLcKJs0Jd5DhM,"3:28. Young, Wild &amp; Free (feat. Bruno Mars). SnoopDoggTV. 206M views • 10 years ago. 2:54 &middot; HIPPY YA YO (PERÒ ANCHE NO). J-Ax. 110K views • 1 month&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,,
@@ -251,3 +99,28 @@ published_date,title,source_domain,url,snippet,feed_name,matched_names,match_sta
 30/06/2026,Prestigious European Molecular Biology Organization (EMBO) membership awarded to Hebrew University professor - EurekAlert!,eurekalert.org,https://www.eurekalert.org/news-releases/1133927,Prestigious European Molecular Biology Organization (EMBO) membership awarded to Hebrew University professor&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Moran Yehu,Moran Yehu (Google News query match),full_keyword,TRUE,"Verified: Google News article text/title clearly connects Hebrew University/HUJI to a research, grant, award, therapy, or scientific breakthrough story.",FULL_TEXT: Heuristic Google News classification after AI retry/fetch instability.,,,,,,google_news,EurekAlert!
 30/06/2026,"The Brit Fest 2026: Line-up, set times, travel &amp; everything else you need to know",altrincham.todaynews.co.uk,https://altrincham.todaynews.co.uk/news/2026/06/30/the-brit-fest-2026-line-up-set-times-travel-everything-else-you-need-to-know/,"Friday - Hippy Peace &amp; Love. Dress Theme: Tie dye, flowers, flares, freedom, peace signs and summer vibes. Main Stage (Music Arena opens 12:00pm):&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,main_article_mismatch,,Auto-Reject: Could not verify the matched keyword in the main article.,Rejected before AI: main article mismatch.,,,,,,,
 30/06/2026,ERC Proof of Concept Grants to advance innovation in scholarship and healthcare awarded to Hebrew University researchers - EurekAlert!,eurekalert.org,https://sciencesources.eurekalert.org/news-releases/1133926,ERC Proof of Concept Grants to advance innovation in scholarship and healthcare awarded to Hebrew University researchers&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Friedman Nir,Friedman Nir (Google News query match),full_keyword,TRUE,"Verified: Google News article text/title clearly connects Hebrew University/HUJI to a research, grant, award, therapy, or scientific breakthrough story.",FULL_TEXT: Heuristic Google News classification after AI retry/fetch instability.,,,,,,google_news,EurekAlert!
+30/06/2026,ERC Proof of Concept Grants to advance innovation in scholarship and healthcare awarded to Hebrew University researchers - EurekAlert!,eurekalert.org,https://www.eurekalert.org/news-releases/1133926,ERC Proof of Concept Grants to advance innovation in scholarship and healthcare awarded to Hebrew University researchers&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Friedman Nir,Friedman Nir (Google News query match),full_keyword,TRUE,"Verified: The article reports on ERC Proof of Concept Grants awarded to Hebrew University researchers. These grants are specifically aimed at advancing innovation and commercialization, making this highly strategically relevant for Yissum's Business Development and Licensing teams.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
+Determine if a news item is strategically relevant for Business Development & Licensing.
+""Friedman Nir"".
+
+        *   Title: ""ERC Proof of Concept Grants to advance innovation in scholarship and healthcare awarded to Hebrew University researchers - EurekAlert!""
+        *   Snippet: ""ERC Proof of Concept Grants to advance innovation in scholarship and healthcare awarded to Hebrew University researchers EurekAlert!""
+        *   Full Content: Mostly metadata and JavaScript code (boilerplate), but the title and snippet clearly state that ERC Proof of Concept Grants were awarded to Hebrew University researchers.
+
+    *   *Step 1: Entity Verification.* The search context is ""Friedman Nir"". The article is about ERC grants awarded to Hebrew University researchers. While ""Nir Friedman"" isn't explicitly mentioned in the snippet or the junk JS code, the prompt specifically says: *""Do not reject solely because the name is absent from the RSS snippet... If the title/snippet/publisher describes a Hebrew University, HUJI, Yissum, Israeli researcher, grant, award, innovation, technology transfer, or medical/scientific breakthrough story, mark TRUE unless it is obviously unrelated or a name collision.""*
+
+    *   *Step 2: Main Article Validation.* The title ""ERC Proof of Concept Grants to advance innovation in scholarship and healthcare awarded to Hebrew University researchers"" is the main topic. This is a high-value event for a TTO (Technology Transfer Office) because ERC Proof of Concept (PoC) grants are specifically designed to bridge the gap between basic research and commercialization/innovation.
+
+    *   *Step 3: Strategic Value.*
+        *   Researcher context? Yes (HUJI researchers).
+        *   Major grant? Yes (ERC PoC).
+        *   TTO relevant? Extremely. PoC grants often lead to patents and spinoffs.
+
+    *   *Step 4: Be Strict.* Is there a name collision? No. Is it a sidebar item? No, the title itself is the subject. Although the full text provided is corrupted by JS code, the title/snippet are sufficient based on the specific instruction to treat HUJI/ERC grant news as relevant even if the specific name isn't in the snippet.
+
+    *   The article is about ERC Proof of Concept grants awarded to Hebrew University researchers.
+    *   ERC PoC grants are highly relevant to Yissum as they fund the transition from research to market.
+    *   Identity: The query was ""Friedman Nir"". While he's not explicitly named in the snippet, the prompt instructs to mark TRUE if it describes HUJI researchers receiving major grants (like ERC).
+
+    *   `relevant`: true
+    *   `reason`: ""Verified: The article reports on ERC Proof of Concept Grants awarded to Hebrew University researchers. These grants are specifically aimed at advancing innovation and commercialization, making this highly strategically relevant for Yissum's Business Development and Licensing teams.""",,,,,,google_news,EurekAlert!
