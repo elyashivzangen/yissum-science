@@ -35,36 +35,39 @@ Article about programming human cells to make decisions like computers.
 
     *   `relevant`: true.
     *   `reason`: Verified: The article features Dr. Lior Nissim from the Hebrew University of Jerusalem. It describes a breakthrough in synthetic biology where human cells are programmed with complex genetic logic circuits to perform calculations. This is highly relevant for Yissum as the research specifically targets the development of programmable cell therapies for cancer and autoimmune disorders, including the testing of a therapeutic IL-15 signal, representing a clear path toward clinical and diagnostic applications.",,,,,,google_news,Earth.com,unresolved_google_news,https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEVHalI0VUxqU1plcTRIQ2doM0RVVC10djZld0E1Z0l3Uk5yNmZqZTZLV0lSRk5pX3JFWjdHMTJwTm51ck1zaXdUN050Sm9nZkVvem1Nd0lUQ2Q3V0Yyb1Z0b0FvTXdxTHVqbThTUUl4Yk5JUW5XNmx2dnNtTGxTc29CNGZieHo2c0Zlay1jSWk5ZFVOcG9hSW5qVmo?oc=5,gemma-4-31b-it
-10/07/2026,Scientists program human cells to make decisions like tiny computers - Earth.com,earth.com,https://www.earth.com/news/scientists-program-human-cells-to-make-decisions-like-tiny-computers/,Scientists program human cells to make decisions like tiny computers&nbsp;&nbsp;Earth.com,Google News - Researcher - Nissim Lior,lior nissim,full_keyword,TRUE,Verified: [The drafted text],"FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-Analyze a news item to determine if it's strategically relevant for Business Development & Licensing.
-""Nissim Lior"" (matched via Google News researcher feed).
-""Scientists program human cells to make decisions like tiny computers - Earth.com"".
-Full text provided.
+10/07/2026,Scientists program human cells to make decisions like tiny computers - Earth.com,earth.com,https://www.earth.com/news/scientists-program-human-cells-to-make-decisions-like-tiny-computers/,Scientists program human cells to make decisions like tiny computers&nbsp;&nbsp;Earth.com,Google News - Researcher - Nissim Lior,lior nissim,full_keyword,TRUE,"Verified: The article discusses Dr. Lior Nissim from the Hebrew University of Jerusalem and his group's development of programmable genetic logic circuits within human cells. The research, published in Nature Communications, describes using trans-splicing to enable cells to perform complex binary calculations, which has direct implications for advancing programmable cell therapies and smart diagnostics for cancer and autoimmune disorders. This provides significant TTO value as it signals a major translational breakthrough in synthetic biology with high potential for IP licensing or the formati...","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI's TTO).
+Validate a Google Alert for ""lior nissim"".
+""Scientists program human cells to make decisions like tiny computers - Earth.com"" (Full text provided).
+""lior nissim"".
 
-        *   *Step 1 (Entity Verification):* Is ""Nissim Lior"" in the article? Yes, ""The design comes from the synthetic biology group of Dr. Lior Nissim at the Hebrew University of Jerusalem (HUJI)..."" Note: The keyword was ""Nissim Lior"", the article says ""Dr. Lior Nissim"". This is a name inversion/match.
-        *   *Step 2 (Main Article Validation):* Is the name in the main content? Yes, it's central to the description of the research.
-        *   *Step 3 (Strategic Value/TTO Filter):*
-            *   Topic: Synthetic biology, programming human cells with genetic circuits (AND gates, multiplexers, full adders) using trans-splicing.
-            *   Applications: Cell therapies, diagnostics, cancer/autoimmune disorder targeting, smart diagnostics.
-            *   Publication: *Nature Communications*.
-            *   Commercial/Translational Signals: Advancing cell therapies and diagnostics, specific mentions of therapeutic signals (IL-15), targeting cancer/autoimmune disorders more precisely, and the ability to build in monitoring/self-tests. This is a high-value translational science story.
-        *   *Step 4 (Strictness):* This is a breakthrough in synthetic biology with direct clinical/therapeutic application (cell therapy/diagnostics), which is a core TTO area.
+        1.  Entity Verification: Is this the same Lior Nissim?
+        2.  Main Article Validation: Is the entity in the *main* article (not sidebar/footer)?
+        3.  Strategic Value: Is it TTO-relevant (IP, startup, clinical/therapeutic/diagnostic application, major grant, etc.)?
 
-    *   Identity Match: Confirmed. The article discusses Dr. Lior Nissim from Hebrew University (HUJI).
-    *   Evidence: The article details a new method using trans-splicing to create genetic logic circuits (full adders, multiplexers) in human cells to improve the precision of cell therapies and diagnostics.
-    *   Value: This is highly relevant for Yissum because it represents a potentially patentable platform for next-generation programmable cell therapies and ""smart"" diagnostics, targeting complex diseases like cancer and autoimmune disorders through advanced synthetic biology.
+    *   *Entity Verification:* The article mentions ""the synthetic biology group of Dr. Lior Nissim at the Hebrew University of Jerusalem (HUJI)"". This matches the researcher keyword.
+    *   *Main Article Validation:* The name ""Lior Nissim"" is in the body of the main text describing the scientific breakthrough.
+    *   *Strategic Value Assessment:*
+        *   The article describes engineering human cells to perform binary calculations using genetic circuits (trans-splicing).
+        *   Key applications mentioned: ""advancing cell therapies and diagnostics,"" ""programmable cell therapies,"" ""smart diagnostics and targeted therapies,"" ""identify cancer cells and switch on immune-boosting outputs,"" and producing therapeutic signals like IL-15.
+        *   Scientific context: Published in *Nature Communications*.
+        *   TTO/Business Dev Signal: High. This is a fundamental breakthrough in synthetic biology with direct applications in cell therapy (CAR-T type logic) and diagnostics. It represents potential IP for programmable medicines.
 
-    *   *Requirement:* Raw JSON only.
-    *   *Requirement:* 45-120 words for reason.
-    *   *Requirement:* Start with confirmation/rejection, cite evidence, explain value.
+    *   *Draft 1:* Verified: The article discusses Dr. Lior Nissim from the Hebrew University of Jerusalem and his team's breakthrough in programming human cells with genetic logic circuits. The research, published in Nature Communications, focuses on using trans-splicing to create binary computing capabilities within cells for applications in targeted cell therapies and advanced diagnostics. This is highly relevant to Yissum as it demonstrates significant translational potential for programmable medicines and synthetic biology-based IP that could lead to new therapeutic platforms or startup ventures.
 
-    *Drafting the reason:*
-    ""Verified: The article discusses the research of Dr. Lior Nissim from the synthetic biology group at the Hebrew University of Jerusalem (HUJI). It details a breakthrough in engineering human cells to perform complex binary calculations using genetic logic circuits via trans-splicing. This is strategically relevant for Yissum as the technology provides a concrete foundation for advanced, programmable cell therapies and high-precision diagnostics, particularly for cancer and autoimmune disorders. The ability to create 'smart' cells that sense multiple molecular cues offers significant commercial potential for licensing and startup development in the synthetic biology and immunotherapy sectors.""
+    *   *Refining against constraints:*
+        *   2-4 sentences? Yes.
+        *   45-120 words? Let's count. (~75 words).
+        *   Format: Start with confirming/rejecting, cite evidence, explain TTO value.
+        *   No bullet points/meta-commentary.
 
-    *Word count check:* ~95 words. Perfect.
+    *   *Final Polish:* Verified: The article discusses Dr. Lior Nissim from the Hebrew University of Jerusalem and his group's development of programmable genetic logic circuits within human cells. The research, published in Nature Communications, describes using trans-splicing to enable cells to perform complex binary calculations, which has direct implications for advancing programmable cell therapies and smart diagnostics for cancer and autoimmune disorders. This provides significant TTO value as it signals a major translational breakthrough in synthetic biology with high potential for IP licensing or the formation of new biotech ventures.
 
     *   `relevant`: true
-    *   `reason`: [The drafted text]",,,,,,google_news,Earth.com,resolved,https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEVHalI0VUxqU1plcTRIQ2doM0RVVC10djZld0E1Z0l3Uk5yNmZqZTZLV0lSRk5pX3JFWjdHMTJwTm51ck1zaXdUN050Sm9nZkVvem1Nd0lUQ2Q3V0Yyb1Z0b0FvTXdxTHVqbThTUUl4Yk5JUW5XNmx2dnNtTGxTc29CNGZieHo2c0Zlay1jSWk5ZFVOcG9hSW5qVmo?oc=5,gemma-4-26b-a4b-it
+    *   `reason`: ""Verified: The article discusses Dr. Lior Nissim from the Hebrew University of Jerusalem and his group's development of programmable genetic logic circuits within human cells. The research, published in Nature Communications, describes using trans-splicing to enable cells to perform complex binary calculations, which has direct implications for advancing programmable cell therapies and smart diagnostics for cancer and autoimmune disorders. This provides significant TTO value as it signals a major translational breakthrough in synthetic biology with high potential for IP licensing or the formation of new biotech ventures.""
+
+    *   Does it meet the ""Google News researcher"" strictness? Yes. It's not just a paper; it's a ""breakthrough"" with specific ""clinical/therapeutic/diagnostic application"" and ""translational signal"" (programmable cell therapies).
+    *   Is the researcher affiliated with HUJI? Yes.
+    *   Is it in the main text? Yes.",,,,,,google_news,Earth.com,resolved,https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEVHalI0VUxqU1plcTRIQ2doM0RVVC10djZld0E1Z0l3Uk5yNmZqZTZLV0lSRk5pX3JFWjdHMTJwTm51ck1zaXdUN050Sm9nZkVvem1Nd0lUQ2Q3V0Yyb1Z0b0FvTXdxTHVqbThTUUl4Yk5JUW5XNmx2dnNtTGxTc29CNGZieHo2c0Zlay1jSWk5ZFVOcG9hSW5qVmo?oc=5,gemma-4-26b-a4b-it
 10/07/2026,Compound BA-101 Reverses Glioblastoma Chemo Resistance - Neuroscience News,neurosciencenews.com,https://neurosciencenews.com/glioblastoma-chemo-resistance-ba101-31031/,Compound BA-101 Reverses Glioblastoma Chemo Resistance&nbsp;&nbsp;Neuroscience News,Google News - Researcher - Amal Haitham,haitham amal,full_keyword,TRUE,"Verified: The article discusses Prof. Haitham Amal from the Hebrew University of Jerusalem and his research on compound BA-101 for treating glioblastoma. This is highly relevant for Yissum as it explicitly mentions that the technology has been exclusively licensed from Yissum to NeuroNOS, a biotechnology company co-founded by Prof. Amal. This represents a concrete track of IP commercialization and a portfolio company advancing a first-in-class therapy toward clinical development.","DUPLICATE_RESOLVED_CONTEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
 Determine if a news item is strategically relevant for Business Development & Licensing.
 ""Amal Haitham"" (matched via Google News researcher feed).
@@ -204,6 +207,33 @@ Analyze a news item to determine strategic relevance for Business Development & 
 
     *   Relevant: `false`
     *   Reason: ""Rejected: The name 'Amal Haitham' does not appear anywhere in the article title, snippet, or full text. The article focuses on research from the University of Sydney led by Professor Lenka Munoz and Dr. George Joun. Since there is no mention of the matched researcher or any affiliation with Hebrew University, there is no strategic TTO value.""",,,,,,google_news,EurekAlert!,resolved,https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vVlZraVFNdTRxSHZXc1lfOFR2MG9iYmhoQkxoaFJDMmRwM2tpeVZqM0IzaFI3M3U2OFZEV3gxS2FOQ0QtMW1LSVR4eGZ5V2RaZDY5UHZ0Y1poVjNf?oc=5,gemma-4-31b-it
+10/07/2026,New experimental approach may help overcome drug resistance in deadly brain cancer - EurekAlert!,eurekalert.org,https://www.eurekalert.org/news-releases/1122882,New experimental approach may help overcome drug resistance in deadly brain cancer&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Amal Haitham,Amal Haitham (Google News query match),full_keyword,FALSE,"Rejected: The provided text does not mention 'Amal Haitham' at all. The article focuses on research conducted by the Mayo Clinic regarding nanotherapy for glioblastoma, featuring researchers Debabrata Mukhopadhyay and Alfredo Quinones-Hinojosa. Because the matched entity is completely absent from the content, there is no verified connection to Hebrew University or any TTO-relevant signal.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
+Analyze a news item to determine strategic relevance for BD & Licensing.
+""Amal Haitham"" (Researcher).
+""New experimental approach may help overcome drug resistance in deadly brain cancer - EurekAlert!""
+
+        *   Title: ""New experimental approach may help overcome drug resistance in deadly brain cancer""
+        *   Entity/Institution mentioned: Mayo Clinic.
+        *   Researchers mentioned: Debabrata (Dev) Mukhopadhyay, Alfredo Quinones-Hinojosa.
+        *   Company mentioned: Sagitex LLC.
+        *   Publication: *Communications Medicine* (Nature).
+        *   Subject: Nanotherapy for glioblastoma.
+
+    *   *Step 1: Entity Verification.* Does the article mention ""Amal Haitham""?
+        *   Scanning the full text: ""Mayo Clinic researchers developed..."", ""Debabrata (Dev) Mukhopadhyay"", ""Alfredo Quinones-Hinojosa"", ""Krishnendu Pal"", ""Sagitex LLC"".
+        *   I've scanned the title, description, and full text. The name ""Amal Haitham"" does **not** appear anywhere in the provided text.
+
+    *   *Step 2: Main Article Validation.* Is the entity part of the main article?
+        *   No. The entity is not mentioned at all.
+
+    *   *Step 3: Strategic Value.*
+        *   Since the person isn't mentioned, there is no strategic value related to this specific researcher for Yissum.
+
+    *   *Step 4: Be Strict.*
+        *   This is a clear ""False Positive"". The Google Alert triggered on a keyword, but the content doesn't contain the person.
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The provided text does not mention 'Amal Haitham' at all. The article focuses on research conducted by the Mayo Clinic regarding nanotherapy for glioblastoma, featuring researchers Debabrata Mukhopadhyay and Alfredo Quinones-Hinojosa. Because the matched entity is completely absent from the content, there is no verified connection to Hebrew University or any TTO-relevant signal.""",,,,,,google_news,EurekAlert!,resolved,https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vVlZraVFNdTRxSHZXc1lfOFR2MG9iYmhoQkxoaFJDMmRwM2tpeVZqM0IzaFI3M3U2OFZEV3gxS2FOQ0QtMW1LSVR4eGZ5V2RaZDY5UHZ0Y1poVjNf?oc=5,gemma-4-31b-it
 10/07/2026,"Bonnie Tyler, who topped the charts with epic &#39;Total Eclipse of the Heart&#39;, dies",timesofindia.indiatimes.com,https://timesofindia.indiatimes.com/world/europe/bonnie-tyler-who-topped-the-charts-with-epic-total-eclipse-of-the-heart-dies/articleshow/132300984.cms,"She adored the Beatles, and her first album was &quot;A Hard Day&#39;s Night&quot;. The first song she bought was &quot;Hippy Hippy Shake&quot; by the Swinging Blue Jeans at&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,
 10/07/2026,Human brain cells may be far more powerful computers than scientists thought - The Brighter Side of News,thebrighterside.news,https://www.thebrighterside.news/post/future-computers-will-run-on-human-brain-cells-study-finds/,Human brain cells may be far more powerful computers than scientists thought&nbsp;&nbsp;The Brighter Side of News,Google News - Researcher - Segev Idan,Segev Idan (Google News query match),full_keyword,FALSE,"Rejected: The name 'Segev Idan' does not appear anywhere in the provided article text, snippet, or author list. The article focuses on biocomputing research at Johns Hopkins University and mentions several other individuals, but there is no mention of the matched researcher or any affiliation with Hebrew University. Consequently, there is no TTO or business-development signal.","DUPLICATE_RESOLVED_CONTEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
 Analyze a news item for strategic relevance to Business Development & Licensing.
@@ -293,60 +323,12 @@ Stock market comparison between two Indonesian companies: Arkora Hydro Tbk (ARKO
 09/07/2026,<b>Melodea</b> MeloPack: Recyclable Mono-Material Flexible Packaging Solution for Food Brands,indexbox.io,https://www.indexbox.io/blog/melodea-launches-melopack-end-to-end-mono-material-flexible-packaging-for-food-brands/,"Melodea&#39;s MeloPack offers food brands a complete, recyclable mono-material flexible packaging solution that replaces multi-layer laminates,&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,09/07/2026,metadata_date_checked,Metadata article date found: 2026-07-09T18:41:00+02:00 (jsonld datePublished). Article is within cutoff.,google_alerts,Google Alerts,not_google_news,,
 09/07/2026,funky Friday July 10 26 - YouTube,youtube.com,https://www.youtube.com/playlist?list=PLLkTBN-q-QQw,Booker T. &amp; The M.G.&#39;s - Topic. 7.4M views • 3 years ago. 2:58. Do Wah Diddy Diddy Cover – Südsee Mix | Daddy Bailando | Summer Dance Hit 2026.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,
 09/07/2026,"Bonnie Tyler, who topped the charts with epic &#39;Total Eclipse of the Heart,&#39; has died at 75",washingtonpost.com,https://www.washingtonpost.com/world/2026/07/09/bonnie-tyler-singer-died/39547354-7b78-11f1-b194-f872dd4ec5aa_story.html,"She adored the Beatles and her first album was “A Hard Day&#39;s Night.” The first song she bought, at 13, was “Hippy Hippy Shake” by the Swinging Blue&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,
-09/07/2026,"Oral inflammation may reach ovaries, speeding fertility decline, mouse study suggests - MSN",msn.com,https://medicalxpress.com/news/2026-05-oral-inflammation-ovaries-fertility-decline.html,"Oral inflammation may reach ovaries, speeding fertility decline, mouse study suggests&nbsp;&nbsp;MSN",Google News - Researcher - Klutstein Michael,michael klutstein,full_keyword,TRUE,"Verified: 2-4 sentences, 45-120 words. No bullets. No meta-commentary. * Starts by confirming identity? Yes. * Cites concrete evidence? Yes. * Explains TTO value? Yes.","DUPLICATE_RESOLVED_CONTEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item to determine strategic relevance for BD & Licensing.
-""Klutstein Michael"".
-""Oral inflammation may reach ovaries, speeding fertility decline, mouse study suggests - MSN"".
-""Google News researcher"" (implies a stricter filter).
-
-        *   Step 1: Entity Verification (Is it the right person?).
-        *   Step 2: Main Article Validation (Is it the main subject/part of the body?).
-        *   Step 3: Strategic Value (Is there commercial/translation signal?).
-        *   Step 4: Strictness (Lean FALSE if unsure).
-
-    *   *Title:* ""Oral inflammation may reach ovaries...""
-    *   *Snippet:* Same as title.
-    *   *Full Content:* Mentions ""Prof. Michael Klutstein at the Hebrew University of Jerusalem"".
-    *   *Content Details:* A study published in the *Journal of Dental Research* showing a link between chronic oral inflammation (specifically dental implants) and female fertility decline (ovarian dysfunction, reduced egg quality).
-    *   *Commercial/Translation Signals:* ""If confirmed, the work could open new avenues for diagnosis and treatment, including the use of anti-inflammatory or antioxidant approaches to improve fertility outcomes.""
-
-    *   *Step 1: Entity Verification.* The article explicitly names ""Prof. Michael Klutstein at the Hebrew University of Jerusalem"". This is a match for the researcher query.
-    *   *Step 2: Main Article Validation.* Prof. Klutstein is the lead researcher of the study described in the main body and quoted in the text. He is central to the article.
-    *   *Step 3: Strategic Value.*
-        *   Is it just basic science? It's a mouse study, but it identifies a *clinical scenario* (dental implants) and proposes *diagnostic and treatment avenues* (anti-inflammatory/antioxidant approaches) for female infertility.
-        *   Infertility is a high-value therapeutic/diagnostic market.
-        *   The ""SPECIAL RULE"" says mark TRUE for ""clinical/therapeutic/diagnostic application"" or ""concrete fundable path."" While it's a mouse study, the explicit mention of new avenues for diagnosis and treatment of infertility provides the required commercial/translation signal.
-    *   *Step 4: Be Strict.* Is it ""speculative""? The article says ""If confirmed... could open new avenues."" However, for a TTO, discovering a systemic link between oral health and fertility is a strong lead for potential IP around diagnostics or targeted therapies to protect ovarian function during dental procedures. This exceeds ""generic science news"" because it targets a specific, treatable clinical outcome (fertility).
-
-    *   *Drafting reason:* Verified: The article discusses Prof. Michael Klutstein from the Hebrew University of Jerusalem and his research on the link between chronic oral inflammation and female fertility decline. This is strategically relevant for Yissum because the findings identify a potential biological mechanism for infertility and suggest new clinical avenues for diagnosis and treatment using anti-inflammatory or antioxidant approaches, which represents a clear therapeutic/diagnostic translation path.
-
-    *   JSON object? Yes.
-    *   `relevant`: true.
-    *   `reason`: 2-4 sentences, 45-120 words. No bullets. No meta-commentary.
-    *   Starts by confirming identity? Yes.
-    *   Cites concrete evidence? Yes.
-    *   Explains TTO value? Yes.",,,,,,google_news,MSN,resolved,https://news.google.com/rss/articles/CBMizwFBVV95cUxOdnYzT1JjQi1VS2J5aG1kYmZZSDNjUXpyaGFRX213R0FKVVZLMkdvc3VTT0puVGJIbnBVRVJxbERidkRNUFVuTHFxYWZWS2hjZm5qbXowcG9Fa2ppVnlpOE5KR0tQdzhscm5QTXJzU2xFRlNLZEhteEVvMjMtNW45LW5FZHZidkJYVDhyeEpWeDFRQ1dNM2J4a0NvTlNxM3RrTVdLcHVIMm5jNllHVlpXcUdjczdSUVZCTk5CREkxTTlUOTQyMG1JMDI0OGN1Y3c?oc=5,gemma-4-31b-it
-09/07/2026,"Oral inflammation may reach ovaries, speeding fertility decline, mouse study suggests - MSN",msn.com,https://medicalxpress.com/news/2026-05-oral-inflammation-ovaries-fertility-decline.html,"Oral inflammation may reach ovaries, speeding fertility decline, mouse study suggests&nbsp;&nbsp;MSN",Google News - Researcher - Klutstein Michael,michael klutstein,full_keyword,TRUE,"Verified: 45-120 words, no bullets, raw JSON.","DUPLICATE_RESOLVED_CONTEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item for strategic relevance to Business Development & Licensing.
-""Klutstein Michael""
-""Oral inflammation may reach ovaries, speeding fertility decline, mouse study suggests - MSN""
-A study led by Prof. Michael Klutstein (Hebrew University) and Prof. Asaf Wilensky (HUJI-Hadassah) showing a link between oral inflammation (e.g., dental implants) and female infertility via systemic immune response. Published in the *Journal of Dental Research*.
-
-    *   Step 1: Entity Verification $\rightarrow$ Is it Michael Klutstein from HUJI? Yes, ""Prof. Michael Klutstein at the Hebrew University of Jerusalem"".
-    *   Step 2: Main Article Validation $\rightarrow$ Is he part of the main story? Yes, he is the lead professor and quoted in the text.
-    *   Step 3: Strategic Value $\rightarrow$
-        *   Topic: Link between oral inflammation and fertility decline.
-        *   Signals: ""could open new avenues for diagnosis and treatment, including the use of anti-inflammatory or antioxidant approaches to improve fertility outcomes.""
-        *   TTO Filter: The special rule for Google News Researcher feeds says mark TRUE only if there are commercial/translation signals: IP/licensing, startup/industry relevance, clinical/therapeutic/diagnostic application, or a concrete fundable path.
-        *   Analysis: The discovery of a specific systemic biological link leading to infertility suggests potential for new diagnostic markers or therapeutic interventions (anti-inflammatory/antioxidant) to prevent fertility decline. This is a clear clinical/therapeutic application. While it's a mouse study, the potential for diagnostic/treatment avenues is explicitly mentioned.
-
-    *   *Verification:* Verified. Prof. Michael Klutstein from Hebrew University is the lead author.
-    *   *Evidence:* The article describes a breakthrough finding that chronic oral inflammation impairs ovarian function and egg quality, published in the *Journal of Dental Research*.
-    *   *TTO Value:* This discovery has direct clinical and therapeutic application potential, specifically in developing new diagnostic tools or anti-inflammatory treatments to preserve fertility, which presents a concrete path for IP and licensing opportunities for Yissum.
-
-    *   JSON format? Yes.
-    *   ""relevant"": true.
-    *   Reason: 45-120 words, no bullets, raw JSON.",,,,,,google_news,MSN,resolved,https://news.google.com/rss/articles/CBMizwFBVV95cUxOdnYzT1JjQi1VS2J5aG1kYmZZSDNjUXpyaGFRX213R0FKVVZLMkdvc3VTT0puVGJIbnBVRVJxbERidkRNUFVuTHFxYWZWS2hjZm5qbXowcG9Fa2ppVnlpOE5KR0tQdzhscm5QTXJzU2xFRlNLZEhteEVvMjMtNW45LW5FZHZidkJYVDhyeEpWeDFRQ1dNM2J4a0NvTlNxM3RrTVdLcHVIMm5jNllHVlpXcUdjczdSUVZCTk5CREkxTTlUOTQyMG1JMDI0OGN1Y3c?oc=5,gemma-4-31b-it
+09/07/2026,"Oral inflammation may reach ovaries, speeding fertility decline, mouse study suggests - MSN",msn.com,https://medicalxpress.com/news/2026-05-oral-inflammation-ovaries-fertility-decline.html,"Oral inflammation may reach ovaries, speeding fertility decline, mouse study suggests&nbsp;&nbsp;MSN",Google News - Researcher - Klutstein Michael,michael klutstein,full_keyword,TRUE,"Verified: The article clearly identifies Prof. Michael Klutstein as a lead researcher at the Hebrew University of Jerusalem, reporting on a new study linking oral inflammation to female fertility decline. This is strategically relevant for Yissum because the article explicitly states that if confirmed, 'the work could open new avenues for diagnosis and treatment, including the use of anti-inflammatory or antioxidant approaches to improve fertility outcomes.' This signals potential for new IP, therapeutic development, and a concrete fundable path for clinical translation, which is directly alig...","FULL_TEXT: ```json
+{
+  ""relevant"": true,
+  ""reason"": ""Verified: The article clearly identifies Prof. Michael Klutstein as a lead researcher at the Hebrew University of Jerusalem, reporting on a new study linking oral inflammation to female fertility decline. This is strategically relevant for Yissum because the article explicitly states that if confirmed, 'the work could open new avenues for diagnosis and treatment, including the use of anti-inflammatory or antioxidant approaches to improve fertility outcomes.' This signals potential for new IP, therapeutic development, and a concrete fundable path for clinical translation, which is directly aligned with Yissum's business development goals.""
+}
+```",,,,,,google_news,MSN,resolved,https://news.google.com/rss/articles/CBMizwFBVV95cUxOdnYzT1JjQi1VS2J5aG1kYmZZSDNjUXpyaGFRX213R0FKVVZLMkdvc3VTT0puVGJIbnBVRVJxbERidkRNUFVuTHFxYWZWS2hjZm5qbXowcG9Fa2ppVnlpOE5KR0tQdzhscm5QTXJzU2xFRlNLZEhteEVvMjMtNW45LW5FZHZidkJYVDhyeEpWeDFRQ1dNM2J4a0NvTlNxM3RrTVdLcHVIMm5jNllHVlpXcUdjczdSUVZCTk5CREkxTTlUOTQyMG1JMDI0OGN1Y3c?oc=5,gemini-2.5-flash
 09/07/2026,Ragga TEK 2 - YouTube,youtube.com,https://www.youtube.com/playlist?list=PLUSI-mKSgv_Y,"Share your videos with friends, family, and the world.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,
 09/07/2026,&#39;Total Eclipse of the Heart&#39; singer Bonnie Tyler dead at 75 | FOX8 WGHP,myfox8.com,https://myfox8.com/news/entertainment/total-eclipse-of-the-heart-singer-bonnie-tyler-dead-at-75/amp/,"She adored the Beatles, and her first album was “A Hard Day&#39;s Night.” The first song she bought was “Hippy Hippy Shake” by the Swinging Blue Jeans&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,old_article,FALSE,Auto-Reject: Old article resurfaced by Google News. Visible article date found: Fri May 17 2013.,Old article filter,,,,,,google_alerts,Google Alerts,not_google_news,,
 09/07/2026,Experimental compound BA-101 overcomes chemotherapy resistance in glioblastoma - News-Medical,news-medical.net,https://www.news-medical.net/news/20260709/Experimental-compound-BA-101-overcomes-chemotherapy-resistance-in-glioblastoma.aspx,Experimental compound BA-101 overcomes chemotherapy resistance in glioblastoma&nbsp;&nbsp;News-Medical,Google News - Researcher - Amal Haitham,haitham amal,full_keyword,TRUE,"(Check word count/length/constraints). *Draft Reason:* Verified: The article discusses Prof. Haitham Amal from the Hebrew University of Jerusalem and details his research on the experimental compound BA-101 for glioblastoma. This is highly relevant to Yissum as the article explicitly confirms that BA-101 has been exclusively licensed to NeuroNOS, a biotechnology company co-founded by Prof. Amal. This news provides critical intelligence on the clinical/preclinical advancement of a Yissum-licensed technology and the activities of a portfolio-related startup. *Word count check:* ~75 words. Perfec...","DUPLICATE_RESOLVED_CONTEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
@@ -598,30 +580,29 @@ Comparison of two Indonesian stocks: Arthavest Tbk (ARTA) and Mayora Indah Tbk. 
     *   Check structure: ""Rejected: [Explanation]... [Evidence]... [TTO value analysis]"".
     *   Check JSON format: Raw JSON only.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it
 08/07/2026,&quot;America&#39;s 250th Was Spectacular – But Heaven&#39;s Celebration Will Make It Look Like a Warm-Up,odmdaily.com,https://odmdaily.com/americas-250th-was-spectacular-but-heavens-celebration-will-make-it-look-like-a-warm-up/,This one will be more spiritual in nature. And let me begin with this confession: I had greatly disliked America back in my youthful and godless hippy&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,
-08/07/2026,Olympus to Acquire <b>BioProtect</b> to Expand Its Portfolio of Urological Technologies and ...,aol.com,https://www.aol.com/articles/olympus-acquire-bioprotect-expand-portfolio-090500000.html,"For Olympus, the acquisition of BioProtect aligns with its strategic pillar of Innovation-driven Growth as a global MedTech leader. With prostate&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),bioprotect,full_keyword,TRUE,"Needs to be 45-120 words. Confirmed identity, cite evidence (Olympus acquisition), explain TTO value (M&A signal in MedTech/urology). * *Draft:* Verified: The article discusses the acquisition of BioProtect by Olympus, a global MedTech leader, to expand its urological technology portfolio for prostate cancer. This is highly relevant for Yissum's Business Development and Licensing teams as an M&A event represents a significant commercial exit and validates the market value of specific urological therapeutic/diagnostic technologies. Tracking such acquisitions helps the TTO benchmark valuations a...","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Validate a ""Google Alert"" for the keyword ""BioProtect"".
+08/07/2026,Olympus to Acquire <b>BioProtect</b> to Expand Its Portfolio of Urological Technologies and ...,aol.com,https://www.aol.com/articles/olympus-acquire-bioprotect-expand-portfolio-090500000.html,"For Olympus, the acquisition of BioProtect aligns with its strategic pillar of Innovation-driven Growth as a global MedTech leader. With prostate&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),bioprotect,full_keyword,TRUE,Verified: The article reports that Olympus is acquiring BioProtect to expand its urological technology portfolio for treating prostate cancer. This is a highly relevant M&A signal for Yissum as it demonstrates a concrete exit and strategic investment trend by a global MedTech leader in the oncology space. This intelligence helps the Business Development team evaluate market demand and potential acquirers for similar internal technologies or portfolio startups.,"FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
+Analyze a news item for strategic relevance.
+""bioprotect"".
+""Olympus to Acquire BioProtect to Expand Its Portfolio of Urological Technologies and Address Prostate Cancer"".
+Article title and snippet indicate Olympus is acquiring BioProtect to expand urological tech for prostate cancer.
 
-        *   Title: ""Olympus to Acquire BioProtect to Expand Its Portfolio of Urological Technologies and ...""
-        *   Snippet: ""For Olympus, the acquisition of BioProtect aligns with its strategic pillar of Innovation-driven Growth as a global MedTech leader...""
-        *   Full Content: Contains the title, some metadata, and some HTML/boilerplate (path data).
-        *   Matched Entity: ""BioProtect"".
+    *   Entity: ""BioProtect"".
+    *   Context: MedTech acquisition by Olympus.
+    *   Commercial Signal: M&A (Acquisition).
+    *   Application: Urology/Prostate Cancer.
 
-        1.  Entity Verification: Is ""BioProtect"" the focus? Yes.
-        2.  Main Article Validation: Is ""BioProtect"" in the main article? Yes, it's in the title and snippet.
-        3.  Strategic Value: Is this relevant for TTO (Business Development/Licensing)?
-            *   Criteria 2 (Portfolio Companies): M&A (Acquisitions) are explicitly listed as ✅ RELEVANT.
-            *   Context: Olympus (global MedTech leader) is acquiring BioProtect to address prostate cancer/urological technologies. This is a high-value commercial signal.
+    *   Step 1 (Entity Verification): The article is explicitly about BioProtect.
+    *   Step 2 (Main Article Validation): BioProtect is the subject of the title and the main snippet.
+    *   Step 3 (Strategic Value): M&A activity in the MedTech space (specifically urological/oncology) is a high-value signal for a TTO like Yissum. It indicates a market exit/acquisition trend for technologies similar to those Yissum might manage or license.
+    *   Step 4 (Strictness): Does this meet the ""Portfolio Companies"" criteria? Yes, M&A (Acquisitions) is explicitly listed as ✅ RELEVANT.
 
-    *   *Step 1 (Entity Verification):* Verified. The article is explicitly about the company BioProtect.
-    *   *Step 2 (Main Article Validation):* Verified. The entity is the subject of the headline and the lead paragraph.
-    *   *Step 3 (Strategic Value):* This is an acquisition by a major MedTech player (Olympus). Even if ""BioProtect"" isn't explicitly listed as a HUJI spin-off in the snippet, the TTO needs to track M&A activities of companies in their domain (Urological/Prostate Cancer) and specifically any portfolio companies (if BioProtect is one) or competitors. The prompt asks to mark TRUE for M&A.
-    *   *Step 4 (Strictness):* The signal is ""Acquisition"" - one of the strongest business development signals possible.
+    *   *Identity match:* Verified. The article discusses the company BioProtect.
+    *   *Evidence:* Olympus is acquiring BioProtect to expand its portfolio of urological technologies to address prostate cancer.
+    *   *TTO Value:* This is a clear M&A signal in the MedTech/Oncology sector. It provides business development intelligence on exit strategies and strategic interests of major industry players like Olympus, which is relevant for benchmarking Yissum's own urological or cancer-related portfolio companies.
 
-    *   Must be raw JSON.
+    *   JSON format.
     *   `relevant`: true.
-    *   `reason`: Needs to be 45-120 words. Confirmed identity, cite evidence (Olympus acquisition), explain TTO value (M&A signal in MedTech/urology).
-
-    *   *Draft:* Verified: The article discusses the acquisition of BioProtect by Olympus, a global MedTech leader, to expand its urological technology portfolio for prostate cancer. This is highly relevant for Yissum's Business Development and Licensing teams as an M&A event represents a significant commercial exit and validates the market value of specific urological therapeutic/diagnostic technologies. Tracking such acquisitions helps the TTO benchmark valuations and identify strategic acquirers in the MedTech space.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it
+    *   `reason`: Verified: The article reports that Olympus is acquiring BioProtect to expand its urological technology portfolio for treating prostate cancer. This is a highly relevant M&A signal for Yissum as it demonstrates a concrete exit and strategic investment trend by a global MedTech leader in the oncology space. This intelligence helps the Business Development team evaluate market demand and potential acquirers for similar internal technologies or portfolio startups.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it
 08/07/2026,The Branching Dendrite Secret Behind Human Cognitive Superiority - Neuroscience News,neurosciencenews.com,https://neurosciencenews.com/branching-dendrite-human-cognition-31015/,The Branching Dendrite Secret Behind Human Cognitive Superiority&nbsp;&nbsp;Neuroscience News,Google News - Researcher - Segev Idan,idan segev,full_keyword,FALSE,"Rejected: The article discusses Prof. Idan Segev from Hebrew University and his research on the computational complexity of human neurons. While the findings are scientifically significant and suggest a ""blueprint"" for future neuromorphic AI, the content remains basic academic research published in PNAS. There are no concrete commercial signals, such as IP filings, startup formation, or industry partnerships, making this a false positive under the strict TTO filter.","DUPLICATE_RESOLVED_CONTEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
 Analyze a news item to determine if it's strategically relevant for Business Development & Licensing.
 ""Segev Idan"" (Idan Segev).
