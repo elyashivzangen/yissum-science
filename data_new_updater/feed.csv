@@ -742,23 +742,3 @@ Analyze a news item and determine strategic relevance for BD & Licensing.
 07/07/2026,50 Years of Deadly: Nola Earnshaw&#39;s NAIDOC reflections - University of Western Australia,uwa.edu.au,https://www.uwa.edu.au/news/article/2026/july/50-years-of-deadly-nola-earnshaw-naidoc-reflections,She is currently managing the Home Interaction Program for Parents and Youngsters (HIPPY) in Cannington. It is an early education and parenting&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,
 07/07/2026,IHSG Faces Global Pressure: July 2026 Stock Picks - JournalArta,journalarta.com,https://journalarta.com/en/economy/ihsg-faces-global-pressure-as-rebalancing-lifts-july-bets/,"IHSG is under global pressure on July 7, 2026, as investors watch the Fed, BI Rate, and index rebalancing flows into big caps like ICBP and MYOR.",Companies - Batch 05 (MED PNC→Phenom Networks),myor,main_article_mismatch,FALSE,Auto-Reject: Matched entity was not verified in the article title or main article body.,Rejected before AI: main article mismatch.,,,,,,google_alerts,Google Alerts,not_google_news,,,,
 07/07/2026,Meet Lori Osterloh-Hagaman - Bold Journey Magazine,boldjourney.com,https://boldjourney.com/meet-lori-osterloh-hagaman/,"I had a car accident in high school. The injuries could have been much worse than they were (a fractured pelvis, soft tissue injuries, etc), but i&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,
-07/07/2026,"Cek Rekening! Dividen <b>MYOR</b>-SCCO-BLES-TOSK Cair Hari Ini, Simak Besarannya!",tradingview.com,https://www.tradingview.com/news/kontan:2ffb56fd387ea:0/,"Cek Rekening! Dividen MYOR-SCCO-BLES-TOSK Cair Hari Ini, Simak Besarannya! Jul 6, 2026, 17:52 GMT-7. Start a free trial to read this news.",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,Rejected: Name collision.,"FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item to determine if it's strategically relevant for Business Development & Licensing.
-""Myor"" (found as ""myor"").
-
-        *   Title: ""Cek Rekening! Dividen MYOR-SCCO-BLES-TOSK Cair Hari Ini, Simak Besarannya!""
-        *   Snippet: Mention of dividends for MYOR-SCCO-BLES-TOSK.
-        *   Full Content: Mostly boilerplate code/JavaScript from TradingView, mentioning dividends for several tickers.
-
-        *   Researchers: Must be HUJI/Hebrew University affiliated and discussing science/tech/awards/grants.
-        *   Portfolio Companies: Fundraising, Clinical Trials, M&A, Partnerships, Product Launches.
-        *   Institutional: Innovation centers, donations, partnerships.
-        *   *Specific Exclusions:* Stock market spam, unrelated companies with similar names, non-technical contexts.
-
-    *   *Step 1: Entity Verification.* The keyword ""MYOR"" appears in the title. Looking at the context (""Dividen"", ""Cek Rekening"", ""TradingView News""), ""MYOR"" is clearly a stock ticker symbol (likely PT Mayora Indah Tbk, an Indonesian food and beverage company).
-    *   *Step 2: Main Article Validation.* The entity ""MYOR"" is in the title, but it's part of a list of stock tickers.
-    *   *Step 3: Strategic Value.* Is this a Yissum portfolio company or a HUJI researcher? No. It is a financial notification about dividends for publicly traded companies on a trading platform (TradingView). This falls under ""Auto-generated stock market spam"" or ""unrelated companies"" in the exclusion list.
-    *   *Step 4: Be Strict.* This is a clear false positive.
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: Name collision. 'MYOR' in this context is a stock ticker symbol for a company (likely PT Mayora Indah Tbk) in a financial news snippet regarding dividend payments, not a researcher or a Yissum portfolio company.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,
