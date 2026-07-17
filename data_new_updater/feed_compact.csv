@@ -559,36 +559,3 @@ Analyze a news item to determine strategic relevance for BD & Licensing.
     *   `relevant`: false
     *   `reason`: ""Rejected: The provided text does not mention 'Amal Haitham' at all. The article focuses on research conducted by the Mayo Clinic regarding nanotherapy for glioblastoma, featuring researchers Debabrata Mukhopadhyay and Alfredo Quinones-Hinojosa. Because the matched entity is completely absent from the content, there is no verified connection to Hebrew University or any TTO-relevant signal.""",,,,,,google_news,EurekAlert!,resolved,https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vVlZraVFNdTRxSHZXc1lfOFR2MG9iYmhoQkxoaFJDMmRwM2tpeVZqM0IzaFI3M3U2OFZEV3gxS2FOQ0QtMW1LSVR4eGZ5V2RaZDY5UHZ0Y1poVjNf?oc=5,gemma-4-31b-it,,,
 10/07/2026,"Bonnie Tyler, who topped the charts with epic &#39;Total Eclipse of the Heart&#39;, dies",timesofindia.indiatimes.com,https://timesofindia.indiatimes.com/world/europe/bonnie-tyler-who-topped-the-charts-with-epic-total-eclipse-of-the-heart-dies/articleshow/132300984.cms,"She adored the Beatles, and her first album was &quot;A Hard Day&#39;s Night&quot;. The first song she bought was &quot;Hippy Hippy Shake&quot; by the Swinging Blue Jeans at&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-10/07/2026,Human brain cells may be far more powerful computers than scientists thought - The Brighter Side of News,thebrighterside.news,https://www.thebrighterside.news/post/future-computers-will-run-on-human-brain-cells-study-finds/,Human brain cells may be far more powerful computers than scientists thought&nbsp;&nbsp;The Brighter Side of News,Google News - Researcher - Segev Idan,Segev Idan (Google News query match),full_keyword,FALSE,"Rejected: The name 'Segev Idan' does not appear anywhere in the provided article text, snippet, or author list. The article focuses on biocomputing research at Johns Hopkins University and mentions several other individuals, but there is no mention of the matched researcher or any affiliation with Hebrew University. Consequently, there is no TTO or business-development signal.","DUPLICATE_RESOLVED_CONTEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
-Analyze a news item for strategic relevance to Business Development & Licensing.
-""Segev Idan"" (matched via Google News researcher feed).
-""Human brain cells may be far more powerful computers than scientists thought"" (The Brighter Side of News).
-
-        *   *Step 1 (Entity Verification):* Is ""Segev Idan"" in the text?
-        *   *Step 2 (Main Article Validation):* Is ""Segev Idan"" part of the main story or just a sidebar/related link?
-        *   *Step 3 (Strategic Value):* Does it show TTO value (commercialization, IP, clinical, etc.)?
-        *   *Step 4 (Strictness):* Use a strict filter for Google News researcher feeds.
-
-    *   Title: ""Human brain cells may be far more powerful computers than scientists thought""
-    *   Main Content: Discusses Johns Hopkins University researchers (Thomas Hartung, Lena Smirnova) and ""organoid intelligence"" (biocomputers).
-    *   Listed authors: Brian S. Caffo, David H. Gracias, Qi Huang, Itzy E. Morales Pantoja, Bohao Tang, Donald J. Zack, Cynthia A. Berlinicke, J. Lomax Boyd, Timothy DHarris, Erik C. Johnson, Jeffrey Kahn, Barton L. Paulhamus, Jesse Plotkin, Alexander S. Szalay, Joshua T. Vogelstein, and Paul F. Worley. Other authors: Brett J. Kagan, Alysson R. Muotri, Jens C. Schwamborn.
-    *   ""Latest Stories"" section:
-        *   ""Why Antarctica is getting warmer..."" - Rebecca Shavit
-        *   ""Astronomers are finding space junk..."" - Joseph Shavit
-        *   ""Radio observations reveal new structures..."" - Joseph Shavit
-
-    *   *Step 1: Entity Verification.* I am looking for ""Segev Idan"".
-    *   *Scanning full text...* No mention of ""Segev Idan"" in the main article.
-    *   *Scanning authors...* Not listed.
-    *   *Scanning sidebar/latest stories...* Only ""Rebecca Shavit"" and ""Joseph Shavit"" are mentioned.
-    *   Wait, let me look again. Is ""Segev Idan"" mentioned *anywhere*?
-    *   The search context says ""Matched Researcher/Entity: 'Segev Idan'"". But looking at the provided content, the name ""Segev Idan"" does not appear once.
-    *   Wait, looking at the ""Latest Stories"" section again: Rebecca Shavit, Joseph Shavit. No ""Segev Idan"".
-    *   Conclusion: The name ""Segev Idan"" is completely absent from the provided text.
-
-    *   *Entity Match:* None. The keyword ""Segev Idan"" does not appear in the title, snippet, or full content.
-    *   *Reasoning:* This is a false positive. The Google Alert likely triggered based on a mismatch or metadata not present in the actual text provided, or perhaps a confusion with the ""Shavit"" names in the sidebar, but even then, the name ""Segev Idan"" isn't there.
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The name 'Segev Idan' does not appear anywhere in the provided article text, snippet, or author list. The article focuses on biocomputing research at Johns Hopkins University and mentions several other individuals, but there is no mention of the matched researcher or any affiliation with Hebrew University. Consequently, there is no TTO or business-development signal.""",,,,,,google_news,The Brighter Side of News,resolved,https://news.google.com/rss/articles/CBMitgFBVV95cUxQYXBNMWR0VmF2QWdiWDBCaS1wZHRqVjdkczJSTEJQLUw0bjBkWEVJN0NpdzNyN1pub1NDZ0J1OTZZQzhBZm9TbG01UWItVEFwVWR5bzJZMEZGRXJlZVBseUVtUVBTQlVEeDEyX0JVbGF2bEhxVEdIM0tBb1d2bUptT1A5N2xpajhSYVVDUjdoYjFSVkFHNFdwb0pBbFoxSlMybnd0ZHFEVGFMX1FRS2Y1bGdmRUtoQQ?oc=5,gemma-4-31b-it,,,
-10/07/2026,Gulfstream Race 4 Form Guide - 12 Jul 2026 - Punters,punters.com.au,https://www.punters.com.au/form-guide/gulfstream_444750/race-4_3381322/,"Hippy Hippy Shake (1). Silk ColourBlue, Blue Peace Signs on White Dots, Blue Cap. 1. Hippy Hippy Shake (1). (USA). J:Diego A. Herrera ( 57.25kg ). T&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
