@@ -1,4 +1,41 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+20/07/2026,Scientists discover hidden cell network driving rapid intestinal renewal - News-Medical,news-medical.net,https://www.news-medical.net/news/20260720/Scientists-discover-hidden-cell-network-driving-rapid-intestinal-renewal.aspx,Scientists discover hidden cell network driving rapid intestinal renewal&nbsp;&nbsp;News-Medical,Google News - Researcher - Shoshkes-Carmel Michal,michal shoshkes-carmel,full_keyword,FALSE,"Rejected: Verified that the article discusses Dr. Michal Shoshkes-Carmel of Hebrew University regarding a discovery of intestinal cell networks. However, under the strict TTO filter for researcher feeds, this is marked as irrelevant because the content is purely academic reporting of a new publication. The potential therapeutic applications for inflammatory bowel disease are described as speculative and long-term, with no mention of IP, licensing, industry partnerships, or concrete translational milestones.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI's TTO).
+Analyze a news item to determine strategic relevance for Business Development & Licensing.
+""Shoshkes-Carmel Michal"" (Researcher).
+
+        *   Entity Verification (Is it the right person?).
+        *   Main Article Validation (Is the person in the main text, not a sidebar?).
+        *   Strategic Value (TTO/Business value: IP, clinical application, startup, major grant, award).
+        *   *Strict TTO Filter*: Since this is a ""Google News researcher feed,"" I must be stricter. Mere academic publication isn't enough unless there's a clear translation/commercial/clinical signal.
+
+    *   *Title:* ""Scientists discover hidden cell network driving rapid intestinal renewal - News-Medical""
+    *   *Key Content:* Dr. Michal Shoshkes-Carmel of Hebrew University led a study published in *Cellular and Molecular Gastroenterology and Hepatology (CMGH)*.
+    *   *Findings:* Discovered four distinct populations of specialized mesenchymal support cells (Foxl1-lineage) in the intestine.
+    *   *Potential Application:* ""offering new clues that may eventually inform approaches to intestinal injury and inflammatory bowel disease,"" ""guide new strategies for treating intestinal injury, inflammatory bowel disease, and other disorders in which tissue repair is impaired.""
+    *   *Current Status:* Basic science/discovery stage. The researchers are now planning to ""determine exactly what each of the four newly discovered cell populations does.""
+
+    *   *Step 1: Entity Verification:* Yes, Dr. Michal Shoshkes-Carmel is explicitly mentioned as being from Hebrew University. Match is confirmed.
+    *   *Step 2: Main Article Validation:* Yes, she is a key figure/lead researcher in the main body of the article.
+    *   *Step 3: Strategic Value:*
+        *   Does it mention IP? No.
+        *   Does it mention a startup? No.
+        *   Does it mention a major translational grant (ERC/NIH)? No.
+        *   Does it mention a prestigious award? No.
+        *   Does it mention a clinical/therapeutic/diagnostic application? *Yes*, but it is framed as ""may eventually inform"" and ""may eventually guide.""
+    *   *Step 4: Apply ""Strict TTO Filter"":*
+        *   The special rule states: ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals... If the commercial value is only speculative or generic, mark FALSE.""
+        *   The phrases ""may eventually inform"" and ""may eventually guide"" are speculative/generic long-term potential. There is no concrete fundable path, no mention of a patent, no clinical trial, and no industry partner. This is a report of a basic science discovery (a ""cell atlas"").
+
+    *   *Conclusion:* This is a ""False Positive"" for *strategic business development* purposes, despite being a legitimate and interesting scientific publication. It is academic coverage of a breakthrough, but it lacks the concrete commercial/translation triggers required by the strict TTO filter.
+
+    *   *Wait, let me re-read the ""RELEVANCE CRITERIA (The Yissum Filter)"":*
+        *   Under ""RESEARCHERS"", it says: ""RELEVANT: The article discusses the researcher's scientific work, new publications, breakthrough discoveries...""
+        *   *HOWEVER*, the ""SPECIAL RULE FOR GOOGLE NEWS RESEARCHER FEEDS"" overrides this for this specific source. It explicitly says: ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals... If the commercial value is only speculative or generic, mark FALSE.""
+
+    *   The ""Special Rule"" is the deciding factor here. The value is speculative (""may eventually inform"").
+
+    *   `relevant`: false
+    *   `reason`: Verified that the article discusses Dr. Michal Shoshkes-Carmel of Hebrew University regarding a discovery of intestinal cell networks. However, under the strict TTO filter for researcher feeds, this is marked as irrelevant because the content is purely academic reporting of a new publication. The potential therapeutic applications for inflammatory bowel disease are described as speculative and long-term, with no mention of IP, licensing, industry partnerships, or concrete translational milestones.",,,,,,google_news,News-Medical,resolved,https://news.google.com/rss/articles/CBMivAFBVV95cUxPWG82UjRYaXc3VWdzakhTQkZlakNtZE5ROUpxeFNBRU42dGF2TnZRVlhQRUo1NXh2TTJBNmota09wNTc1RXQ4b0x5RzJkcjNZZHJJdEQxNW1EcE1qdjZNaW5HQlVLUEVKaTNNZjFlb0IwODFXRkJHajhWVkx3N0xWZTRnZ2FDZU9hZGZoOE1KRE96WFp3SG9vbGZ6ZWJ5cGh3RmlNYzFJamh5N2hjOGUzbnE4NDlncWRvTjhJdw?oc=5,gemma-4-31b-it,,,
 20/07/2026,Five members of top higher education authority quit over new gender segregation law - The Times of Israel,timesofisrael.com,https://www.timesofisrael.com/five-members-of-top-higher-education-authority-quit-over-new-gender-segregation-law/,Five members of top higher education authority quit over new gender segregation law&nbsp;&nbsp;The Times of Israel,Google News - Researcher - Tshuva Edit,Tshuva Edit (Google News query match),full_keyword,FALSE,"Rejected: The matched entity 'Tshuva Edit' is not mentioned in the article title, snippet, or any of the provided search result descriptions. The full article content could not be confidently fetched, meaning there is no reliable textual evidence to verify the researcher's identity or connection to Hebrew University.","SEARCH_SNIPPET_CONTEXT: ```json
 {
   ""relevant"": false,
@@ -61,6 +98,7 @@ Determine if a news alert is strategically relevant for Business Development & L
     *Final Reason:* Verified: The article identifies Prof. Edit Tshuva as a chemistry professor at Hebrew University. However, the content pertains to her administrative resignation from the Council for Higher Education regarding academic policy and gender-segregation legislation. It contains no information regarding her scientific research, patentable discoveries, translational funding, or commercial applications, and thus provides no strategic value for technology transfer or business development.",,,,,,google_news,The Jerusalem Post,resolved,https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XbmVpb05rYVpBZ3BPUkF5SXV1R3JEcTNqNmdNdDBlYXNKUWc5Y0NYQTE3a25xNmJ6M2dHLXh4VERTLVdwM0QxTEJmVnhrTFhsTndmRjNLQlBxTTQw?oc=5,gemma-4-26b-a4b-it,,,
 20/07/2026,Letters 7/20/2026 - Anderson Valley Advertiser,theava.com,https://theava.com/archives/288945/comment-page-1,"And then they left. We softly told the baby to stay close to our cabin where it is safe- I know, I know, hippy nonsense- but the baby sleeps&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 20/07/2026,Ennena <b>solra</b> paarunga - YouTube,youtube.com,https://www.youtube.com/shorts/QZmO801EouI,Tap to unmute. Your browser can&#39;t play this video. Learn more &middot; @shivan-kss. Subscribe. Ennena solra paarunga . Like. 0. Share. Please sign in.,Companies - Batch 01 (Sea-2-Cell→Wonder Veggies),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+20/07/2026,End-to-End Flexible Packaging : melopack solution - Trend Hunter,trendhunter.com,https://www.trendhunter.com/amp/trends/melopack-solution,"melopack solution - Melodea introduced its MeloPack solution, an end-to-end flexible packaging product for food brands designed to move from&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 20/07/2026,Round 2 - YouTube,youtube.com,https://www.youtube.com/playlist?list=PLPjuMxtbkmhg,Lupe Fiasco. 760K views • 4 years ago. 3:31. SHELL. Kenny Mason. 4M views • 3 years ago. 4:44 &middot; Vice City (feat. Black Hippy). JayRock. 7.6M views • 6&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 19/07/2026,This Ancient Sea Animal Fights Viruses in the Opposite Way Humans Do - SciTechDaily,scitechdaily.com,https://scitechdaily.com/this-ancient-sea-animal-fights-viruses-in-the-opposite-way-humans-do/,This Ancient Sea Animal Fights Viruses in the Opposite Way Humans Do&nbsp;&nbsp;SciTechDaily,Google News - Researcher - Moran Yehu,yehu moran,full_keyword,FALSE,"Rejected: The article discusses Prof. Yehu Moran from the Hebrew University of Jerusalem and his research on antiviral mechanisms in sea anemones published in Nature Ecology & Evolution. However, this is a basic science discovery focused on evolutionary biology. The text contains no explicit commercial, clinical, or translational signals—such as IP, licensing, or startup activity—and therefore does not meet the strict TTO criteria for business development relevance.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
 Analyze a news item for strategic relevance.
@@ -818,63 +856,3 @@ Analyze a news item to determine if it's strategically relevant for Business Dev
 14/07/2026,<b>Hippy</b> in Me - YouTube,youtube.com,https://www.youtube.com/playlist?list=PLMVi9dwMgKm0,Melanie - Official Page of Melanie Safka. 2.1M views • 8 years ago. 3:01 &middot; Midnight Rider. Allman Brothers Band. 53M views • 7 years ago.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 14/07/2026,Lost at Sea: Crying Out to the Wind #shorts - YouTube,youtube.com,https://www.youtube.com/watch?v=Zv_A0OFrnWo,"... Hippy Hemp in Garland, TX for this incredible session. If you are a fan of rich, emotional storytelling and acoustic music, you need to check out&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 13/07/2026,Local charm and craft at Ibiza&#39;s smaller markets,ibiza-spotlight.com,https://www.ibiza-spotlight.com/magazine/2026/07/local-charm-craft-Ibiza-smaller-markets,"When people speak of markets on Ibiza they are usually referring to the two famous hippy markets, Las Dalias and Punta Arabí. It&#39;s worth seeking&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-13/07/2026,Human intelligence may begin with the power of a single brain cell - Earth.com,earth.com,https://www.earth.com/news/human-intelligence-may-begin-with-the-power-of-a-single-brain-cell/,Human intelligence may begin with the power of a single brain cell&nbsp;&nbsp;Earth.com,Google News - Researcher - Segev Idan,idan segev,full_keyword,TRUE,"Verified: The article discusses Professor Idan Segev from the Hebrew University of Jerusalem and details his team's breakthrough discovery regarding the computational complexity of individual human neurons. This is strategically relevant to Yissum because the research offers a direct translational signal for the artificial intelligence and neuromorphic computing sectors, suggesting new methodologies for designing more efficient, biologically-inspired artificial neural networks.","FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item for strategic relevance to Business Development & Licensing.
-""Segev Idan"" (via Google News researcher feed).
-""Human intelligence may begin with the power of a single brain cell - Earth.com"".
-""Researchers found that a single human brain cell can perform computations complex enough to rival a small artificial neural network... The work was led by Professor Idan Segev of the Hebrew University of Jerusalem (HUJI)...""
-
-    *   *Step 1: Entity Verification:* Does the article talk about ""Segev Idan"" or ""Idan Segev""? Yes, it explicitly identifies ""Professor Idan Segev of the Hebrew University of Jerusalem (HUJI)"". Match confirmed.
-    *   *Step 2: Main Article Validation:* Is the researcher the subject of the main article? Yes. The findings are attributed directly to his team.
-    *   *Step 3: Strategic Value (The Yissum Filter):*
-        *   Does it show commercialization/IP/licensing/startup/industry relevance/clinical application/translational grant/prestigious award?
-        *   *Findings:* The research explores the computing power of individual human neurons compared to rat neurons and suggests a new way to measure this power.
-        *   *The ""Practical Angle"" mentioned in the text:* ""Modern artificial networks are built from crude, switch-like units stacked in vast numbers. The study hints that much smaller networks could do the same work if each unit carried more of the load, the way a living neuron does.""
-        *   *Analysis:* This provides a direct link to Artificial Intelligence (AI) and neuromorphic computing. It suggests a fundamental principle that could be applied to designing more efficient artificial neural networks. This is a translational signal (AI/Machine Learning technology). The article also mentions the work is published in *PNAS* (prestigious scientific journal).
-    *   *Step 4: Strictness Check:* Is this just ""basic science""? The text specifically points out a ""practical angle"" regarding the design of artificial networks, which is a major commercial sector (AI/Computing). This moves it from ""generic science news"" to ""potential technology transfer/innovation intelligence"" in the field of AI architecture.
-
-    *   *Identity Match:* Confirmed (Prof. Idan Segev, HUJI).
-    *   *Evidence:* The article discusses his team's discovery regarding the computational complexity of single human neurons and the development of a new metric/methodology to quantify it.
-    *   *TTO Value:* The research has a direct translational application for artificial intelligence and neuromorphic computing, suggesting that AI architectures could be made more efficient by mimicking the high-load computing of single neurons. This represents a potential IP/innovation signal for the AI/ML industry.
-
-    *   `relevant`: true
-    *   `reason`: ""Verified: The article discusses Professor Idan Segev from the Hebrew University of Jerusalem and details his team's breakthrough discovery regarding the computational complexity of individual human neurons. This is strategically relevant to Yissum because the research offers a direct translational signal for the artificial intelligence and neuromorphic computing sectors, suggesting new methodologies for designing more efficient, biologically-inspired artificial neural networks. The identification of a new quantitative measure for neuronal complexity provides a potential foundation for intellectual property in advanced computing technologies.""
-
-    *   Wait, let's look at the instruction again: ""Do not infer commercial value from generic scientific importance.""
-    *   The text says: ""There is a practical angle as well... The study hints that much smaller networks could do the same work if each unit carried more of the load...""
-    *   This is an explicit mention of a practical/industrial application (AI architecture). This moves it beyond ""generic science.""
-    *   The prompt also says: ""Mark TRUE only if the article explicitly contains commercial/translation signals: ... clinical/therapeutic/diagnostic application, a concrete fundable path...""
-    *   While it doesn't name a startup, the link to ""Modern artificial networks"" (AI industry) is a clear technological signal.
-
-    *   JSON format? Yes.
-    *   Raw JSON? Yes.
-    *   Reason length? ~70 words (within 45-120).
-    *   Reason content? Confirms identity, cites evidence, explains TTO value. No bullets. No meta-commentary.
-
-    *Self-Correction during drafting:* Ensure I don't sound too speculative. The text *itself* provides the ""practical angle."" I will cite that.
-
-    *Final Check:*
-    - Match: Idan Segev (HUJI) - Yes.
-    - Context: Scientific breakthrough with implications for AI - Yes.
-    - Relevant: True.",,,,,,google_news,Earth.com,resolved,https://news.google.com/rss/articles/CBMimgFBVV95cUxQd3IzcXRnd183Rkh2UG04Z1VkNXFzcVFWSDBRWVk0a3ZncW85UWpBZk54bEhOS1M0YUFQSG9faEJ6czNoRnJYbnJtRGJnUHFROG5zMFl3VmJTcmIzVEhXejlKQXJCcmdOaGlna1BvUXRTMElxNmx0dHZRTnF1VUl1ZURmd2pWNHpKUXByNFRHOXl3bllwZk8yMUNR?oc=5,gemma-4-26b-a4b-it,https://cff2.earth.com/uploads/2026/07/13114406/shutterstock_2781718069-1.jpg,evt_idan-segev_0,"Professor Idan Segev and his team at the Hebrew University of Jerusalem have made a groundbreaking discovery, published in PNAS, revealing the immense computational power and complexity of individual human neurons, suggesting that the secret of human intelligence may reside within a single brain cell. This research is strategically relevant to Yissum as it provides a direct translational signal for the artificial intelligence and neuromorphic computing sectors."
-13/07/2026,Israeli Dx Firm JaxBio Looks to Broaden Access to DNA Methylation-Based Liquid Biopsy Testing,genomeweb.com,https://www.genomeweb.com/cancer/israeli-dx-firm-jaxbio-looks-broaden-access-dna-methylation-based-liquid-biopsy-testing,"Israeli Liquid Biopsy Startup Senseera Raises $7.1M in Seed Round. 360Dx, 2025. PanGia Biotech Preparing Urine-Based Prostate Cancer Test for&nbsp;...",Companies - Batch 01 (Sea-2-Cell→Wonder Veggies),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-13/07/2026,Israeli Researchers Uncover New Strategy to Reverse Drug Resistance in Deadly Brain Cancer,trialsitenews.com,https://www.trialsitenews.com/a/israeli-researchers-uncover-new-strategy-to-reverse-drug-resistance-in-deadly-brain-cancer-5d1d42cf,"BA-101 has been exclusively licensed by Yissum, the Hebrew University of Jerusalem&#39;s technology transfer company, to NeuroNOS, a biotechnology company&nbsp;...",YISSUM (core),yissum,full_keyword,TRUE,"Confirmed identity match for Yissum. The article describes a preclinical breakthrough by Hebrew University researchers in reversing glioblastoma drug resistance using compound BA-101. This is highly relevant for Yissum as it explicitly mentions an exclusive licensing agreement to the biotech company NeuroNOS, signaling a direct translational path and portfolio company progress.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-Analyze a news item to determine strategic relevance for Business Development & Licensing.
-""YISSUM""
-""Israeli Researchers Uncover New Strategy to Reverse Drug Resistance in Deadly Brain Cancer""
-
-        *   Title: New strategy to reverse drug resistance in brain cancer.
-        *   Snippet: Explicitly mentions ""BA-101 has been exclusively licensed by Yissum... to NeuroNOS, a biotechnology company"".
-        *   Full Content: Discusses researchers at Hebrew University (Dr. Mallikar Nimgampalle and Prof. Haitham Amal) who found a strategy (using compound BA-101) to overcome TMZ resistance in glioblastoma. Mentions preclinical study published in *Cancer Medicine*.
-
-        *   *Step 1: Entity Verification:* Does the text refer to Yissum (HUJI's TTO)? Yes.
-        *   *Step 2: Main Article Validation:* Is Yissum/the technology part of the main article? Yes, the snippet (and the context of the news piece) describes a licensed compound (BA-101) and the researchers' work.
-        *   *Step 3: Strategic Value (TTO Filter):* The ""Special Rule"" requires commercial/translation signals.
-            *   IP/Licensing: Yes (""exclusively licensed by Yissum... to NeuroNOS"").
-            *   Startup/Industry Relevance: Yes (NeuroNOS).
-            *   Clinical/Therapeutic/Diagnostic application: Yes (Glioblastoma treatment, reversing drug resistance).
-            *   Concrete fundable path: Yes (preclinical study, licensing agreement).
-        *   *Step 4: Be Strict:* This is a textbook ""TRUE"" case. It involves a HUJI discovery, an exclusive license, a portfolio company (NeuroNOS), and a high-impact therapeutic target (brain cancer).
-
-    *   Relevant: `true`
-    *   Reason: Confirmed identity match for Yissum. The article describes a preclinical breakthrough by Hebrew University researchers in reversing glioblastoma drug resistance using compound BA-101. This is highly relevant for Yissum as it explicitly mentions an exclusive licensing agreement to the biotech company NeuroNOS, signaling a direct translational path and portfolio company progress.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,https://imagedelivery.net/WEWiZyGwyq-Q4qn_WluYYg/f7342f3d-80e2-4713-b46d-a98eab9de500/public,,
