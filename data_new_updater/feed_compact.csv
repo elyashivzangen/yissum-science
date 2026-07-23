@@ -807,27 +807,3 @@ Analyze a Google Alert for ""Myor"" (found as ""myor"") to determine if it's str
     *   Must be a raw JSON object.
     *   `relevant`: false.
     *   `reason`: [The drafted text].",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
-16/07/2026,"&#39;Oh my God, this is amazing&#39;: Teachers refused to let tiny town&#39;s school die - OneRoof",oneroof.co.nz,https://www.oneroof.co.nz/news/oh-my-god-this-is-amazing-teachers-refused-to-let-tiny-towns-school-die-49863,"Sue and Hippy Rogers transformed the old Quarry Hills school into a home with unique features. - The renovation took three years,&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-16/07/2026,Stats Bill 2026 passed to modernise Malaysia&#39;s national data system - The Star,thestar.com.my,https://www.thestar.com.my/news/nation/2026/07/16/stats-bill-2026-passed-to-modernise-malaysias-national-data-system,"Related Stories &middot; Cagamas completes Malaysia&#39;s first MYOR-i referenced sukuk, IPRS transactions &middot; UOB Malaysia wins FinanceAsia&#39;s Best Bank, Best&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The matched term ""MYOR-i"" refers to a Malaysian financial instrument (sukuk) and appears only within a ""Related Stories"" sidebar, not the main article. There is no connection to a Hebrew University researcher or a technology-transfer-relevant entity.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
-    *   Task: Validate a Google Alert news item.
-    *   Keyword: ""Myor"" (found as ""myor"").
-    *   Special Rule (Google News researcher feed): Stricter filter. Need commercial/translation signals (IP, licensing, startup, clinical apps, etc.).
-    *   Evaluation Steps:
-        1.  Entity Verification (Is it the right person/company?).
-        2.  Main Article Validation (Is the entity in the main body, or just sidebars/related news?).
-        3.  Strategic Value (Is it relevant to TTO goals?).
-        4.  Be Strict.
-
-    *   Title: ""Stats Bill 2026 passed to modernise Malaysia's national data system - The Star""
-    *   Snippet: ""Related Stories · Cagamas completes Malaysia's first MYOR-i referenced sukuk, IPRS transactions · UOB Malaysia wins FinanceAsia's Best Bank, Best...""
-    *   Full Content Analysis:
-        *   Main story: Passing of the Statistics Bill 2026 in Malaysia to modernize the National Statistical System (DOSM).
-        *   Occurrence of ""MYOR"": Found in the ""Related Stories"" section: ""Cagamas completes Malaysia’s first MYOR-i referenced sukuk, IPRS..."".
-        *   Context of ""MYOR-i"": This is a financial instrument (Sukuk/Islamic bond) related to Malaysian finance (Cagamas).
-
-    *   Step 1: Entity Verification. The keyword ""myor"" refers to ""MYOR-i,"" a Malaysian financial bond/sukuk. It does *not* refer to a researcher or a Yissum portfolio company.
-    *   Step 2: Main Article Validation. The keyword ""MYOR-i"" appears only in the ""Related Stories"" sidebar/list. It is not part of the main article about the Statistics Bill 2026.
-    *   Step 3: Strategic Value. There is no connection to Hebrew University, scientific research, or technology transfer. It's a financial term in a Malaysian context.
-
-    *   `relevant`: false
-    *   `reason`: The matched term ""MYOR-i"" refers to a Malaysian financial instrument (sukuk) and appears only within a ""Related Stories"" sidebar, not the main article. There is no connection to a Hebrew University researcher or a technology-transfer-relevant entity.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
