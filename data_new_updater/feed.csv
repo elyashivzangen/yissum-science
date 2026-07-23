@@ -1,4 +1,32 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+23/07/2026,Every song on &#39;The Hawk&#39; soundtrack - NME,nme.com,https://www.nme.com/news/tv/every-song-on-the-hawk-soundtrack-3958628,The Hawk has landed on Netflix – but which songs appear in the Will Ferrell golf comedy? Find the full soundtrack below.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+23/07/2026,<b>HIPPY</b> and BangorHousing Partner to Bring Evidence-Based Early Learning to Families in ...,prnewswire.com,https://www.prnewswire.com/news-releases/hippy-and-bangorhousing-partner-to-bring-evidence-based-early-learning-to-families-in-rural-maine-302833174.html,"PRNewswire/ -- Home Instruction for Parents of Preschool Youngsters (HIPPY), the global organization that has pioneered evidence-based home&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),hippy international,full_keyword,FALSE,"Rejected: While the entity 'HIPPY International' is the subject of the article, it refers to a global non-profit organization focused on early childhood education. There is no mention of affiliation with Hebrew University, nor any evidence of intellectual property, licensing, or technology-transfer activity that would be relevant to Yissum's business development goals.","FULL_TEXT: Senior Innovation Analyst for Yissum (TTO of Hebrew University).
+Analyze a news item based on a Google Alert keyword (""Hippy (C.Y.) International"" / ""hippy international"").
+Determine if the news item is strategically relevant for Business Development & Licensing.
+
+        *   Researcher: Relevant only if affiliated with HUJI and involves scientific work, awards, grants, etc.
+        *   Portfolio Company: Relevant if fundraising, clinical trials, M&A, product launches, etc.
+        *   Institutional: Relevant if innovation centers, major donations, etc.
+        *   *Strict Filter*: If ""Google News researcher"" context (though this looks more like a company/organization match), ignore basic science/academic commentary unless there's a commercial/translational signal.
+        *   Entity Verification $\rightarrow$ Main Article Validation $\rightarrow$ Strategic Value $\rightarrow$ Strictness.
+JSON object with `relevant` (boolean) and `reason` (string).
+
+    *   *Keyword:* ""Hippy (C.Y.) International"" / ""hippy international"".
+    *   *Title:* ""HIPPY and BangorHousing Partner to Bring Evidence-Based Early Learning to Families in ...""
+    *   *Snippet/Content:* Discusses ""Home Instruction for Parents of Preschool Youngsters (HIPPY)"", a global organization for early childhood education. It mentions a partnership with BangorHousing in Maine to provide home-based learning for kids. CEO Benny Feifel is mentioned.
+    *   *Context:* This is an educational program/non-profit organization focused on early childhood development.
+
+    *   *Step 1: Entity Verification.* The keyword ""Hippy International"" matches ""HIPPY"" (Home Instruction for Parents of Preschool Youngsters).
+    *   *Step 2: Main Article Validation.* Yes, HIPPY is the main subject of the article.
+    *   *Step 3: Strategic Value.* Is this a HUJI researcher? No. Is this a Yissum portfolio company? There is no evidence in the text that HIPPY (the early learning organization) is a spin-off from Hebrew University or a Yissum-managed portfolio company. It is a non-profit/global organization focused on social services/education.
+    *   *Step 4: Relevance Criteria.*
+        *   Does it mention HUJI? No.
+        *   Does it mention IP/licensing/startups/clinical trials/fundable paths for tech transfer? No.
+        *   It is a press release about a social service partnership in Maine. This is ""general social science/education"" or ""community outreach,"" which falls under the ""IRRELEVANT"" category for a Technology Transfer Office (TTO).
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: While the entity 'HIPPY International' is the subject of the article, it refers to a global non-profit organization focused on early childhood education. There is no mention of affiliation with Hebrew University, nor any evidence of intellectual property, licensing, or technology-transfer activity that would be relevant to Yissum's business development goals.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
+23/07/2026,Mandurah Race 4 Result - 23 Jul 2026 - Racenet,racenet.com.au,https://www.racenet.com.au/results/greyhounds/mandurah-20260723/all-torque-engineering-race-4,All Torque Engineering ; 2. Junk Yard Hippy (2). 1st. 2. ; 6. Lansley Whisper (6). 2nd. 6. ; 7. Lil Miss Sophie (7). 3rd. 7. ; 5. Trunkey Frank (5). 4th.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 23/07/2026,Consumer: 2Q26 Preview: Post-Eid Slowdown with Margin Pressure (OVERWEIGHT),brights.id,https://www.brights.id/en/research-and-news/research-report/consumer-2q26-preview-post-eid-slowdown-with-margin-pressure-overweight,"Maintain Overweight on the sector; top picks are MYOR (TP Rp2,700) and ICBP (TP Rp10,500). 2Q26E: post-Eid seasonal rev softness, while cost pressures&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The mention of 'MYOR' refers to a stock ticker for an Indonesian consumer goods company (PT Mayora Indah Tbk) in a financial equity research report. There is no connection to a Hebrew University researcher or a Yissum portfolio company, making this a false positive with no strategic TTO value.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
 Determine if a news item is strategically relevant for Business Development & Licensing.
 ""Myor"" (found as ""myor"").
@@ -888,84 +916,3 @@ CIMB Islamic and Cagamas complete Malaysia's first MYOR-i-linked sukuk, profit r
 
     *   `relevant`: `false`
     *   `reason`: The keyword ""myor"" is part of ""MYOR-i,"" which refers to a financial benchmark in Malaysia related to Islamic finance transactions. The article is strictly about banking and fintech developments involving CIMB and Cagamas and contains no mention of any Hebrew University researcher, technology, or Yissum-relevant intellectual property.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
-16/07/2026,CIMB Cagamas Complete First <b>MYOR</b>-i Islamic Capital Market Transaction Of RM300 Million,businesstoday.com.my,https://www.businesstoday.com.my/2026/07/16/cimb-cagamas-complete-first-myor-i-islamic-capital-market-transaction-of-rm300-million/,"... MYOR-i-based Islamic Profit Rate Swap (IPRS), and the first MYOR-i-referenced Islamic Asset Purchase Transaction under Cagamas&#39; Purchase with&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword match is a false positive; ""MYOR-i"" refers to the Malaysia Islamic Overnight Rate, a financial benchmark in Islamic capital markets, and not to a researcher or entity affiliated with Hebrew University or Yissum. There is no TTO or business development value.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
-    *   Task: Validate a Google Alert for the keyword ""Myor"".
-    *   Keyword: ""Myor"" (found as ""myor"").
-    *   Context: ""Google News researcher"" (requires stricter TTO filter).
-    *   Input: An article about CIMB Cagamas and ""MYOR-i"".
-
-    *   Title: ""CIMB Cagamas Complete First MYOR-i Islamic Capital Market Transaction Of RM300 Million""
-    *   Snippet/Content: Discusses ""Malaysia Islamic Overnight Rate (MYOR-i)"", Islamic Profit Rate Swap (IPRS), Sukuk, and Islamic finance in Malaysia.
-    *   Key Entities: CIMB Islamic Bank Berhad, Cagamas Berhad, Bank Negara Malaysia.
-    *   Key Term: ""MYOR-i"" (Malaysia Islamic Overnight Rate).
-
-    *   Step 1: Entity Verification.
-        *   Keyword: ""Myor"".
-        *   Article content: ""MYOR-i"" is a financial benchmark rate (Malaysia Islamic Overnight Rate).
-        *   Is this a researcher affiliated with HUJI? No.
-        *   Is this a portfolio company? No.
-        *   Is this an institutional partnership? No.
-        *   It is a financial acronym.
-
-    *   Step 2: Main Article Validation.
-        *   ""MYOR-i"" is the central topic of the article. However, it is an acronym for a financial rate, not a person or entity associated with Yissum.
-
-    *   Step 3: Strategic Value.
-        *   No connection to science, technology, HUJI researchers, IP, or startups.
-
-    *   Step 4: Be Strict.
-        *   This is a classic ""False Positive"". The keyword ""myor"" matched ""MYOR-i"".
-
-    *   `relevant`: false.
-    *   `reason`: The keyword match is a false positive; ""MYOR-i"" refers to the Malaysia Islamic Overnight Rate, a financial benchmark in Islamic capital markets, and not to a researcher or entity affiliated with Hebrew University or Yissum. There is no TTO or business development value.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-16/07/2026,Cagamas issues Malaysia&#39;s first sukuk based on new interbank benchmark,theedgemalaysia.com,https://theedgemalaysia.com/node/810898,The introduction of MYOR and its Islamic counterpart MYOR-i in 2021 marks a shift towards more robust benchmarks based on actual transactions&nbsp;...,Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,Rejected: AI classified this item as not relevant.,"FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a Google Alert for strategic relevance.
-""Myor"" (found as ""myor"").
-Cagamas issues Malaysia's first sukuk based on new interbank benchmark.
-The snippet mentions ""MYOR"" and ""MYOR-i"" as interbank benchmarks (Malaysia Islamic Overnight Rate).
-
-    *   *Entity Verification:* The keyword ""myor"" in the text refers to ""MYOR"" (Malaysia Islamic Overnight Rate), a financial benchmark. It is *not* a researcher or a company that Yissum would be interested in.
-    *   *Main Article Validation:* The term ""MYOR"" is central to the article, but it is a financial acronym for a rate, not a person or a portfolio company.
-    *   *Strategic Value:* The article is about Malaysian finance (sukuk, interest rate swaps, central bank benchmarks). It has absolutely zero relevance to Hebrew University's research, IP, life sciences, biotech, or technology transfer.
-
-    *   *Step 1 (Identity Match):* The keyword ""myor"" is a false positive. It is a financial acronym, not a researcher or entity related to Yissum.
-    *   *Step 2 (Relevance):* The topic (Islamic finance/Malaysian banking) is irrelevant to TTO goals.
-    *   *Conclusion:* `relevant: false`.
-
-    *   *Requirement:* ""Rejected: The article text does not verify that [Name] is the HUJI researcher; it only appears in search metadata...""
-    *   *Draft:* Rejected: The term ""MYOR"" in the article refers to the Malaysia Islamic Overnight Rate, a financial benchmark, rather than a researcher or a company relevant to Yissum. The article pertains to Malaysian capital markets and banking regulations, providing no connection to Hebrew University's intellectual property or technology transfer interests.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
-16/07/2026,Cagamas executes Malaysia&#39;s first <b>MYOR</b>-i-referenced sukuk | The Asset,theasset.com,https://www.theasset.com/article/56763/cagamas-executes-malaysia-s-first-myor-i-referenced-sukuk,"The MYOR-i, the first transaction-based Islamic benchmark rate in the world, is developed in accordance with the Principles for Financial Benchmarks.",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The matched term 'MYOR' refers to the 'Malaysia Islamic Overnight Rate' (MYOR-i), a financial benchmark for Islamic banking in Malaysia. It is not a researcher, portfolio company, or technology associated with Hebrew University, and therefore has no TTO or business development value for Yissum.","FULL_TEXT: *   Role: Senior Innovation Analyst at Yissum (HUJI TTO).
-    *   Task: Validate a Google Alert for ""Myor"".
-    *   Goal: Determine if the news item is strategically relevant to Business Development & Licensing.
-    *   Constraint: Follow a strict TTO filter (Commercial/Translation signals).
-    *   Keywords matched: ""Myor"" (found as ""myor"").
-
-    *   Title: ""Cagamas executes Malaysia's first MYOR-i-referenced sukuk""
-    *   Content: Discusses ""MYOR-i"", which is the ""Malaysia Islamic Overnight Rate"".
-    *   Context: Finance, Islamic banking, sukuk (Islamic bonds), benchmark rates, Bank Negara Malaysia.
-    *   Entity: ""MYOR-i"" is a financial benchmark rate, not a person or a technology company associated with Hebrew University.
-
-    *   Step 1 (Entity Verification): The keyword ""Myor"" matched ""MYOR-i"". This is a financial index (Malaysia Islamic Overnight Rate), not a researcher or a portfolio company of Yissum/HUJI.
-    *   Step 2 (Main Article Validation): The entity is the main subject, but it's the wrong entity.
-    *   Step 3 (Strategic Value): No relevance to technology transfer, IP, biotech, AI, or Hebrew University researchers. It's purely financial/banking news from Malaysia.
-
-    *   `relevant`: false.
-    *   `reason`: ""Rejected: The matched term 'MYOR' refers to the 'Malaysia Islamic Overnight Rate' (MYOR-i), a financial benchmark for Islamic banking in Malaysia. It is not a researcher, portfolio company, or technology associated with Hebrew University, and therefore has no TTO or business development value for Yissum.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-16/07/2026,Cagamas prints Malaysia&#39;s first <b>MYOR</b>-i sukuk - IFR,ifre.com,https://www.ifre.com/bonds/2458153/cagamas-prints-malaysias-first-myor-i-sukuk,Cagamas prints Malaysia&#39;s first MYOR-i sukuk. 16 Jul 2026 06:59 | Hui Ting Yong. You need to be a subscriber to view this content.,Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The term ""MYOR-i"" in this article refers to a type of Islamic financial instrument (sukuk) in Malaysia, not a researcher or technology company affiliated with Hebrew University. There is no scientific or commercial technology transfer value.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
-""Myor"" (found as ""myor"").
-""Cagamas prints Malaysia's first MYOR-i sukuk - IFR""
-
-        *   Title: Cagamas prints Malaysia's first MYOR-i sukuk.
-        *   Snippet: Mentions MYOR-i sukuk.
-        *   Full Content: Financial news regarding ""MYOR-i sukuk"" (Islamic bonds/finance) involving ""Cagamas"" in Malaysia.
-
-    *   *Step 1: Entity Verification.* Is ""MYOR-i"" a researcher, a portfolio company, or an institutional entity related to Hebrew University/Yissum?
-        *   ""MYOR-i sukuk"" refers to a specific type of Islamic financial instrument (Sukuk). ""MYOR"" in this context is likely a financial term or a specific product label (possibly ""Malaysia Yield"" or similar, though ""MYOR-i"" is a technical term in Malaysian Islamic finance).
-        *   It is *not* a person (Researcher), *not* a tech company (Portfolio), and *not* an innovation center (Institutional).
-    *   *Step 2: Main Article Validation.* The entity ""MYOR"" appears in the title and body, but as a financial product, not as a specific entity/person that would be tracked by Yissum.
-    *   *Step 3: Strategic Value.* Financial bonds in Malaysia have zero relevance to technology transfer, IP licensing, clinical trials, or HUJI research.
-    *   *Step 4: Strictness.* This is a classic ""False Positive"" where a short string (""myor"") matched a financial term.
-
-    *   Relevant: `false`
-    *   Reason: Rejected: The term ""MYOR-i"" in this article refers to a type of Islamic financial instrument (sukuk) in Malaysia, not a researcher or technology company affiliated with Hebrew University. There is no scientific or commercial technology transfer value.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
