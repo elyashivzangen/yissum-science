@@ -831,26 +831,3 @@ Analyze a Google Alert for ""Myor"" (found as ""myor"") to determine if it's str
 
     *   `relevant`: false
     *   `reason`: The matched term ""MYOR-i"" refers to a Malaysian financial instrument (sukuk) and appears only within a ""Related Stories"" sidebar, not the main article. There is no connection to a Hebrew University researcher or a technology-transfer-relevant entity.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-16/07/2026,Mandurah Race 11 Result - 16 Jul 2026 - Racenet,racenet.com.au,https://www.racenet.com.au/results/greyhounds/mandurah-20260716/book-for-christmas-in-july-race-11,(7). T: Lexia Isaac. SP$15.00. 6. Junk Yard Hippy (6). 7th. 6. Junk Yard Hippy (6). T: Darryl Jeffries. SP$8.00. 3. Dodgy Denvah (3). 8th. 3. Dodgy&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-16/07/2026,"Cagamas completes Malaysia&#39;s first <b>MYOR</b>-i referenced sukuk, IPRS transactions | The Star",thestar.com.my,https://www.thestar.com.my/business/business-news/2026/07/16/cagamas-completes-malaysias-first-myor-i-referenced-sukuk-iprs-transactions,KUALA LUMPUR: Cagamas Bhd has successfully executed Malaysia&#39;s first Malaysia Islamic Overnight Rate (MYOR-i)-referenced Islamic Medium Term Notes&nbsp;...,Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword 'MYOR' in this context refers to the 'Malaysia Islamic Overnight Rate' (MYOR-i), a financial benchmark used in Islamic banking transactions. It is not a researcher or a company associated with Hebrew University, and the article contains no technology transfer or business development value for Yissum.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
-    *   Task: Analyze a news item to see if it's strategically relevant for BD & Licensing.
-    *   Keyword matched: ""Myor"" (found as ""myor"").
-    *   Search Context: ""Google News researcher"" (implies strict TTO filter).
-    *   Criteria for TRUE: Commercial/translation signals (IP, licensing, startup, clinical/diagnostic, fundable path, etc.) involving a HUJI researcher or portfolio company.
-    *   Criteria for FALSE: False positive (wrong person/entity), trivial mention, basic science without commercial signals, or mention only in sidebars/footers.
-
-    *   Title: ""Cagamas completes Malaysia's first MYOR-i referenced sukuk, IPRS transactions | The Star""
-    *   Snippet: ""KUALA LUMPUR: Cagamas Bhd has successfully executed Malaysia's first Malaysia Islamic Overnight Rate (MYOR-i)-referenced Islamic Medium Term Notes...""
-    *   Full Content Analysis:
-        *   The article is about ""Cagamas Bhd"" (a national mortgage corporation in Malaysia).
-        *   The term ""MYOR-i"" stands for ""Malaysia Islamic Overnight Rate"".
-        *   The content discusses Islamic finance, sukuk (Islamic bonds), and benchmark rates.
-
-    *   Step 1: Entity Verification. The keyword ""myor"" matches ""MYOR-i"". Is this a researcher or a portfolio company? No. It is a financial benchmark rate (Malaysia Islamic Overnight Rate).
-    *   Step 2: Main Article Validation. ""MYOR-i"" is indeed part of the main article, but it is a financial term, not a person or a company.
-    *   Step 3: Strategic Value. This is about Islamic banking/finance in Malaysia. There is no connection to Hebrew University, Yissum, medical research, technology transfer, or any of the TTO-relevant domains.
-    *   Step 4: Be Strict. This is a clear ""False Positive"". The keyword ""myor"" matched a financial acronym, not a researcher's name.
-
-    *   `relevant`: false
-    *   `reason`: Rejected: The keyword 'MYOR' in this context refers to the 'Malaysia Islamic Overnight Rate' (MYOR-i), a financial benchmark used in Islamic banking transactions. It is not a researcher or a company associated with Hebrew University, and the article contains no technology transfer or business development value for Yissum.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-16/07/2026,"M&#39;sia to develop own mechanism to manage refugees, asylum seekers, says Zahid",thestar.com.my,https://www.thestar.com.my/news/nation/2026/07/16/m039sia-to-develop-own-mechanism-to-manage-refugees-asylum-seekers-says-zahid,"Cagamas completes Malaysia&#39;s first MYOR-i referenced sukuk, IPRS transactions &middot; Banking 10h ago. Cagamas completes Malaysia&#39;s first MYOR-i referenced&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,main_article_mismatch,FALSE,Auto-Reject: Matched entity was not verified in the article title or main article body.,Rejected before AI: main article mismatch.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
