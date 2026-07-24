@@ -1,4 +1,88 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+24/07/2026,Israeli scientists say they’ve discovered a unique immune system in sea anemones - The Times of Israel,timesofisrael.com,https://www.timesofisrael.com/israeli-scientists-say-theyve-discovered-a-unique-immune-system-in-sea-anemones/,Israeli scientists say they’ve discovered a unique immune system in sea anemones&nbsp;&nbsp;The Times of Israel,Google News - Researcher - Moran Yehu,Moran Yehu (Google News query match),full_keyword,FALSE,"Rejected: The provided article text and snippets do not explicitly mention Moran Yehu, making it impossible to verify the identity match within the main content. While the subject matter regarding antiviral defenses may possess translational potential, the absence of the researcher's name in the text classifies this as an unverified search match.","SEARCH_SNIPPET_CONTEXT: Senior Innovation Analyst for Yissum.
+Analyze a news item to determine if it's strategically relevant for Business Development & Licensing.
+""Moran Yehu"" (via Google News researcher feed).
+
+        *   *Title:* ""Israeli scientists say they’ve discovered a unique immune system in sea anemones - The Times of Israel""
+        *   *Snippet:* ""Israeli scientists say they’ve discovered a unique immune system in sea anemones""
+        *   *Full Content/Search Results:*
+            *   Result 1: Times of Israel article on sea anemones.
+            *   Result 2/3: Phys.org article on sea anemones' antiviral defense.
+            *   Result 4: ScienceDaily article on fighting viruses.
+            *   Result 5: Nature article: ""Functional characterization of specialized immune cells in a..."" (This looks like the primary scientific source).
+Identify if Moran Yehu is in the article and if the article has TTO value.
+
+    *   *Step 1: Entity Verification (Moran Yehu).*
+        *   Is Moran Yehu mentioned in the provided text?
+        *   Reviewing the ""Full Content"" and ""Snippet"": The name ""Moran Yehu"" is *not* present in the Title, Snippet, or the provided search results text. The search context says the *keyword* matched ""Moran Yehu"", but the article text provided doesn't explicitly name her.
+        *   *Self-Correction/Deduction:* While Moran Yehu is a known researcher at Hebrew University (HUJI), her name is not in the visible snippet or title. However, I must rely *only* on the provided text. The provided text discusses ""Israeli scientists"" and sea anemones.
+
+    *   *Step 2: Main Article Validation.*
+        *   The keyword ""Moran Yehu"" was found via a search query, but the snippet and title of the news item focus on ""Israeli scientists"" and ""sea anemones.""
+        *   I cannot verify from the *provided text* that Moran Yehu is one of the scientists mentioned.
+
+    *   *Step 3: Strategic Value (The ""Yissum Filter"").*
+        *   *Hypothetical:* If Moran Yehu *is* one of the scientists, does this article have TTO value?
+        *   The topic is ""a unique immune system in sea anemones"" and ""antiviral defense that reverses human immune playbook.""
+        *   The Nature link (Result 5) suggests a high-impact scientific publication.
+        *   The content points toward ""antiviral defense,"" which has potential clinical/therapeutic/diagnostic applications (a ""concrete fundable path"").
+        *   *BUT*, according to the instructions: ""Mark FALSE if the entity appears only in... [the metadata/search context]... Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
+
+    *   The keyword ""Moran Yehu"" was triggered by the search engine, but the text provided does not name her.
+    *   Even if we assume she is the researcher (based on external knowledge of her being at HUJI), the instructions require me to verify the identity *within the text*.
+    *   The instructions state: ""Mark FALSE if the entity appears only in: ... search metadata ... Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
+    *   Since the name ""Moran Yehu"" is absent from the Title, Snippet, and the provided Content list, I cannot confirm she is the subject of the article.
+    *   Therefore, it is a ""False Positive"" in terms of *verifiable* connection to the keyword in this specific snippet.
+
+    *   *Wait, let's look closer at the Content.*
+    *   Result 5: ""Functional characterization of specialized immune cells in a ... - Nature"".
+    *   Does the snippet/text mention her? No.
+    *   If I mark it TRUE, I am making an inference that she is one of the ""Israeli scientists."" The instructions explicitly say: ""Do not infer commercial value... Do not infer... If the text does not verify... mark FALSE.""
+
+    *   ""Rejected: The article text does not verify that Moran Yehu is the scientist mentioned; the name does not appear in the title or snippet, meaning the match is likely a result of search metadata rather than a direct mention in the article, failing the verification requirement.""
+
+    *   Wait, look at the ""Special Rule for Google News Researcher Feeds"": ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals...""
+    *   Even if she were mentioned, the article's value depends on whether it shows *commercial/translation* signals. The snippet mentions ""antiviral defense that reverses human immune playbook."" This is a strong translational signal.
+    *   However, the primary failure is the *Identity Match*. I cannot find the name ""Moran Yehu"" in the provided text.
+
+    *   *Final Decision:* FALSE. The identity cannot be verified from the provided text.
+
+    *   *Double Check:* Is there any way she is mentioned? No. The text provided is just titles and snippets.
+
+    *   *Drafting the reason:*
+        ""Rejected: The article text does not verify that Moran Yehu is the researcher discussed; her name does not appear in the title or the provided snippets. While the topic of antiviral defense in sea anemones may have translational potential, the lack of an explicit connection to the matched entity means this cannot be validated as a relevant lead.""
+
+    *   *Wait, looking at the prompt again:* ""Apply a strict TTO filter: mark TRUE only when the article explicitly shows Yissum/TTO business-development value... Mark FALSE for... weak name matches.""
+    *   Since I can't even confirm the name match in the text, it's a False Positive.
+
+    *   *Refined Reason:* ""Rejected: The article text does not explicitly mention Moran Yehu, so the identity match cannot be verified from the provided content. Although the discovery of unique antiviral defenses in sea anemones could have translational value, the search result appears to be a weak name match or metadata-only match without direct confirmation of the researcher's involvement in the text.""
+
+    *   ""Return ONLY a raw JSON object"".
+
+    *   *Self-Correction during final review:* The prompt says: ""If the Search Context says 'Google News researcher', use a stricter TTO filter... Mark TRUE only if the article explicitly contains commercial/translation signals... If the commercial value is only speculative or generic, mark FALSE.""
+    *   The ""antiviral defense"" part is a signal, but the *Identity Verification* step (Step 1) is the first hurdle. If Step 1 fails, Step 3 is moot.
+
+    *   *Check:* Did I miss anything? The snippet mentions ""Israeli scientists"". It doesn't name them. The user provided the name ""Moran Yehu"" as the keyword found. I cannot confirm she is one of those scientists.
+
+    *   *Final check on ""Moran Yehu"" presence:*
+        Title: Israeli scientists...
+        Snippet: Israeli scientists...
+        Search Result 1: Israeli scientists...
+        Search Result 2: Sea anemones reveal...
+        Search Result 3: PDF...
+        Search Result 4: Scientists discover...
+        Search Result 5: Functional characterization...
+        No name.
+
+    *   *Conclusion:* FALSE.
+
+    *   *Wait, let me think like a human Analyst.* If I saw this, I'd check if Moran Yehu works on sea anemones. She does (her lab works on innate immunity/protists/etc). But the *instructions* for this AI task are very specific: ""Mark FALSE if the entity appears only in: ... search metadata... Mark TRUE only if the main article title or main article body clearly discusses the matched entity.""
+
+    *   This is a strict instruction. I must follow it.
+
+    *   *Result:*
+        `{""relevant"": false, ""reason"": ""Rejected: The provided article text and snippets do not explicitly mention Moran Yehu, making it impossible to verify the identity match within the main content. While the subject matter regarding antiviral defenses may possess translational potential, the absence of the researcher's name in the text classifies this as an unverified search match.""}",,,,,,google_news,The Times of Israel,resolved,https://news.google.com/rss/articles/CBMirwFBVV95cUxNYXpBZjg3cUZyWnFlQ3V0QjFOejZIUkVtcFBJdGdJSFZWVld4WlZKNExQVi02ckdGNEhabzZCcDNNRU5nbXUxVERBUExtNktMYVV4d181WklXaVZwSURLZll6clFvXzAwcDlicHB3OHRDNFIxNVl2aEJONFF3dXUxS1dMalZ1SjJTZ0NZLXdySXpnY3FVOXNqTklhUFozOC1yY1BFUi1BMzdwcEJFSnBn0gG0AUFVX3lxTFBGeXZuVWg5R2ZYRTZ1TndrTk9vWUJybDBsMjMwQWo2WkNRVF9yUkZILUFWSV9wV3pta2dZZ3Q0d3pPbmJzZUhpOHF6bWNIbTRqRGgzVGRZVWdBM193NXIxOUZXMy12YnNGc1ZraXFhZFc0bVVrQnQxZmt6S0JJcF9kSlJKakJLNG9WV25mSjNrZTgwWngtZ0dCNVNPa1lNeTNkTGNIcXhqMkppcjF2TFNyd3Y0bA?oc=5,gemma-4-26b-a4b-it,,,
+23/07/2026,Amazing Fun Fest eats &amp; sweet treats at The Taste – WJHL | Tri-Cities News &amp; Weather,wjhl.com,https://www.wjhl.com/video/amazing-fun-fest-eats-sweet-treats-at-the-taste/11999043/,"Please watch the video as we visit &quot;Baked &amp; Loaded&quot; for their &quot;Hippy Chick&quot; baked potato, a truly delicious Smashburger from &quot;Smashed Tri-Cities&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 23/07/2026,Every song on &#39;The Hawk&#39; soundtrack - NME,nme.com,https://www.nme.com/news/tv/every-song-on-the-hawk-soundtrack-3958628,The Hawk has landed on Netflix – but which songs appear in the Will Ferrell golf comedy? Find the full soundtrack below.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 23/07/2026,<b>HIPPY</b> and BangorHousing Partner to Bring Evidence-Based Early Learning to Families in ...,prnewswire.com,https://www.prnewswire.com/news-releases/hippy-and-bangorhousing-partner-to-bring-evidence-based-early-learning-to-families-in-rural-maine-302833174.html,"PRNewswire/ -- Home Instruction for Parents of Preschool Youngsters (HIPPY), the global organization that has pioneered evidence-based home&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),hippy international,full_keyword,FALSE,"Rejected: While the entity 'HIPPY International' is the subject of the article, it refers to a global non-profit organization focused on early childhood education. There is no mention of affiliation with Hebrew University, nor any evidence of intellectual property, licensing, or technology-transfer activity that would be relevant to Yissum's business development goals.","FULL_TEXT: Senior Innovation Analyst for Yissum (TTO of Hebrew University).
 Analyze a news item based on a Google Alert keyword (""Hippy (C.Y.) International"" / ""hippy international"").
@@ -711,11 +795,3 @@ Strict TTO filter. Commercial/translational signals only.
 17/07/2026,Compare Mark Dynamics Indonesia Tbk. (MARK) vs Mayora Indah Tbk. (<b>MYOR</b>) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/mark-idss-vs-myor-idss,"Which is the better fit depends on your goals. MARK, MYOR. Market Cap. 4.28T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: April 10, 2002.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 17/07/2026,Compare Ingria Pratama Capitalindo Tbk. (GRIA) vs Mayora Indah Tbk. (<b>MYOR</b>) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/gria-idss-vs-myor-idss,"Which is the better fit depends on your goals. GRIA, MYOR. Market Cap. 826.08B&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: 8 May 2013.,Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 17/07/2026,Campina Ice Cream Industry Tbk (CAMP) vs Mayora Indah Tbk. (<b>MYOR</b>) - Pluang,pluang.com,https://pluang.com/en/compare/camp-idss-vs-myor-idss,"Which is the better fit depends on your goals. CAMP, MYOR. Market Cap. 994.57B&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,,no_date_found,No visible article date was detected in the title/snippet/top article text.,google_alerts,Google Alerts,not_google_news,,,,,
-17/07/2026,Compare Gozco Plantations Tbk. (GZCO) vs Mayora Indah Tbk. (<b>MYOR</b>) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/gzco-idss-vs-myor-idss,"Gozco Plantations Tbk. GZCO+1.39%Rp146 × VS Mayora Indah Tbk. MYOR-1.69%Rp1,740 ×. Price performance (Past 24H). Percentage Price. GZCOMYOR.",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: Aug 10, 2001.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/07/2026,Pop culture fads baby boomers are embarrassed to admit they loved when they were younger - MSN,msn.com,https://www.msn.com/en-gb/entertainment/general/pop-culture-fads-baby-boomers-are-embarrassed-to-admit-they-loved-when-they-were-younger/ss-AA282qPy,"Fads don&#39;t ask permission. One minute you&#39;ve never heard of something. The next minute, everyone at work is doing it, every kid wants one,&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/07/2026,The top 12 guy skills women actually think are attractive - MSN,msn.com,https://www.msn.com/en-gb/lifestyle/other/the-top-12-guy-skills-women-actually-think-are-attractive/ss-AA1V4WMp,Discover related stories below or explore the feed for more content. ... Harry Styles &amp; Zoe Kravitz&#39;s wild hippy wedding – it couldn&#39;t be more different&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/07/2026,Step inside the spectacular homes of your favourite 90s stars - MSN,msn.com,https://www.msn.com/en-gb/entertainment/celebrities/step-inside-the-spectacular-homes-of-your-favourite-90s-stars/ss-AA27jtsO,"Discover the gorgeous houses of some of our favourite 1990s actors, singers, and sports stars.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/07/2026,"Cagamas issues sukuk, Islamic profit rate swap | New Straits Times - PressReader",pressreader.com,https://www.pressreader.com/malaysia/new-straits-times/20260717/282114938338835,"... MYOR-i. The sukuk was jointly arranged by AmInvestment Bank Bhd and CIMB Investment Bank Bhd as lead managers, while the Islamic profit rate swap&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,main_article_mismatch,FALSE,"Auto-Reject: Matched entity appears only outside the article title/early article body. Possible sidebar, footer, or related-post match. Context: imes 17 jul 2026 fonts save listen share print page view more +4 similar stories kuala lumpur: caga­mas bhd has issued malay­sia’s first sukuk and islamic profit rate swap linked to the malay­sia islamic overnight rate (myori), the new trans­ac­tion-",Rejected before AI: main article mismatch.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/07/2026,"Mary E. Moorer Obituary (2026) - Bay City, MI - Ambrose Funeral Home - Legacy",legacy.com,https://www.legacy.com/us/obituaries/name/mary-moorer-obituary?id=61980353,"She was an advocate, a hippy, a best friend, and a force to be reconned with when she had her mind set on something. One could not help but just&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/07/2026,Watch: Artist Daisy Barker talks through her bold and colourful Pride of Portsmouth lion Cushty - MSN,msn.com,http://www.msn.com/en-gb/travel/news/watch-artist-daisy-barker-talks-through-her-bold-and-colourful-pride-of-portsmouth-lion-cushty/ar-AA27KPsk?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1,A Portsmouth artist has talked through the “amazing” experience of creating the design for a lion in the Pride of Portsmouth Trail.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-24/07/2026,Israeli scientists say they’ve discovered a unique immune system in sea anemones - The Times of Israel,timesofisrael.com,https://www.timesofisrael.com/israeli-scientists-say-theyve-discovered-a-unique-immune-system-in-sea-anemones/,Israeli scientists say they’ve discovered a unique immune system in sea anemones&nbsp;&nbsp;The Times of Israel,Google News - Researcher - Moran Yehu,,precheck,,AI_RETRY: Fetch checkpoint before AI review.,Checkpoint before fetch,,,,,,google_news,The Times of Israel,resolved,https://news.google.com/rss/articles/CBMirwFBVV95cUxNYXpBZjg3cUZyWnFlQ3V0QjFOejZIUkVtcFBJdGdJSFZWVld4WlZKNExQVi02ckdGNEhabzZCcDNNRU5nbXUxVERBUExtNktMYVV4d181WklXaVZwSURLZll6clFvXzAwcDlicHB3OHRDNFIxNVl2aEJONFF3dXUxS1dMalZ1SjJTZ0NZLXdySXpnY3FVOXNqTklhUFozOC1yY1BFUi1BMzdwcEJFSnBn0gG0AUFVX3lxTFBGeXZuVWg5R2ZYRTZ1TndrTk9vWUJybDBsMjMwQWo2WkNRVF9yUkZILUFWSV9wV3pta2dZZ3Q0d3pPbmJzZUhpOHF6bWNIbTRqRGgzVGRZVWdBM193NXIxOUZXMy12YnNGc1ZraXFhZFc0bVVrQnQxZmt6S0JJcF9kSlJKakJLNG9WV25mSjNrZTgwWngtZ0dCNVNPa1lNeTNkTGNIcXhqMkppcjF2TFNyd3Y0bA?oc=5,,,,
