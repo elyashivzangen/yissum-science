@@ -551,22 +551,3 @@ Analyze a news item to see if it's strategically relevant for Business Developme
 }
 ```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
 18/07/2026,"We live in a perpetually burning building, and what we must save from it, all the time, is love. GNR",dailykos.com,https://www.dailykos.com/stories/2026/7/18/800069724/community/we-live-in-a-perpetually-burning-building-and-what-we-must-save-from-it-all-the-time-is-love-gnr/,"And by doing so, we save ourselves. We save one another. We save the world. This isn&#39;t some hippy dippy shit (although I do love me the hippy dippy&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-18/07/2026,Yeah… never mind order this NOW!!! Link in bio #shorts #frog #meme #funny #funnyclothes,youtube.com,https://www.youtube.com/watch?v=RhRDvd57NlY,Comments. 5. Hippy hoppity hee get the fck out my tree ah quote. 11:31 &middot; Go to channel BeardMeatsFood. THE PIE CHALLENGE THAT NOBODY HAS MANAGED&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-18/07/2026,"His $10,000,000 cooking experiment got out of control | Watch - MSN",msn.com,https://www.msn.com/en-us/news/opinion/his-10-000-000-cooking-experiment-got-out-of-control/vi-AA2890JW,The biggest question is whether spending that much money can actually create a better meal or just make everything more extreme. As the experiment&nbsp;...,Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),better meal,full_keyword,FALSE,"Rejected: The keyword ""better meal"" is used as a generic descriptive phrase in an article about a cooking experiment, not as a reference to a specific company, technology, or researcher affiliated with the Hebrew University. There is no TTO or business development value.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
-    *   Task: Validate a Google Alert for strategic relevance.
-    *   Keyword: ""Better Meal"".
-    *   News Item: Title: ""His $10,000,000 cooking experiment got out of control | Watch - MSN"". Snippet: ""...create a better meal or just make everything more extreme.""
-    *   Goal: Determine if ""Better Meal"" refers to a researcher or portfolio company of Yissum/HUJI, or if it's a generic phrase.
-
-    *   Keyword: ""Better Meal"".
-    *   Article context: A cooking experiment involving spending $10 million.
-    *   Text: ""whether spending that much money can actually create a better meal...""
-
-    *   Step 1: Entity Verification. The keyword ""better meal"" is used as a common phrase (a meal that is better) in the context of a cooking video/story. It is *not* used as a proper noun referring to a company or a person.
-    *   Step 2: Main Article Validation. Even though it's in the main text, it's not an entity.
-    *   Step 3: Strategic Value. No scientific, commercial, or translational value. It's about a luxury cooking experiment.
-    *   Step 4: Be Strict. This is a classic ""False Positive"" where a common phrase matches a keyword (presumably Yissum has a company or project called ""Better Meal"", or it was a broad keyword search).
-
-    *   `relevant`: false
-    *   `reason`: The keyword ""better meal"" is used as a generic descriptive phrase in an article about a cooking experiment, not as a reference to a specific company, technology, or researcher affiliated with the Hebrew University. There is no TTO or business development value.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-18/07/2026,"The world&#39;s greatest cakes, ranked - MSN",msn.com,https://www.msn.com/en-gb/food-and-drink/desserts/the-world-s-greatest-cakes-ranked/ss-AA21V4SW,"The world&#39;s greatest cakes, ranked ... Discover related stories below or explore the feed for more content. ... Harry Styles &amp; Zoe Kravitz&#39;s wild hippy&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
