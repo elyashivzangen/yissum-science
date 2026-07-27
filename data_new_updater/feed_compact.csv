@@ -1,5 +1,28 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
 27/07/2026,What is a Mah Jong sofa? A guide to a 1970s icon | Wallpaper*,wallpaper.com,https://www.wallpaper.com/design-interiors/furniture/mah-jong-sofa-hans-hopfer-design-icon,... hippy-coded sofa. Mah Jong sofa: a 1970s seating landscape. Mah Jong Sofa in LA. A wide composition of the Mah Jong sofa upholstered by Missoni&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+27/07/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs OBM Drilchem Tbk. (OBMD) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-obmd-idss,"Which is the better fit depends on your goals. MYOR, OBMD. Market Cap. 38.12T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword 'MYOR' refers to the stock ticker symbol for Mayora Indah Tbk., an Indonesian food manufacturer. It is not related to a Hebrew University researcher or a Yissum portfolio company, and the content is a routine stock market performance comparison with no TTO or business development value.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
+""Myor"" (matched as ""myor"").
+A stock market comparison article between ""Mayora Indah Tbk. (MYOR)"" and ""OBM Drilchem Tbk. (OBMD)"".
+
+    *   *Step 1: Entity Verification.*
+        *   The keyword ""MYOR"" in the text refers to the ticker symbol for ""Mayora Indah Tbk."", an Indonesian food manufacturer (biscuits, wafers, candies, etc.).
+        *   Is ""MYOR"" a known Hebrew University researcher or a Yissum portfolio company? Based on the content, this is a publicly traded company in Indonesia.
+        *   There is no mention of a researcher named Myor or any affiliation with Hebrew University (HUJI).
+
+    *   *Step 2: Main Article Validation.*
+        *   The entity (Mayora Indah Tbk. / MYOR) is indeed the subject of the main article. However, the identity doesn't match the TTO's needs.
+
+    *   *Step 3: Strategic Value.*
+        *   The content is an auto-generated stock market comparison (""Price & Performance"").
+        *   The company produces consumer foods (biscuits, coffee, etc.) in Indonesia.
+        *   There is no IP, licensing, clinical trial, or translational research signal relevant to Yissum.
+
+    *   *Step 4: Be Strict.*
+        *   This is a clear ""False Positive."" The keyword ""myor"" matched a stock ticker, not a person or a tech entity relevant to Hebrew University.
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The keyword 'MYOR' refers to the stock ticker symbol for Mayora Indah Tbk., an Indonesian food manufacturer. It is not related to a Hebrew University researcher or a Yissum portfolio company, and the content is a routine stock market performance comparison with no TTO or business development value.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 27/07/2026,This hits different#shorts - YouTube,youtube.com,https://www.youtube.com/watch?v=qy4oGm4EQtw,Evan Edinger•1.6M views &middot; 2:41 &middot; Go to channel L3V1T4T3 &middot; First video on this channel woww hippy horay. L3V1T4T3. New. 44 views &middot; 10:50 &middot; Go to&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 27/07/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Sumber Global Energy Tbk. (SGER) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-sger-idss,"Which is the better fit depends on your goals. MYOR, SGER. Market Cap. 39.13T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The Google Alert keyword 'Myor' is a false positive. The article discusses 'Mayora Indah Tbk.' (MYOR), an Indonesian processed food manufacturer, focusing on its stock market performance and financial comparisons. This content is unrelated to Hebrew University researchers, Yissum portfolio companies, or any direct technology transfer or commercial development relevant to our office.","FULL_TEXT: ```json
 {
