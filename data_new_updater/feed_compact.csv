@@ -1,4 +1,33 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+30/07/2026,"IBM and Qedma Demonstrate Quantum Advantage, Modeling Physics Beyond Classical ...",newsroom.ibm.com,"https://newsroom.ibm.com/2026-07-30-ibm-and-qedma-demonstrate-quantum-advantage,-modeling-physics-beyond-classical-capabilities-through-trusted-quantum-computation","Qedma Quantum Computing, a pioneer in quantum error reduction software and IBM announced a breakthrough study demonstrating how trusted,&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified that the article describes a major breakthrough by Qedma Quantum Computing in collaboration with IBM. The company's patented QESEM software achieved a milestone of quantum advantage, demonstrating commercial and industrial applicability in materials science. Given the involvement of prominent scientists and the strategic partnership with IBM, this represents a high-value translational signal relevant to Yissum's portfolio and business development tracking.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
+Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
+""Qedma Quantum Computing"".
+""IBM and Qedma Demonstrate Quantum Advantage..."".
+
+        *   Strict TTO filter for ""Google News researcher"" contexts (though this is more of a company/entity match).
+        *   Need commercial/translation signals: IP, licensing, startup, industry relevance, clinical/therapeutic/diagnostic application, fundable path, major grants, prestigious awards, or Yissum/HUJI value.
+        *   Exclude: Generic academic commentary, basic science stories without translation signals.
+        *   Entity Verification: Is it the correct entity?
+        *   Main Article Validation: Is the entity the focus of the main text?
+        *   Strategic Value: Is there a business/tech-transfer signal?
+
+    *   *Title:* IBM and Qedma Demonstrate Quantum Advantage...
+    *   *Entity:* Qedma Quantum Computing.
+    *   *Key Details:*
+        *   Partnership with IBM.
+        *   Product: QESEM (Quantum Error Suppression and Error Mitigation) software.
+        *   Achievement: ""Quantum Advantage"" in modeling physics beyond classical capabilities.
+        *   Commercial angle: ""commercially available hardware and software,"" ""patented approach,"" ""available in the Qiskit Functions Catalog,"" ""used by leading enterprises.""
+        *   Founders: Dr. Asif Sinay, Prof. Dorit Aharonov, Prof. Netanel Lindner.
+        *   HUJI Connection: Prof. Dorit Aharonov and Prof. Netanel Lindner are world-renowned researchers. While the text doesn't explicitly say "" Hebrew University"" in the ""About Qedma"" section, these are high-profile HUJI professors. (Even if the prompt asks for explicit affiliation, the company itself is the entity being tracked).
+        *   TTO Signal: Strategic partnership with IBM, patented software (QESEM), commercial availability/product launch, demonstration of quantum advantage (high-value IP/tech).
+
+    *   Step 1: Entity Verification $\rightarrow$ Yes, it's Qedma Quantum Computing.
+    *   Step 2: Main Article Validation $\rightarrow$ Yes, they are the co-protagonist of the press release.
+    *   Step 3: Strategic Value $\rightarrow$ Extremely high. It's a commercial startup demonstrating a breakthrough with a major partner (IBM), using patented software to achieve a milestone (Quantum Advantage). This is a textbook case of translational value.
+
+    *   `relevant`: true
+    *   `reason`: Verified that the article describes a major breakthrough by Qedma Quantum Computing in collaboration with IBM. The company's patented QESEM software achieved a milestone of quantum advantage, demonstrating commercial and industrial applicability in materials science. Given the involvement of prominent scientists and the strategic partnership with IBM, this represents a high-value translational signal relevant to Yissum's portfolio and business development tracking.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,https://newsroom.ibm.com/image/BA_IBMNewsQuantumv1-1920x1080.png,,
 30/07/2026,Governor Ivey Proclaims Aug. 1 as Will Roberts Day - Wiregrass Daily News,wiregrassdailynews.com,https://wiregrassdailynews.com/featured-news/2026-07-29/governor-ivey-proclaims-aug-1-as-will-roberts-day/,"(WDNews) — Governor Kay Ivey has officially proclaimed Aug. 1, 2026, as Will Roberts Day in Alabama, honoring the life and legacy of 15-year-old&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 30/07/2026,Talking Pictures: 70s Legends Part II - TV Guide,tvguide.co.uk,https://www.tvguide.co.uk/schedule/13228f0a-460a-5640-b046-531edaec8107/talking-pictures-70s-legends-part-ii,"... hippy-sounding relaxation techniques at the time of Dirty Harry. Talking Pictures: 70s Legends Part II airs on BBC Four HD at 12:30 AM, Friday 31&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 30/07/2026,Ozark Funeral Homes Targeted in Stretcher Thefts - Wiregrass Daily News,wiregrassdailynews.com,https://wiregrassdailynews.com/featured-news/2026-07-29/ozark-funeral-homes-targeted-in-stretcher-thefts/,"(WDNews) — Two Ozark funeral homes were recently targeted by thieves who stole stretchers from funeral home vans, leaving the businesses without&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
@@ -531,27 +560,3 @@ JSON object with `relevant` (boolean) and `reason` (string).
 
     *   `relevant`: false
     *   `reason`: ""Rejected: While the entity 'HIPPY International' is the subject of the article, it refers to a global non-profit organization focused on early childhood education. There is no mention of affiliation with Hebrew University, nor any evidence of intellectual property, licensing, or technology-transfer activity that would be relevant to Yissum's business development goals.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-23/07/2026,Mandurah Race 4 Result - 23 Jul 2026 - Racenet,racenet.com.au,https://www.racenet.com.au/results/greyhounds/mandurah-20260723/all-torque-engineering-race-4,All Torque Engineering ; 2. Junk Yard Hippy (2). 1st. 2. ; 6. Lansley Whisper (6). 2nd. 6. ; 7. Lil Miss Sophie (7). 3rd. 7. ; 5. Trunkey Frank (5). 4th.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-23/07/2026,Consumer: 2Q26 Preview: Post-Eid Slowdown with Margin Pressure (OVERWEIGHT),brights.id,https://www.brights.id/en/research-and-news/research-report/consumer-2q26-preview-post-eid-slowdown-with-margin-pressure-overweight,"Maintain Overweight on the sector; top picks are MYOR (TP Rp2,700) and ICBP (TP Rp10,500). 2Q26E: post-Eid seasonal rev softness, while cost pressures&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The mention of 'MYOR' refers to a stock ticker for an Indonesian consumer goods company (PT Mayora Indah Tbk) in a financial equity research report. There is no connection to a Hebrew University researcher or a Yissum portfolio company, making this a false positive with no strategic TTO value.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
-Determine if a news item is strategically relevant for Business Development & Licensing.
-""Myor"" (found as ""myor"").
-Financial report titled ""Consumer: 2Q26 Preview: Post-Eid Slowdown with Margin Pressure (OVERWEIGHT)"".
-
-        *   Researchers: Must be HUJI affiliated and have commercial/translational signals (IP, startups, clinical, etc.).
-        *   Portfolio Companies: Must have fundraising, M&A, clinical trials, etc.
-        *   Institutional: TTO-relevant innovation centers, etc.
-        *   Strict filter: If it's just stock market chatter or an unrelated entity, mark FALSE.
-
-    *   Title: ""Consumer: 2Q26 Preview: Post-Eid Slowdown with Margin Pressure (OVERWEIGHT)""
-    *   Content: Discusses consumer companies, specifically mentions ""MYOR"" alongside ""ICBP"", ""INDF"", and ""UNVR"".
-    *   Context of ""MYOR"": It's listed as a ""top pick"" in an equity research report. The prices are in ""Rp"" (Indonesian Rupiah).
-    *   Identity of ""MYOR"": ""MYOR"" is the stock ticker for PT Mayora Indah Tbk, a large Indonesian food and beverage company.
-
-    *   *Step 1: Entity Verification.* The search keyword was ""Myor"". The article refers to ""MYOR"" (PT Mayora Indah Tbk), an Indonesian consumer goods company. This is not a HUJI researcher, nor is it a Yissum portfolio company (which typically focuses on deep tech/biotech/science coming out of the university).
-    *   *Step 2: Main Article Validation.* The entity is in the main article, but it's a stock ticker.
-    *   *Step 3: Strategic Value.* This is a financial analysis of an Indonesian FMCG (Fast Moving Consumer Goods) company. It has zero relevance to Hebrew University's technology transfer, licensing, or deep-tech portfolio.
-    *   *Step 4: Be Strict.* This is a classic ""False Positive"" based on a ticker symbol matching a potential name or entity keyword.
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The mention of 'MYOR' refers to a stock ticker for an Indonesian consumer goods company (PT Mayora Indah Tbk) in a financial equity research report. There is no connection to a Hebrew University researcher or a Yissum portfolio company, making this a false positive with no strategic TTO value.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-23/07/2026,"BRI Danareksa Sekuritas Equity Snapshot - Thursday,July 23,2026",brights.id,https://www.brights.id/en/research-and-news/research-report/bri-danareksa-sekuritas-equity-snapshot-thursdayjuly-232026,"Maintain Overweight on the sector; top picks are MYOR (TP Rp2,700) and ICBP (TP Rp10,500). To see the full version of this report, please click&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,main_article_mismatch,FALSE,Auto-Reject: Matched entity was not verified in the article title or main article body.,Rejected before AI: main article mismatch.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
