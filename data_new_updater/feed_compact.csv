@@ -1,4 +1,63 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+30/07/2026,Alabama Power Celebrates Wiregrass Partnerships,wiregrassdailynews.com,https://wiregrassdailynews.com/featured-news/2026-07-29/alabama-power-celebrates-wiregrass-partnerships/,"DOTHAN, Ala. (WDNews) — Alabama Power brought together Wiregrass community leaders, elected officials and representatives from local organizations&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+30/07/2026,<b>MYOR</b> - 2Q26 result: in-line core profit despite GPM improvement - IndoPremier,indopremier.com,"https://www.indopremier.com/ipotnews/newsDetail.php?jdl=MYOR___2Q26_result__in_line_core_profit_despite_GPM_improvement&news_id=229013&group_news=IPOTNEWS&taging_subtype=MYOR&name=&search=y_general&q=(MYOR),%20MYOR,&halaman=1","Maintain BUY with an unchanged TP of Rp2,700/sh. 1H26 core earnings were in-line with our/consensus estimates. MYOR. posted 1H26 net profit of Rp1.7tr&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,,"AI_RETRY: AI Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 34.686463393s.","{
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 34.686463393s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"",
+            ""quotaId"": ""GenerateContentInputTokensPerModelPerMinute-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-2.0-flash""
+            }
+          },
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerMinutePerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-2.0-flash""
+            }
+          },
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-2.0-flash""
+            }
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""34s""
+      }
+    ]
+  }
+}
+",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+30/07/2026,Saliba Center <b>HIPPY</b> Program Hiring Home Visitor - Wiregrass Daily News,wiregrassdailynews.com,https://wiregrassdailynews.com/featured-news/2026-07-29/saliba-center-hippy-program-hiring-home-visitor/,"DOTHAN, Ala. (WDNews) — According to the Saliba Center&#39;s HIPPY Program, the organization is hiring a Kindergarten Readiness Home Visitor to serve&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+30/07/2026,14-year-old victim identified in Hippie Hole drowning - KELOLAND.com,keloland.com,https://www.keloland.com/news/local-news/14-year-old-victim-identified-in-hippie-hole-drowning/,"SIOUX FALLS, S.D. (KELO) – The Pennington County Sheriff&#39;s Office (PCSO) has identified the victim in Tuesday&#39;s drowning at Hippie Hole in the&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 29/07/2026,How &#39;defund the police&#39; ideologues laid waste to Portland | The Spectator,spectator.com,https://spectator.com/article/how-defund-the-police-ideologues-laid-waste-to-portland/?edition=us,"Portland&#39;s downtown area, though not without a certain residual hippy charm, increasingly resembles the Dunkirk of May 1940. Standing on top of&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 29/07/2026,"&#39;We must be more resilient to fires&#39;, GM Mayoral candidates say - Saddleworth Independent",saddind.co.uk,https://saddind.co.uk/we-must-be-more-resilient-to-fires-gm-mayoral-candidates-say/,"&#39;We must be more resilient to fires&#39;, GM Mayoral candidates say. Leslie Kerwin July 29, 2026 dove stone reservoirElectionMoorland FiresMyor of Greater&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""myor"" in the text is a typographical error for ""Mayor"" within a political news story about the Greater Manchester Mayoral election. It does not refer to a HUJI researcher or any entity of strategic interest to Yissum.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
     *   Task: Analyze a news item to determine strategic relevance for BD & Licensing.
@@ -510,4 +569,3 @@ Financial report titled ""Consumer: 2Q26 Preview: Post-Eid Slowdown with Margin 
     *   `reason`: ""Rejected: The mention of 'MYOR' refers to a stock ticker for an Indonesian consumer goods company (PT Mayora Indah Tbk) in a financial equity research report. There is no connection to a Hebrew University researcher or a Yissum portfolio company, making this a false positive with no strategic TTO value.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 23/07/2026,"BRI Danareksa Sekuritas Equity Snapshot - Thursday,July 23,2026",brights.id,https://www.brights.id/en/research-and-news/research-report/bri-danareksa-sekuritas-equity-snapshot-thursdayjuly-232026,"Maintain Overweight on the sector; top picks are MYOR (TP Rp2,700) and ICBP (TP Rp10,500). To see the full version of this report, please click&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,main_article_mismatch,FALSE,Auto-Reject: Matched entity was not verified in the article title or main article body.,Rejected before AI: main article mismatch.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 23/07/2026,"Pleasant Valley group hosts picnic to help students, community - Amarillo Globe-News",amarillo.com,https://www.amarillo.com/story/news/2026/07/23/backpacks-gathered-for-youngsters-at-first-pleasant-valley-river-road-group-community-picnic/90983330007/,The Home Instruction for Parents of Preschool Youngsters (HIPPY) attended the first Pleasant Valley. Ruly Bee&#39;s Food Truck was also there to feed the&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-23/07/2026,Camden Fairview opens enrollment for Early Childhood Education Center,camdenarknews.com,https://www.camdenarknews.com/news/2026/jul/22/camden-fairview-opens-enrollment-for-early/,"A press release from the district states, &quot;The program is offered under the direction of Angela Avery, CFSD ABC and HIPPY Director, and provides a&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
