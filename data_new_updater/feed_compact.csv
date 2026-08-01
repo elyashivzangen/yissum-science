@@ -5,21 +5,37 @@ published_date,title,source_domain,url,snippet,feed_name,matched_names,match_sta
   ""reason"": ""Verified: The article discusses new research led by Prof. Howard Cedar from the Hebrew University of Jerusalem, focusing on cellular aging and its implications for cancer treatment and early disease detection. This is highly relevant for Yissum because the article explicitly highlights commercial/translational value: it mentions the potential for developing new cancer treatments, earlier detection of numerous diseases, and drugs to slow aging. Crucially, it links Prof. Cedar's foundational DNA methylation research to the development of the Galleri early-detection kit for over 50 types of cancer, demonstrating a direct path from his work to clinical and commercial application.""
 }
 ```",,,,,,google_news,The Jerusalem Post,resolved,https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xV0p0cUNjUTlKR3lXRjRZNmVOaXpXN0xKTkhjMDdrcmloeklENHhpT0JEN1NpUmFkdDRnblhfREVxdUdCTWdfNTRGOWt0NzFVMmtvRTNDTkg0UGtLMDg3Z2tjTE1UdEE?oc=5,gemini-2.5-flash,"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/732114",,
-01/08/2026,IBM presents three studies that prove the advantages of quantum computing - TI Inside,tiinside.com.br,https://tiinside.com.br/en/30/07/2026/IBM-presents-three-studies-that-prove-the-advantages-of-quantum-computing./,"Developed in partnership with the University of Chicago, Qedma Quantum Computing, and Algorithmiq, the studies also present different techniques for&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article discusses Qedma Quantum Computing's strategic partnership with IBM to demonstrate quantum advantage in materials simulation. Specifically, it highlights the use of QESEM error mitigation software developed by Qedma, which allowed for the modeling of complex quantum systems that classical supercomputers could not handle. This represents a significant commercial and technical milestone for a portfolio-related entity, signaling high industry relevance and a concrete path toward commercial application in materials science.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item to see if it's strategically relevant for BD & Licensing.
-""Qedma Quantum Computing"" (Found as ""qedma quantum computing"").
-A news article titled ""IBM presents three studies that prove the advantages of quantum computing - TI Inside"".
+01/08/2026,IBM presents three studies that prove the advantages of quantum computing - TI Inside,tiinside.com.br,https://tiinside.com.br/en/30/07/2026/IBM-presents-three-studies-that-prove-the-advantages-of-quantum-computing./,"Developed in partnership with the University of Chicago, Qedma Quantum Computing, and Algorithmiq, the studies also present different techniques for&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article highlights a strategic partnership between IBM and Qedma Quantum Computing. Specifically, it credits Qedma's proprietary QESEM error mitigation software as a key component in achieving a first-of-its-kind demonstration of quantum advantage for scientific materials research. This represents a significant commercial and translational signal, as it validates the utility of Qedma's software in a high-value industrial application.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
+Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
+""Qedma Quantum Computing"".
+""IBM presents three studies that prove the advantages of quantum computing - TI Inside"".
 
-    *   *Step 1: Entity Verification.* Does the article mention ""Qedma Quantum Computing""? Yes.
-    *   *Step 2: Main Article Validation.* Is the entity part of the main body? Yes. It's mentioned multiple times. It partnered with IBM on a study regarding the simulation of quantum materials using the ""QESEM error mitigation software, developed by Qedma.""
-    *   *Step 3: Strategic Value.*
-        *   Is Qedma a HUJI spin-off or associated entity? (Internal knowledge/Context check: Qedma is indeed a quantum computing startup often associated with the Hebrew University ecosystem).
-        *   What is the signal? The article describes a ""strategic partnership"" with IBM, the development of specific software (""QESEM error mitigation software""), and the achievement of ""quantum advantage"" using ""commercially available hardware and software.""
-        *   Relevance criteria for Portfolio Companies: ""Strategic Partnerships, Product Launches."" This fits perfectly.
-    *   *Step 4: Be Strict.* Is this a trivial mention? No, it's a central part of one of the three major studies presented by IBM. Is it speculative? No, it describes concrete software (QESEM) and a specific result (simulating a 2D Ising-de-Floquet model with 74 qubits).
+        1. Entity Verification (Is it the right entity?).
+        2. Main Article Validation (Is it part of the main content, not a sidebar?).
+        3. Strategic Value (Commercial/translational signal vs. trivial/generic?).
+        4. Strict Filter (High-quality business intelligence).
 
-    *   `relevant`: true.
-    *   `reason`: ""Verified: The article discusses Qedma Quantum Computing's strategic partnership with IBM to demonstrate quantum advantage in materials simulation. Specifically, it highlights the use of QESEM error mitigation software developed by Qedma, which allowed for the modeling of complex quantum systems that classical supercomputers could not handle. This represents a significant commercial and technical milestone for a portfolio-related entity, signaling high industry relevance and a concrete path toward commercial application in materials science.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
+    *   *Title:* ""IBM presents three studies that prove the advantages of quantum computing - TI Inside""
+    *   *Snippet:* ""Developed in partnership with the University of Chicago, Qedma Quantum Computing, and Algorithmiq...""
+    *   *Full Content:*
+        *   Discusses three studies by IBM.
+        *   Study 2 specifically mentions ""partnership with Qedma Quantum Computing"".
+        *   Mentions ""QESEM error mitigation software, developed by Qedma"".
+        *   Results: Modeled systems with up to 74 qubits, observed quantum dynamics not reproducible by classical simulation.
+        *   Claim: ""first demonstration of quantum advantage obtained using commercially available hardware and software for scientific materials research.""
+
+    *   *Step 1 (Entity Verification):* The text explicitly mentions ""Qedma Quantum Computing"". It's a quantum computing company/entity.
+    *   *Step 2 (Main Article Validation):* Qedma is a core partner in one of the three main studies discussed in the article. It's not a sidebar or a ""related post"". It's central to the second study's success.
+    *   *Step 3 (Strategic Value):*
+        *   Company: Qedma Quantum Computing.
+        *   Event: Strategic partnership with IBM.
+        *   Technology: QESEM error mitigation software.
+        *   Outcome: Demonstrated ""quantum advantage"" in scientific materials research using commercially available hardware/software.
+        *   TTO value: This is a high-value commercial signal. A startup/entity developing proprietary software (QESEM) that enables quantum advantage in materials science (a key vertical for licensing and industry partnerships) is highly relevant for a BD team monitoring the quantum ecosystem. Even if Qedma is not explicitly stated as a HUJI spin-off *in this text*, the prompt asks to validate if the alert is relevant for *Business Development & Licensing teams* based on the entity matched. Since Qedma is a quantum computing venture (often linked to academic research), and the news describes a commercial software application (QESEM) achieving a milestone (quantum advantage), it is strategically relevant.
+    *   *Step 4 (Be Strict):* Does it meet the ""Commercial/Translation"" signal? Yes. ""Commercially available hardware and software"", ""strategic partnership with IBM"", and ""scientific materials research"" are clear industry signals.
+
+    *   `relevant`: true
+    *   `reason`: Verified: The article highlights a strategic partnership between IBM and Qedma Quantum Computing. Specifically, it credits Qedma's proprietary QESEM error mitigation software as a key component in achieving a first-of-its-kind demonstration of quantum advantage for scientific materials research. This represents a significant commercial and translational signal, as it validates the utility of Qedma's software in a high-value industrial application.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 31/07/2026,IBM quietly cleared a quantum computing hurdle experts doubted - Yahoo Finance Singapore,sg.finance.yahoo.com,https://sg.finance.yahoo.com/news/ibm-quietly-cleared-quantum-computing-200700986.html,"The company announced three separate quantum computing results, with the University of Chicago, Israel&#39;s Qedma Quantum Computing, and Italy&#39;s&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,main_article_mismatch,FALSE,Auto-Reject: Matched entity was not verified in the article title or main article body.,Rejected before AI: main article mismatch.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 31/07/2026,New ban on THC and other consumable hemp products takes effect in Texas. Here&#39;s what to know.,houstonchronicle.com,https://www.houstonchronicle.com/news/houston-texas/trending/article/delta-8-thc-ban-22368772.php,"Delta-8 supplements on a shelf inside Hippy Bee Dispensary on Saturday, July 22 2023 in Garland, Texas. The Washington Post/The Washington Post via&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,old_article,FALSE,Auto-Reject: Old article resurfaced by Google News. Visible article date found: Sat Jul 22 2023.,Old article filter,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 31/07/2026,Beaded Necklaces Are Trending – We&#39;ve Found The Best Ones - Grazia,graziadaily.co.uk,https://graziadaily.co.uk/fashion/jewellery/best-beaded-necklaces/,Channel your eclectic aunt and bring an artistic vibe to every ensemble with a beaded necklace this season. Here are the best to shop now.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
@@ -83,59 +99,25 @@ JSON object with `relevant` (boolean) and `reason` (string).
 }
 ```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,https://quantumcomputingreport.com/wp-content/uploads/2026/07/image-302.png,,
 31/07/2026,"IBM, <b>Qedma Quantum Computing</b> demonstrate error-mitigated quantum computation - TipRanks.com",tipranks.com,https://www.tipranks.com/news/the-fly/ibm-qedma-quantum-computing-demonstrate-error-mitigated-quantum-computation-thefly-news,"Qedma Quantum Computing and IBM (IBM) announced a study demonstrating how trusted, error-mitigated quantum computation is possible,&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-30/07/2026,IBM Is Making Another Quantum Bet. Three New Partnerships Could Matter - TradingView,tradingview.com,https://www.tradingview.com/news/gurufocus:6981a79da094b:0-ibm-is-making-another-quantum-bet-three-new-partnerships-could-matter/,... Qedma Quantum Computing and Italian software company Algorithmiq.IBM said researchers working with the University of Chicago completed a quantum cal…,Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article discusses the Israel-based company Qedma Quantum Computing and its strategic collaboration with IBM. The partnership involves utilizing Qedma’s QESEM error-mitigation software on IBM’s quantum systems to advance material physics research. This provides high-value business intelligence regarding the commercial application and industry adoption of quantum error-mitigation technologies within the Israeli ecosystem."" Wait, I should double-check if I should mark it FALSE if it's NOT a HUJI entity.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-Determine if a news item is strategically relevant for BD & Licensing teams based on a keyword match.
-""Qedma Quantum Computing"".
-""IBM Is Making Another Quantum Bet. Three New Partnerships Could Matter - TradingView"".
-IBM expanded quantum research through collaborations with University of Chicago, Israel-based Qedma Quantum Computing, and Algorithmiq. Specifically, IBM and Qedma used IBM's quantum systems alongside Qedma's QESEM error-mitigation software to study material physics.
+30/07/2026,IBM Is Making Another Quantum Bet. Three New Partnerships Could Matter - TradingView,tradingview.com,https://www.tradingview.com/news/gurufocus:6981a79da094b:0-ibm-is-making-another-quantum-bet-three-new-partnerships-could-matter/,... Qedma Quantum Computing and Italian software company Algorithmiq.IBM said researchers working with the University of Chicago completed a quantum cal…,Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article identifies Qedma Quantum Computing as an Israel-based company entering a strategic partnership with IBM. Specifically, it highlights the use of Qedma's QESEM error-mitigation software to model material physics, which constitutes a strong commercial signal and validates the market relevance of the technology for Yissum's business development and licensing interests.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
+Analyze a news item to see if it's strategically relevant for BD & Licensing.
+""Qedma Quantum Computing"" (Found as ""qedma quantum computing"").
+""IBM Is Making Another Quantum Bet. Three New Partnerships Could Matter - TradingView""
 
-    *   *Step 1: Entity Verification:* The keyword is ""Qedma Quantum Computing"". The article explicitly mentions ""Israel-based Qedma Quantum Computing"". Match confirmed.
-    *   *Step 2: Main Article Validation:* The entity is part of the main article's text, not just a sidebar or footer. It describes a specific collaboration between IBM and Qedma.
-    *   *Step 3: Strategic Value:*
-        *   Context: Qedma is an ""Israel-based"" company.
-        *   Activity: Strategic partnership/collaboration with IBM (a global tech giant).
-        *   Technology: QESEM error-mitigation software used for material physics modeling.
-        *   Relevance to Yissum: While Qedma itself might not be a HUJI spin-off (the text doesn't explicitly state it is, it just says it's an Israel-based company), the *nature* of the news (strategic partnership with IBM in the quantum sector) is high-value intelligence for a TTO tracking the quantum ecosystem in Israel. *Wait, let's re-read the Yissum Filter.*
-        *   *Yissum Filter check:*
-            *   Researcher: Not applicable (this is a company).
-            *   Portfolio Companies: ""Strategic Partnerships"" are a ""YES"".
-            *   Institutional (Yissum U): Not directly mentioned as HUJI.
-    *   *Crucial distinction:* The instructions say: ""Determine if it is strategically relevant for our Business Development & Licensing teams."" and ""Your goal is to VALIDATE this alert... determine if the keyword usage is genuinely relevant to our Business Development goals or if it is a 'False Positive'"".
-    *   *Does Qedma belong to Yissum?* The prompt doesn't say Qedma is a Yissum company. However, as a TTO analyst, I am tracking the keyword ""Qedma Quantum Computing"". If the keyword was flagged, it's because the TTO is monitoring this specific entity.
-    *   *Is the content relevant?* The article describes a significant strategic partnership/collaboration between a major Israeli tech company (Qedma) and IBM involving error-mitigation software and material physics. This is highly relevant industry intelligence for a TTO looking at the quantum/material science sector in Israel. Even if Qedma isn't a Yissum company, the alert was triggered by a keyword the TTO cares about. The *content* validates the keyword's importance.
+        *   Entity Verification: Is it the right ""Qedma Quantum Computing""? (Yes, the article mentions ""Israel-based Qedma Quantum Computing"").
+        *   Main Article Validation: Is the entity part of the main content? (Yes, it's explicitly mentioned in the body and the core narrative about IBM's partnerships).
+        *   Strategic Value (The ""Yissum Filter""):
+            *   Is it a HUJI researcher? Not explicitly stated as a researcher, but as a company.
+            *   Is it a Portfolio Company? If ""Qedma Quantum Computing"" is a HUJI spin-off (which is common for Israel-based quantum startups, though not explicitly stated in the text), a strategic partnership with IBM is highly relevant.
+            *   Even if not explicitly labeled as a HUJI spin-off in the text, the filter for Portfolio Companies says: ""Strategic Partnerships"" are ✅ RELEVANT.
+            *   The article discusses a specific product/software: ""QESEM error-mitigation software"" used to ""study material physics."" This is a concrete commercial/translation signal.
 
-    *Self-Correction/Refinement:* If Qedma is a company the TTO tracks (perhaps as a potential partner, a spin-off they missed, or a competitor to a HUJI technology), this news of a collaboration with IBM is a high-value signal.
-    *Does it meet the ""Strict Rule""?* ""Mark TRUE only if the article explicitly contains commercial/translation signals: IP/licensing, startup or industry relevance... a concrete fundable path...""
-    *Evidence:* The article describes a ""collaboration"" where IBM used Qedma's proprietary software (""QESEM"") for material physics research. This is a clear indicator of commercial/industry relevance and technological application.
-
-    *   *Identity Match:* Confirmed (Qedma Quantum Computing).
-    *   *Article Evidence:* IBM and Qedma are collaborating using Qedma's QESEM error-mitigation software to study material physics.
-    *   *Value:* This represents a significant strategic partnership between a local Israeli quantum entity and a global leader (IBM), demonstrating the commercial application of their error-mitigation technology in material science.
+    *   *Step 1 (Entity Verification):* Verified. The article discusses ""Israel-based Qedma Quantum Computing.""
+    *   *Step 2 (Main Article Validation):* Verified. Qedma is one of the three main partnerships highlighted in the IBM announcement described in the article.
+    *   *Step 3 (Strategic Value):* The article reports a strategic partnership between IBM and Qedma Quantum Computing to use Qedma's ""QESEM error-mitigation software"" for material physics. Strategic partnerships with global tech leaders like IBM are high-value intelligence for a TTO, as they indicate market validation and potential licensing/commercialization pathways for the underlying technology.
 
     *   `relevant`: true
-    *   `reason`: ""Verified: The article discusses the Israel-based company Qedma Quantum Computing and its strategic collaboration with IBM. The partnership involves utilizing Qedma’s QESEM error-mitigation software on IBM’s quantum systems to advance material physics research. This provides high-value business intelligence regarding the commercial application and industry adoption of quantum error-mitigation technologies within the Israeli ecosystem.""
-
-    *Wait, I should double-check if I should mark it FALSE if it's NOT a HUJI entity.*
-    The instructions say: ""Determine if it is strategically relevant for our Business Development & Licensing teams.""
-    And: ""Your goal is to VALIDATE this alert.""
-    If the TTO set an alert for ""Qedma Quantum Computing"", they want to know if the news is about them and if it's important.
-    The news is about them and it is important.
-    Even if it's not HUJI-specific, the prompt doesn't say ""Only mark TRUE if it is HUJI"". It says ""Analyze... if it is strategically relevant"". A TTO tracks the ecosystem.
-
-    *However*, looking at the Researcher section: ""If It is a researcher say it is relevant only if the researcher is affiliated to the Hebrew University"".
-    But Qedma is a **Company** (Portfolio Company context).
-    Under Portfolio Companies: ""✅ RELEVANT: Fundraising... Strategic Partnerships..."".
-    It does not say ""only if it's a Yissum company"". It says ""If the entity is genuinely part of the main article, decide whether the topic is relevant.""
-
-    Let's look at the ""Search Context"" again. The keyword was ""Qedma Quantum Computing"".
-    The article is about them. The news is a strategic partnership.
-    This is a valid, high-quality signal for a BD team monitoring the quantum landscape.
-
-    *Final Polish of Reason:* ""Verified: The article confirms the involvement of Qedma Quantum Computing in a strategic collaboration with IBM. It details the use of Qedma's QESEM error-mitigation software to solve complex material physics problems on IBM's quantum hardware. This news provides significant business intelligence regarding the commercial validation and industrial application of Israeli quantum technology.""
-
-    *Check constraints:* No bullet points, no asterisks, no ""Verified:"" prefix? No, the example says ""Verified: The article discusses..."". I will follow the example's style.
-
-    *Final JSON construction.*",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,https://s.tradingview.com/static/images/illustrations/news-story.jpg,,
+    *   `reason`: Verified: The article identifies Qedma Quantum Computing as an Israel-based company entering a strategic partnership with IBM. Specifically, it highlights the use of Qedma's QESEM error-mitigation software to model material physics, which constitutes a strong commercial signal and validates the market relevance of the technology for Yissum's business development and licensing interests.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,https://s.tradingview.com/static/images/illustrations/news-story.jpg,,
 30/07/2026,IBM Is Making Another Quantum Bet. Three New Partnerships Could Matter,ca.news.yahoo.com,https://ca.news.yahoo.com/ibm-making-another-quantum-bet-192349333.html,... Qedma Quantum Computing and Italian software company Algorithmiq. IBM said researchers working with the University of Chicago completed a quantum&nbsp;...,Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article details a strategic partnership between IBM and Israel-based Qedma Quantum Computing. Specifically, it highlights the use of Qedma's QESEM error-mitigation software on IBM's quantum systems to study material physics. This is highly relevant for Business Development as it demonstrates a concrete industry partnership and technical validation of a proprietary software product by a global leader in the field.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
 Analyze a news item to see if it's strategically relevant for BD & Licensing.
 ""Qedma Quantum Computing"".
@@ -620,4 +602,3 @@ A story about a Nigerian schoolgirl (Salami Aminat) who argued in a debate that 
     *   `relevant`: false
     *   `reason`: The match is a false positive. The phrase ""better meal"" is used as a common descriptive term in a story about a Nigerian schoolgirl's debate on food preferences (garri vs. rice) and does not refer to a researcher, company, or technology associated with Hebrew University or Yissum.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 25/07/2026,Making parotta is now super easy❤️ - YouTube,youtube.com,https://www.youtube.com/watch?v=X45NUtTSvqQ,Comments. 76. Indha akka solra products ellame moota poochoya kollum naveena machine dan. 25:01 &middot; Go to channel Chef Deena&#39;s Kitchen &middot; Semma Treat&nbsp;...,Companies - Batch 01 (Sea-2-Cell→Wonder Veggies),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-25/07/2026,some people the place where passport apartheid is felt very viscerally - YouTube,youtube.com,https://www.youtube.com/watch?v=I3xi8c64FLE,Every hippy I knew who said borders were a bad idea would end up fighting with their housemates. About violation of boundaries. It always seemed&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
