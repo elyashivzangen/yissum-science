@@ -1,4 +1,10 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+02/08/2026,"Cancer’s Intense Gene Activity Creates DNA Damage, Revealing Treatment Opportunities - SSBCrack",news.ssbcrack.com,https://news.google.com/rss/articles/CBMirgFBVV95cUxQbTJuVGYtMVdnSk4wazZUNDRSNkhJcXhXcHRUS0NFeDdabTFMeG5fQWhOZlpvaF80cVhUc2p4dXg4eWEzQXFhMGlQbnc4bU1TR0NZZFlMTEp1bWhKenB5Q3dLRzFNbUY4a0MwYVBnVzdYWENFUkFpTWl0TlFBMFdrU1lWRm5JVHhLRDMxT0pUZVhBREx2akN6OG9DUGdFT1VNLWx0dnNSVE1RV005V2c?oc=5,"Cancer’s Intense Gene Activity Creates DNA Damage, Revealing Treatment Opportunities&nbsp;&nbsp;SSBCrack",Google News - Researcher - Aqeilan Rami,Aqeilan Rami (Google News query match),full_keyword,TRUE,"Verified: Although the initial SSBCrack article content was not fully retrieved, the provided 'SEARCH_SNIPPET_CONTEXT' includes a highly relevant news article from en.huji.ac.il (Hebrew University's official news site) titled 'Cancer's Super-Enhancers May Set the Map for DNA Breaks and Repair: A key clue why tumors become more aggressive, and how to treat them'. This explicit Hebrew University connection for the research topic, combined with the original alert matching 'Aqeilan Rami', strongly indicates that Professor Aqeilan Rami is the HUJI researcher involved.","SEARCH_SNIPPET_CONTEXT: ```json
+{
+  ""relevant"": true,
+  ""reason"": ""Verified: Although the initial SSBCrack article content was not fully retrieved, the provided 'SEARCH_SNIPPET_CONTEXT' includes a highly relevant news article from en.huji.ac.il (Hebrew University's official news site) titled 'Cancer's Super-Enhancers May Set the Map for DNA Breaks and Repair: A key clue why tumors become more aggressive, and how to treat them'. This explicit Hebrew University connection for the research topic, combined with the original alert matching 'Aqeilan Rami', strongly indicates that Professor Aqeilan Rami is the HUJI researcher involved. The reference to 'how to treat them' signals a concrete path toward clinical/therapeutic application, which is a direct business development and licensing opportunity for Yissum.""
+}
+```",,,,,,google_news,SSBCrack,unresolved_google_news,https://news.google.com/rss/articles/CBMirgFBVV95cUxQbTJuVGYtMVdnSk4wazZUNDRSNkhJcXhXcHRUS0NFeDdabTFMeG5fQWhOZlpvaF80cVhUc2p4dXg4eWEzQXFhMGlQbnc4bU1TR0NZZFlMTEp1bWhKenB5Q3dLRzFNbUY4a0MwYVBnVzdYWENFUkFpTWl0TlFBMFdrU1lWRm5JVHhLRDMxT0pUZVhBREx2akN6OG9DUGdFT1VNLWx0dnNSVE1RV005V2c?oc=5,gemini-2.5-flash,,,
 02/08/2026,IBM publishes quantum computing results with University of Chicago - SekberNews.id,sekbernews.id,https://www.sekbernews.id/en/ibm-quantum-results-chicago-university,"IBM on Thursday announced three quantum computing results with the University of Chicago, Israel&#39;s Qedma Quantum Computing, and Italy&#39;s&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article identifies Qedma Quantum Computing as a strategic partner for IBM in the announcement of new quantum computing results. This is highly relevant for Yissum as it demonstrates significant industry validation and technical collaboration between an Israeli quantum entity and a global leader like IBM, signaling high translational and commercial potential in the quantum technology sector.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
     *   Task: Analyze a news item for strategic relevance.
     *   Keyword: ""Qedma Quantum Computing"".
@@ -640,43 +646,3 @@ Analyze a news item to see if it's strategically relevant to Business Developmen
 ```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
 26/07/2026,Race 5 - Maiden Claiming - Gulfstream Results | Sporting Life,sportinglife.com,https://www.sportinglife.com/racing/results/2026-07-26/gulfstream/930502/race-5-maiden-claiming,"List (5/6), Hippy Hippy Shake (15/8), Not One Less (15/2), La Reina Del Flow (14/1), Baby Gun (15/1), Mrs. Candace O (20/1), Loyalist (20/1)&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 26/07/2026,&#39;Van lifers&#39; facing eviction war in UK beach paradise as locals fume over bins - The Sun,thesun.co.uk,https://www.thesun.co.uk/news/39825793/locals-war-hippy-van-dwellers-cornish-beach-paradise/,"BOASTING turquoise waters, pristine sandy beaches and beautiful countryside, it&#39;s easy to see why a Cornwall spot has been compared to the...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-26/07/2026,Mayora Indah Tbk. (<b>MYOR</b>) vs Reksa Dana Indeks Premier ETF MSCI Indonesia Large Cap (XIML),pluang.com,https://pluang.com/en/compare/myor-idss-vs-ximl-idss,"Which is the better fit depends on your goals. MYOR, XIML. Market Cap. 39.13T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" in this context refers to the stock ticker for Mayora Indah Tbk., an Indonesian food manufacturer, rather than a Hebrew University researcher or a Yissum portfolio company. The content is auto-generated financial stock market data and provides no TTO or business development value.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-    *   Task: Analyze a news item to determine if it's strategically relevant for Business Development & Licensing.
-    *   Keyword: ""Myor"" (Found as ""myor"").
-    *   News Item: A stock market comparison between ""Mayora Indah Tbk. (MYOR)"" and ""Reksa Dana Indeks Premier ETF MSCI Indonesia Large Cap (XIML)"".
-
-    *   Title: ""Mayora Indah Tbk. (MYOR) vs Reksa Dana Indeks Premier ETF MSCI Indonesia Large Cap (XIML)""
-    *   Snippet/Content: Compares a food manufacturer in Indonesia (Mayora Indah Tbk) with an ETF. Discusses market cap, trading volume, and products (biscuits, wafers, candies, chocolate, cocoa, coffee).
-
-    *   *Step 1: Entity Verification.* Is ""MYOR"" referring to a HUJI researcher or a Yissum portfolio company? No. ""MYOR"" is the stock ticker for Mayora Indah Tbk., an Indonesian food company.
-    *   *Step 2: Main Article Validation.* The entity is the main subject, but it is a stock ticker.
-    *   *Step 3: Strategic Value.* Does an Indonesian food company's stock price comparison provide TTO value for Yissum? No. It is not a researcher, not a HUJI-affiliated company, and not related to technology transfer, IP, or clinical trials.
-    *   *Step 4: Be Strict.* This is a classic ""False Positive"" based on a ticker symbol matching a keyword string.
-
-    *   `relevant`: false
-    *   `reason`: Rejected: The keyword ""MYOR"" in this context refers to the stock ticker for Mayora Indah Tbk., an Indonesian food manufacturer, rather than a Hebrew University researcher or a Yissum portfolio company. The content is auto-generated financial stock market data and provides no TTO or business development value.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-26/07/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Sillo Maritime Perdana Tbk. (SHIP) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-ship-idss,"Which is the better fit depends on your goals. MYOR, SHIP. Market Cap. 39.13T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword 'myor' refers to the stock ticker symbol for Mayora Indah Tbk., an Indonesian food manufacturing company, rather than a researcher or a relevant technology. The article is an auto-generated financial comparison of stock performance and provides no signal regarding Hebrew University research, intellectual property, or Yissum's business development interests.","FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item to determine strategic relevance for Business Development & Licensing.
-""Myor"" (found in text as ""myor"").
-""Compare Mayora Indah Tbk. (MYOR) vs Sillo Maritime Perdana Tbk. (SHIP) Price & Performance"".
-Mayora Indah Tbk. (Ticker: MYOR) is a food manufacturer in Indonesia. The article is a stock comparison between MYOR and SHIP.
-
-    *   The keyword ""myor"" is identified as the ticker symbol for ""Mayora Indah Tbk.""
-    *   The search context suggests this was a ""Google Alert"" for the keyword ""Myor"".
-
-    *   *Step 1: Entity Verification:* The entity is ""Mayora Indah Tbk."" (a food company), not a researcher named ""Myor"" or a Yissum-related technology.
-    *   *Step 2: Main Article Validation:* The entity (MYOR) is indeed the subject of the main article (comparing two stocks).
-    *   *Step 3: Strategic Value:*
-        *   Is Mayora Indah Tbk. a Hebrew University researcher? No.
-        *   Is it a Yissum portfolio company? No evidence of this.
-        *   Is it a significant commercial/translational signal for Yissum? No. It's an auto-generated stock market comparison piece about an Indonesian food company.
-        *   Does it meet the ""Yissum Filter""? No. It is clearly ""Auto-generated stock market spam"" (as defined in the IRRELEVANT criteria for Portfolio Companies).
-
-    *   The keyword match ""myor"" is the stock ticker for Mayora Indah Tbk.
-    *   The article is a financial comparison of two Indonesian stocks.
-    *   There is no connection to Hebrew University, its researchers, or Yissum's technology transfer interests.
-    *   It is a false positive resulting from a ticker symbol match.
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The keyword 'myor' refers to the stock ticker symbol for Mayora Indah Tbk., an Indonesian food manufacturing company, rather than a researcher or a relevant technology. The article is an auto-generated financial comparison of stock performance and provides no signal regarding Hebrew University research, intellectual property, or Yissum's business development interests.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
-26/07/2026,19:35 | Gulfstream | Sunday 26th July 2026 - At The Races,m.attheraces.com,https://m.attheraces.com/racecard/Gulfstream/26-July-2026/1935,"At The Races - Digital partner to Sky Sports Racing. Get horse racing news, video replays, racecards, results, form, tips, features and odds&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
