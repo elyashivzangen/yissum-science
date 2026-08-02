@@ -1,12 +1,64 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+02/08/2026,Cancer may be breaking its own DNA to keep growing - ScienceDaily,sciencedaily.com,https://www.sciencedaily.com/releases/2026/07/260731034204.htm,Cancer may be breaking its own DNA to keep growing&nbsp;&nbsp;ScienceDaily,Google News - Researcher - Aqeilan Rami,rami aqeilan,full_keyword,TRUE,Verified: AI classified this item as relevant.,"FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
+Analyze a news item to determine if it's strategically relevant for BD & Licensing.
+""Aqeilan Rami"".
+
+        1. Entity Verification: Is it the right person/entity?
+        2. Main Article Validation: Is the entity in the main body (not sidebar/footer)?
+        3. Strategic Value: Does it have TTO value (commercialization, IP, clinical/therapeutic application, major grants, etc.)?
+        4. Strict Filter (Google News Researcher Feed): Higher bar for ""TRUE"". Must have commercial/translation signals.
+
+    *   *Title:* ""Cancer may be breaking its own DNA to keep growing - ScienceDaily""
+    *   *Content:* Discusses research on how cancer cells use super-enhancers, leading to DNA breaks and instability, which allows for evolution and mutation.
+    *   *Key Figure:* ""The research was led by PhD student Osama Hidmi under the guidance of Prof. Rami Aqeilan of the Hebrew University of Jerusalem.""
+    *   *Journal:* *Science Advances* (August 2, 2026 - *Note: the date is in the future, but for the task, I treat the content as a report*).
+    *   *Commercial/Translational Signals:*
+        *   ""Researchers believe this self-inflicted damage may help tumors evolve while also creating a potential target for new treatments.""
+        *   ""This opens the door to treatments that target the very processes tumors rely on to survive.""
+        *   ""Therapies might eventually be designed to disrupt the intense gene activity driven by super-enhancers or prevent tumor cells from repairing the resulting DNA damage.""
+        *   ""These areas could represent weak points that are especially sensitive to treatments...""
+
+    *   *Step 1 (Entity Verification):* The text explicitly mentions ""Prof. Rami Aqeilan of the Hebrew University of Jerusalem."" Matches the keyword ""Aqeilan Rami"". Match verified.
+    *   *Step 2 (Main Article Validation):* Prof. Rami Aqeilan is a central figure (the guiding professor) in the main text of the article. Valid.
+    *   *Step 3 (Strategic Value):* The research isn't just basic science; it explicitly identifies a *potential target for new treatments* and suggests a direction for *therapies* to disrupt super-enhancer activity or DNA repair in cancer cells. This is a clear therapeutic/clinical application signal.
+    *   *Step 4 (Strict Filter):* While the application is described as ""potential"" and ""opens the door,"" the article explicitly frames the discovery as a vulnerability that can be exploited for treatment. In the context of a TTO (Technology Transfer Office), identifying a new mechanism of cancer vulnerability that can be targeted by drugs is a strong lead for potential IP or startup development.
+
+    *   Relevant: True.
+    *   Reasoning: Verified that the article discusses Prof. Rami Aqeilan of the Hebrew University. The research, published in *Science Advances*, identifies a new mechanism of DNA instability in cancer cells caused by super-enhancers. This is strategically relevant for Yissum because the findings explicitly propose a new therapeutic target for cancer treatment, providing a concrete path for potential clinical applications and intellectual property development.",,,,,,google_news,ScienceDaily,resolved,https://news.google.com/rss/articles/CBMibkFVX3lxTE51aWFhLVdodG1PWTZ2alpNU0VaSVkyNmFMTTdhU2QzVU5vZ3JLTi1SZkFoSnpjdzhTZ09EOExYeG5PZzlMX0RFY2FVNU1vc1lkWTg1eFlCVWF6X1d0QmxHR0pWZVlNTWY5Y0dnNmRn?oc=5,gemma-4-31b-it,https://www.sciencedaily.com/images/1920/dna-mutation-genetic-damage.webp,,
 01/08/2026,Did <b>Hippy</b> Rob curse us? (Day 90) - The Trek,thetrek.co,https://thetrek.co/appalachian-trail/did-hippy-rob-curse-us-day-90/,"10 minutes later we hiked on and almost immediately after, we got lost. We followed a white blaze and after a few minutes the trail ended.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 01/08/2026,Five events in Colchester to look out for according | Gazette,essexcountystandard.co.uk,http://www.essexcountystandard.co.uk/news/26424992.five-events-colchester-look-according/,"Free entry. Also on Saturday, MickFest returns to Colchester Arts Centre for a full day of live music celebrating Mick Newman, better known as Hippy&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+01/08/2026,Ryan Garcia looking to break Conor Benn&#39;s ribs - drilling KO ending hooks! - YouTube,youtube.com,https://www.youtube.com/watch?v=IX2wXwm_0Ws,There&#39;s Always a hater in every room...I&#39;m sure Conner benn also will be juiced up..Will see who&#39;s got the better Juice.. .,Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 01/08/2026,"Israeli study: Some body parts age faster, paving way for cancer treatment - The Jerusalem Post",jpost.com,https://www.jpost.com/health-and-wellness/article-904124,"Israeli study: Some body parts age faster, paving way for cancer treatment&nbsp;&nbsp;The Jerusalem Post",Google News - Researcher - Cedar Howard,howard cedar,full_keyword,TRUE,"Verified: The article discusses new research led by Prof. Howard Cedar from the Hebrew University of Jerusalem, focusing on cellular aging and its implications for cancer treatment and early disease detection. This is highly relevant for Yissum because the article explicitly highlights commercial/translational value: it mentions the potential for developing new cancer treatments, earlier detection of numerous diseases, and drugs to slow aging.","FULL_TEXT: ```json
 {
   ""relevant"": true,
   ""reason"": ""Verified: The article discusses new research led by Prof. Howard Cedar from the Hebrew University of Jerusalem, focusing on cellular aging and its implications for cancer treatment and early disease detection. This is highly relevant for Yissum because the article explicitly highlights commercial/translational value: it mentions the potential for developing new cancer treatments, earlier detection of numerous diseases, and drugs to slow aging. Crucially, it links Prof. Cedar's foundational DNA methylation research to the development of the Galleri early-detection kit for over 50 types of cancer, demonstrating a direct path from his work to clinical and commercial application.""
 }
 ```",,,,,,google_news,The Jerusalem Post,resolved,https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xV0p0cUNjUTlKR3lXRjRZNmVOaXpXN0xKTkhjMDdrcmloeklENHhpT0JEN1NpUmFkdDRnblhfREVxdUdCTWdfNTRGOWt0NzFVMmtvRTNDTkg0UGtLMDg3Z2tjTE1UdEE?oc=5,gemini-2.5-flash,"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/732114",,
+01/08/2026,<b>BioProtect</b> PPGIS Analyser - ArcGIS StoryMaps,storymaps.arcgis.com,https://storymaps.arcgis.com/stories/2dd337e5aa1b487ebb1102c13010da45,BioProtect PPGIS Analyser. Mapping what coastal communities value and what they fear losing. BioProtect Project. 31 July 2026.,Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),bioprotect,full_keyword,FALSE,"Rejected: The article refers to the BioProtect Project, a European marine conservation initiative focused on coastal community mapping in Norway. There is no mention of an affiliation with Hebrew University or Yissum, nor any commercial, IP, or licensing signals that would make this relevant to our Business Development goals.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
+    *   Task: Validate a Google Alert for strategic relevance.
+    *   Keyword: ""BioProtect"".
+    *   Special Rule: If ""Google News researcher"" (or in this case, just a general news item), use a strict TTO filter. Mark TRUE only if there are commercial/translation signals (IP, licensing, startup, industry, clinical, etc.).
+    *   Input News Item: An ArcGIS StoryMap about ""BioProtect PPGIS Analyser"", a tool for mapping community knowledge for marine conservation in Europe (specifically mentioning Norway).
+
+    *   Title: ""BioProtect PPGIS Analyser - ArcGIS StoryMaps""
+    *   Snippet: ""Mapping what coastal communities value and what they fear losing.""
+    *   Content: Discusses a digital tool (PPGIS Analyser) developed by the ""BioProtect Project"" to help marine conservation and planning across Europe. It uses spatial data, heatmaps, and clustering. It's being applied in Lofoten, Norway.
+
+    *   *Step 1: Entity Verification.* The keyword ""BioProtect"" matches the project name ""BioProtect Project"".
+    *   *Step 2: Main Article Validation.* The entity ""BioProtect"" is the central subject of the article.
+    *   *Step 3: Strategic Value.*
+        *   Is it a HUJI researcher? There is no mention of Hebrew University or any HUJI researcher.
+        *   Is it a Yissum portfolio company? There is no indication that ""BioProtect"" is a Yissum company. It appears to be a European conservation project (`bioprotect-project.eu`).
+        *   Is there a commercial/translational signal? It's a ""digital tool"" for conservation, but it reads like an academic/NGO project for ""marine conservation and planning across Europe."" There are no mentions of licensing, patents, startups, or investment.
+        *   Does it align with the ""Yissum Filter""?
+            *   Researcher context: Not affiliated with HUJI.
+            *   Portfolio Company: No evidence.
+            *   Institutional: No evidence of HUJI partnership.
+
+    *   The alert matched ""BioProtect"", but the ""BioProtect Project"" described here is a European marine conservation initiative. There is zero evidence connecting this to Hebrew University or Yissum. It's a ""False Positive"" based on a common name/keyword that isn't linked to the organization's assets.
+
+    *   `relevant`: false.
+    *   `reason`: ""Rejected: The article refers to the BioProtect Project, a European marine conservation initiative focused on coastal community mapping in Norway. There is no mention of an affiliation with Hebrew University or Yissum, nor any commercial, IP, or licensing signals that would make this relevant to our Business Development goals.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 01/08/2026,Tony Barnett | The Guardian - Journal | PressReader,pressreader.com,https://www.pressreader.com/uk/the-guardian-e-paper-journal/20260801/281633902037554,"A teacher and lifelong traveller, starting with adventures on the hippy trail in the 1960s.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,old_article,FALSE,Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: 04 Apr 2022.,Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 01/08/2026,IBM presents three studies that prove the advantages of quantum computing - TI Inside,tiinside.com.br,https://tiinside.com.br/en/30/07/2026/IBM-presents-three-studies-that-prove-the-advantages-of-quantum-computing./,"Developed in partnership with the University of Chicago, Qedma Quantum Computing, and Algorithmiq, the studies also present different techniques for&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article highlights a strategic partnership between IBM and Qedma Quantum Computing. Specifically, it credits Qedma's proprietary QESEM error mitigation software as a key component in achieving a first-of-its-kind demonstration of quantum advantage for scientific materials research. This represents a significant commercial and translational signal, as it validates the utility of Qedma's software in a high-value industrial application.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
 Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
