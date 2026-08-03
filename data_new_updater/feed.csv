@@ -534,36 +534,26 @@ Analyze a Google Alert to determine if it's a ""True Positive"" or ""False Posit
 ```",,,,,,google_news,World Israel News,resolved,https://news.google.com/rss/articles/CBMipwFBVV95cUxOUzZDdGM2dkgwRUNsMy1OcGxFVXhxdlc0cFV4QWRRb1kzRnA1WnBqZDVuMkIwblktWm83RjZsckpmbWdiZ2NHM29fMUhnaW9QVUcwSFFEa1VtM0VXRFNmUXdlTGQzcE9MUUcxVlNLcmlHcmJZY1hxaEhadVRkVEk0bHV1V3NzdHZlWW81cWZERTNrNHFoZmRJN1VHYXREazB6Z0M1UkNoSdIBpwFBVV95cUxOUzZDdGM2dkgwRUNsMy1OcGxFVXhxdlc0cFV4QWRRb1kzRnA1WnBqZDVuMkIwblktWm83RjZsckpmbWdiZ2NHM29fMUhnaW9QVUcwSFFEa1VtM0VXRFNmUXdlTGQzcE9MUUcxVlNLcmlHcmJZY1hxaEhadVRkVEk0bHV1V3NzdHZlWW81cWZERTNrNHFoZmRJN1VHYXREazB6Z0M1UkNoSQ?oc=5,gemini-2.5-flash,,,
 28/07/2026,What happened with &#39;topless&#39;?,en.ara.cat,https://en.ara.cat/sunday/what-happened-with-topless_129_5810606.html,... hippy and the impulse of the sexual revolution turned the bare breast into an expression of freedom. Slim Aarons&#39; photographs immortalized that&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 28/07/2026,my hips won&#39;t stop growing - YouTube,youtube.com,https://www.youtube.com/watch?v=FqE1GdgexL8,my hips won&#39;t stop growing. @julesari_1.9K likes16K views3 hours ago more. Subscribe. Comments. 143. &quot;Do the hippy hippy shake!&quot; ✌️ ❣️,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+28/07/2026,When polymers meet primitive membranes: How molecular cooperation may have helped life begin - Phys.org,phys.org,https://phys.org/news/2026-07-polymers-primitive-membranes-molecular-cooperation.html,When polymers meet primitive membranes: How molecular cooperation may have helped life begin&nbsp;&nbsp;Phys.org,Google News - Researcher - Frenkel Pinter Moran,Frenkel Pinter Moran (Google News query match),full_keyword,TRUE,"Verified: The article discusses the research of Dr. Moran Frenkel-Pinter from Hebrew University, published in Nature Communications. While the primary focus is on the origins of life, the study explicitly highlights potential applications in green chemistry and the development of sustainable, biodegradable materials using solvent-free reactions. This provides a clear translational signal for Yissum's business development teams regarding potential IP in material science.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Analyze a news item for strategic relevance to Business Development & Licensing.
+""Frenkel Pinter Moran"" (via Google News researcher feed).
+
+        *   Title: ""When polymers meet primitive membranes: How molecular cooperation may have helped life begin - Phys.org""
+        *   Full Content: Discusses a study led by Dr. Moran Frenkel-Pinter of Hebrew University and her postdoc Dr. Rotem Edri. The study, published in *Nature Communications*, explores the interaction between fatty acids and hydroxy acids in early life chemistry.
+        *   Key Detail: ""Beyond helping explain life's origins, the work could also inspire new environmentally friendly materials. Because the molecules are made using simple, solvent-free reactions and are biodegradable, they could have future applications in green chemistry and sustainable materials.""
+
+    *   *Step 1: Entity Verification.* The keyword is ""Frenkel Pinter Moran"". The article refers to ""Dr. Moran Frenkel-Pinter of Hebrew University"". This is a match.
+    *   *Step 2: Main Article Validation.* The researcher is the lead of the study discussed in the main article body. It is not a sidebar or footer mention.
+    *   *Step 3: Strategic Value (The Yissum Filter).*
+        *   Is it academic/basic science? Yes (origins of life).
+        *   Is there a commercial/translational signal? Yes. The text explicitly states: ""the work could also inspire new environmentally friendly materials... they could have future applications in green chemistry and sustainable materials.""
+        *   Does it meet the ""Strict TTO Filter""? The instructions say: ""Mark TRUE only if the article explicitly contains commercial/translation signals: IP/licensing, startup or industry relevance, clinical/therapeutic/diagnostic application, a concrete fundable path...""
+        *   The mention of ""green chemistry and sustainable materials"" via ""solvent-free reactions and biodegradable"" molecules provides a concrete path for potential material science applications/IP.
+
+    *   The researcher is confirmed as Dr. Moran Frenkel-Pinter from Hebrew University.
+    *   The article describes a discovery in *Nature Communications* regarding molecular cooperation.
+    *   The research has clear potential for ""green chemistry and sustainable materials"" due to the biodegradable and solvent-free nature of the molecules described. This constitutes a translational/industrial application signal.
+
+    *   `relevant`: true
+    *   `reason`: Verified: The article discusses the research of Dr. Moran Frenkel-Pinter from Hebrew University, published in Nature Communications. While the primary focus is on the origins of life, the study explicitly highlights potential applications in green chemistry and the development of sustainable, biodegradable materials using solvent-free reactions. This provides a clear translational signal for Yissum's business development teams regarding potential IP in material science.",,,,,,google_news,Phys.org,resolved,https://news.google.com/rss/articles/CBMijgFBVV95cUxQajRIc3IwdHk0SmwzYnlHMTE5dmYzeDl3bGZ6MENNR2F0S3JlNjN2dUtLc1hMVGlVVkhuTEhnNlU2Rmp2VG04ZUU5RlNtdEZrRFF0aWtHTDQxTUttaGNEd0dnLUhNeEs1dndxODlqZGUwUXUwRGNLN003MVd0YkNSS2pjal9JTkVtTkt6OG93?oc=5,gemma-4-26b-a4b-it,https://scx2.b-cdn.net/gfx/news/2026/when-polymers-meet-pri.jpg,,
 27/07/2026,Mayora Indah Tbk. (<b>MYOR</b>) vs MDTV Media Technologies Tbk. (NETV) - Pluang,pluang.com,https://pluang.com/en/compare/myor-idss-vs-netv-idss,"Which is the better fit depends on your goals. MYOR, NETV. Market Cap. 38.12T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: July 23, 2004.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-27/07/2026,When polymers meet primitive membranes: how molecular cooperation may have helped life begin - EurekAlert!,eurekalert.org,https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nRXZsTWV2WV9LTENPTDl1eVZUQUlEeEJCUndCOGFINzZnNDRHak15bXJrX2hKaUdrUWNIZmI3SVNEZE4zT2xZS3V5cFpIc2c2V1RaeXB5eUlpUk1S?oc=5,When polymers meet primitive membranes: how molecular cooperation may have helped life begin&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Frenkel Pinter Moran,Frenkel Pinter Moran (Google News query match),full_keyword,TRUE,"Verified: The article highlights a study led by Dr. Moran Frenkel-Pinter of Hebrew University, published in Nature Communications, regarding the creation of hybrid lipid-polymer structures. This is strategically relevant for Yissum because the findings explicitly point toward practical applications in green chemistry and the development of biodegradable sustainable materials, providing a clear path for industry partnerships or IP licensing in the materials science sector.","FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item for strategic relevance to BD & Licensing teams.
-""Frenkel Pinter Moran"".
-Google News researcher feed (requires stricter TTO filter).
-
-        *   Title: ""When polymers meet primitive membranes: how molecular cooperation may have helped life begin - EurekAlert!""
-        *   Entity in text: ""Dr. Moran Frenkel-Pinter of Hebrew University"".
-        *   Core Finding: Discovery of molecular cooperation between fatty acids and hydroxy acids creating hybrid lipid-polymer structures.
-        *   Applications mentioned: ""inspire new approaches in green chemistry and sustainable materials,"" ""biodegradable,"" ""future applications in green chemistry and sustainable materials.""
-        *   Journal: *Nature Communications*.
-
-    *   *Step 1: Entity Verification.* The text explicitly names ""Dr. Moran Frenkel-Pinter of Hebrew University"". Match confirmed.
-    *   *Step 2: Main Article Validation.* She is the lead researcher of the study discussed in the main body and title. Validation confirmed.
-    *   *Step 3: Strategic Value (The ""Yissum Filter"").*
-        *   The researcher is HUJI affiliated.
-        *   The work is a breakthrough published in *Nature Communications*.
-        *   Does it have commercial/translation signals?
-            *   The article explicitly states: ""The work could also inspire new approaches in green chemistry and sustainable materials"" and ""Because the molecules are made using simple, solvent-free reactions and are biodegradable, they could have future applications in green chemistry and sustainable materials.""
-            *   These are concrete signals for materials science/sustainable chemistry licensing or startup potential.
-        *   Is it just ""basic science"" (origins of life)? While the primary scientific question is about the origin of life, the author specifically calls out the application in *green chemistry and sustainable materials*.
-    *   *Step 4: Be Strict.*
-        *   The prompt says: ""Mark TRUE only if the article explicitly contains commercial/translation signals: IP/licensing, startup or industry relevance, clinical/therapeutic/diagnostic application, a concrete fundable path...""
-        *   ""Green chemistry and sustainable materials"" falls under ""industry relevance"" and ""commercialization potential.""
-        *   Publication in *Nature Communications* is a high-impact signal often associated with fundable IP.
-
-    *   The entity is verified: Dr. Moran Frenkel-Pinter from Hebrew University.
-    *   The research involves a novel hybrid lipid-polymer structure.
-    *   The specific TTO value is the explicit mention of applications in green chemistry and biodegradable sustainable materials.
-
-    *   JSON format.
-    *   `relevant`: true.
-    *   `reason`: ""Verified: The article highlights a study led by Dr. Moran Frenkel-Pinter of Hebrew University, published in Nature Communications, regarding the creation of hybrid lipid-polymer structures. This is strategically relevant for Yissum because the findings explicitly point toward practical applications in green chemistry and the development of biodegradable sustainable materials, providing a clear path for industry partnerships or IP licensing in the materials science sector.""",,,,,,google_news,EurekAlert!,unresolved_google_news,https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nRXZsTWV2WV9LTENPTDl1eVZUQUlEeEJCUndCOGFINzZnNDRHak15bXJrX2hKaUdrUWNIZmI3SVNEZE4zT2xZS3V5cFpIc2c2V1RaeXB5eUlpUk1S?oc=5,gemma-4-31b-it,,,
