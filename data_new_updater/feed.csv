@@ -469,36 +469,3 @@ A news report about a trade union in Vietnam (Da Nang) providing funds to improv
 
     *   `relevant`: false
     *   `reason`: This is a false positive. The keyword ""better meal"" is used as a common descriptive phrase within a quote regarding worker welfare in Vietnam, not as a reference to a specific researcher, company, or technology. There is no connection to Hebrew University or any technology transfer value.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-28/07/2026,Major clinical trial aims to transform the prevention of recurrent urinary tract infections - News-Medical,news-medical.net,https://www.news-medical.net/news/20260728/Major-clinical-trial-aims-to-transform-the-prevention-of-recurrent-urinary-tract-infections.aspx,Major clinical trial aims to transform the prevention of recurrent urinary tract infections&nbsp;&nbsp;News-Medical,Google News - Researcher - Melamed Sahar,sahar melamed,full_keyword,TRUE,"Verified: The article identifies Dr. Sahar Melamed as a leader of the Israeli research team at the Hebrew University of Jerusalem. It details a major international clinical trial (P-PEAKS UTI) supported by a 15 million Euro European Union grant to evaluate bacteriophage therapy for recurrent urinary tract infections. This is highly relevant for Yissum as it signals significant translational progress, major grant funding, and a concrete clinical application for phage-based technologies, representing a clear path toward potential commercialization and licensing.","FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item triggered by a Google Alert for ""Melamed Sahar"" to determine strategic relevance for Business Development & Licensing.
-
-        *   Keyword: ""Melamed Sahar"" (Note: The snippet/text shows ""Dr. Sahar Melamed"").
-        *   Title: ""Major clinical trial aims to transform the prevention of recurrent urinary tract infections - News-Medical""
-        *   Full Content: Describes a European-funded consortium (P-PEAKS UTI) evaluating bacteriophage therapy for recurrent UTIs.
-        *   Key People: Dr. Gregory German, Prof. Ronen Hazan, Dr. Sahar Melamed (Hebrew University of Jerusalem), Prof. Ran Nir-Paz (Hadassah).
-        *   Key Institution: Hebrew University of Jerusalem and Hadassah Medical Center.
-        *   Key Clinical/Commercial Signals: Major international clinical trial, €15 million EU grant, bacteriophage therapy (alternative to antibiotics), translational clinical research.
-
-    *   *Step 1: Entity Verification.* The keyword is ""Melamed Sahar"". The article mentions ""Dr. Sahar Melamed"". This is a direct match (name reversal is common in search/indexing). The article explicitly links Dr. Sahar Melamed to the Hebrew University of Jerusalem.
-    *   *Step 2: Main Article Validation.* Is the entity part of the main article? Yes, Dr. Sahar Melamed is listed as a leader of the Israeli research team within the body of the article.
-    *   *Step 3: Strategic Value.*
-        *   Does it have commercial/translational signals? Yes.
-        *   Signal 1: Major international clinical trial (P-PEAKS UTI).
-        *   Signal 2: Significant funding (€15 million EU grant).
-        *   Signal 3: Translational application (bacteriophage therapy for antibiotic-resistant UTIs).
-        *   Signal 4: Direct HUJI/Hadassah connection via the Israeli Phage Therapy Center (IPTC).
-        *   This is high-value intelligence for TTO because it tracks the progress of a major translational project (moving from lab to clinical trial) which could lead to IP/licensing opportunities for phage-based therapies.
-
-    *   *Decision:* TRUE.
-
-    *   *Drafting the reason:*
-        *   Confirm identity: The article confirms Dr. Sahar Melamed is a leader of the Israeli research team at the Hebrew University of Jerusalem.
-        *   Cite evidence: The article discusses the P-PEAKS UTI clinical trial, a major international study funded by a 15 million Euro EU grant to evaluate bacteriophage therapy for recurrent UTIs.
-        *   Explain value: This provides high-value business development intelligence regarding a significant translational clinical trial and major grant funding, which signals potential IP development and commercialization pathways for phage-based therapeutics.
-
-    *   JSON format? Yes.
-    *   Only raw JSON? Yes.
-    *   No markdown/bullets/asterisks/self-commentary? Yes.
-    *   Strict TTO filter applied? Yes (Clinical trial + €15M grant = TRUE).
-
-    `{""relevant"": true, ""reason"": ""Verified: The article identifies Dr. Sahar Melamed as a leader of the Israeli research team at the Hebrew University of Jerusalem. It details a major international clinical trial (P-PEAKS UTI) supported by a 15 million Euro European Union grant to evaluate bacteriophage therapy for recurrent urinary tract infections. This is highly relevant for Yissum as it signals significant translational progress, major grant funding, and a concrete clinical application for phage-based technologies, representing a clear path toward potential commercialization and licensing.""}",,,,,,google_news,News-Medical,resolved,https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSmRKckxzOVhtZTRJVkFUR1k2bW1saDRObnhZVm9xRnAwd0h5NkFQNFZ5Y3hORGNya3NNR3pLeE9zajQyRG1YU2I1ZEpFNnBtSWFVM05DeEVGX0pVTGc4M3N1c3FkdGhSLXcwYU1qZkxFRHh6TElrUnBvMFd5ZUdTTGd3LS1FN0VrUnI0dHNrd0x5UnNmYXZfRFFOd0NEaXRCamZyLXVuWnlXVnM3eVpJYkh0RHYyWl9FZnZHOXlOVXFrVmc1ZnNmODBxMFVmbG5mekhiNEln?oc=5,gemma-4-26b-a4b-it,https://www.news-medical.net/image-handler/picture/2016/3/Bacteriophage_viruses_infecting_bacterial_cells_%2c_Bacterial_viruses-nobeastsofierce_1f9734ecc24b48b18edf321551d48376-620x480.jpg,,
