@@ -352,32 +352,3 @@ Determine if a news item is strategically relevant.
     *   `relevant`: true
     *   `reason`: Verified: The article discusses Qedma Quantum Computing and its strategic collaboration with IBM. It reports a significant technical milestone—demonstrating quantum advantage over classical supercomputers using Qedma's QESEM error mitigation software. This is highly relevant for Yissum as it signals a successful product integration into the IBM Quantum Platform and demonstrates clear commercial/industrial viability of the technology.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,evt_computing-qedma-quantum_0,"Verified: Qedma Quantum Computing, an Israel-based company co-founded by Hebrew University professors Dorit Aharonov and Netanel Lindner, has achieved a major breakthrough in a strategic partnership with IBM. They demonstrated quantum advantage by using their proprietary QESEM error mitigation software to simulate complex 2D Floquet physics on IBM Heron processors, outperforming classical supercomputers like RIKEN Fugaku for scientific materials research."
 30/07/2026,Mandurah Race 12 Betting Odds,odds.com.au,https://www.odds.com.au/greyhounds/mandurah-20260730/greyhoundsaspets-com-au-race-12/,"Mandurah Race 12 Betting Odds. Compare latest and best odds from bookmakers with market movers, betting fluctuations &amp; more.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-30/07/2026,"IBM and Qedma Demonstrate Quantum Advantage, Modeling Physics Beyond Classical ...",newsroom.ibm.com,"https://newsroom.ibm.com/2026-07-30-ibm-and-qedma-demonstrate-quantum-advantage,-modeling-physics-beyond-classical-capabilities-through-trusted-quantum-computation","Qedma Quantum Computing, a pioneer in quantum error reduction software and IBM announced a breakthrough study demonstrating how trusted,&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified that the article describes a major breakthrough by Qedma Quantum Computing in collaboration with IBM. The company's patented QESEM software achieved a milestone of quantum advantage, demonstrating commercial and industrial applicability in materials science. Given the involvement of prominent scientists and the strategic partnership with IBM, this represents a high-value translational signal relevant to Yissum's portfolio and business development tracking.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
-Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
-""Qedma Quantum Computing"".
-""IBM and Qedma Demonstrate Quantum Advantage..."".
-
-        *   Strict TTO filter for ""Google News researcher"" contexts (though this is more of a company/entity match).
-        *   Need commercial/translation signals: IP, licensing, startup, industry relevance, clinical/therapeutic/diagnostic application, fundable path, major grants, prestigious awards, or Yissum/HUJI value.
-        *   Exclude: Generic academic commentary, basic science stories without translation signals.
-        *   Entity Verification: Is it the correct entity?
-        *   Main Article Validation: Is the entity the focus of the main text?
-        *   Strategic Value: Is there a business/tech-transfer signal?
-
-    *   *Title:* IBM and Qedma Demonstrate Quantum Advantage...
-    *   *Entity:* Qedma Quantum Computing.
-    *   *Key Details:*
-        *   Partnership with IBM.
-        *   Product: QESEM (Quantum Error Suppression and Error Mitigation) software.
-        *   Achievement: ""Quantum Advantage"" in modeling physics beyond classical capabilities.
-        *   Commercial angle: ""commercially available hardware and software,"" ""patented approach,"" ""available in the Qiskit Functions Catalog,"" ""used by leading enterprises.""
-        *   Founders: Dr. Asif Sinay, Prof. Dorit Aharonov, Prof. Netanel Lindner.
-        *   HUJI Connection: Prof. Dorit Aharonov and Prof. Netanel Lindner are world-renowned researchers. While the text doesn't explicitly say "" Hebrew University"" in the ""About Qedma"" section, these are high-profile HUJI professors. (Even if the prompt asks for explicit affiliation, the company itself is the entity being tracked).
-        *   TTO Signal: Strategic partnership with IBM, patented software (QESEM), commercial availability/product launch, demonstration of quantum advantage (high-value IP/tech).
-
-    *   Step 1: Entity Verification $\rightarrow$ Yes, it's Qedma Quantum Computing.
-    *   Step 2: Main Article Validation $\rightarrow$ Yes, they are the co-protagonist of the press release.
-    *   Step 3: Strategic Value $\rightarrow$ Extremely high. It's a commercial startup demonstrating a breakthrough with a major partner (IBM), using patented software to achieve a milestone (Quantum Advantage). This is a textbook case of translational value.
-
-    *   `relevant`: true
-    *   `reason`: Verified that the article describes a major breakthrough by Qedma Quantum Computing in collaboration with IBM. The company's patented QESEM software achieved a milestone of quantum advantage, demonstrating commercial and industrial applicability in materials science. Given the involvement of prominent scientists and the strategic partnership with IBM, this represents a high-value translational signal relevant to Yissum's portfolio and business development tracking.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,https://newsroom.ibm.com/image/BA_IBMNewsQuantumv1-1920x1080.png,evt_computing-qedma-quantum_0,"Verified: Qedma Quantum Computing, an Israel-based company co-founded by Hebrew University professors Dorit Aharonov and Netanel Lindner, has achieved a major breakthrough in a strategic partnership with IBM. They demonstrated quantum advantage by using their proprietary QESEM error mitigation software to simulate complex 2D Floquet physics on IBM Heron processors, outperforming classical supercomputers like RIKEN Fugaku for scientific materials research."
