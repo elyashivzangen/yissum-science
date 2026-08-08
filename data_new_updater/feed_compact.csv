@@ -173,28 +173,3 @@ ScienceDaily article titled ""Cancer may be breaking its own DNA to keep growing
   ""reason"": ""Verified: The article discusses new research led by Prof. Howard Cedar from the Hebrew University of Jerusalem, focusing on cellular aging and its implications for cancer treatment and early disease detection. This is highly relevant for Yissum because the article explicitly highlights commercial/translational value: it mentions the potential for developing new cancer treatments, earlier detection of numerous diseases, and drugs to slow aging. Crucially, it links Prof. Cedar's foundational DNA methylation research to the development of the Galleri early-detection kit for over 50 types of cancer, demonstrating a direct path from his work to clinical and commercial application.""
 }
 ```",,,,,,google_news,The Jerusalem Post,resolved,https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xV0p0cUNjUTlKR3lXRjRZNmVOaXpXN0xKTkhjMDdrcmloeklENHhpT0JEN1NpUmFkdDRnblhfREVxdUdCTWdfNTRGOWt0NzFVMmtvRTNDTkg0UGtLMDg3Z2tjTE1UdEE?oc=5,gemini-2.5-flash,"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/732114",,
-01/08/2026,<b>BioProtect</b> PPGIS Analyser - ArcGIS StoryMaps,storymaps.arcgis.com,https://storymaps.arcgis.com/stories/2dd337e5aa1b487ebb1102c13010da45,BioProtect PPGIS Analyser. Mapping what coastal communities value and what they fear losing. BioProtect Project. 31 July 2026.,Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),bioprotect,full_keyword,FALSE,"Rejected: The article refers to the BioProtect Project, a European marine conservation initiative focused on coastal community mapping in Norway. There is no mention of an affiliation with Hebrew University or Yissum, nor any commercial, IP, or licensing signals that would make this relevant to our Business Development goals.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
-    *   Task: Validate a Google Alert for strategic relevance.
-    *   Keyword: ""BioProtect"".
-    *   Special Rule: If ""Google News researcher"" (or in this case, just a general news item), use a strict TTO filter. Mark TRUE only if there are commercial/translation signals (IP, licensing, startup, industry, clinical, etc.).
-    *   Input News Item: An ArcGIS StoryMap about ""BioProtect PPGIS Analyser"", a tool for mapping community knowledge for marine conservation in Europe (specifically mentioning Norway).
-
-    *   Title: ""BioProtect PPGIS Analyser - ArcGIS StoryMaps""
-    *   Snippet: ""Mapping what coastal communities value and what they fear losing.""
-    *   Content: Discusses a digital tool (PPGIS Analyser) developed by the ""BioProtect Project"" to help marine conservation and planning across Europe. It uses spatial data, heatmaps, and clustering. It's being applied in Lofoten, Norway.
-
-    *   *Step 1: Entity Verification.* The keyword ""BioProtect"" matches the project name ""BioProtect Project"".
-    *   *Step 2: Main Article Validation.* The entity ""BioProtect"" is the central subject of the article.
-    *   *Step 3: Strategic Value.*
-        *   Is it a HUJI researcher? There is no mention of Hebrew University or any HUJI researcher.
-        *   Is it a Yissum portfolio company? There is no indication that ""BioProtect"" is a Yissum company. It appears to be a European conservation project (`bioprotect-project.eu`).
-        *   Is there a commercial/translational signal? It's a ""digital tool"" for conservation, but it reads like an academic/NGO project for ""marine conservation and planning across Europe."" There are no mentions of licensing, patents, startups, or investment.
-        *   Does it align with the ""Yissum Filter""?
-            *   Researcher context: Not affiliated with HUJI.
-            *   Portfolio Company: No evidence.
-            *   Institutional: No evidence of HUJI partnership.
-
-    *   The alert matched ""BioProtect"", but the ""BioProtect Project"" described here is a European marine conservation initiative. There is zero evidence connecting this to Hebrew University or Yissum. It's a ""False Positive"" based on a common name/keyword that isn't linked to the organization's assets.
-
-    *   `relevant`: false.
-    *   `reason`: ""Rejected: The article refers to the BioProtect Project, a European marine conservation initiative focused on coastal community mapping in Norway. There is no mention of an affiliation with Hebrew University or Yissum, nor any commercial, IP, or licensing signals that would make this relevant to our Business Development goals.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
