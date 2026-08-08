@@ -199,34 +199,3 @@ ScienceDaily article titled ""Cancer may be breaking its own DNA to keep growing
     *   `relevant`: false.
     *   `reason`: ""Rejected: The article refers to the BioProtect Project, a European marine conservation initiative focused on coastal community mapping in Norway. There is no mention of an affiliation with Hebrew University or Yissum, nor any commercial, IP, or licensing signals that would make this relevant to our Business Development goals.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 01/08/2026,Tony Barnett | The Guardian - Journal | PressReader,pressreader.com,https://www.pressreader.com/uk/the-guardian-e-paper-journal/20260801/281633902037554,"A teacher and lifelong traveller, starting with adventures on the hippy trail in the 1960s.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,old_article,FALSE,Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: 04 Apr 2022.,Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-01/08/2026,IBM presents three studies that prove the advantages of quantum computing - TI Inside,tiinside.com.br,https://tiinside.com.br/en/30/07/2026/IBM-presents-three-studies-that-prove-the-advantages-of-quantum-computing./,"Developed in partnership with the University of Chicago, Qedma Quantum Computing, and Algorithmiq, the studies also present different techniques for&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article highlights a strategic partnership between IBM and Qedma Quantum Computing. Specifically, it credits Qedma's proprietary QESEM error mitigation software as a key component in achieving a first-of-its-kind demonstration of quantum advantage for scientific materials research. This represents a significant commercial and translational signal, as it validates the utility of Qedma's software in a high-value industrial application.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
-Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
-""Qedma Quantum Computing"".
-""IBM presents three studies that prove the advantages of quantum computing - TI Inside"".
-
-        1. Entity Verification (Is it the right entity?).
-        2. Main Article Validation (Is it part of the main content, not a sidebar?).
-        3. Strategic Value (Commercial/translational signal vs. trivial/generic?).
-        4. Strict Filter (High-quality business intelligence).
-
-    *   *Title:* ""IBM presents three studies that prove the advantages of quantum computing - TI Inside""
-    *   *Snippet:* ""Developed in partnership with the University of Chicago, Qedma Quantum Computing, and Algorithmiq...""
-    *   *Full Content:*
-        *   Discusses three studies by IBM.
-        *   Study 2 specifically mentions ""partnership with Qedma Quantum Computing"".
-        *   Mentions ""QESEM error mitigation software, developed by Qedma"".
-        *   Results: Modeled systems with up to 74 qubits, observed quantum dynamics not reproducible by classical simulation.
-        *   Claim: ""first demonstration of quantum advantage obtained using commercially available hardware and software for scientific materials research.""
-
-    *   *Step 1 (Entity Verification):* The text explicitly mentions ""Qedma Quantum Computing"". It's a quantum computing company/entity.
-    *   *Step 2 (Main Article Validation):* Qedma is a core partner in one of the three main studies discussed in the article. It's not a sidebar or a ""related post"". It's central to the second study's success.
-    *   *Step 3 (Strategic Value):*
-        *   Company: Qedma Quantum Computing.
-        *   Event: Strategic partnership with IBM.
-        *   Technology: QESEM error mitigation software.
-        *   Outcome: Demonstrated ""quantum advantage"" in scientific materials research using commercially available hardware/software.
-        *   TTO value: This is a high-value commercial signal. A startup/entity developing proprietary software (QESEM) that enables quantum advantage in materials science (a key vertical for licensing and industry partnerships) is highly relevant for a BD team monitoring the quantum ecosystem. Even if Qedma is not explicitly stated as a HUJI spin-off *in this text*, the prompt asks to validate if the alert is relevant for *Business Development & Licensing teams* based on the entity matched. Since Qedma is a quantum computing venture (often linked to academic research), and the news describes a commercial software application (QESEM) achieving a milestone (quantum advantage), it is strategically relevant.
-    *   *Step 4 (Be Strict):* Does it meet the ""Commercial/Translation"" signal? Yes. ""Commercially available hardware and software"", ""strategic partnership with IBM"", and ""scientific materials research"" are clear industry signals.
-
-    *   `relevant`: true
-    *   `reason`: Verified: The article highlights a strategic partnership between IBM and Qedma Quantum Computing. Specifically, it credits Qedma's proprietary QESEM error mitigation software as a key component in achieving a first-of-its-kind demonstration of quantum advantage for scientific materials research. This represents a significant commercial and translational signal, as it validates the utility of Qedma's software in a high-value industrial application.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,evt_computing-qedma-quantum_0,"Verified: Qedma Quantum Computing, an Israel-based company co-founded by Hebrew University professors Dorit Aharonov and Netanel Lindner, has achieved a major breakthrough in a strategic partnership with IBM. They demonstrated quantum advantage by using their proprietary QESEM error mitigation software to simulate complex 2D Floquet physics on IBM Heron processors, outperforming classical supercomputers like RIKEN Fugaku for scientific materials research."
