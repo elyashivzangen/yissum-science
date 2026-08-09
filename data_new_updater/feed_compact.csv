@@ -142,22 +142,3 @@ Barrier coating technology for flexible packaging specialist Melodea has launche
   ""reason"": ""Verified: Although the initial SSBCrack article content was not fully retrieved, the provided 'SEARCH_SNIPPET_CONTEXT' includes a highly relevant news article from en.huji.ac.il (Hebrew University's official news site) titled 'Cancer's Super-Enhancers May Set the Map for DNA Breaks and Repair: A key clue why tumors become more aggressive, and how to treat them'. This explicit Hebrew University connection for the research topic, combined with the original alert matching 'Aqeilan Rami', strongly indicates that Professor Aqeilan Rami is the HUJI researcher involved. The reference to 'how to treat them' signals a concrete path toward clinical/therapeutic application, which is a direct business development and licensing opportunity for Yissum.""
 }
 ```",,,,,,google_news,SSBCrack,unresolved_google_news,https://news.google.com/rss/articles/CBMirgFBVV95cUxQbTJuVGYtMVdnSk4wazZUNDRSNkhJcXhXcHRUS0NFeDdabTFMeG5fQWhOZlpvaF80cVhUc2p4dXg4eWEzQXFhMGlQbnc4bU1TR0NZZFlMTEp1bWhKenB5Q3dLRzFNbUY4a0MwYVBnVzdYWENFUkFpTWl0TlFBMFdrU1lWRm5JVHhLRDMxT0pUZVhBREx2akN6OG9DUGdFT1VNLWx0dnNSVE1RV005V2c?oc=5,gemini-2.5-flash,,evt_aqeilan-rami_0,
-02/08/2026,IBM publishes quantum computing results with University of Chicago - SekberNews.id,sekbernews.id,https://www.sekbernews.id/en/ibm-quantum-results-chicago-university,"IBM on Thursday announced three quantum computing results with the University of Chicago, Israel&#39;s Qedma Quantum Computing, and Italy&#39;s&nbsp;...",Companies - Batch 02 (Philoseed→Scopus BioPharma),qedma quantum computing,full_keyword,TRUE,"Verified: The article identifies Qedma Quantum Computing as a strategic partner for IBM in the announcement of new quantum computing results. This is highly relevant for Yissum as it demonstrates significant industry validation and technical collaboration between an Israeli quantum entity and a global leader like IBM, signaling high translational and commercial potential in the quantum technology sector.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-    *   Task: Analyze a news item for strategic relevance.
-    *   Keyword: ""Qedma Quantum Computing"".
-    *   News Item: ""IBM publishes quantum computing results with University of Chicago - SekberNews.id"".
-    *   Snippet/Content: ""IBM on Thursday announced three quantum computing results with the University of Chicago, Israel's Qedma Quantum Computing, and Italy's...""
-
-    *   Entity: Qedma Quantum Computing.
-    *   Context: A partnership/collaboration with IBM and the University of Chicago.
-    *   Nature: Quantum computing results (technical/scientific achievement with a commercial giant like IBM).
-
-    *   *Step 1: Entity Verification.* Does ""Qedma Quantum Computing"" in the text refer to the entity we are tracking? Yes.
-    *   *Step 2: Main Article Validation.* Is it part of the main article? Yes, the snippet explicitly lists it as one of the partners IBM announced results with.
-    *   *Step 3: Strategic Value.*
-        *   Is it a portfolio company/industry relevance? Yes. Qedma Quantum Computing is an Israeli company in the quantum space.
-        *   Is there a commercial/translation signal? Yes. A strategic partnership/collaboration with IBM (a global leader in quantum) and the University of Chicago to produce ""results"" (likely technical benchmarks or breakthroughs) is a high-value signal for business development and licensing. It indicates market validation and technical capability.
-    *   *Step 4: Strictness Check.* The ""Google News researcher"" rule doesn't strictly apply here as Qedma is a company (Portfolio/Business context), but even under strict filters, a partnership with IBM for quantum computing results is a clear industry/translational signal.
-
-    *   `relevant`: true
-    *   `reason`: ""Verified: The article identifies Qedma Quantum Computing as a strategic partner for IBM in the announcement of new quantum computing results. This is highly relevant for Yissum as it demonstrates significant industry validation and technical collaboration between an Israeli quantum entity and a global leader like IBM, signaling high translational and commercial potential in the quantum technology sector.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,evt_computing-qedma-quantum_0,
