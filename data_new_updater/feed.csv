@@ -184,29 +184,3 @@ Barrier coating technology for flexible packaging specialist Melodea has launche
 05/08/2026,Peace festival brings music to Boscombe - Bournemouth One News,news.bournemouthone.com,https://news.bournemouthone.com/91515/,"The music lineup includes Freefall Collective, playing its first live show in 10 years, alongside The Undercover Hippy, The Midnight Alliance, The&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 05/08/2026,New era begins as Duncannon Seaview FC celebrates 50th anniversary | Irish Independent,independent.ie,https://www.independent.ie/county/wexford/new-era-begins-as-duncannon-seaview-fc-celebrates-50th-anniversary/a/159357137.html,"Michael “Hippy” Donnelly, one of the club&#39;s founding members, was ... Michael &#39;Hippy&#39; Donnelly , Mary Ryan and Pat Byrne at the Duncannon FC&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 05/08/2026,Mandurah 06 August 2026 Race 11 - thedogs,thedogs.com.au,https://www.thedogs.com.au/racing/mandurah/2026-08-06/11/copy-bets-with-tabtouch-bet-loop?trial=false,"Junk Yard Hippy17.28. T: Darryl Jeffries R/T: 5Y, Darryl Jeffries&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-05/08/2026,Consumer Staples - 2Q26 recap: domestic sales led by robust dairy segment - IndoPremier,indopremier.com,https://www.indopremier.com/ipotnews/newsDetail.php?jdl=Consumer+Staples+-+2Q26+recap%3A+domestic+sales+led+by+robust+dairy+segment&news_id=230854&group_news=IPOTNEWS,earnings beat was partly attributable to an 8% consensus downgrade despite its in-line 1Q26 result (linkto report). ICBP. /MYOR recorded yoy GPM&nbsp;...,Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" refers to a publicly traded consumer staples company (likely Mayora Indah) in an Indonesian market equity report. It is not a researcher affiliated with Hebrew University or a Yissum portfolio company, and the content relates to stock market performance and gross profit margins rather than technology transfer or scientific innovation.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
-    *   Task: Analyze a news item to determine strategic relevance for Business Development & Licensing.
-    *   Keyword: ""Myor"".
-    *   Special Rule (Google News researcher): Use a strict TTO filter. Commercial/translational signals required.
-    *   Relevance Criteria:
-        *   Researchers: Must be affiliated with HUJI; must involve breakthroughs, awards, grants, or technical commentary.
-        *   Portfolio Companies: Must involve fundraising, clinical trials, M&A, partnerships, or product launches.
-        *   Institutional: Innovation centers, major donations, partnerships.
-    *   Process:
-        1.  Entity Verification: Is ""Myor"" the person/company we care about?
-        2.  Main Article Validation: Is ""Myor"" in the main text or just a sidebar/footer?
-        3.  Strategic Value: Does it contain a TTO/BD signal?
-        4.  Strictness: Lean toward FALSE if unsure.
-
-    *   Title: ""Consumer Staples - 2Q26 recap: domestic sales led by robust dairy segment - IndoPremier""
-    *   Snippet: ""...ICBP. /MYOR recorded yoy GPM...""
-    *   Content: An equity research report from IndoPremier regarding the ""Consumer Staples"" sector in Indonesia. It mentions companies like ICBP, MYOR, UNVR, KLBF, CMRY, and SIDO.
-    *   Context of ""MYOR"": It's listed as a ""top pick"" in the consumer staples sector. It refers to GPM (Gross Profit Margin) improvements due to lower input costs (coffee, sugar, cocoa).
-
-    *   *Step 1: Entity Verification:* The ""Myor"" mentioned here is clearly a stock ticker or a company abbreviation (likely Mayora Indah, a large Indonesian food and beverage company) in the context of Indonesian consumer staples. It is *not* a researcher affiliated with Hebrew University, nor is it a Yissum portfolio company.
-    *   *Step 2: Main Article Validation:* ""MYOR"" is in the main text, but it's as part of a financial analyst's stock recommendation list.
-    *   *Step 3: Strategic Value:* There is zero connection to technology transfer, Hebrew University, IP, clinical trials, or biotech/deep-tech innovation. It is a report on the profitability of food companies in Indonesia.
-    *   *Step 4: Final Decision:* FALSE. This is a classic ""False Positive"" (wrong entity).
-
-    *   `relevant`: false
-    *   `reason`: The keyword ""MYOR"" refers to a publicly traded consumer staples company (likely Mayora Indah) in an Indonesian market equity report. It is not a researcher affiliated with Hebrew University or a Yissum portfolio company, and the content relates to stock market performance and gross profit margins rather than technology transfer or scientific innovation.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
