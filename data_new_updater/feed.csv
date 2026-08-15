@@ -274,28 +274,3 @@ The snippet and full content describe a governor's condolence message to a forme
     *   `reason`: ""Rejected: The keyword 'Daika' refers to a geographic location (a community in Plateau State, Nigeria) in an article about abandoned road infrastructure, not a researcher or entity affiliated with Hebrew University. There is no strategic or commercial value for Yissum.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 10/08/2026,Paul Smith Spring / Summer 2013 Men&#39;s Runway Show - Mshale,mshale.com,https://mshale.com/6ff2c329/6fcd5347m87gT-bldLo,"&quot; I come from an era where boys were dressing like girls a lot, with long sam o&#39;reilly hair, more bohemian, more hippy, and print was what we did&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 09/08/2026,The Worst Fortnite Player EVER ( Zay <b>Hippy</b> ) XBox Controller - YouTube,youtube.com,https://www.youtube.com/shorts/PTIO3OdpLw4,The Worst Fortnite Player EVER ( Zay Hippy ) XBox Controller. @fr33musicskatelife1 likeNo viewsStreamed 9 minutes ago,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-08/08/2026,Delta or JAL: Which airline is the best to LA?,airlineratings.com,https://www.airlineratings.com/articles/delta-or-jal-which-airline-is-the-best-to-la,"So which carrier gives passengers the better seat, the better meal, and the better night&#39;s sleep all for a good price? We compared them cabin by&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),better meal,full_keyword,FALSE,"Rejected: The keyword ""better meal"" is a false positive; it is used as a descriptive phrase regarding airline catering in a travel comparison article and does not refer to a researcher, portfolio company, or any entity of strategic interest to Yissum.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (TTO of Hebrew University).
-    *   Task: Validate a ""Google Alert"" for strategic relevance.
-    *   Keyword: ""Better Meal"" (found as ""better meal"").
-    *   News Item: An article comparing Delta Air Lines and Japan Airlines (JAL) flight experiences to Los Angeles.
-    *   Relevance Criteria:
-        *   Researchers: Must be HUJI affiliated and discussing science/tech/awards/grants.
-        *   Portfolio Companies: Fundraising, Clinical Trials, M&A, Partnerships, Product Launches.
-        *   Institutional: Innovation centers, major donations, academic partnerships.
-    *   Special Rule: Strict TTO filter. Mark FALSE if commercial value is speculative or generic.
-    *   Process: Entity Verification $\rightarrow$ Main Article Validation $\rightarrow$ Strategic Value $\rightarrow$ Be Strict.
-
-    *   Keyword ""Better Meal"" matched the text ""better meal"".
-    *   Article Content: Comparison of aircraft, seats, and *catering* (meals) between Delta and JAL.
-    *   Specific sentence: ""So which carrier gives passengers the better seat, the better meal, and the better night's sleep all for a good price?""
-
-    *   Step 1: Entity Verification. Is ""Better Meal"" a researcher, portfolio company, or institutional entity?
-        *   The alert triggered on the phrase ""better meal"".
-        *   In the text, ""better meal"" is used as an adjective/noun phrase to describe the quality of airline food.
-        *   It is *not* a company named ""Better Meal"", nor a researcher. It is a common English phrase.
-    *   Step 2: Main Article Validation. Even if it were an entity, it's just a descriptive phrase.
-    *   Step 3: Strategic Value. No IP, no licensing, no startup, no HUJI researcher, no funding. It's a travel review.
-    *   Step 4: Be Strict. Definitely FALSE.
-
-    *   `relevant`: false.
-    *   `reason`: The keyword ""better meal"" is a false positive; it is used as a descriptive phrase regarding airline catering in a travel comparison article and does not refer to a researcher, portfolio company, or any entity of strategic interest to Yissum.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
