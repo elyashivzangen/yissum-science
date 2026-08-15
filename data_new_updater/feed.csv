@@ -1,4 +1,41 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+15/08/2026,AI-Written Zodiac Questions Matched Standard Personality Tests in Key Measures - Qoo Media,qoo10.co.id,https://www.qoo10.co.id/en/tech/142440/gpt-4-zodiac-questions-personality-tests-study/,AI-Written Zodiac Questions Matched Standard Personality Tests in Key Measures&nbsp;&nbsp;Qoo Media,Google News - Researcher - Arzy Shahar,Arzy Shahar (Google News query match),full_keyword,FALSE,"Rejected: The article text provided does not mention Arzy Shahar; the content is focused on AI-generated zodiac questions and personality tests, indicating a false positive match between the researcher name and this news item."" Wait, let me double-check the snippets again. Snippet 1: `https://www.qoo10.co.id/en/tech/142440/gpt-4-zodiac-questions-personality-tests-study/` Snippet 4: `ChatGPT can predict how people will answer personality tests` Snippet 5: `ChatGPT can generate personality tests...` None of these mention ""Arzy Shahar"". Rule Check: ""Mark FALSE for... weak name matches...","SEARCH_SNIPPET_CONTEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
+Validate a Google Alert for ""Arzy Shahar"".
+""AI-Written Zodiac Questions Matched Standard Personality Tests in Key Measures - Qoo Media"" (and associated snippets).
+""Arzy Shahar"".
+
+    *   *Title:* AI-Written Zodiac Questions Matched Standard Personality Tests in Key Measures.
+    *   *Snippet:* Mentions AI-written zodiac questions and personality tests.
+    *   *Search Result 1:* URL contains ""gpt-4-zodiac-questions..."".
+    *   *Search Result 2-5:* Mention Taroscoper, MindZodiacLab, ChatGPT predicting personality tests, MedicalXpress article about ChatGPT generating personality tests.
+    *   *Entity Match Check:* I need to find ""Arzy Shahar"" in the text provided.
+    *   *Scanning Content:*
+        *   Title: ""AI-Written Zodiac Questions..."" (No Arzy Shahar)
+        *   Snippet: ""AI-Written Zodiac Questions..."" (No Arzy Shahar)
+        *   Full Content: ""Article title: AI-Written Zodiac Questions... RSS snippet: AI-Written Zodiac Questions... Publisher: Qoo Media... Search result 1: ... Search result 2: ... Search result 3: ... Search result 4: ... Search result 5: ...""
+
+    *   The keyword ""Arzy Shahar"" is *not* present anywhere in the provided title, snippet, or full content text.
+    *   The search result context implies that the *alert* was triggered by the name ""Arzy Shahar,"" but the *article itself* is about AI, ChatGPT, and Zodiac/Personality tests.
+
+    *   *Step 1: Entity Verification:* Does the text discuss Arzy Shahar? No.
+    *   *Step 2: Main Article Validation:* The entity is not in the main article.
+    *   *Step 3: Strategic Value:* N/A (since the entity isn't there).
+
+    *   Since the name ""Arzy Shahar"" does not appear in the provided text, this is a ""False Positive."" The search engine likely matched the name in a way that isn't reflected in the snippet (perhaps in the full article text which wasn't fetched, or it's a completely unrelated hit). As an analyst, I must reject it because there is no evidence in the provided context.
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The article text provided does not mention Arzy Shahar; the content is focused on AI-generated zodiac questions and personality tests, indicating a false positive match between the researcher name and this news item.""
+
+    *   *Wait, let me double-check the snippets again.*
+    *   Snippet 1: `https://www.qoo10.co.id/en/tech/142440/gpt-4-zodiac-questions-personality-tests-study/`
+    *   Snippet 4: `ChatGPT can predict how people will answer personality tests`
+    *   Snippet 5: `ChatGPT can generate personality tests...`
+    *   None of these mention ""Arzy Shahar"".
+
+    *   *Rule Check:* ""Mark FALSE for... weak name matches... Do not infer commercial value... Mark FALSE if the entity appears only in [metadata/not in main article].""
+    *   The name is missing from the provided text entirely.
+
+    *   ""Rejected: The article text does not contain any mention of Arzy Shahar; the news item pertains to AI and personality testing, meaning the keyword match is a false positive with no verifiable connection to the researcher or Yissum's business development interests.""",,,,,,google_news,Qoo Media,resolved,https://news.google.com/rss/articles/CBMijwFBVV95cUxON3BnUjd3TFJFa1RkNGlKblRFYWh5enM1WjJYT09GTlRXaDM4UktMVlFSbTcwRVV2LVNKNnNfbHBoa19lT2EyTGFKaTBsSUZocTBxSWxEREZsTHRsRDVHR3Z2VjVMSHFXZ3I1QWJoWC1RcEd4T2pUTzBlM0dMcy1rdkE2bndNVDZxU2JoaUVUOA?oc=5,gemma-4-26b-a4b-it,,,
 14/08/2026,PUSD Board&#39;s &#39;Transformation&#39; Meeting Ends With Closure Questions Still Unresolved,coloradoboulevard.net,https://www.coloradoboulevard.net/pusd-boards-transformation-meeting-ends-with-closure-questions-still-unresolved/,"The Pasadena Unified School District Board of Education spent nearly six hours Thursday, August 14, in a special meeting focused on defining the&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 14/08/2026,Pasadena&#39;s Lineage Brings Broadway and the Muppets Together ‹ ColoradoBoulevard.net,coloradoboulevard.net,https://www.coloradoboulevard.net/tag/pasadenas-lineage-brings-broadway-and-the-muppets-together/,Summer heat has been known to cause our brains to go a little sideways—the perfect state of mind for Lineage Performing Arts Center&#39;s fundraising&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 14/08/2026,<b>HIPPY</b> Pasadena Earns Five-Year Endorsement and National Recognition,coloradoboulevard.net,https://www.coloradoboulevard.net/tag/hippy-pasadena-earns-five-year-endorsement-and-national-recognition/,The Pasadena Public Health Department has received a five-year endorsement for its Home Instruction for Parents of Preschool Youngsters (HIPPY)&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
