@@ -293,35 +293,3 @@ The snippet and full content describe a governor's condolence message to a forme
 }
 ```",,,,,,google_news,Infection Control Today,unresolved_google_news,https://news.google.com/rss/articles/CBMiugFBVV95cUxOa3Vjdi1xNnFoTlJvUnpkaGh0TVA2TzlSaVAxd0dYRnR5eXpueFByc25oZGcwRG5JZHdJNzVqU3hfY1lYaUI2SDJQb19PRUVHbTVtN3NOdzlndTV4VkJtMUdMMEs2ck1ndHVfa1ZYM21DbEhxMUpjRi1nM1N3Tl9zYlhDbmotSDJ4VVJhUFUyVkduWVNPSGE3U0VvanAzLWdMc0IydzA1RjF1Ni1lQ0h3Q1RQQ2N2N3hPQUE?oc=5,gemini-2.5-flash,,,
 10/08/2026,From Antonio Banderas to Victoria Federica or Michael Bublé: This Is How the Starlite Gala ...,ground.news,https://ground.news/article/from-antonio-banderas-to-victoria-federica-or-michael-buble-this-is-how-the-starlite-gala-2026-has-been-converted-one-more-year-into-the-star_1cbff6,Antonio Banderas Receives the 65 at the Starlite Gala: a Night of Solidarity and Hippy Spirit. The actor celebrated the eve of his birthday as host&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-10/08/2026,"Four Years, Three Budgets, One Abandoned Promise: Inside Plateau&#39;s Unfinished Mangu Bye Pass",secretsreporter.com,https://secretsreporter.com/2026/08/four-years-three-budgets-one-abandoned-promise-inside-plateaus-unfinished-mangu-bye-pass/,"For the people of Daika and surrounding communities, the project no longer represents hope. It has become a symbol of years of waiting. “As you&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),daika,full_keyword,FALSE,"Rejected: The keyword 'Daika' refers to a geographic location (a community in Plateau State, Nigeria) in an article about abandoned road infrastructure, not a researcher or entity affiliated with Hebrew University. There is no strategic or commercial value for Yissum.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-    *   Task: Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
-    *   Keyword matched: ""Daika"" (found as ""daika"").
-    *   Context: Google News researcher feed (stricter filter).
-    *   Criteria: Must have commercial/translation signals (IP, licensing, startup, clinical, fundable path, major grant, prestigious award).
-    *   Constraint: Return ONLY a raw JSON object.
-
-    *   Title: ""Four Years, Three Budgets, One Abandoned Promise: Inside Plateau's Unfinished Mangu Bye Pass""
-    *   Snippet: Mention of ""the people of Daika and surrounding communities"".
-    *   Full Content: A report about a failed road project (Mangu Bye Pass) in Plateau State, Nigeria. It discusses government budgets, abandoned construction, and local resident frustration.
-
-    *   Step 1: Entity Verification.
-        *   Keyword: ""Daika"".
-        *   Article Context: ""Daika"" is used as a geographical location (""the people of Daika and surrounding communities"").
-        *   Is it a researcher? No.
-        *   Is it a portfolio company? No.
-        *   Is it an institutional partner? No.
-        *   The ""Daika"" in the text is a town/community in Nigeria.
-
-    *   Step 2: Main Article Validation.
-        *   The word ""Daika"" appears in the main body, but it refers to a location, not a person or entity related to Yissum.
-
-    *   Step 3: Strategic Value.
-        *   Topic: Road construction in Nigeria.
-        *   Relevance: Zero. No science, no tech, no HUJI researcher, no IP.
-
-    *   Step 4: Strictness.
-        *   Clearly a ""False Positive"".
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The keyword 'Daika' refers to a geographic location (a community in Plateau State, Nigeria) in an article about abandoned road infrastructure, not a researcher or entity affiliated with Hebrew University. There is no strategic or commercial value for Yissum.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-10/08/2026,Paul Smith Spring / Summer 2013 Men&#39;s Runway Show - Mshale,mshale.com,https://mshale.com/6ff2c329/6fcd5347m87gT-bldLo,"&quot; I come from an era where boys were dressing like girls a lot, with long sam o&#39;reilly hair, more bohemian, more hippy, and print was what we did&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
