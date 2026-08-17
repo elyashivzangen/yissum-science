@@ -374,25 +374,3 @@ The snippet and full content describe a governor's condolence message to a forme
 11/08/2026,Townsville Greyhound Short Form (Race 7) - 14/08/26,thegreyhoundrecorder.com.au,https://www.thegreyhoundrecorder.com.au/form-guides/townsville-20260814/place-a-srm-with-bet-nation-race-7/short-form/,"Place A Srm With Bet Nation. (380m) 1:34PM (AEST). X34 $1,820 - $560 - $280. Rug 1. HippyT: Hayley Wooler (Stuart). Dec-21BE DogRUNS 69:7-11-9TRACK 69&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 11/08/2026,<b>HIPPY</b>来校！君に捧げる応援歌 Club Brugge - Stvv (ijhpVUPa1I) - Mshale,mshale.com,https://mshale.com/d2ad2dd1/152b57ffiCeF4bG_cG4,HIPPY来校！君に捧げる応援歌 Club Brugge - Stvv (ijhpVUPa1I) ... By. Mshale. -. 2026&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 11/08/2026,Antonio Banderas turns 66 at Starlite Gala - Euro Weekly News,euroweeklynews.com,https://euroweeklynews.com/2026/08/10/antonio-banderas-turns-66-at-starlite-gala-a-night-combined-with-peace-love-and-giving/,"The Hollywood star returned as host to the 17th Starlite Occident Gala, where peace signs, flowers and a 1970s hippy theme set the scene for an&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-10/08/2026,"Senator Lalong felicitates with former assembly colleague, Rt. Hon. <b>Daika</b> on birthday",apexnewsexclusive.com,https://apexnewsexclusive.com/2026/08/senator-lalong-felicitates-with-former-assembly-colleague-rt-hon-daika-on-birthday/,"Daika as a dependable political associate, committed statesman and a man whose contributions to the political and democratic development of Plateau&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),daika,full_keyword,FALSE,"Rejected: The article refers to Rt. Hon. George Daika, a political figure and former Speaker of the Plateau State House of Assembly, in the context of a birthday felicitation. It does not mention any researcher, academic institution, or technology-related developments, and therefore provides no strategic value for Yissum's business development or licensing activities.","FULL_TEXT: *   Role: Senior Innovation Analyst at Yissum.
-    *   Task: Validate a Google Alert for ""Daika"".
-    *   Keyword found: ""daika"".
-    *   News Item: An article titled ""Senator Lalong felicitates with former assembly colleague, Rt. Hon. Daika on birthday"".
-    *   Goal: Determine if this is a ""False Positive"" or ""Strategic Relevance"" for Business Development & Licensing.
-
-    *   Title: ""Senator Lalong felicitates with former assembly colleague, Rt. Hon. Daika on birthday"".
-    *   Snippet/Content: Discusses Senator Simon Bako Lalong wishing Rt. Hon. George Daika a happy birthday. It mentions George Daika was a former Speaker of the Plateau State House of Assembly and a ""dependable political associate.""
-    *   Entity: George Daika.
-    *   Context: Politics in Plateau State, Nigeria.
-
-    *   *Step 1: Entity Verification.* The keyword ""Daika"" refers to ""Rt. Hon. George Daika"". The search context implies a researcher or entity of interest to Yissum. There is no mention of any researcher named Daika or any affiliation with Hebrew University.
-    *   *Step 2: Main Article Validation.* The entity *is* the subject of the main article.
-    *   *Step 3: Strategic Value (The Yissum Filter).*
-        *   Is this a researcher? No, George Daika is described as a ""committed statesman"" and ""former Speaker of the Plateau State House of Assembly.""
-        *   Is this a portfolio company? No.
-        *   Is this institutional (Yissum/HUJI)? No.
-        *   Commercial/Translational signal? None. It is a political birthday congratulation.
-    *   *Step 4: Strictness.* This is clearly a ""False Positive"" where the name matched a researcher/entity but the content is entirely political/social news.
-
-    *   `relevant`: false
-    *   `reason`: The article refers to Rt. Hon. George Daika, a political figure and former Speaker of the Plateau State House of Assembly, in the context of a birthday felicitation. It does not mention any researcher, academic institution, or technology-related developments, and therefore provides no strategic value for Yissum's business development or licensing activities.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
