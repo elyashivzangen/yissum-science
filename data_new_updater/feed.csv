@@ -15,6 +15,29 @@ The ""Full Content"" provided is actually just the landing page/boilerplate of E
 
     *   `relevant`: false
     *   `reason`: The name ""Ronen Gottesman"" does not appear anywhere in the provided text. The content consists of general EurekAlert! homepage navigation and unrelated news snippets, offering no evidence of a connection to the researcher or any TTO-relevant activity.",,,,,,google_news,EurekAlert!,resolved,https://news.google.com/rss/articles/CBMiWEFVX3lxTE50VkJ5WTJaN3lpNVdXV2FlU0taYS0zczRSV3RDQkpabTBBSnBiSXpHeDhDMS1ESFpST2V1THVTVU1pSTdkNllQNE5zZW4wMjd3MTQzeE9yV3Y?oc=5,gemma-4-31b-it,,,
+18/08/2026,Right to left: Shahar Artzi and Ronen Gottesman in the lab (IMAGE) - EurekAlert!,eurekalert.org,https://www.eurekalert.org/multimedia/965012,Right to left: Shahar Artzi and Ronen Gottesman in the lab (IMAGE)&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Ronen Gottesman,ronen gottesman,full_keyword,FALSE,"Rejected: The article provides only a photo caption mentioning Ronen Gottesman and does not verify an affiliation with Hebrew University or Yissum. Furthermore, the text lacks any specific details regarding commercialization, intellectual property, or translational research that would provide strategic business development value. Does it meet the JSON format? Yes. Is the reason prose? Yes. Is it strict? Yes.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Analyze a news item to determine if it is strategically relevant for Business Development & Licensing.
+""Ronen Gottesman"".
+""Right to left: Shahar Artzi and Ronen Gottesman in the lab (IMAGE) - EurekAlert!""
+""Right to left: Shahar Artzi and Ronen Gottesman in the lab (IMAGE)"".
+Lists researchers: Dr. Irit Zohar, Dr. Marion Prévost, Prof. Naama Goren, Dr. Guy Sisma-Ventura, Prof. Nira Alperson-Afil, Prof. Israel Hershkovitz. Contact info for ""Noga Shahar"" at ""Tel-Aviv University"".
+
+    *   *Step 1: Entity Verification:* Does the article discuss ""Ronen Gottesman""? The title and snippet mention him. However, the ""Full Content"" section (which represents the actual body/description) lists a different set of researchers: Dr. Irit Zohar, Dr. Marion Prévost, Prof. Naama Goren, etc. Ronen Gottesman is not mentioned in the provided researcher list in the full text.
+    *   *Step 2: Main Article Validation:* The title mentions Ronen Gottesman, but the snippet and body text provided are extremely sparse. The body lists other doctors/professors. There is no mention of Hebrew University (HUJI) or Yissum. In fact, the contact info is for Tel-Aviv University.
+    *   *Step 3: Strategic Value (The ""Yissum Filter""):* Even if Ronen Gottesman is the subject, is there commercial value? The text provided is just a photo caption (""Right to left... in the lab"") and a list of names. There is no mention of IP, licensing, startups, clinical trials, or major translational grants. It's a caption for an image in a lab setting.
+    *   *Step 4: Strictness:* The instructions say: ""Mark FALSE for ordinary academic coverage, ecology/basic-science-only stories, generic science news... Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals.""
+
+    *   The name ""Ronen Gottesman"" appears in the title/snippet.
+    *   The content does *not* explicitly link him to Hebrew University (the contact is Tel-Aviv University).
+    *   The content does *not* provide any business/TTO value (no mention of tech, IP, or translation). It looks like a simple image caption for a news release.
+    *   The researcher list in the text does not even include him.
+
+    *   `relevant`: false
+    *   `reason`: Rejected: The article provides only a photo caption mentioning Ronen Gottesman and does not verify an affiliation with Hebrew University or Yissum. Furthermore, the text lacks any specific details regarding commercialization, intellectual property, or translational research that would provide strategic business development value.
+
+    *   Does it meet the JSON format? Yes.
+    *   Is the reason prose? Yes.
+    *   Is it strict? Yes.",,,,,,google_news,EurekAlert!,resolved,https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwaDdqNXV1blQ1RW1uS3VqZGNUQUY3Z3lQbFBXdDc2RDBLZEppdWFDYWViNlRmSHJkTnZOTTRmTlZ6dnNlcFMyZUxmcWozcmUwNkIyUU5uemk?oc=5,gemma-4-26b-a4b-it,,,
 18/08/2026,A flash of light creates high-performance materials without heating the surface beneath - EurekAlert!,eurekalert.org,https://www.eurekalert.org/news-releases/1109976,A flash of light creates high-performance materials without heating the surface beneath&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Ronen Gottesman,Ronen Gottesman (Google News query match),full_keyword,FALSE,"Rejected: The article does not mention Ronen Gottesman, nor does it reference Hebrew University or any related affiliated researchers. The content focuses on research conducted at Rice University and the University of Florida, making this a false positive alert with no TTO relevance.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
     *   Task: Analyze a news item and determine strategic relevance for Business Development & Licensing.
     *   Keyword Matched: ""Ronen Gottesman"".
