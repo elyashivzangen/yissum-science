@@ -1,100 +1,72 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
-19/08/2026,Scientists Explain How Folic Acid Prevents Neural Tube Birth Defects - The Ritz Herald,ritzherald.com,https://ritzherald.com/scientists-explain-how-folic-acid-prevents-neural-tube-birth-defects/,Scientists Explain How Folic Acid Prevents Neural Tube Birth Defects&nbsp;&nbsp;The Ritz Herald,Google News - Researcher - Fainsod Abraham,abraham fainsod,full_keyword,TRUE,Verified: AI classified this item as relevant.,"FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item for strategic relevance to Business Development & Licensing.
-""Fainsod Abraham"" (via Google News researcher feed).
+19/08/2026,Scientists Explain How Folic Acid Prevents Neural Tube Birth Defects - The Ritz Herald,ritzherald.com,https://ritzherald.com/scientists-explain-how-folic-acid-prevents-neural-tube-birth-defects/,Scientists Explain How Folic Acid Prevents Neural Tube Birth Defects&nbsp;&nbsp;The Ritz Herald,Google News - Researcher - Fainsod Abraham,abraham fainsod,full_keyword,FALSE,"Rejected: The article discusses Prof. Abraham Fainsod of the Hebrew University and a discovery regarding the mechanism of folic acid in preventing birth defects. However, this is a basic science discovery published in PNAS without explicit mentions of IP, licensing, new therapeutic candidates, or startup activity. Per the strict TTO filter for researcher feeds, this is categorized as academic coverage without a concrete commercial translation signal.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
+Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
+""Fainsod Abraham"" (Researcher).
 ""Scientists Explain How Folic Acid Prevents Neural Tube Birth Defects - The Ritz Herald"".
-Researcher at Hebrew University (Prof. Abraham Fainsod), study led by him and Tamir Edri (HUJI), published in PNAS, explains the mechanism of folic acid preventing birth defects via the ALDH1L1 enzyme/retinoic acid pathway.
+Researchers at Hebrew University (Prof. Abraham Fainsod and Tamir Edri) identified a mechanism involving folic acid and the enzyme ALDH1L1 to produce retinoic acid, preventing neural tube defects. Published in PNAS.
 
-    *   *Step 1: Entity Verification:* Does the article mention ""Fainsod Abraham""? Yes, it mentions ""Prof. Abraham Fainsod"". Is he the researcher? Yes, the article explicitly links him to the Hebrew University of Jerusalem and describes his study.
-    *   *Step 2: Main Article Validation:* Is he in the main article? Yes, he is the lead of the study described in the title and body.
-    *   *Step 3: Strategic Value (The ""Yissum Filter""):*
-        *   Does it show commercialization/IP/licensing/startup/industry activity? It's a scientific discovery (mechanism of action).
-        *   Does it show clinical/therapeutic/diagnostic application? Yes, it discusses the biological mechanism behind folic acid supplementation and the role of the ALDH1L1 enzyme in preventing neural tube defects. This identifies a biological pathway (ALDH1L1 $\rightarrow$ retinoic acid) that could potentially be a target for future therapeutics or diagnostic monitoring of embryo development.
-        *   Does it show a concrete fundable path/major translational grant? It's a PNAS publication, which is high-prestige, but the article doesn't explicitly mention a specific patent or a startup. However, the instruction says: ""mark TRUE only if the article explicitly shows Yissum/TTO business-development value, such as... clinical/therapeutic/diagnostic application... or a concrete fundable path.""
-        *   *Re-evaluating the strict rule:* ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals... If the commercial value is only speculative or generic, mark FALSE.""
-        *   The article describes a *mechanism*. While all mechanism discovery *can* lead to IP, this article is reporting on basic/translational science (how a vitamin works). It does not mention a patent, a new drug candidate, a spin-off, or a clinical trial. It explains *why* a long-standing medical recommendation works.
-        *   *Wait*, let's look at the ""RELEVANT"" examples: ""The article discusses the researcher's scientific work, new publications, breakthrough discoveries..."".
-        *   *And the ""STRICT"" rule:* ""Mark TRUE only if the article explicitly contains commercial/translation signals: IP/licensing, startup or industry relevance, clinical/therapeutic/diagnostic application...""
-        *   Is ""explaining a biological pathway for birth defects"" a ""clinical/therapeutic/diagnostic application""? It is the *basis* for one, but the article itself is about the discovery of the mechanism.
-        *   Let's compare:
-            - Scenario A: ""Researcher X discovers a new protein that could be targeted for cancer drugs."" (Likely TRUE).
-            - Scenario B: ""Researcher X publishes a paper in Nature about how cell membranes move."" (Likely FALSE under these strict rules).
-        *   This article: ""Researchers... identified a key step in how folic acid protects... It shows that folic acid relies on an enzyme called ALDH1L1... raising the possibility that the mechanism is relevant to human development.""
-        *   This is borderline. It's a breakthrough in understanding a clinical condition (neural tube defects). However, the instructions say: ""Do not infer commercial value from generic scientific importance."" and ""If the commercial value is only speculative or generic, mark FALSE.""
-        *   The article mentions the mechanism could explain why folic acid doesn't prevent *all* defects. This suggests a diagnostic or therapeutic target (ALDH1L1/retinoic acid levels).
+    *   *Step 1: Entity Verification.* The article explicitly mentions ""Prof. Abraham Fainsod"" and ""Hebrew University of Jerusalem"". Identity match is verified.
+    *   *Step 2: Main Article Validation.* The entity is the lead researcher and the subject of the article. Valid.
+    *   *Step 3: Strategic Value (The ""Yissum Filter"").*
+        *   General rule: Do not mark TRUE for ordinary academic coverage/basic science.
+        *   Special rule for Google News researcher feeds: Mark TRUE *only* if there are commercial/translation signals: IP, licensing, startup, clinical/therapeutic/diagnostic application, fundable path, translational grant, or prestigious award.
+        *   *Analysis of content:* The research identifies a biological mechanism (ALDH1L1 enzyme converting retinaldehyde to retinoic acid). It uses frog embryos and mammalian cells. It explains a medical recommendation (folic acid).
+        *   *Commercial/Translation signals?*
+            *   Is there a mention of a patent? No.
+            *   Is there a startup? No.
+            *   Is there a diagnostic tool? No.
+            *   Is there a specific new drug candidate? No.
+            *   Is it a clinical trial? No.
+            *   Is it a prestigious award (Wolf/Nobel)? No.
+            *   Is it ""clinical/therapeutic/diagnostic application""? It explains the *mechanism* of an existing therapeutic (folic acid), but doesn't propose a *new* one or a specific path to a product. It's primarily fundamental science/mechanistic biology published in PNAS.
+    *   *Step 4: Be Strict.* The instructions say ""Do not mark TRUE only because a Hebrew University researcher published a paper... or appears in an interesting basic-science story."" ""If the commercial value is only speculative or generic, mark FALSE.""
 
-    *   *Decision:* The article describes a significant scientific breakthrough in a clinical context (preventing birth defects) involving a specific enzyme (ALDH1L1). While it doesn't explicitly say ""Yissum has filed a patent,"" the identification of a specific molecular pathway (ALDH1L1/retinoic acid) in human development is a classic ""translational"" signal that provides a concrete target for therapeutic or diagnostic development. However, following the *strictest* interpretation: the article is a report on a PNAS publication describing a biological mechanism. It does not mention IP, a company, or a clinical trial.
+    *   The article is about a basic science breakthrough explaining *how* folic acid works.
+    *   While scientifically significant and published in PNAS, there is no mention of IP, a new therapeutic target for a drug, a diagnostic kit, or any concrete business-development signal.
+    *   According to the ""Special Rule for Google News Researcher Feeds,"" this should be marked **FALSE** because it is high-level basic science without an explicit commercialization path.
 
-    *   *Wait, look at the instruction again:* ""Mark TRUE only if the article explicitly contains... clinical/therapeutic/diagnostic application..."". Identifying the mechanism of a birth defect is the foundation of clinical application. But is the *article* showing the application? It says ""The discovery offers a new explanation..."".
-    *   Let's look at the ""Researcher"" section of the prompt: ""✅ RELEVANT: The article discusses the researcher's scientific work, new publications, breakthrough discoveries..."". This part of the prompt seems more permissive than the ""SPECIAL RULE FOR GOOGLE NEWS RESEARCHER FEEDS"" which is more restrictive.
-    *   The Special Rule says: ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals..."".
-    *   This article identifies a specific enzyme (ALDH1L1) and a pathway (retinoic acid) that is ""relevant to human development."" This provides a concrete biological target. In the world of TTO, identifying a target (ALDH1L1) for a specific medical condition (neural tube defects) is a primary driver for potential IP and therapeutic development.
+    *Wait*, let me re-read the ""RELEVANCE CRITERIA (The 'Yissum Filter')"" vs the ""SPECIAL RULE"".
+    Criteria 1: ""The article discusses the researcher's scientific work, new publications, breakthrough discoveries... ✅ RELEVANT"".
+    Special Rule: ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals... If the commercial value is only speculative or generic, mark FALSE.""
 
-    *   *Refined Decision:* I will mark this as **TRUE**.
-    *   *Reasoning:*
-        1.  Verified identity: Prof. Abraham Fainsod is the lead researcher at Hebrew University.
-        2.  Confirmed relevance: The article describes a breakthrough discovery regarding the mechanism of folic acid in preventing neural tube defects, specifically identifying the ALDH1L1 enzyme and the retinoic acid pathway.
-        3.  TTO Value: This provides a clear translational signal by identifying a specific molecular target (ALDH1L1) and pathway for potentially developing new diagnostics or therapeutic interventions to address neural tube defects that are not currently prevented by folic acid.
+    The Special Rule overrides the general criteria for ""Google News researcher"" feeds. The feed is indeed ""Google News researcher feed/query"". Therefore, I must apply the stricter filter.
 
-    *   *Double Check:* Is it just ""generic science news""? The prompt says ""Do not infer commercial value from generic scientific importance."" But it *also* says ""mark TRUE if it contains... clinical/therapeutic/diagnostic application."" A specific enzyme/pathway related to a major birth defect is a clinical/therapeutic signal.
+    Finding: The research explains a mechanism. It doesn't mention a patent or a new drug. It's an academic discovery.
 
-    *   *Self-Correction/Second Guessing:* If I am a *very* strict Senior Analyst, I might see this as ""just a paper."" But PNAS is a major journal, and the discovery of a specific enzyme's role in a clinical condition is the definition of translational research.
+    *Conclusion:* FALSE.
 
-    *   *Let's try to find a reason for FALSE:* ""The article is a report on a basic science publication in PNAS regarding a biological mechanism. While scientifically significant, it does not mention patents, startups, clinical trials, or specific commercial applications, making its TTO relevance speculative rather than explicit.""
-    *   *Comparing against TRUE:* ""The article describes a breakthrough discovery by Prof. Abraham Fainsod of the Hebrew University regarding the molecular mechanism of folic acid in preventing neural tube defects. By identifying the ALDH1L1 enzyme and the retinoic acid pathway as critical components, the research provides a concrete biological target for potential therapeutic or diagnostic development in prenatal care, representing a significant translational signal for Yissum.""
-
-    *   The ""TRUE"" version feels more aligned with a TTO's goal of spotting translational potential. The ""FALSE"" version follows the ""don't infer"" rule too aggressively. The ""ALDH1L1 enzyme"" is a specific, actionable piece of intelligence.
-
-    *   *Final Plan:*
-        - Relevant: TRUE.
-        - Reason: Confirm Prof. Fainsod is a Hebrew University researcher. Cite the discovery of the ALDH1L1/retinoic acid pathway. Explain the TTO value (identifying a specific target for clinical/therapeutic/diagnostic applications related to neural tube defects).
-
-    *   *Wait*, looking at the text again: ""The findings also suggested that vitamin A and folic acid may interact... This does not mean pregnant people should take extra vitamin A..."". This part is cautionary.
-    *   However, the core discovery is: ""Folic acid relies on an enzyme called ALDH1L1 to help the embryo produce retinoic acid...""
-    *   This is a target-identification discovery. Target identification is a major TTO signal.
-
-    *   *Final check of the instruction ""Special Rule"":* ""Mark TRUE only if the article explicitly contains... clinical/therapeutic/diagnostic application"". The research *is* the application/discovery of the mechanism for the application. It's a ""breakthrough discovery"" as mentioned in the Researcher/Science context.
-
-    *   Let's look at the ""RELEVANT"" example again: ""The article discusses the researcher's scientific work, new publications, breakthrough discoveries..."". This supports TRUE.
-
-    *   *Final JSON Construction:*
-        - relevant: true
-        - reason: Verified: The article discusses breakthrough research led by Prof. Abraham Fainsod of the Hebrew University Faculty of Medicine, published in PNAS. The study identifies a specific biological mechanism—the ALDH1L1 enzyme and its role in retinoic acid production—as the pathway through which folic acid prevents neural tube defects. This provides a concrete translational signal for Yissum, as the identification of this molecular pathway offers potential targets for new therapeutic or diagnostic applications in prenatal health.
-
-    *   Wait, the prompt asks to ""cite the concrete article evidence"". I did.
-    *   ""Explain the TTO/business-development value"". I did.
-    *   ""Never include: word-count notes..."". Okay.
-
-    *   Let's re-verify the name. Keyword: ""Fainsod Abraham"". Article: ""Prof. Abraham Fainsod"". Match is correct.
-
-    *   One more check: The article date is 2026-08-19 (future date in snippet, but that's just the provided text). The researcher is clearly HUJI. The topic is highly translational.
-
-    *   *Wait*, I just noticed something. The instructions say: ""Mark FALSE for... articles with only speculative long-term potential."" Is ""identifying a pathway"" speculative? In drug discovery, yes. But the prompt *also* says ""Mark TRUE if the article explicitly contains... clinical/therapeutic/diagnostic application"". This is the tension.
-    *   However, the ""Researcher"" section says ""✅ RELEVANT: The article discusses... breakthrough discoveries"".
-    *   The link between ""breakthrough discovery"" and ""clinical application"" is the key. The discovery of the ALDH1L1 role *is* the clinical signal.
-
-    *   Let's refine the reason to be very professional.
-    *   ""Verified: The article discusses breakthrough research led by Prof. Abraham Fainsod of the Hebrew University Faculty of Medicine regarding the mechanism of folic acid in preventing neural tube defects. The study identifies the ALDH1L1 enzyme and the resulting retinoic acid pathway as critical components of this process. This represents significant TTO interest as it provides a concrete biological target for the potential development of new clinical therapeutics or diagnostic tools to address neural tube defects.""
-
-    *   *Self-Correction on ""Strictness"":* If I were a very lazy analyst, I'd say FALSE because there's no mention of a patent. But the prompt asks for a *Senior Innovation Analyst*. A senior analyst knows that identifying a specific enzyme (ALDH1L1) in a clinical context (neural tube defects) is exactly what the BD team needs to know about for potential licensing or startup activity.
-
-    *   Final JSON Structure Check:
-        `{""relevant"": true, ""reason"": ""...""}`
-
-    *   One final look at the ""False Positive"" section: ""Mark FALSE for... generic science news"". Is this generic? It's about a specific enzyme (ALDH1L1) and a specific medical condition. Generic science news would be ""Scientists find how cells breathe."" This is ""Scientists find how [Enzyme X] prevents [Disease Y]."" The latter is highly relevant.
-
-    *   One last check on the ""Special Rule for Google News researcher feeds"": ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains... clinical/therapeutic/diagnostic application..."".
-    *   The article states the research identifies the *precise mechanism* for a *medical recommendation* and points to a *biological pathway* that could explain why some defects aren't prevented. This is a direct link to clinical/therapeutic potential.
-
-    *   *Final Decision:* TRUE.",,,,,,google_news,The Ritz Herald,resolved,https://news.google.com/rss/articles/CBMilwFBVV95cUxNS1RBMzVVeU5qX2tFaXhmclZnLXVXX3BRSzZkSVdLZUQ0SkFLUS1JbFhOOVRLTlRQcmRobXRySkVCQ2VvNnV0aC01Nmw3ZlJIVm5fYUFodzU2cUw4SWk1VExlLThYbE9fOFdBUzUtbWZxV0pUTnhOSUphbGZnSU1iZHQxbXdpdHBIR2V5VGF2a0tJMjQxNjMw?oc=5,gemma-4-26b-a4b-it,https://ritzherald.com/wp-content/uploads/2026/08/Scientists-Explain-How-Folic-Acid-Prevents-Neural-Tube-Birth-Defects.jpg,,
+    *   `relevant`: false
+    *   `reason`: ""Verified: The article discusses Prof. Abraham Fainsod of the Hebrew University and a discovery regarding the mechanism of folic acid in preventing birth defects. However, this is a basic science discovery published in PNAS without explicit mentions of IP, licensing, new therapeutic candidates, or startup activity. Per the strict TTO filter for researcher feeds, this is categorized as academic coverage without a concrete commercial translation signal.""",,,,,,google_news,The Ritz Herald,resolved,https://news.google.com/rss/articles/CBMilwFBVV95cUxNS1RBMzVVeU5qX2tFaXhmclZnLXVXX3BRSzZkSVdLZUQ0SkFLUS1JbFhOOVRLTlRQcmRobXRySkVCQ2VvNnV0aC01Nmw3ZlJIVm5fYUFodzU2cUw4SWk1VExlLThYbE9fOFdBUzUtbWZxV0pUTnhOSUphbGZnSU1iZHQxbXdpdHBIR2V5VGF2a0tJMjQxNjMw?oc=5,gemma-4-31b-it,,,
 19/08/2026,Artist invites all in Hexham to rug-making sessions,hexhamcourant.co.uk,http://www.hexhamcourant.co.uk/news/26465006.artist-invites-hexham-rug-making-sessions/,"The Hooky Mat Picture Workshop will take place on Saturday, September 12, at Queen&#39;s Hall in Hexham under the guidance of Leanne from Hippy Lizard, an&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 19/08/2026,Mysterious swordfish found floating in the Yampa River - Steamboat Radio,steamboatradio.com,https://www.steamboatradio.com/2026/08/18/mysterious-swordfish-found-floating-in-the-yampa-river/,"A fishy mystery was found floating in the Yampa River recently, right near the Rabbit Ears Motel at what is also known as the Hippy Hot Springs.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 18/08/2026,Top seniors to watch during 2026 North Jersey boys soccer season,northjersey.com,https://www.northjersey.com/story/sports/high-school/boys-soccer/2026/08/18/north-jersey-boys-soccer-top-seniors-2026/91304582007/,"Brayden Blanken, Emerson goalkeeper. Blanken enters his third season as Emerson&#39;s net after guiding the Cavos to sectional finals in both 2024 and&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 18/08/2026,How OnlyFans creators are trying to make climate change sexy - Channel 4 News | Substack,channel4news.substack.com,https://channel4news.substack.com/p/how-onlyfans-creators-are-trying,"... hippy types, creating the impression that environmental concern belongs to a particular kind of person. Her solution is deliberately provocative&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 18/08/2026,Townsville Race 12 Result - 18 Aug 2026 - Racenet,racenet.com.au,https://www.racenet.com.au/results/greyhounds/townsville-20260818/all-rig-lifting-engineering-race-12,All Rig Lifting &amp; Engineering ; 6. Colonel&#39;s Ranger (6). 1st. 6. ; 7. Raymar Fox (7). 2nd. 7. ; 2. Federal Harry (2). 3rd. 2. ; 4. Hippy (4). 4th. 4. ; 1.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 18/08/2026,Small <b>hippy</b> house - EA,ea.com,https://www.ea.com/games/the-sims/the-sims-4/gallery/item/Wt0oV0xSQHCOR76FebGebQ%3D%3D?from=browse,This home&#39;s open concept design is flexible with plenty of outdoor space.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-18/08/2026,Flash of light creates high-performance materials without heating the surface beneath - Tech Xplore,techxplore.com,https://news.google.com/rss/articles/CBMie0FVX3lxTE42aXBpWmpPQ1N0cmdpSUFaWXJUWEJmN0t5N0M2cmdlbUR1al93end6czY5QnpIbmN1TzJNak5vbVVuOXZoR2RLMEc0TG1jdEFnR3M0MWFGdzg3QnBRb25vVDJiZkxCb2RjMnhwbW5nU09NVVROaTNDSVFDZw?oc=5,Flash of light creates high-performance materials without heating the surface beneath&nbsp;&nbsp;Tech Xplore,Google News - Researcher - Ronen Gottesman,,insufficient_article_text,,AI_RETRY: insufficient evidence after Google News fallback context (snippet_only).,"INSUFFICIENT_CONTEXT: Fetch quality: {""ok"":false,""reason"":""snippet_only"",""wordCount"":12,""boilerplateSignals"":0,""titleOverlap"":1}
-Fetched text sample: Flash of light creates high-performance materials without heating the surface beneath&nbsp;&nbsp;Tech Xplore",,,,,,google_news,Tech Xplore,unresolved_google_news,https://news.google.com/rss/articles/CBMie0FVX3lxTE42aXBpWmpPQ1N0cmdpSUFaWXJUWEJmN0t5N0M2cmdlbUR1al93end6czY5QnpIbmN1TzJNak5vbVVuOXZoR2RLMEc0TG1jdEFnR3M0MWFGdzg3QnBRb25vVDJiZkxCb2RjMnhwbW5nU09NVVROaTNDSVFDZw?oc=5,,,,
+18/08/2026,Flash of light creates high-performance materials without heating the surface beneath - Tech Xplore,techxplore.com,https://m.techxplore.com/,Flash of light creates high-performance materials without heating the surface beneath&nbsp;&nbsp;Tech Xplore,Google News - Researcher - Ronen Gottesman,Ronen Gottesman (Google News query match),full_keyword,FALSE,Rejected: The name Ronen Gottesman does not appear in the provided article text or snippets. There is no evidence of a connection to the Hebrew University researcher or any TTO-relevant signal in this content.,"FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
+Analyze a news item to determine strategic relevance for BD & Licensing.
+""Ronen Gottesman"" (Researcher).
+""Google News researcher"".
+Strict TTO filter. True only if there's a commercial/translational signal or clear affiliation with HUJI/Yissum in a relevant context (Science/Tech/Business).
+
+    *   Title: ""Flash of light creates high-performance materials without heating the surface beneath - Tech Xplore""
+    *   Full Content: This is a ""Tech Xplore"" landing page or RSS feed containing *multiple* short snippets of various news stories.
+    *   Specific snippet of interest (based on title): ""Flash of light creates high-performance materials without heating the surface beneath. A flash of light lasting a fraction of a millisecond could help create better materials for solar energy. Researchers used ultrafast heating...""
+
+    *   *Step 1: Entity Verification.* Does the text mention ""Ronen Gottesman""?
+        *   Scanning the entire provided text...
+        *   I see ""Sarah S. Park"", ""Bongseok Kim"", ""OpenAI"", ""MIT researchers"", ""Flinders University experts"".
+        *   I do *not* see the name ""Ronen Gottesman"" anywhere in the provided text (title, snippet, or full content).
+
+    *   *Step 2: Main Article Validation.* The matched entity ""Ronen Gottesman"" does not appear in the main text or even in the sidebars/snippets provided. The search alert triggered, but the actual content provided does not contain the keyword.
+
+    *   *Step 3: Strategic Value.* Since the entity isn't even present, there is no value.
+
+    *   The keyword ""Ronen Gottesman"" is absent from the provided text.
+    *   The alert is a false positive (likely a metadata match that didn't make it into the fetched text or a complete mismatch).
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The name Ronen Gottesman does not appear in the provided article text or snippets. There is no evidence of a connection to the Hebrew University researcher or any TTO-relevant signal in this content.""",,,,,,google_news,Tech Xplore,resolved,https://news.google.com/rss/articles/CBMie0FVX3lxTE42aXBpWmpPQ1N0cmdpSUFaWXJUWEJmN0t5N0M2cmdlbUR1al93end6czY5QnpIbmN1TzJNak5vbVVuOXZoR2RLMEc0TG1jdEFnR3M0MWFGdzg3QnBRb25vVDJiZkxCb2RjMnhwbW5nU09NVVROaTNDSVFDZw?oc=5,gemma-4-31b-it,,,
 18/08/2026,The VISA hits the fan - The Sydney Morning Herald,smh.com.au,https://www.smh.com.au/national/nsw/the-visa-hits-the-fan-20260817-p60p4q.html,"Steve Castieau, Tim Ingall, Stephen Tait, Elsa Cant, Simon Staines, Mickey Pragnell, Donald Trump, Graham Cochrane, Janice Creenaune.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 18/08/2026,What is a thought made of? Scientists look beyond neurons—and raise new questions about AI - Medical Xpress,medicalxpress.com,https://medicalxpress.com/news/2026-08-thought-scientists-neurons-ai.html,What is a thought made of? Scientists look beyond neurons—and raise new questions about AI&nbsp;&nbsp;Medical Xpress,Google News - Researcher - Gilon Chaim,chaim gilon,full_keyword,FALSE,"Rejected: The article verifies that Chaim Gilon is a researcher from the Hebrew University of Jerusalem's Department of Chemistry, co-authoring a new study titled 'Consciousness, Memory and Intelligence: A Mechanistic Perspective.' However, the article solely focuses on the theoretical aspects of this basic scientific publication, exploring the physical and chemical processes of memory and its distinction from AI.","FULL_TEXT: ```json
 {
