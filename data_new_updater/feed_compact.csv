@@ -458,38 +458,3 @@ Analyze a news item to determine strategic relevance for Business Development & 
 
     *Final Reason:*
     Verified: The article discusses Prof. Idan Segev, a researcher at the Hebrew University of Jerusalem, and his leadership in a study published in PNAS. The research details the development of a new method and a systematic framework for measuring the computational power of neurons. This provides a concrete TTO signal due to the potential for licensing the methodology and the implications for the artificial intelligence industry, specifically in the creation of brain-inspired neural networks.",,,,,,google_news,ScienceDaily,resolved,https://news.google.com/rss/articles/CBMib0FVX3lxTE5YZDdyeEpvRmMzRFNWZFV3UUdfdkI4ZEtCbU5DbGJFc293UjFCdlBQUkJZTDlJa1BycUZsbUhxTk9WNGZFWER5bTFwT0xkOWxXSU1fSVVTamo1N2dFaW96OGpQMGtFV0lhSlp0cTFJYw?oc=5,gemma-4-26b-a4b-it,https://www.sciencedaily.com/images/1920/neuron-brain-cell-spark.webp,evt_idan-segev_0,"Verified: Hebrew University researchers Profs. Idan Segev and Mickey London have made a breakthrough discovery, revealing that human brain cells, specifically the dendrites of cortical neurons, are far more powerful than previously thought, performing complex non-linear computations."
-13/08/2026,Lessons for future crises in hospital’s Oct. 7 response - The Jewish Star,thejewishstar.com,"https://www.thejewishstar.com/stories/lessons-for-future-crises-in-hospitals-oct-7-response,26675",Lessons for future crises in hospital’s Oct. 7 response&nbsp;&nbsp;The Jewish Star,Google News - Researcher - Rose Adam,adam rose,full_keyword,FALSE,"Rejected: The article mentions Prof. Adam Rose of the Hebrew University as a researcher in a study on hospital disaster response. However, the content is limited to academic findings on hospital management and disaster preparedness, lacking any explicit commercial, IP, or translational signals required for Yissum's business development interests.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item to determine strategic relevance for Business Development & Licensing teams.
-""Rose Adam"" (via Google News researcher feed).
-
-        *   Strict TTO filter (especially for ""Google News researcher"" feeds).
-        *   TRUE only if: Commercialization, IP/licensing, startup activity, clinical/therapeutic/diagnostic application, major translational grant, prestigious award, or concrete fundable path.
-        *   FALSE if: Ordinary academic coverage, basic science, generic science news, weak name match, speculative potential, or non-scientific context.
-        *   Step 1: Entity Verification (Is it the right person/HUJI affiliated?).
-        *   Step 2: Main Article Validation (Is the entity in the main body?).
-        *   Step 3: Strategic Value (Does it have TTO value?).
-        *   Step 4: Be Strict.
-Raw JSON object only.
-
-    *   Title: ""Lessons for future crises in hospital’s Oct. 7 response - The Jewish Star""
-    *   Entity mentioned: ""Prof. Adam Rose of the Hebrew University"".
-    *   Context: A study on hospital response to Oct. 7, published in *Disaster Medicine and Public Health Preparedness*.
-    *   Findings: Lessons on disaster training, communication, and staffing in hospitals during prolonged conflict.
-    *   Affiliation: Prof. Adam Rose is explicitly linked to Hebrew University.
-
-    *   *Step 1: Entity Verification.* The article mentions ""Prof. Adam Rose of the Hebrew University"". The keyword was ""Rose Adam"". This is a clear name match (inverted/similar). He is affiliated with HUJI.
-    *   *Step 2: Main Article Validation.* He is mentioned in the main body as one of the researchers conducting the study.
-    *   *Step 3: Strategic Value.*
-        *   The topic is Public Health/Disaster Management/Hospital Operations.
-        *   Is there a commercial signal?
-            *   IP/Licensing? No.
-            *   Startup/Industry relevance? No.
-            *   Clinical/Therapeutic/Diagnostic application? No (it's about organizational behavior/logistics/training).
-            *   Major translational grant? No.
-            *   Prestigious award? No.
-        *   The article describes a peer-reviewed academic study on hospital resilience and disaster planning. This is ""ordinary academic coverage"" or ""general science news"" regarding public health.
-        *   The special rule for ""Google News researcher feeds"" explicitly says: ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals... If the commercial value is only speculative or generic, mark FALSE.""
-    *   *Conclusion:* While academic and socially significant, this is a study on hospital management and disaster response training. There is no evidence of a patentable technology, a new drug, a diagnostic tool, or a commercial venture. It is social/organizational research.
-
-    *   `relevant`: false
-    *   `reason`: Verified: The article mentions Prof. Adam Rose of the Hebrew University as a researcher in a study on hospital disaster response. However, the content is limited to academic findings on hospital management and disaster preparedness, lacking any explicit commercial, IP, or translational signals required for Yissum's business development interests.",,,,,,google_news,The Jewish Star,resolved,https://news.google.com/rss/articles/CBMingFBVV95cUxQdXp6c2dxYUI2dDNlVU1TQmlCY2RHUTVfSHhWTmlaYlpjRzBVbTZNV1J6bGpTMktJUDhlN3RwaDYzWG1RRl94elJqRmd2c3hIa3hLUmhQMVgtT0NySFJlNFJJZEYzUkVrb3puODJmUlhBU1R6YmE4UnB2MmVTU1A5MzNLdXMtVm1BNXdIUGhQdm9ZRER4cVZiRFAwZ0xqZw?oc=5,gemma-4-31b-it,,,
