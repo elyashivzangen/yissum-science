@@ -336,26 +336,3 @@ A 10-Q summary for NovelStem International Corp. (NSTM).
 14/08/2026,Laser-Marked Packaging Tools - Trend Hunter,trendhunter.com,https://www.trendhunter.com/amp/trends/laser-marking-concept,Melodea Launches Its MeloPack Solution. Inkless QR Marking Solutions. Polytag and Datalase Introduced GS1-Compliant QR&nbsp;...,Companies - Batch 05 (MED PNC→Phenom Networks),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 14/08/2026,Live Chat Finals Day Of The Tahiti Pro - BeachGrit.com,beachgrit.com,https://beachgrit.com/2026/08/live-chat-finals-day-of-the-tahiti-pro/,Hippy • 2 hours ago. too funny. Happy Camper • 2 hours ago. HA! Brilliant ... Hippy • 2 hours ago. this needs to be a screenplay. @surfads • 2&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 14/08/2026,"Weekly Newsletter - Aug 13, 2026 - Office of the City Manager - City of Pasadena",cityofpasadena.net,https://www.cityofpasadena.net/city-manager/cm-weekly-newsletters/weekly-newsletter-aug-13-2026/,"Pasadena Public Health Department&#39;s HIPPY Program Receives Five-Year Endorsement and National Recognition. Manuel Carmona, Director of Public Health,&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-14/08/2026,Experts warn ChatGPT isn't just predicting words anymore — It's now predicting human thoughts - inkl,inkl.com,https://www.techradar.com/pro/chatgpt-isnt-just-predicting-words-anymore-its-now-predicting-human-thoughts,Experts warn ChatGPT isn't just predicting words anymore — It's now predicting human thoughts&nbsp;&nbsp;inkl,Google News - Researcher - Arzy Shahar,Arzy Shahar (Google News query match),full_keyword,FALSE,Rejected: The provided article text does not mention Arzy Shahar. The alert appears to be a false positive as there is no evidence of the researcher's involvement or any HUJI-related commercial signal within the content.,"FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-Analyze a news item for strategic relevance.
-""Arzy Shahar"" (via Google News researcher feed).
-
-        1. Entity Verification: Is the article about Arzy Shahar?
-        2. Main Article Validation: Is the entity in the *main* content, not sidebars/footers?
-        3. Strategic Value: Does it show commercial/translation signals (IP, licensing, startups, clinical apps, major grants, prestigious awards)?
-        4. Strictness: ""Google News researcher"" feeds require a *stricter* filter. No generic academic news.
-
-    *   Title: ""Experts warn ChatGPT isn't just predicting words anymore — It's now predicting human thoughts - inkl""
-    *   Snippet: ""Experts warn ChatGPT isn't just predicting words anymore — It's now predicting human thoughts""
-    *   Full Content: The text describes a study where GPT-4 predicted population-level personality patterns. It mentions ""Researchers found GPT-4 could anticipate human responses.""
-    *   Looking for ""Arzy Shahar"": I am scanning the full text provided.
-    *   *Scanning...*
-    *   The full text contains the title, description, metadata, and a large amount of CSS/HTML code (`@font-face`, `@layer`, etc.).
-    *   I do NOT see the name ""Arzy Shahar"" anywhere in the provided full text.
-
-    *   The keyword ""Arzy Shahar"" was the trigger, but the name does not appear in the provided article title, snippet, or full text.
-    *   Even if the name were there, the article is a general reporting piece on GPT-4's capabilities (""Experts warn...""), which is generic AI news and lacks specific commercial/TTO signals related to a specific HUJI researcher's IP or startup activity.
-    *   However, the primary reason for rejection is that the entity ""Arzy Shahar"" is not mentioned in the text.
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The provided article text does not mention Arzy Shahar. The alert appears to be a false positive as there is no evidence of the researcher's involvement or any HUJI-related commercial signal within the content.""",,,,,,google_news,inkl,resolved,https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3JsWEFMOXdxeGhMN0YwdFBiQ0NQVXVMWjNsN0NfRzRBQklGZVk0ZTUwM0ZpV2hCN3hCTW40VG9adkFvbnFpbG9FMXNWeXJFT3JqRG5mRDl5TkZXbmdvRk1qRWZWX2hLeXVPbnZpdUREc1R4elRaZExpLTdvT2pSY2VHc0IweFo5Sms1QzlIenBaMHJyTVZRcHBuZ3Y1LThPWnA3ZTlUMlRNY2hFRE1NWnd5WVU2Zw?oc=5,gemma-4-31b-it,,,
