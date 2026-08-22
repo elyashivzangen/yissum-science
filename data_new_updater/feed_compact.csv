@@ -1,4 +1,26 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+22/08/2026,Jewish DNA Leads Straight Back To The CANAANITES Cloverdale Rodeo (vzDflwfbsd) - Mshale,mshale.com,https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjWFZyYlRpODhGRFd0dVlOMDlMRUVXT0pKLWN5cGVrMFZwWVZJQU4zRDNwaV9qMzk4Z0VwellOc21mcFIxUnJ0VjlBRHplaTJvSWFFRi00TXZ2UQ?oc=5,Jewish DNA Leads Straight Back To The CANAANITES Cloverdale Rodeo (vzDflwfbsd)&nbsp;&nbsp;Mshale,Google News - Researcher - Carmel Liran,Carmel Liran (Google News query match),full_keyword,FALSE,"Rejected: The provided text does not mention the researcher Carmel Liran, nor does it establish any connection to Hebrew University. The news item appears to be an aggregated snippet of unrelated topics with no commercial, translational, or professional value for Yissum.","SEARCH_SNIPPET_CONTEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
+Analyze a news item for strategic relevance to Business Development & Licensing.
+""Carmel Liran"".
+""Jewish DNA Leads Straight Back To The CANAANITES Cloverdale Rodeo (vzDflwfbsd) - Mshale"".
+
+        *   Title: ""Jewish DNA Leads Straight Back To The CANAANITES Cloverdale Rodeo (vzDflwfbsd) - Mshale""
+        *   Snippet: ""Jewish DNA Leads Straight Back To The CANAANITES Cloverdale Rodeo (vzDflwfbsd)&nbsp;&nbsp;Mshale""
+        *   Full Content: Very fragmented. Mentions an RSS snippet, a publisher ""Mshale"", and some search results about Canaanites and DNA (Tel Aviv University mentioned in search results, not HUJI).
+        *   Note: The title is weird (""Cloverdale Rodeo"" mixed with ""Jewish DNA""). This looks like a spammy aggregator or a poorly parsed RSS feed.
+
+        *   Entity Verification: Is ""Carmel Liran"" mentioned in the text?
+        *   Main Article Validation: Is the entity in the main content?
+        *   Strategic Value: Is there commercial/translational value (IP, Licensing, Startups, etc.)?
+        *   Strictness: Google News researcher feed requires *stricter* filtering. No basic science/academic commentary. Must be translational/commercial.
+
+    *   *Step 1: Entity Verification.* Does the text mention ""Carmel Liran""?
+        *   Scanning the title, snippet, and ""Full Content"": The name ""Carmel Liran"" does *not* appear anywhere in the provided news item text.
+    *   *Step 2: Main Article Validation.* The news item appears to be a fragmented snippet from a site called ""Mshale"". The title is nonsensical (""Jewish DNA... Cloverdale Rodeo""). It's clearly junk/spam content or an aggregator error.
+    *   *Step 3: Strategic Value.* Even if it were about DNA and Canaanites (which is mentioned in the search results), the search results point to Tel Aviv University (TAU), not Hebrew University (HUJI). There is zero mention of Carmel Liran, zero mention of HUJI, and zero mention of commercialization/licensing/IP.
+
+    *   `relevant`: false
+    *   `reason`: The provided text does not mention the researcher Carmel Liran, nor does it establish any connection to Hebrew University. The news item appears to be an aggregated snippet of unrelated topics with no commercial, translational, or professional value for Yissum.",,,,,,google_news,Mshale,unresolved_google_news,https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjWFZyYlRpODhGRFd0dVlOMDlMRUVXT0pKLWN5cGVrMFZwWVZJQU4zRDNwaV9qMzk4Z0VwellOc21mcFIxUnJ0VjlBRHplaTJvSWFFRi00TXZ2UQ?oc=5,gemma-4-31b-it,,,
 22/08/2026,"Israeli scientists: AI can make personality tests, predict responses - The Jerusalem Post",jpost.com,https://www.jpost.com/science/article-906137,"Israeli scientists: AI can make personality tests, predict responses&nbsp;&nbsp;The Jerusalem Post",Google News - Researcher - Arzy Shahar,shahar arzy,full_keyword,TRUE,"Verified: The article identifies Prof. Shahar Arzy as a researcher from the Hebrew University-Hadassah Medical School and the HUJI Faculty of Computer Science. The study, published in the journal iScience, details a method for using large language models to generate and validate personality assessment questionnaires with clinical diagnostic potential. This is strategically relevant for Yissum as it presents a clear translational path toward AI-driven mental health diagnostics and assessment tools. JSON format? Yes. No markdown? Yes. No bullet points? Yes. No self-commentary? Yes.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
 Analyze a Google News alert for ""Arzy Shahar"" to determine if it's strategically relevant for Business Development & Licensing.
 ""Arzy Shahar"" (via Google News researcher feed).
