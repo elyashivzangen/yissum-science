@@ -155,6 +155,32 @@ Strict TTO filter. True only if there's a commercial/translational signal or cle
 ```",,,,,,google_news,Medical Xpress,resolved,https://news.google.com/rss/articles/CBMifkFVX3lxTE5XYlVzNVpnbXJFQXBGNXZyYWRyTGZXVWt0QmhtWlU4OWNvRmtkWkMwVXMwV05vQWc0NnFqTHlWVE1BSkhud18wZklVc2IxVzgyYUZZSmV4VGJJdDIwdDF5YUZ3aWZwTjVFazRKMVVKclh5amRWZ3ZTOEhaTEQ1Zw?oc=5,gemini-2.5-flash,,,
 18/08/2026,Mandurah Race 4 Form Guide - 20 Aug 2026 - Racenet,racenet.com.au,https://www.racenet.com.au/form-guide/greyhounds/mandurah-20260820/all-torque-engineering-race-4/overview,Junk Yard Hippy (7). 7. Junk Yard Hippy (7). T: Darryl Jeffries. F: 6134471726. N/A. 8. Reggae Melody (8). 8. Reggae Melody (8).,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 18/08/2026,EVERY GOAL Scored Last Season by the 2026-27 New Jersey Devils Roster - YouTube,youtube.com,https://www.youtube.com/watch?v=GNKOd7ZY_mA,See what the New Jersey Devils&#39; current roster is bringing into the 2026-27 NHL season! Watch EVERY GOAL scored during the 2025-26 season by&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+18/08/2026,"A Flash of Light Rearranges a Crystal, and Another Flash Puts It Back While the Glass Below Stays Cool - EurekAlert!",eurekalert.org,https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HbVBEcFlXTm9lWkpfR2VZbnV1QkVCeVNyRmdSTVQydlVXRlNiWUlBMXd1TktRZ3habzZYeEVvUzFyRmVNLTNPMXVPaEc2VW1UMXdKSV9RdHQ?oc=5,"A Flash of Light Rearranges a Crystal, and Another Flash Puts It Back While the Glass Below Stays Cool&nbsp;&nbsp;EurekAlert!",Google News - Researcher - Ronen Gottesman,Ronen Gottesman (Google News query match),full_keyword,FALSE,"Rejected: The article text does not mention or verify any connection to Ronen Gottesman; the content focuses on materials science and crystal rearrangement, suggesting the keyword match was a false positive."" JSON format? Yes. No markdown/bullets? Yes. No self-commentary? Yes. Strict TTO filter applied? Yes.","SEARCH_SNIPPET_CONTEXT: Senior Innovation Analyst for Yissum.
+Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
+""Ronen Gottesman"".
+
+        *   Title: ""A Flash of Light Rearranges a Crystal, and Another Flash Puts It Back While the Glass Below Stays Cool - EurekAlert!""
+        *   Snippet/Content: Discusses light rearranging crystals/high-performance materials/solar materials.
+        *   Search Snippet Context: Google News researcher feed/query.
+
+    *   *Step 1: Entity Verification:* Does the article mention ""Ronen Gottesman""?
+        *   Reviewing the Title: ""A Flash of Light Rearranges a Crystal..."" -> No mention of Ronen Gottesman.
+        *   Reviewing the Snippet/Content: ""A Flash of Light Rearranges a Crystal..."" -> No mention of Ronen Gottesman.
+        *   Reviewing the Search Results provided in the snippet: None of the snippets (Search result 1-5) mention ""Ronen Gottesman"". They discuss ""high-performance materials,"" ""solar materials,"" etc.
+    *   *Step 2: Main Article Validation:* Since the entity ""Ronen Gottesman"" is not found in the article title or the provided text, there is no match.
+    *   *Step 3: Strategic Value:* Irrelevant because the entity match failed.
+
+    *   The keyword match ""Ronen Gottesman"" appears to be a false positive from the Google News query (likely a name match in a different context or an error in the search algorithm's metadata).
+    *   The article content is about materials science (light-induced crystal rearrangement).
+    *   There is no evidence in the provided text that Ronen Gottesman (who is a well-known scholar in biology/evolution at HUJI) is involved in this specific materials science story. Even if he were, the text doesn't say it.
+
+    *   `relevant`: `false`
+    *   `reason`: ""Rejected: The article text does not mention or verify any connection to Ronen Gottesman; the content focuses on materials science and crystal rearrangement, suggesting the keyword match was a false positive.""
+
+    *   JSON format? Yes.
+    *   No markdown/bullets? Yes.
+    *   No self-commentary? Yes.
+    *   Strict TTO filter applied? Yes.",,,,,,google_news,EurekAlert!,unresolved_google_news,https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HbVBEcFlXTm9lWkpfR2VZbnV1QkVCeVNyRmdSTVQydlVXRlNiWUlBMXd1TktRZ3habzZYeEVvUzFyRmVNLTNPMXVPaEc2VW1UMXdKSV9RdHQ?oc=5,gemma-4-26b-a4b-it,,,
 18/08/2026,Transforming Bismuth Oxide in a Flash (IMAGE) - EurekAlert!,eurekalert.org,https://www.eurekalert.org/,Transforming Bismuth Oxide in a Flash (IMAGE)&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Ronen Gottesman,Ronen Gottesman (Google News query match),full_keyword,FALSE,"Rejected: The name ""Ronen Gottesman"" does not appear anywhere in the provided text. The content consists of general EurekAlert! homepage navigation and unrelated news snippets, offering no evidence of a connection to the researcher or any TTO-relevant activity.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
 Analyze a news item for strategic relevance (Business Development/Licensing).
 ""Ronen Gottesman"" (Researcher).
@@ -235,51 +261,3 @@ Snippet/Content mentions ""Better Meal Prep"" in the context of ""Best of Staten
 17/08/2026,"Review: CAROLINE - A NEW MUSICAL, East Anglian Touring Consortium - Online",westendbestfriend.co.uk,https://www.westendbestfriend.co.uk/news/review-caroline-a-new-musical-east-anglian-touring-consortium-online,&#39;Hippy Hippy Shake&#39; (1964) by the Swinging Blue Jeans sees audiences growing. &#39;Gimme Some Lovin&#39; (1966) by The Spencer Davis Group sees the launch&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,old_article,FALSE,Auto-Reject: Old article resurfaced by Google Alerts. Metadata article date found: Aug 17 (time datetime).,Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 17/08/2026,"Gulfstream Park Free Form Guide | Neurals | Race 3 | Monday, 17th August 2026",racingandsports.com.au,https://www.racingandsports.com.au/form-guide/thoroughbred/united-states-of-america/gulfstream-park/2026-08-17/R3/neurals,"HIPPY HIPPY SHAKE &middot; DIEGO A HERRERA &middot; KATHLEEN O&#39;CONNELL, 8-12 | 56.0, 146.0, $6.0, 4. 3, COUSIN PAMMIE &middot; JG TORREALBA &middot; KATHRYN DAVEY, 8-8 | 54.5&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 17/08/2026,Gulfstream Race 3 Betting Odds,odds.com.au,https://www.odds.com.au/horse-racing/gulfstream-us-20260818/race-3-maiden-claiming-race-3/,1: List &middot; A. Rahim Jasim ; 2: Solitary Passion &middot; Jonathan Santos ; 3: Cousin Pammie &middot; J. G. Torrealba ; 4: Hippy Hippy Shake &middot; Diego A. Herrera ; 5: Come On&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/08/2026,"Star Detective Precure! Anime Unveils New Ending Theme, Character Visuals (Contains Spoilers)",animenewsnetwork.com,https://www.animenewsnetwork.com/news/2026-08-17/star-detective-precure-anime-unveils-new-ending-theme-character-visuals/.240626,The staff also revealed a visual for the Future Form of Cure Answer in the upcoming Eiga Meitantei Precure! (Star Detective Pre cure! The Movie) film.,Companies - Batch 02 (Philoseed→Scopus BioPharma),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/08/2026,A flash of light creates high-performance materials without heating the surface beneath - Nanowerk,nanowerk.com,https://www.alphagalileo.org/en-gb/Item-Display/ItemId/276857,A flash of light creates high-performance materials without heating the surface beneath&nbsp;&nbsp;Nanowerk,Google News - Researcher - Ronen Gottesman,ronen gottesman,full_keyword,TRUE,"Verified: The article identifies Dr. Ronen Gottesman as a researcher at the Hebrew University’s Institute of Chemistry and details his work on 'flash photonic heating.' This technology allows for the creation of high-performance semiconductor materials for solar energy and advanced electronics without damaging sensitive substrates. This discovery provides a clear translational signal for Yissum, as the method addresses key manufacturing hurdles in the solar and semiconductor industries, presenting significant potential for IP licensing and commercial application.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI's TTO).
-Analyze a news item to see if it's strategically relevant for Business Development & Licensing (BD&L).
-""Ronen Gottesman"".
-
-        *   Title: ""A flash of light creates high-performance materials without heating the surface beneath - Nanowerk""
-        *   Snippet: Describes using light flashes to create materials for solar energy.
-        *   Full Content:
-            *   Discusses ""flash photonic heating"" to rearrange atoms in semiconductors.
-            *   Mentions the study was published in *Small Structures*.
-            *   Explicitly names researchers: ""led by Shahar Artzi and Dr. Ronen Gottesman of the Hebrew University’s Institute of Chemistry and Center for Nanoscience and Nanotechnology.""
-            *   Provides a quote from Gottesman: “The idea is to heat and cool the material so quickly that we can trap it in a crystal structure that would normally disappear...”
-            *   Mentions potential applications: solar energy conversion, photocatalysis, and advanced electronic devices.
-            *   Mentions funding: Israel Ministry of Energy and Infrastructure, Israel Ministry of Innovation, Science and Technology, Israel Science Foundation.
-            *   Confirms affiliation: Hebrew University of Jerusalem.
-
-    *   *Step 1: Entity Verification:* Is the ""Ronen Gottesman"" in the article the same as the search keyword? Yes. The article identifies him as ""Dr. Ronen Gottesman of the Hebrew University’s Institute of Chemistry.""
-    *   *Step 2: Main Article Validation:* Is he part of the main article? Yes. He is a lead researcher cited in the body and part of the author list.
-    *   *Step 3: Strategic Value (The Yissum Filter):* Does this have TTO/Business development value?
-        *   The article describes a *new method* (flash photonic heating) for creating high-performance semiconductor materials (bismuth oxide) for solar cells and electronics.
-        *   It mentions specific performance improvements (up to 50x more electrical current).
-        *   It addresses a technical hurdle in manufacturing (heating the coating without ruining the substrate).
-        *   This is a highly translational technology with clear applications in the solar energy and electronics industries.
-        *   It is a breakthrough scientific finding with potential IP/licensing opportunities.
-        *   *Constraint Check:* The prompt says: ""Mark TRUE only if the article explicitly contains commercial/translation signals: IP/licensing, startup or industry relevance, clinical/therapeutic/diagnostic application, a concrete fundable path, major translational grant funding...""
-        *   The article mentions the method ""could eventually help improve solar technologies and other advanced electronic devices"" and describes a process that bypasses current manufacturing limitations. This is a concrete translational/industrial application signal.
-
-    *   *Decision:* TRUE.
-    *   *Reasoning Construction:*
-        *   Confirm identity: The article identifies Dr. Ronen Gottesman as a researcher at the Hebrew University's Institute of Chemistry.
-        *   Cite evidence: The article details a breakthrough in ""flash photonic heating"" used to create high-performance semiconductor materials for solar cells and electronics.
-        *   Explain TTO value: This represents a significant translational technology with direct industrial applications in solar energy and electronic device manufacturing, offering clear potential for IP licensing or startup development.
-
-    *   Must be a raw JSON object.
-    *   No markdown, no asterisks, no conversational filler.
-
-    *Draft JSON:*
-    ```json
-    {
-      ""relevant"": true,
-      ""reason"": ""The article identifies Dr. Ronen Gottesman as a researcher at the Hebrew University’s Institute of Chemistry and details his work on 'flash photonic heating.' This technology allows for the creation of high-performance semiconductor materials for solar energy and advanced electronics without damaging sensitive substrates. This discovery provides a clear translational signal for Yissum, as the method addresses key manufacturing hurdles in the solar and semiconductor industries, presenting significant potential for IP licensing and commercial application.""
-    }
-    ```
-
-    *   ""Ronen Gottesman"" matched? Yes.
-    *   HUJI connection? Yes (Institute of Chemistry).
-    *   TTO signal? Yes (Translational technology for solar/electronics).
-    *   Strict filter applied? Yes. (Avoided marking just because he published; marked because the application is industrial/translational).",,,,,,google_news,Nanowerk,resolved,https://news.google.com/rss/articles/CBMib0FVX3lxTE5pUm91aC1QblU0U0RvejVwWWsxanNNUkI0bldZaEN4dFhvVGJWYTNVWkNGSVNhN3lQc0VnbGlHRG9kUW5WSmV1R3YwVHNHaFZMZUJfSFRRZndPaFVMLU5QcTd1anhDTjVJcG5WVW9kbw?oc=5,gemma-4-26b-a4b-it,https://galileoalphamessages.s3.eu-west-2.amazonaws.com/Uploads/images/f83b8613-0328-45a4-9886-d82d14ffe2ce-20lash20of20ight20earranges20a20rystal220and20nother20lash20uts20t20ack20hile20the20lass20elow20tays20ool.png,,
