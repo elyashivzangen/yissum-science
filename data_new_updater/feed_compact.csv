@@ -283,35 +283,3 @@ Analyze a news item to see if it's strategically relevant for Business Developme
     *   HUJI connection? Yes (Institute of Chemistry).
     *   TTO signal? Yes (Translational technology for solar/electronics).
     *   Strict filter applied? Yes. (Avoided marking just because he published; marked because the application is industrial/translational).",,,,,,google_news,Nanowerk,resolved,https://news.google.com/rss/articles/CBMib0FVX3lxTE5pUm91aC1QblU0U0RvejVwWWsxanNNUkI0bldZaEN4dFhvVGJWYTNVWkNGSVNhN3lQc0VnbGlHRG9kUW5WSmV1R3YwVHNHaFZMZUJfSFRRZndPaFVMLU5QcTd1anhDTjVJcG5WVW9kbw?oc=5,gemma-4-26b-a4b-it,https://galileoalphamessages.s3.eu-west-2.amazonaws.com/Uploads/images/f83b8613-0328-45a4-9886-d82d14ffe2ce-20lash20of20ight20earranges20a20rystal220and20nother20lash20uts20t20ack20hile20the20lass20elow20tays20ool.png,,
-17/08/2026,King Tut was buried with 140 pairs of immense underwear - When The Going Gets Weird,newsletter.mathewingram.com,https://newsletter.mathewingram.com/king-tut-was-buried-with-140-pairs-of-immense-underwear/,"... hippy for a young man. Indeed, a “virtual autopsy” scan of King Tut done some years ago suggested he had a slim torso and fatty deposits around&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-17/08/2026,"Cells grow old at different rates, offering insight into cancer, neurodegeneration and aging - BioTechniques",biotechniques.com,https://www.biotechniques.com/cell-and-tissue-biology/cells-grow-old-at-different-rates-offering-insight-into-cancer-neurodegeneration-and-aging/,"Cells grow old at different rates, offering insight into cancer, neurodegeneration and aging&nbsp;&nbsp;BioTechniques",Google News - Researcher - Cedar Howard,howard cedar,full_keyword,TRUE,"Verified that the article discusses Prof. Howard Cedar from the Hebrew University. The research on single-cell biological aging, published in Nature Communications, provides a framework for identifying the earliest cells responsible for cancer and neurodegeneration. This is strategically relevant for Yissum due to the explicit potential for diagnostic and therapeutic applications in age-related diseases and the collaboration with Altos Labs, a major commercial entity in the cellular rejuvenation field.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
-""Cedar Howard"" (via Google News researcher feed).
-
-        *   Strict TTO filter for ""Google News researcher"" feeds.
-        *   Do not mark TRUE just for academic publication or basic science.
-        *   Mark TRUE only if there are *commercial/translational signals*: IP, licensing, startups, clinical/therapeutic/diagnostic applications, fundable paths, major translational grants, or prestigious awards.
-        *   Ignore generic scientific importance.
-
-        *   Title: ""Cells grow old at different rates, offering insight into cancer, neurodegeneration and aging - BioTechniques""
-        *   Content: Research from Hebrew University (HUJI) led by Hagit Masika, supervised by Howard Cedar and Tommy Kaplan.
-        *   Findings: Cells of the same chronological age age differently (mosaic of biological ages).
-        *   Applications/Impact: Insight into cancer, neurodegeneration, and aging. Could help identify cells at risk of driving disease and guide strategies to slow or prevent biological aging.
-        *   Publication: *Nature Communications*.
-        *   Collaborators: Wolf Reik of Altos Labs and Babraham Institute.
-
-    *   *Step 1: Entity Verification:* The search keyword was ""Cedar Howard"". The article mentions ""Howard Cedar"". This is clearly a match (inverted name or search query variation). He is identified as being from ""the Hebrew University’s Faculty of Medicine and Center for Computational Medicine"". Match confirmed.
-    *   *Step 2: Main Article Validation:* Howard Cedar is mentioned in the main body and quoted. He is a supervising researcher of the study. This is not a sidebar or footer mention. Match confirmed.
-    *   *Step 3: Strategic Value (TTO Filter):*
-        *   Topic: Biological aging, DNA methylation, single-cell analysis.
-        *   Potential Applications: Cancer, neurodegeneration, age-related diseases.
-        *   Commercial/Translational Signals:
-            *   Mentions ""offering new insights into cancer, neurodegeneration"".
-            *   ""Opens new possibilities for identifying the cells that are most at risk of driving disease.""
-            *   ""Guide strategies to slow – or even prevent – the biological processes that drive aging.""
-            *   Collaboration with **Altos Labs** (a massive, highly funded longevity/cellular rejuvenation startup). This is a significant commercial signal.
-    *   *Step 4: Strictness Check:* The instructions say ""Mark TRUE only if the article explicitly contains commercial/translation signals... clinical/therapeutic/diagnostic application... or direct Yissum/HUJI technology-transfer value.""
-        *   Is this just ""basic science""? The discovery that cells age at different rates is basic science, but the specific application to *identifying disease-driving cells* and the collaboration with *Altos Labs* (a commercial powerhouse in the longevity space) pushes this into the realm of translational interest for a TTO. The article specifically mentions therapeutic directions (slowing/preventing biological aging) and diagnostic directions (identifying at-risk cells).
-
-    *   `relevant`: true
-    *   `reason`: Verified that the article discusses Prof. Howard Cedar from the Hebrew University. The research on single-cell biological aging, published in Nature Communications, provides a framework for identifying the earliest cells responsible for cancer and neurodegeneration. This is strategically relevant for Yissum due to the explicit potential for diagnostic and therapeutic applications in age-related diseases and the collaboration with Altos Labs, a major commercial entity in the cellular rejuvenation field.",,,,,,google_news,BioTechniques,resolved,https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZW1sbjlCWE5UbzRhN3F2TUpxbWRueEdkUmtKanBSVWtRTU5CNU1GVU01cENzdVpVdTNXUm5kZHlobVh5MDktZFdycE5JbkVxeW5XblpFREVFdWNpWGprQmdyTFlBbEVpWU9ta0JZeExzeFF1MHRlTU5weEhHbU5xUFp0NkVIV1ROYXhpbUtqSW1YakViX25ZTFJhWG5PX0VjT2ZkeE5uN2N3cGRHWkNwSkJSNGZ1WUVNODAzV3NKaU4xWUg1TWlQZWRxbjRxcjI2a0VPMVpOdXR4Q3IyZkE?oc=5,gemma-4-31b-it,https://www.biotechniques.com/wp-content/uploads/2026/08/Aging-cells.png,,
