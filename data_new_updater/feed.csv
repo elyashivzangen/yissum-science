@@ -219,24 +219,3 @@ Lists researchers: Dr. Irit Zohar, Dr. Marion Prévost, Prof. Naama Goren, Dr. G
     *   Does it meet the JSON format? Yes.
     *   Is the reason prose? Yes.
     *   Is it strict? Yes.",,,,,,google_news,EurekAlert!,resolved,https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwaDdqNXV1blQ1RW1uS3VqZGNUQUY3Z3lQbFBXdDc2RDBLZEppdWFDYWViNlRmSHJkTnZOTTRmTlZ6dnNlcFMyZUxmcWozcmUwNkIyUU5uemk?oc=5,gemma-4-26b-a4b-it,,,
-18/08/2026,A flash of light creates high-performance materials without heating the surface beneath - EurekAlert!,eurekalert.org,https://www.eurekalert.org/news-releases/1109976,A flash of light creates high-performance materials without heating the surface beneath&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Ronen Gottesman,Ronen Gottesman (Google News query match),full_keyword,FALSE,"Rejected: The article does not mention Ronen Gottesman, nor does it reference Hebrew University or any related affiliated researchers. The content focuses on research conducted at Rice University and the University of Florida, making this a false positive alert with no TTO relevance.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-    *   Task: Analyze a news item and determine strategic relevance for Business Development & Licensing.
-    *   Keyword Matched: ""Ronen Gottesman"".
-    *   Source: Google News researcher feed (Stricter filter applies).
-
-    *   Title: ""A flash of light creates high-performance materials without heating the surface beneath - EurekAlert!""
-    *   Article Content: Discusses materials scientists at Rice University (and collaborators from the University of Florida) developing a material using covalent organic frameworks (COFs) and hexagonal boron nitride (hBN) to break down PFAS/pollutants in water.
-    *   Authors listed: Yifan Zhu, Yuren Feng, Yunrui Yan, Zhiyu Wang, Xiang Zhang, Somayeh Faraji, Qing Ai, Tianyou Xie, Xintong Weng, Lixin Zhou, Tianshu Zhai, Yifeng Liu, Xiaochuan Huang, Chen-yang Lin, Sarah Glass, Bongki Shin, Yimo Han, Angel Mart, Pulickel Ajayan, Mingjie Liu, Qilin Li, and Jun Lou.
-
-    *   Step 1: Entity Verification. Is ""Ronen Gottesman"" mentioned in the text?
-        *   Scanning the title, snippet, and full text...
-        *   The name ""Ronen Gottesman"" does *not* appear anywhere in the provided text.
-    *   Step 2: Main Article Validation. Since the entity isn't mentioned, it's not part of the main article.
-    *   Step 3: Strategic Value. N/A.
-
-    *   The alert was triggered by ""Ronen Gottesman"", but the article is about researchers at Rice University and the University of Florida.
-    *   There is no mention of Ronen Gottesman, Hebrew University, or HUJI.
-    *   This is a false positive.
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The article does not mention Ronen Gottesman, nor does it reference Hebrew University or any related affiliated researchers. The content focuses on research conducted at Rice University and the University of Florida, making this a false positive alert with no TTO relevance.""",,,,,,google_news,EurekAlert!,resolved,https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XcEZtNVA0VUJnZUtOM0k0Yl9YWXZWb093SGx2T0JpeDc3SXNvSmM1aUMxbUVfMnBPWGZ1Ny1YalVFeDJQZDJUNTdLVWN1b1ZXOWRXb0JQQm1hRlJ3?oc=5,gemma-4-31b-it,,,
