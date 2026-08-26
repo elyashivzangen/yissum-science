@@ -1,4 +1,60 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+26/08/2026,"UOB, RHB and Maybank complete Malaysia&#39;s first brokered <b>MYOR</b>-based interbank transaction",theedgemarkets.com,http://www.theedgemarkets.com/node/815857,"UOB Malaysia, RHB Bank Bhd (KL:RHBBANK) and Malayan Banking Bhd (KL:MAYBANK) have executed the first brokered Malaysia Overnight Rate (MYOR)-based&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" in this context refers to the Malaysia Overnight Rate, a financial benchmark used in interbank transactions, not a researcher or portfolio entity affiliated with Hebrew University. There is no TTO or business development value for Yissum.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
+Analyze a news item to determine strategic relevance for Business Development & Licensing.
+""Myor"" (matched in text as ""myor"").
+""UOB, RHB and Maybank complete Malaysia's first brokered MYOR-based interbank transaction"".
+Financial transaction regarding the ""Malaysia Overnight Rate (MYOR)"".
+
+    *   *Step 1: Entity Verification.* The keyword ""MYOR"" in the text refers to the ""Malaysia Overnight Rate,"" a financial benchmark rate calculated by Bank Negara Malaysia. The search context was likely looking for a researcher or entity named ""Myor.""
+    *   *Step 2: Main Article Validation.* The term ""MYOR"" is central to the article, but it's an acronym for a financial rate, not a person or a company related to Yissum's portfolio.
+    *   *Step 3: Strategic Value.* Does a Malaysian interbank transaction based on a risk-free rate provide value to a University Technology Transfer Office (TTO) focused on science, medicine, and deep tech? No.
+    *   *Step 4: Be Strict.* This is a classic ""False Positive."" The keyword match is an acronym for a financial term, not the researcher/entity the TTO is tracking.
+
+    *   `relevant`: false.
+    *   `reason`: The keyword ""MYOR"" in this context refers to the Malaysia Overnight Rate, a financial benchmark used in interbank transactions, not a researcher or portfolio entity affiliated with Hebrew University. There is no TTO or business development value for Yissum.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
+26/08/2026,UOB Malaysia completes Malaysia&#39;s first brokered <b>MYOR</b>-based interbank transaction with ...,thestar.com.my,https://www.thestar.com.my/business/business-news/2026/08/26/uob-malaysia-completes-malaysia039s-first-brokered-myor-based-interbank-transaction-with-rhb-maybank,"... first Malaysia Overnight Rate (MYOR)-based three-month interbank money market transaction, incorporating a two-day lookback calculation convention.",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" in this context refers to the Malaysia Overnight Rate, a financial benchmark for interbank transactions in Malaysia. It is not a researcher, company, or entity affiliated with Hebrew University or Yissum's portfolio, making this a false positive.","FULL_TEXT: Senior Innovation Analyst for Yissum (TTO).
+Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
+""Myor"" (matched in text as ""myor"").
+""UOB Malaysia completes Malaysia's first brokered MYOR-based interbank transaction with ...""
+
+    *   The article discusses the ""Malaysia Overnight Rate (MYOR)"".
+    *   MYOR is a financial benchmark/reference rate used in banking and interbank money markets in Malaysia.
+    *   The banks involved are UOB Malaysia, RHB Banking Group, and Maybank.
+    *   The context is entirely financial/banking (interbank transactions, risk-free rate conventions, Central Bank of Malaysia/Bank Negara Malaysia).
+
+    *   *Step 1: Entity Verification.* The keyword ""Myor"" in the search context is being matched against ""MYOR"" in the text. In the text, ""MYOR"" is an acronym for the Malaysia Overnight Rate. It is *not* a researcher, a company in the Yissum portfolio, or an institutional entity related to Hebrew University.
+    *   *Step 2: Main Article Validation.* The term ""MYOR"" is indeed the main subject of the article.
+    *   *Step 3: Strategic Value.* Does the ""Malaysia Overnight Rate"" have any strategic value for a Technology Transfer Office (TTO) dealing with academic research, IP, biotech, or deep tech from Hebrew University? No.
+    *   *Step 4: Be Strict.* This is a classic ""False Positive"" where an acronym happens to match a name or keyword being tracked.
+
+    *   `relevant`: false
+    *   `reason`: The keyword ""MYOR"" in this context refers to the Malaysia Overnight Rate, a financial benchmark for interbank transactions in Malaysia. It is not a researcher, company, or entity affiliated with Hebrew University or Yissum's portfolio, making this a false positive.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
+26/08/2026,"Malaysia, Türkiye launch formal platform to boost defence ties - The Star",thestar.com.my,https://www.thestar.com.my/news/nation/2026/08/26/malaysia-trkiye-launch-formal-platform-to-boost-defence-ties,"UOB Malaysia completes Malaysia&#39;s first brokered MYOR-based interbank transaction with RHB, Maybank &middot; Banking 8h ago. UOB Malaysia completes&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword 'Myor' was flagged as a potential researcher match, but the article uses 'MYOR' as a financial acronym (likely 'Malaysia Overnight Rate') in the context of an interbank transaction. This mention appears only in a 'Related Stories' sidebar item and is not part of the main article body about defense ties between Malaysia and Türkiye. There is no mention of a Hebrew University researcher, scientific work, or any commercial/translational signals relevant to Yissum.","FULL_TEXT: ```json
+{
+  ""relevant"": false,
+  ""reason"": ""Rejected: The keyword 'Myor' was flagged as a potential researcher match, but the article uses 'MYOR' as a financial acronym (likely 'Malaysia Overnight Rate') in the context of an interbank transaction. This mention appears only in a 'Related Stories' sidebar item and is not part of the main article body about defense ties between Malaysia and Türkiye. There is no mention of a Hebrew University researcher, scientific work, or any commercial/translational signals relevant to Yissum.""
+}
+```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
+26/08/2026,Thousands to join night bike ride | The Star,thestar.com.my,https://www.thestar.com.my/metro/metro-news/2026/08/26/thousands-to-join-night-bike-ride,"Related News. UOB Malaysia completes Malaysia&#39;s first brokered MYOR-based interbank transaction with RHB, Maybank &middot; Banking 8h ago. UOB Malaysia&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword 'MYOR' does not appear in the main article, which is about a community bike ride. It only appears in a 'Related News' snippet referring to a Malaysian interbank transaction. There is no evidence that this refers to a Hebrew University researcher or a Yissum portfolio company, making it a false positive with no TTO value.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
+Analyze a news item to see if it's strategically relevant for BD & Licensing.
+""Myor"".
+""Thousands to join night bike ride | The Star"".
+
+        1.  Entity Verification (Is it the right person/company?).
+        2.  Main Article Validation (Is it in the main text or just a sidebar/related link?).
+        3.  Strategic Value (Commercial/Translation signal for TTO?).
+        4.  Strict Filter (Google News researcher feed context requires high commercial signal).
+
+    *   Title: ""Thousands to join night bike ride""
+    *   Main Content: Discusses a night bike ride organized by RHB Bank on the Lekas Highway. Mentions Datuk Mohd Rashid Mohamad (CEO of RHB).
+    *   Keyword Mention: ""MYOR"" appears in a ""Related News"" section: *""UOB Malaysia completes Malaysia's first brokered MYOR-based interbank transaction with RHB, Maybank""*.
+
+    *   *Step 1: Entity Verification.* The keyword ""MYOR"" is mentioned in a snippet about interbank transactions in Malaysia. There is no mention of a Hebrew University researcher or any Yissum portfolio company named Myor. This appears to be a financial/banking term or acronym (likely related to ""MyOR"" or a specific banking system/transaction type in Malaysia).
+    *   *Step 2: Main Article Validation.* The keyword ""MYOR"" does **not** appear in the main article body. The main article is about a bike ride. ""MYOR"" appears exclusively in the ""Related News"" / ""Related Stories"" sidebar/snippet section.
+    *   *Step 3: Strategic Value.* Even if it were in the main text, a Malaysian interbank transaction system has no apparent connection to Hebrew University's research, technology transfer, or Yissum's portfolio.
+
+    *   `relevant`: false
+    *   `reason`: The keyword 'MYOR' does not appear in the main article, which is about a community bike ride. It only appears in a 'Related News' snippet referring to a Malaysian interbank transaction. There is no evidence that this refers to a Hebrew University researcher or a Yissum portfolio company, making it a false positive with no TTO value.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 26/08/2026,Raheem Sterling is charged with dangerous driving and possessing &#39;<b>hippy</b> crack&#39; after ... - Daily Mail,dailymail.com,https://www.dailymail.com/sport/football/article-16079653/sterling-charged-dangerous-driving-possessing-hippy-crack-crashing-Lamborghini.html,"The former Premiere League star, 31, who was arrested at the scene, faces two years in prison if convicted of the charges.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 25/08/2026,"Florida Speed By Circuit Aug. 17-23, 2026 | BRISnet.com Trusted Data &amp; More",brisnet.com,https://www.brisnet.com/racing/news/data-reports/florida-speed-by-circuit-aug-17-23-2026/,"Hippy Hippy Shake, 4F, 1 1/16m (ft), GP 8/17, 70. Top Winning Speed Ratings (8/17-8/23) - 3&amp;up Dirt Sprints. Horse, A/S, Dist, Trk Date, BRIS Speed&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 25/08/2026,Why 0s and 1s aren't enough — 3-part biological memory model exposes limits of AI silicon - inkl,inkl.com,https://www.techradar.com/pro/why-0s-and-1s-arent-enough-3-part-biological-memory-model-exposes-limits-of-ai-silicon,Why 0s and 1s aren't enough — 3-part biological memory model exposes limits of AI silicon&nbsp;&nbsp;inkl,Google News - Researcher - Gilon Chaim,Gilon Chaim (Google News query match),full_keyword,FALSE,"Rejected: The article text does not mention the researcher Gilon Chaim. The content focuses on a general scientific discussion regarding biological memory models and AI, but fails to provide any connection to the specific individual or any Yissum-related commercialization/IP signals.","FULL_TEXT: Senior Innovation Analyst for Yissum.
