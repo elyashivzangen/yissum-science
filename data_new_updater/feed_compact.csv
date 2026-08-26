@@ -1,4 +1,35 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+26/08/2026,What Is a Memory Made Of? Researchers Look Past Neurons For Answers - StudyFinds,studyfinds.com,https://studyfinds.com/memories-lifetime-memory-glue/,What Is a Memory Made Of? Researchers Look Past Neurons For Answers&nbsp;&nbsp;StudyFinds,Google News - Researcher - Gilon Chaim,Gilon Chaim (Google News query match),full_keyword,FALSE,"Rejected: The article text does not mention the researcher 'Gilon Chaim.' The content focuses on the work of André Fenton (NYU) and Todd Sacktor (SUNY Downstate) regarding KIBRA and memory storage, providing no connection to the matched entity or Yissum.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Determine if a news item is strategically relevant for Business Development & Licensing.
+""Gilon Chaim"" (via Google News researcher feed).
+""What Is a Memory Made Of? Researchers Look Past Neurons For Answers - StudyFinds""
+
+    *   *Title:* ""What Is a Memory Made Of? Researchers Look Past Neurons For Answers - StudyFinds""
+    *   *Snippet:* ""What Is a Memory Made Of? Researchers Look Past Neurons For Answers StudyFinds""
+    *   *Full Content:* Discusses a study in *Science Advances* about the protein KIBRA and its role in long-term memory (interacting with PKMzeta).
+    *   *Key Researchers mentioned in the article:*
+        *   André Fenton (Professor of neural science at New York University).
+        *   Todd Sacktor (Professor at SUNY Downstate Health Sciences University).
+    *   *Subject Matter:* Neuroscience, molecular biology, potential for treating Alzheimer's or PTSD.
+
+    *   *Keyword Search Match:* ""Gilon Chaim"".
+    *   *Article Content Search:* I am scanning the provided full text for ""Gilon Chaim"".
+    *   *Scanning results:*
+        *   Title: No.
+        *   Description: No.
+        *   Body: Mentions André Fenton, Todd Sacktor, Francis Crick, Changchi Hsieh (photographer/credit).
+        *   *Does ""Gilon Chaim"" appear in the provided text at all?* No.
+
+    *   *Step 1 (Entity Verification):* The keyword ""Gilon Chaim"" is not mentioned in the article text provided.
+    *   *Step 2 (Main Article Validation):* Since the name is not in the text, the match is a ""False Positive"" (likely a different person or a weak search match in the metadata not present in the actual content).
+    *   *Step 3 (Strategic Value):* Since the entity is not part of the article, there is no TTO signal for Yissum regarding ""Gilon Chaim"".
+
+    *   The keyword ""Gilon Chaim"" does not appear in the article text.
+    *   The article is about research conducted by researchers at NYU and SUNY Downstate.
+    *   Therefore, it is a False Positive.
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The article text does not mention the researcher 'Gilon Chaim.' The content focuses on the work of André Fenton (NYU) and Todd Sacktor (SUNY Downstate) regarding KIBRA and memory storage, providing no connection to the matched entity or Yissum.""",,,,,,google_news,StudyFinds,resolved,https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PQ1RUbE94WFBFeWNhYXZackN3d3VSMTFRTnM5eFBnU09XUHFuQ3hzdWJUTEJ1bjUxS0NKVUJRdWM1Qk1ZbGtxTElLU2QtS1BTUVZ4dDltZ2hEZ0kw?oc=5,gemma-4-26b-a4b-it,,,
 26/08/2026,"UOB, RHB and Maybank complete Malaysia&#39;s first brokered <b>MYOR</b>-based interbank transaction",theedgemarkets.com,http://www.theedgemarkets.com/node/815857,"UOB Malaysia, RHB Bank Bhd (KL:RHBBANK) and Malayan Banking Bhd (KL:MAYBANK) have executed the first brokered Malaysia Overnight Rate (MYOR)-based&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" in this context refers to the Malaysia Overnight Rate, a financial benchmark used in interbank transactions, not a researcher or portfolio entity affiliated with Hebrew University. There is no TTO or business development value for Yissum.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
 Analyze a news item to determine strategic relevance for Business Development & Licensing.
 ""Myor"" (matched in text as ""myor"").
@@ -162,41 +193,3 @@ Senator Lalong visiting bereaved families in Jos (Nigeria). Mentions ""Rt. Hon. 
 20/08/2026,NEXT BIG BRANDS OF INDIA - AUGUST 2026,mid-day.com,https://www.mid-day.com/amp/buzzfeed/article/next-big-brands-of-india-august-2026-10626,"Explore Indian brands driving growth through AI, beauty, fashion, nutrition, food, and family office solutions with innovation.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 20/08/2026,July 11 To August 20 La Hormiga <b>Hippy</b> Market In Cabo De Palos - Murcia Today,murciatoday.com,"https://murciatoday.com/july-11-to-august-20-la-hormiga-hippy-market-in-cabo-de-palos_1000271080-a.html?Banner=312,87,108&bespoke=true&fid=229","Once again the area becomes a showcase for designers, arts and crafts and creative artists, opening at 19.30 and continuing until late. During July&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 19/08/2026,,idnfinancials.com,https://www.idnfinancials.com/videos/watch/2916/myor-kantongi-laba-rp1-70-triliun-naik-46-5-hingga-juni?sl=en,,Companies - Batch 05 (MED PNC→Phenom Networks),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-19/08/2026,Scientists Explain How Folic Acid Prevents Neural Tube Birth Defects - The Ritz Herald,ritzherald.com,https://ritzherald.com/scientists-explain-how-folic-acid-prevents-neural-tube-birth-defects/,Scientists Explain How Folic Acid Prevents Neural Tube Birth Defects&nbsp;&nbsp;The Ritz Herald,Google News - Researcher - Fainsod Abraham,abraham fainsod,full_keyword,FALSE,"Rejected: The article discusses Prof. Abraham Fainsod of the Hebrew University and a discovery regarding the mechanism of folic acid in preventing birth defects. However, this is a basic science discovery published in PNAS without explicit mentions of IP, licensing, new therapeutic candidates, or startup activity. Per the strict TTO filter for researcher feeds, this is categorized as academic coverage without a concrete commercial translation signal.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
-""Fainsod Abraham"" (Researcher).
-""Scientists Explain How Folic Acid Prevents Neural Tube Birth Defects - The Ritz Herald"".
-Researchers at Hebrew University (Prof. Abraham Fainsod and Tamir Edri) identified a mechanism involving folic acid and the enzyme ALDH1L1 to produce retinoic acid, preventing neural tube defects. Published in PNAS.
-
-    *   *Step 1: Entity Verification.* The article explicitly mentions ""Prof. Abraham Fainsod"" and ""Hebrew University of Jerusalem"". Identity match is verified.
-    *   *Step 2: Main Article Validation.* The entity is the lead researcher and the subject of the article. Valid.
-    *   *Step 3: Strategic Value (The ""Yissum Filter"").*
-        *   General rule: Do not mark TRUE for ordinary academic coverage/basic science.
-        *   Special rule for Google News researcher feeds: Mark TRUE *only* if there are commercial/translation signals: IP, licensing, startup, clinical/therapeutic/diagnostic application, fundable path, translational grant, or prestigious award.
-        *   *Analysis of content:* The research identifies a biological mechanism (ALDH1L1 enzyme converting retinaldehyde to retinoic acid). It uses frog embryos and mammalian cells. It explains a medical recommendation (folic acid).
-        *   *Commercial/Translation signals?*
-            *   Is there a mention of a patent? No.
-            *   Is there a startup? No.
-            *   Is there a diagnostic tool? No.
-            *   Is there a specific new drug candidate? No.
-            *   Is it a clinical trial? No.
-            *   Is it a prestigious award (Wolf/Nobel)? No.
-            *   Is it ""clinical/therapeutic/diagnostic application""? It explains the *mechanism* of an existing therapeutic (folic acid), but doesn't propose a *new* one or a specific path to a product. It's primarily fundamental science/mechanistic biology published in PNAS.
-    *   *Step 4: Be Strict.* The instructions say ""Do not mark TRUE only because a Hebrew University researcher published a paper... or appears in an interesting basic-science story."" ""If the commercial value is only speculative or generic, mark FALSE.""
-
-    *   The article is about a basic science breakthrough explaining *how* folic acid works.
-    *   While scientifically significant and published in PNAS, there is no mention of IP, a new therapeutic target for a drug, a diagnostic kit, or any concrete business-development signal.
-    *   According to the ""Special Rule for Google News Researcher Feeds,"" this should be marked **FALSE** because it is high-level basic science without an explicit commercialization path.
-
-    *Wait*, let me re-read the ""RELEVANCE CRITERIA (The 'Yissum Filter')"" vs the ""SPECIAL RULE"".
-    Criteria 1: ""The article discusses the researcher's scientific work, new publications, breakthrough discoveries... ✅ RELEVANT"".
-    Special Rule: ""Do not mark TRUE only because a Hebrew University researcher published a paper... Mark TRUE only if the article explicitly contains commercial/translation signals... If the commercial value is only speculative or generic, mark FALSE.""
-
-    The Special Rule overrides the general criteria for ""Google News researcher"" feeds. The feed is indeed ""Google News researcher feed/query"". Therefore, I must apply the stricter filter.
-
-    Finding: The research explains a mechanism. It doesn't mention a patent or a new drug. It's an academic discovery.
-
-    *Conclusion:* FALSE.
-
-    *   `relevant`: false
-    *   `reason`: ""Verified: The article discusses Prof. Abraham Fainsod of the Hebrew University and a discovery regarding the mechanism of folic acid in preventing birth defects. However, this is a basic science discovery published in PNAS without explicit mentions of IP, licensing, new therapeutic candidates, or startup activity. Per the strict TTO filter for researcher feeds, this is categorized as academic coverage without a concrete commercial translation signal.""",,,,,,google_news,The Ritz Herald,resolved,https://news.google.com/rss/articles/CBMilwFBVV95cUxNS1RBMzVVeU5qX2tFaXhmclZnLXVXX3BRSzZkSVdLZUQ0SkFLUS1JbFhOOVRLTlRQcmRobXRySkVCQ2VvNnV0aC01Nmw3ZlJIVm5fYUFodzU2cUw4SWk1VExlLThYbE9fOFdBUzUtbWZxV0pUTnhOSUphbGZnSU1iZHQxbXdpdHBIR2V5VGF2a0tJMjQxNjMw?oc=5,gemma-4-31b-it,,,
