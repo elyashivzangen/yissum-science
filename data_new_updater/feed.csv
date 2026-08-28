@@ -234,6 +234,36 @@ A description of a 3-part biological memory model that challenges AI silicon, pu
 
     *   `relevant`: `false`
     *   `reason`: ""Rejected: The article text does not mention the researcher Gilon Chaim. The content focuses on a general scientific discussion regarding biological memory models and AI, but fails to provide any connection to the specific individual or any Yissum-related commercialization/IP signals.""",,,,,,google_news,inkl,resolved,https://news.google.com/rss/articles/CBMisgFBVV95cUxPcGQ1T1B6eE81R3BfcFdiTEdpTFpmQkZidmJOZFBRTFVrcGZZcGxldkxxckx0eEJ0UXBleFhZY3VTUHJnVlNzS0R6Y3RPcVhJaHREdHdWZnB3WnVQNmp2NTBOeWdfMndUTWlQa1NuN01TTEhoanJvdkItTDVFYWExRy1fMkc4WW51LVE5YUxZYlBSWEQ2SEdGV1dQaVpCbTl3R3lVdHFNSnJZdGdrODM3UGdR?oc=5,gemma-4-26b-a4b-it,,,
+25/08/2026,Brain cells and chemical signals could hold the missing piece of memory - Yahoo,yahoo.com,https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkd0ZDE4dkduSUh2VlViR0N0b2IteWdfby1fVkNFRHVTYlBESG1neVp4VDU3cy1jNUZWOGNVV1ppTFJaaXJUQXBsdkFMVEhOaEF1UGVkbjN5MXl6X0t3cWY5aDhoaXlBZzZMamphZTl1UmxkazJCZmR3Y09BcFV0SnhkaUJyZlJ3cThibnVVRnVtTlFBWnJSZw?oc=5,Brain cells and chemical signals could hold the missing piece of memory&nbsp;&nbsp;Yahoo,Google News - Researcher - Gilon Chaim,Gilon Chaim (Google News query match),full_keyword,FALSE,"Rejected: The provided text does not mention Gilon Chaim or any affiliation with the Hebrew University. The article discusses general neuroscience research on memory, but there is no verification of the researcher's identity or any specific commercial or translational signal relevant to Yissum's business development goals.","SEARCH_SNIPPET_CONTEXT: Senior Innovation Analyst for Yissum (TTO of Hebrew University).
+Analyze a news item to determine strategic relevance for Business Development & Licensing.
+""Gilon Chaim"" (Researcher).
+A Yahoo snippet/Google News feed about brain cells and memory.
+
+        *   Must be an explicit HUJI/Yissum connection.
+        *   Must have TTO value (commercialization, IP, licensing, clinical/diagnostic app, major grant, prestigious award).
+        *   Generic scientific importance is *not* enough.
+        *   Stricter filter for ""Google News researcher"" feeds.
+        *   Strict Entity Verification (Is it the right person? Is the person in the main article?).
+
+    *   *Title:* ""Brain cells and chemical signals could hold the missing piece of memory - Yahoo""
+    *   *Snippet:* ""Brain cells and chemical signals could hold the missing piece of memory Yahoo""
+    *   *Full Content:* Basically just repetitions of the title and snippets from various search results (scienceblog.com, english.news.cn, neurosciencenews.com, timesofindia.indiatimes.com, popularmechanics.com).
+    *   *Entity Mention:* I am looking for ""Gilon Chaim"".
+
+    *   *Step 1: Entity Verification.* Does the text mention ""Gilon Chaim""?
+        *   Scanning the Title: No.
+        *   Scanning the Snippet: No.
+        *   Scanning the Full Content (RSS snippets and search results): No.
+        *   Scanning the SEARCH_SNIPPET_CONTEXT: The prompt says the keyword was matched *via* the feed, but the provided text of the article/snippets does not actually contain the name ""Gilon Chaim"".
+
+    *   *Step 2: Main Article Validation.* Since the name isn't even in the text provided, it cannot be part of the main article.
+
+    *   *Step 3: Strategic Value.* No identity match = no strategic value.
+
+    *   The alert is a False Positive. The keyword ""Gilon Chaim"" is not present in the article text or snippets provided. Even if it were, the content is general science news without specific commercial/translation signals mentioned in this snippet.
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The provided text does not mention Gilon Chaim or any affiliation with the Hebrew University. The article discusses general neuroscience research on memory, but there is no verification of the researcher's identity or any specific commercial or translational signal relevant to Yissum's business development goals.""",,,,,,google_news,Yahoo,unresolved_google_news,https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkd0ZDE4dkduSUh2VlViR0N0b2IteWdfby1fVkNFRHVTYlBESG1neVp4VDU3cy1jNUZWOGNVV1ppTFJaaXJUQXBsdkFMVEhOaEF1UGVkbjN5MXl6X0t3cWY5aDhoaXlBZzZMamphZTl1UmxkazJCZmR3Y09BcFV0SnhkaUJyZlJ3cThibnVVRnVtTlFBWnJSZw?oc=5,gemma-4-31b-it,,,
 25/08/2026,Kitworks Adventure Duffel Reviewed,outsideonline.com,https://www.outsideonline.com/outdoor-gear/kitworks-adventure-duffel-rugged-organized/,"When I was a kid, my hippy parents used duffels when we traveled because suitcases were too bourgeois. That, and because it was much more&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 25/08/2026,Thaitheparos PCL Compare against Competitors - Investing.com IN,in.investing.com,"https://in.investing.com/pro/SET:SAUCE/compare/TSE:2802,SET:PRG,IDX:MYOR,SET:TFMAMA,SET:AAI,TSE:2809",-12.0% -6.5% -1.0% 4.5% 9.0% 10.0x 20.0x 30.0x 40.0x 50.0x 60.0x 70.0x SAUCE 2802 PRG MYOR TFMAMA AAI 2809. XAxis. YAxis. Size&nbsp;...,Companies - Batch 05 (MED PNC→Phenom Networks),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 25/08/2026,Mandurah Race 2 Form Guide - 27 Aug 2026 - Racenet,racenet.com.au,https://www.racenet.com.au/form-guide/greyhounds/mandurah-20260827/thursdays-at-mandurah-race-2/overview,Lexia Isaac. F: 3731628455. 7. Junk Yard Hippy (7). 7. Junk Yard Hippy (7). T: Darryl Jeffries. F: 1344717264. 8. Epic Marceline (8). 8. Epic&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
@@ -313,5 +343,3 @@ Senator Lalong visiting bereaved families in Jos (Nigeria). Mentions ""Rt. Hon. 
 
     *   `relevant`: false
     *   `reason`: Rejected: The article does not refer to a researcher or entity affiliated with Hebrew University; instead, it mentions a political figure and a family in Nigeria in the context of a news report on condolences. There is no scientific, commercial, or technology-transfer signal present.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
-21/08/2026,YUK | BEATBOX TO WORLD 2026 Wildcard | Get the fxxk out - YouTube,t.co,https://t.co/TWuVDYqlcq,more. Subscribe. Comments. Comment... 2:10 &middot; Go to channel Hippy. Hippy | I&#39;m Feeling Sick | Beatbox To World 2026 Wildcard. Hippy. New. 5.6K views.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-21/08/2026,Boyhood star&#39;s <b>hippy</b> grandmother twirls round her bus home | Daily Mail Online,dailymail.com,https://www.dailymail.com/video/news/video-1152577/Boyhood-stars-hippie-grandmother-dances-bus.html?page=,Kathy Horton dances around her rusting school bus home to music. She is the grandmother of Boyhood star Ellar Coltrane.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
