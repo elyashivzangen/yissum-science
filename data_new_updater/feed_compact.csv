@@ -87,27 +87,3 @@ Analyze a news item and determine strategic relevance for Business Development &
     *   `reason`: The keyword ""myor"" refers to Mayora Indah (stock ticker MYOR.IJ), an Indonesian food and beverage company mentioned in a financial equity report. There is no connection to a Hebrew University researcher or a Yissum portfolio company, making this a false positive.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 27/08/2026,PM: Youth must train for tech era | The Star,thestar.com.my,https://www.thestar.com.my/news/nation/2026/08/27/pm-youth-must-train-for-tech-era,"UOB Malaysia completes Malaysia&#39;s first brokered MYOR-based interbank transaction with RHB, Maybank &middot; Banking 1d ago. UOB Malaysia completes&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,main_article_mismatch,FALSE,Auto-Reject: Matched entity was not verified in the article title or main article body.,Rejected before AI: main article mismatch.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 27/08/2026,"Food trucks, live music and family fun coming to Lombard&#39;s Maple Street Sept. 5",dailyherald.com,https://www.dailyherald.com/20260826/submitted-content/food-trucks-live-music-and-family-fun-coming-to-lombards-maple-street-sept-5/,... Hippy Gourmet with grilled cheese sandwiches get a gourmet twist; and MxCocina featuring Mexican favorites and street food-inspired dishes. The&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-27/08/2026,Funeral arrangements announced for Dellwood Mayor Reggie Jones - KMOV.com,firstalert4.com,https://www.firstalert4.com/2026/08/26/funeral-arrangements-announced-dellwood-mayor-reggie-jones/,"Dellwood Myor Reggie Jones will be laid to rest on Sept. 3, 2026.(Facebook).",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: This is a false positive. The keyword match 'myor' is a typographical error for the word 'Mayor' in an obituary for a local politician in Missouri, and it has no connection to any Hebrew University researcher or Yissum portfolio company.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (Hebrew University's TTO).
-    *   Task: Validate a Google Alert based on a keyword match.
-    *   Keyword: ""Myor"" (Matched as ""myor"").
-    *   News Item: Funeral arrangements for Dellwood Mayor Reggie Jones.
-    *   Process:
-        1.  Entity Verification: Is this the researcher/company we care about?
-        2.  Main Article Validation: Is the entity in the main content?
-        3.  Strategic Value: Does it meet the ""Yissum Filter"" (TTO/commercial value)?
-        4.  Be Strict.
-    *   Output: Raw JSON.
-
-    *   Title: ""Funeral arrangements announced for Dellwood Mayor Reggie Jones - KMOV.com""
-    *   Snippet: ""Dellwood Myor Reggie Jones will be laid to rest on Sept. 3, 2026.(Facebook).""
-    *   Full Content: Obituary/Funeral notice for Reggie Jones, the Mayor of Dellwood, Missouri.
-    *   Keyword match: ""Myor"" appears as a typo for ""Mayor"" in the sentence ""Dellwood Myor Reggie Jones will be laid to rest on Sept. 3, 2026.""
-
-    *   Step 1 (Entity Verification): The keyword ""myor"" is a typo for ""Mayor"". The entity being discussed is Reggie Jones, a politician/community leader in Missouri. This is *not* a researcher affiliated with Hebrew University or a portfolio company.
-    *   Step 2 (Main Article Validation): The entity (Mayor/Myor Reggie Jones) is in the main article, but he is not the target entity the TTO is looking for.
-    *   Step 3 (Strategic Value): This is an obituary for a local politician. There is zero scientific, commercial, IP, or translational value for Yissum.
-
-    *   `relevant`: false.
-    *   `reason`: ""Rejected: This is a false positive. The keyword match 'myor' is a typographical error for the word 'Mayor' in an obituary for a local politician in Missouri, and it has no connection to any Hebrew University researcher or Yissum portfolio company.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-27/08/2026,Broadalbin&#39;s Stacy&#39;s Scratch Kitchen serves comfort food with memories - Times Union,timesunion.com,https://www.timesunion.com/food/article/stacy-scratch-kitchen-broadalbin-food-truck-22404087.php,"At $19, the Hippy Chicken sandwich reflects the philosophy of the kitchen. An oversized breaded and fried cutlet stretches across a toasted&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-27/08/2026,"The Mediterranean wants superyachts, but it&#39;s running out of places to dock them",forbes.es,https://forbes.es/en/nautik-magazine/1005382/the-mediterranean-wants-superyachts-but-its-running-out-of-places-to-dock-them/,"The best anchorages (sheltered from the wind, close to the coast, and with sufficient depth for large vessels) are limited, and most are off-limits to&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
