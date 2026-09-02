@@ -227,22 +227,3 @@ UOB Malaysia, RHB, Maybank executing a transaction based on ""MYOR"" (Malaysia o
     *   `relevant`: false.
     *   `reason`: The keyword ""MYOR"" in this context refers to the Malaysia Overnight Rate, a financial benchmark for interbank banking transactions, rather than a researcher or entity associated with the Hebrew University. This is a false positive with no relevance to technology transfer or business development.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 26/08/2026,Ex-England Striker Raheem Sterling Charged With Dangerous Driving and Nitrous ... - LatestLY,latestly.com,https://www.latestly.com/sports/football/ex-england-striker-raheem-sterling-charged-with-dangerous-driving-and-nitrous-oxide-possession-following-may-car-crash-7576617.html,"Former England international Raheem Sterling has been charged with dangerous driving, possession of nitrous oxide for wrongful inhalation,&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-26/08/2026,UOB Malaysia Completes Malaysia&#39;s First Brokered <b>MYOR</b>-based Interbank Transaction ...,bernamabiz.com,https://www.bernamabiz.com/news.php?id=2599036/,"... (MYOR)-based three-month interbank money market transaction, incorporating a two-day lookback calculation convention. In a joint statement, the&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" in this article refers to the Malaysia Overnight Rate, a financial benchmark for interbank transactions, rather than a researcher or a portfolio company. There is no connection to Hebrew University or technology transfer, making this a false positive.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item for strategic relevance to BD & Licensing.
-""Myor"" (found as ""myor"").
-
-        *   Title: ""UOB Malaysia Completes Malaysia's First Brokered MYOR-based Interbank Transaction ...""
-        *   Content: Discusses ""Malaysia Overnight Rate (MYOR)"", a financial benchmark for interbank money market transactions involving banks like UOB, RHB, and Maybank.
-        *   Context: Banking/Finance/Economics in Malaysia.
-
-    *   *Step 1: Entity Verification.* Is ""MYOR"" the researcher or company we are looking for?
-        *   The keyword ""Myor"" in this text refers to the ""Malaysia Overnight Rate"".
-        *   It is an acronym for a financial index, not a person (researcher) or a technology company in Yissum's portfolio.
-    *   *Step 2: Main Article Validation.* The term ""MYOR"" is in the main article, but it's a financial rate.
-    *   *Step 3: Strategic Value.* Is a Malaysian interbank rate relevant to the Technology Transfer Office of Hebrew University?
-        *   No. It has nothing to do with IP, licensing, startups, clinical trials, or academic research.
-    *   *Step 4: Be Strict.* This is a clear ""False Positive"".
-
-    *   `relevant`: false
-    *   `reason`: The keyword ""MYOR"" in this article refers to the Malaysia Overnight Rate, a financial benchmark for interbank transactions, rather than a researcher or a portfolio company. There is no connection to Hebrew University or technology transfer, making this a false positive.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-26/08/2026,Townsville Race 3 Result - 25 Aug 2026 - Racenet,racenet.com.au,https://www.racenet.com.au/results/greyhounds/townsville-20260825/aussie-pet-animal-travel-race-3,7. Charli&#39;s Begonia (7). T: Gary Farrell. SP$61.00. 1. Hippy (1). 6th. 1. Hippy (1). T: Hayley Wooler. SP$101.00.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
