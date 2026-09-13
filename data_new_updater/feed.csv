@@ -2,7 +2,92 @@ published_date,title,source_domain,url,snippet,feed_name,matched_names,match_sta
 12/09/2026,Discover the 17-Year-Old Who Wrote &#39;<b>Hippy Hippy</b> Shake&#39; in Tom Cruise&#39;s &#39;Cocktail&#39; - Yahoo,yahoo.com,https://www.yahoo.com/entertainment/movies/articles/discover-17-old-wrote-hippy-035800588.html,"Released in 1988 and starring Tom Cruise as a cocky young bartender with a flair for tossing drinks in the air, the romantic dramedy was a big hit at&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 12/09/2026,Shelly Zackasee Obituary - Akron Beacon Journal,beaconjournal.com,https://www.beaconjournal.com/obituaries/pwoo1562075,"Our sensitive, happy, hippy flower child, Shelly, Shell-Bell, Dancing Queen is dancing barefoot where there is no pain or sadness, no hate or&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 12/09/2026,"Gulfstream R6 Race 6 - Claiming, Field, Form &amp; Tips - 14th Sep 2026 - Racenet",racenet.com.au,https://www.racenet.com.au/form-guide/horse-racing/gulfstream-us-20260914/race-6-claiming-race-6/overview,We&#39;ve just updated Racenet Sectionals. Rebuilt to be clearer to read and quicker to draw insights from. Understand the true speed of a race with&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+12/09/2026,"Fajar Surya Wisesa Tbk. (FASW) vs Mayora Indah Tbk. (<b>MYOR</b>): Price, Performance &amp; Key ...",pluang.com,https://pluang.com/en/compare/fasw-idss-vs-myor-idss,"Which is the better fit depends on your goals. FASW, MYOR. Market Cap. 16.99T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" refers to Mayora Indah Tbk, an Indonesian consumer food manufacturer, and is used as a stock ticker in a financial comparison article. There is no connection to a Hebrew University researcher, a Yissum portfolio company, or any relevant scientific/technological advancement. This is a false positive resulting from a ticker symbol match. Does it meet JSON format? Yes. Is the reason professional prose? Yes. Does it avoid prohibited elements (bullets, asterisks, etc.)? Yes.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Analyze a news item for strategic relevance to Business Development & Licensing teams.
+""Myor"" (found as ""MYOR"" in the text).
+
+        *   *Title:* ""Fajar Surya Wisesa Tbk. (FASW) vs Mayora Indah Tbk. (MYOR): Price, Performance & Key ...""
+        *   *Snippet:* ""Which is the better fit depends on your goals. FASW, MYOR. Market Cap. 16.99T...""
+        *   *Content:* Comparison of two Indonesian companies: Fajar Surya Wisesa Tbk (FASW) and Mayora Indah Tbk (MYOR). Discusses stock prices, market cap, business nature (Mayora makes biscuits/wafers/etc.), and listing on Indonesian exchanges.
+
+    *   *Step 1: Entity Verification.* The keyword ""Myor"" matches ""Mayora Indah Tbk (MYOR)"". Is ""Mayora"" a Hebrew University researcher or a Yissum portfolio company/relevant tech entity? No. It is an Indonesian food manufacturing company.
+    *   *Step 2: Main Article Validation.* The entity ""MYOR"" is the main subject of the article (a comparison between two stocks).
+    *   *Step 3: Strategic Value.* Does this article contain commercial/translational signals relevant to Yissum (HUJI's TTO)?
+        *   Is it a researcher? No.
+        *   Is it a portfolio company? No indication of any link to Hebrew University.
+        *   Is it an institutional update for Yissum? No.
+        *   Is it stock market analysis/spam? Yes, it is a financial comparison article for investors.
+    *   *Step 4: Be Strict.* This is clearly a ""False Positive"" based on a ticker symbol/name match that has no connection to the academic or technology transfer mission of Yissum.
+
+    *   `relevant`: `false`
+    *   `reason`: The keyword ""MYOR"" refers to Mayora Indah Tbk, an Indonesian consumer food manufacturer, and is used as a stock ticker in a financial comparison article. There is no connection to a Hebrew University researcher, a Yissum portfolio company, or any relevant scientific/technological advancement. This is a false positive resulting from a ticker symbol match.
+
+    *   Does it meet JSON format? Yes.
+    *   Is the reason professional prose? Yes.
+    *   Does it avoid prohibited elements (bullets, asterisks, etc.)? Yes.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Panca Mitra Multiperdana Tbk. (PMMP) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-pmmp-idss,"Which is the better fit depends on your goals. MYOR, PMMP. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" in this context is a stock ticker for Mayora Indah Tbk., an Indonesian food manufacturer, and not a researcher or portfolio company associated with Hebrew University. This is a false positive based on a financial market comparison.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
+""Myor"" (found in text as ""myor"").
+
+        *   Title: ""Compare Mayora Indah Tbk. (MYOR) vs Panca Mitra Multiperdana Tbk. (PMMP) Price & Performance""
+        *   Snippet: Comparison of stock prices/market caps.
+        *   Content: A stock comparison between Mayora Indah Tbk. (an Indonesian processed food manufacturer) and Panca Mitra Multiperdana Tbk.
+        *   Ticker: MYOR.
+
+    *   Entity verification: Does ""MYOR"" in the text refer to a researcher or a Yissum-related company?
+    *   Text analysis: ""MYOR"" is the stock ticker for ""Mayora Indah Tbk."", an Indonesian food company.
+    *   TTO Relevance: Is an Indonesian food company's stock price comparison relevant to Hebrew University's technology transfer office? No.
+    *   False Positive Check: This is a classic ticker symbol match (False Positive). The keyword ""myor"" matched the ticker ""MYOR"", not a researcher or a HUJI portfolio company.
+
+    *   Step 1 (Entity Verification): The entity ""MYOR"" is a stock ticker for an Indonesian food company, not a HUJI researcher or portfolio company.
+    *   Step 2 (Main Article Validation): While it is the subject of the article, it is the wrong entity.
+    *   Step 3 (Strategic Value): None.
+    *   Step 4 (Strictness): Definitely FALSE.
+
+    *   Relevant: `false`
+    *   Reason: The keyword ""MYOR"" in this context is a stock ticker for Mayora Indah Tbk., an Indonesian food manufacturer, and not a researcher or portfolio company associated with Hebrew University. This is a false positive based on a financial market comparison.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Triniti Dinamik Tbk. (TRUE) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-true-idss,"Which is the better fit depends on your goals. MYOR, TRUE. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: December 13, 2013.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+12/09/2026,Mayora Indah Tbk. (<b>MYOR</b>) vs Reksa Dana Indeks Nusadana ETF IDX Value30 (XNVE),pluang.com,https://pluang.com/en/compare/myor-idss-vs-xnve-idss,"Which is the better fit depends on your goals. MYOR, XNVE. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""myor"" is a stock ticker for Mayora Indah Tbk, an Indonesian food manufacturing company, not a researcher or a technology-related entity. The article is a financial comparison of market performance and stock prices, which lacks any clinical, scientific, or technology-transfer value relevant to Yissum's business development goals.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Validate a Google Alert for the keyword ""Myor"" (found as ""myor"").
+
+        *   Keyword matched: ""Myor""
+        *   Title: ""Mayora Indah Tbk. (MYOR) vs Reksa Dana Indeks Nusadana ETF IDX Value30 (XNVE)""
+        *   Snippet/Content: Comparison of Mayora Indah Tbk (stock ticker: MYOR) and an ETF. Describes Mayora Indah Tbk as an Indonesian food manufacturer.
+        *   Relevance Criteria:
+            *   Researchers: Must be HUJI/Hebrew University affiliated and have commercial/translational value.
+            *   Portfolio Companies: Fundraising, clinical trials, M&A, partnerships, etc.
+            *   Institutional: Innovation centers, major donations, etc.
+            *   False Positives: Auto-generated stock market spam, unrelated companies with similar names.
+
+    *   *Step 1: Entity Verification.* The keyword is ""Myor"". The article mentions ""Mayora Indah Tbk. (MYOR)"". ""MYOR"" is the stock ticker for Mayora Indah Tbk.
+    *   *Step 2: Main Article Validation.* The article is explicitly about comparing Mayora Indah Tbk (MYOR) and an ETF.
+    *   *Step 3: Strategic Value.* Is Mayora Indah Tbk (a large Indonesian food manufacturing company) a Yissum/HUJI technology transfer interest?
+        *   Is it a HUJI researcher? No.
+        *   Is it a Yissum portfolio company? No indication.
+        *   Is it an institutional update for HUJI? No.
+        *   Is it a business/tech signal for Yissum? The article is a stock market comparison (""Price, Performance & Key Differences""). This falls under the ""Auto-generated stock market spam"" or ""minor press releases/unrelated companies"" category. It's financial/trading news, not technology transfer or biotech/deep-tech innovation news.
+
+    *   The ""Myor"" match is a stock ticker (MYOR), not a researcher or a relevant tech entity.
+    *   The content is financial/investment advice/comparison for Indonesian stocks.
+    *   This provides zero commercial/translational value to a Technology Transfer Office (TTO) like Yissum.
+
+    *   `relevant`: false
+    *   `reason`: Rejected: The keyword ""myor"" is a stock ticker for Mayora Indah Tbk, an Indonesian food manufacturing company, not a researcher or a technology-related entity. The article is a financial comparison of market performance and stock prices, which lacks any clinical, scientific, or technology-transfer value relevant to Yissum's business development goals.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
 12/09/2026,OVERGROWN TREES - Newspaper - DAWN.COM,dawn.com,https://www.dawn.com/news/2029295/overgrown-trees,The trees in the older sectors also need trimming as they now have a &#39;hippy&#39; look. The branches of the 50-year-old trees are drooping down on the&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Totalindo Eka Persada Tbk. (TOPS) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-tops-idss,"Which is the better fit depends on your goals. MYOR, TOPS. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,,no_date_found,No visible article date was detected in the title/snippet/top article text.,google_alerts,Google Alerts,not_google_news,,,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs SLJ Global Tbk. (SULI) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-suli-idss,"Which is the better fit depends on your goals. MYOR, SULI. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,,no_date_found,No visible article date was detected in the title/snippet/top article text.,google_alerts,Google Alerts,not_google_news,,,,,
+12/09/2026,Mayora Indah Tbk. (<b>MYOR</b>) vs Organon Pharma Indonesia Tbk. (SCPI) - Pluang,pluang.com,https://pluang.com/en/compare/myor-idss-vs-scpi-idss,"Which is the better fit depends on your goals. MYOR, SCPI. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The Google Alert keyword 'Myor' matched the ticker symbol 'MYOR' for Mayora Indah Tbk., which is identified in the article as a large Indonesian processed food manufacturer. The article is a financial comparison between Mayora Indah Tbk. and Organon Pharma Indonesia Tbk. for stock market investors. There is no mention of any Hebrew University researcher or affiliation, nor any commercial/translation signals relevant to Yissum's business development, such as IP/licensing, startups, clinical applications, grants, or awards related to HUJI technology.","FULL_TEXT: ```json
+{
+  ""relevant"": false,
+  ""reason"": ""Rejected: The Google Alert keyword 'Myor' matched the ticker symbol 'MYOR' for Mayora Indah Tbk., which is identified in the article as a large Indonesian processed food manufacturer. The article is a financial comparison between Mayora Indah Tbk. and Organon Pharma Indonesia Tbk. for stock market investors. There is no mention of any Hebrew University researcher or affiliation, nor any commercial/translation signals relevant to Yissum's business development, such as IP/licensing, startups, clinical applications, grants, or awards related to HUJI technology. This is a false positive, as the entity and content are not relevant to Yissum's technology transfer objectives.""
+}
+```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Plaza Indonesia Realty Tbk. (PLIN) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-plin-idss,"Which is the better fit depends on your goals. MYOR, PLIN. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The news item refers to 'MYOR' as the stock ticker for Mayora Indah Tbk., an Indonesian food manufacturing company. This entity is distinct from any Hebrew University researcher or Yissum-affiliated project we track under that name. The article discusses financial performance and market capitalization, offering no commercial or translational signals relevant to Yissum's business development or licensing interests.","FULL_TEXT: ```json
+{
+  ""relevant"": false,
+  ""reason"": ""Rejected: The news item refers to 'MYOR' as the stock ticker for Mayora Indah Tbk., an Indonesian food manufacturing company. This entity is distinct from any Hebrew University researcher or Yissum-affiliated project we track under that name. The article discusses financial performance and market capitalization, offering no commercial or translational signals relevant to Yissum's business development or licensing interests.""
+}
+```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
 12/09/2026,"Shelly M. Zackasee Obituary (2026) - Akron, OH - Schlup-Pucak &amp; Wilson Funeral Home",legacy.com,https://www.legacy.com/us/obituaries/name/shelly-zackasee-obituary?id=62407430,"Running around the yard or a dirt pile with no shoes and no cares (and sometimes no clothes), she began her hippy journey. Growing up in Cuyahoga&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 12/09/2026,KDJ Week in Review: Trans Victim Culture Takes a Kick to Its Non-Binary Crotch - PJ Media,pjmedia.com,https://pjmedia.com/kevindowneyjr/2026/09/11/kdj-week-in-review-commie-culture-take-a-kick-to-its-non-binary-crotch-n4957135,Kruiser and I started my Labor Day radio show with Kruiser recapping how he yelled a hilarious obscenity at a doddery hippy holding a sign that&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 11/09/2026,Northam Race 3 Form Guide - 14 Sep 2026 - Punters,punters.com.au,https://www.punters.com.au/form-guide/greyhounds/northam-20260914/debs-diner-race-3/,Turnover (6). T: John Righetti. F: 6148x8751x. 7. Junk Yard Hippy (7). 7. Junk Yard Hippy (7). T: Darryl Jeffries. F: 4471726482. 8. Reina (8). 8.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
@@ -227,5 +312,32 @@ Analyze a news item and determine strategic relevance for Business Development &
 
     *   `relevant`: false
     *   `reason`: ""Rejected: The matched entity is a commercial pet digestive health supplement sold on an e-commerce platform (Digikala). There is no evidence that this product is affiliated with Hebrew University or any Yissum-managed technology, and it lacks any TTO-relevant signals such as IP, licensing, or clinical translation.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
-06/09/2026,Slavia Praha vs Zbrojovka Brno 05/09/2026 Final Score - Futbol24,futbol24.com,https://www.futbol24.com/match/2026/09/05/national/Czech-Rep/1-Liga/2026-2027/Slavia-Praha/vs/Zbrojovka-Brno,"70&#39; Substitution: Jakub Janetzky comes on for Jakub Klima. 70&#39; Jaromir Zmrhal is on, and Stepan Langer is off. 67&#39; Patrik Cavos takes a right-footed&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Totalindo Eka Persada Tbk. (TOPS) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-tops-idss,"Which is the better fit depends on your goals. MYOR, TOPS. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Onix Capital Tbk. (OCAP) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-ocap-idss,"Which is the better fit depends on your goals. MYOR, OCAP. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: December 14, 2007.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs PT Swayasa Prakarsa Tbk (SWAP) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-swap-idss,"trades at Rp1,515 (market cap 34.21T, 23.47M 24h volume). Which is the better fit depends on your goals. MYOR, SWAP&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The Google Alert was triggered by 'MYOR,' likely intended to match a researcher or a related entity from Hebrew University. However, the article discusses 'Mayora Indah Tbk. (MYOR),' which is an Indonesian processed food manufacturing company and its stock market performance. This is a clear false positive, as it bears no relevance to Hebrew University's research, intellectual property, or Yissum's business development and licensing objectives.","FULL_TEXT: ```json
+{
+  ""relevant"": false,
+  ""reason"": ""Rejected: The Google Alert was triggered by 'MYOR,' likely intended to match a researcher or a related entity from Hebrew University. However, the article discusses 'Mayora Indah Tbk. (MYOR),' which is an Indonesian processed food manufacturing company and its stock market performance. This is a clear false positive, as it bears no relevance to Hebrew University's research, intellectual property, or Yissum's business development and licensing objectives.""
+}
+```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Sugih Energy Tbk. (SUGI) Price &amp; Performance - Pluang,pluang.com,https://pluang.com/en/compare/myor-idss-vs-sugi-idss,"Which is the better fit depends on your goals. MYOR, SUGI. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""myor"" refers to the stock ticker for Mayora Indah Tbk, an Indonesian food manufacturing company, not a researcher or a Yissum-related technology. The article is a generic financial comparison of stock market performance and does not contain any commercial, clinical, or intellectual property signals relevant to technology transfer or business development.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Analyze a news item to determine strategic relevance for Business Development & Licensing.
+""Myor"" (found in text as ""myor"").
+""Compare Mayora Indah Tbk. (MYOR) vs Sugih Energy Tbk. (SUGI) Price & Performance - Pluang""
+Comparison of two Indonesian companies (Mayora Indah Tbk and Sugih Energy Tbk) regarding market cap, performance, and business overview.
+
+    *   *Step 1: Entity Verification:* The keyword is ""Myor"". The text refers to ""Mayora Indah Tbk. (MYOR)"". ""MYOR"" is the stock ticker for Mayora Indah Tbk.
+    *   *Step 2: Main Article Validation:* The entity (MYOR/Mayora Indah Tbk) is the subject of the main article (a comparison of its performance against Sugih Energy).
+    *   *Step 3: Strategic Value (The Yissum Filter):*
+        *   Is it a researcher? No.
+        *   Is it a portfolio company? No. Mayora Indah Tbk is a massive Indonesian food manufacturer (biscuits, wafers, etc.). There is no indication this is a Yissum-linked startup or technology.
+        *   Is it a stock market analysis? Yes. The article is a financial comparison of stock tickers/market caps.
+        *   Does it have TTO relevance? No. The mention of ""MYOR"" is a stock ticker, not a researcher name or a relevant tech entity. Even if it were a company, the article is ""Auto-generated stock market spam/analysis"" which the instructions explicitly list under *Irrelevant (False Positive)* for Portfolio Companies.
+
+    *   The keyword ""myor"" matched the stock ticker ""MYOR"" for the Indonesian food company Mayora Indah Tbk.
+    *   The article is a stock market comparison (Price, Performance, Market Cap).
+    *   This is a false positive. It is not a Hebrew University researcher, nor is it a technology-transfer relevant company or research finding. It is financial/stock market data.
+
+    *   `relevant`: false
+    *   `reason`: Rejected: The keyword ""myor"" refers to the stock ticker for Mayora Indah Tbk, an Indonesian food manufacturing company, not a researcher or a Yissum-related technology. The article is a generic financial comparison of stock market performance and does not contain any commercial, clinical, or intellectual property signals relevant to technology transfer or business development.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
+12/09/2026,Compare Sky Energy Indonesia Tbk. (JSKY) vs Mayora Indah Tbk. (<b>MYOR</b>) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/jsky-idss-vs-myor-idss,"Which is the better fit depends on your goals. JSKY, MYOR. Market Cap. 105.69B&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: July 4, 2008.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+12/09/2026,Compare Mayora Indah Tbk. (<b>MYOR</b>) vs Asia Pacific Investama Tbk. (MYTX) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/myor-idss-vs-mytx-idss,"Which is the better fit depends on your goals. MYOR, MYTX. Market Cap. 34.21T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
