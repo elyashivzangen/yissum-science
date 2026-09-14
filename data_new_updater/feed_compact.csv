@@ -336,3 +336,44 @@ Analyze a news item to determine if it's strategically relevant for BD & Licensi
 ```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
 09/09/2026,FB_IMG_1788907718072.jpg | GBAtemp.net - The Independent Video Game Community,gbatemp.net,https://gbatemp.net/memes/image.10905934-589728/,"Today at 12:03 AM, by hippy dave 0.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 08/09/2026,Laughing gas canisters found in car involved in crash in which two cyclists were killed,thesun.co.uk,https://www.thesun.co.uk/news/40303137/laughing-gas-canisters-car-crash-cyclists-killed/,CANISTERS of hippy crack have been found in a car involved in a crash that killed two cyclists. The Ford Focus allegedly hit a group of riders...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+14/09/2026,,idnfinancials.com,https://www.idnfinancials.com/fr/company/prospectus/MYOR?sl=fr,,Companies - Batch 05 (MED PNC→Phenom Networks),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+13/09/2026,Compare AirAsia Indonesia Tbk. (CMPP) vs Mayora Indah Tbk. (<b>MYOR</b>) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/cmpp-idss-vs-myor-idss,"Which is the better fit depends on your goals. CMPP, MYOR. Market Cap. 747.96B&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The Google Alert for 'Myor' (matched as 'MYOR') is a false positive. The article discusses 'Mayora Indah Tbk.', a large Indonesian food manufacturing company, comparing its stock market performance with another company. This is purely financial news and does not relate to a researcher, a Hebrew University affiliate, or any specific scientific or technological development. Therefore, it lacks any commercial/translational signals relevant to Yissum's business development or licensing goals under the 'Google News researcher' filter.","FULL_TEXT: ```json
+{
+  ""relevant"": false,
+  ""reason"": ""Rejected: The Google Alert for 'Myor' (matched as 'MYOR') is a false positive. The article discusses 'Mayora Indah Tbk.', a large Indonesian food manufacturing company, comparing its stock market performance with another company. This is purely financial news and does not relate to a researcher, a Hebrew University affiliate, or any specific scientific or technological development. Therefore, it lacks any commercial/translational signals relevant to Yissum's business development or licensing goals under the 'Google News researcher' filter.""
+}
+```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
+13/09/2026,Compare Mahaka Radio Integra Tbk. (MARI) vs Mayora Indah Tbk. (<b>MYOR</b>) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/mari-idss-vs-myor-idss,"Which is the better fit depends on your goals. MARI, MYOR. Market Cap. 126.06B&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: July 4, 2006.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+14/09/2026,HORSE RACING | Miami Herald (Sunday) - PressReader,pressreader.com,https://www.pressreader.com/usa/miami-herald-sunday/20260913/282016154218659,"... Hippy Hippy Shake / Now I Must Go · Redland · Tybee Island, Georgia · Bianka. Copyright 2026 Equibase Company. $34,000. One Mile. (Turf) PP Horse. 1&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+13/09/2026,Menn Teknologi Indonesia Tbk. (MENN) vs Mayora Indah Tbk. (<b>MYOR</b>) - Pluang,pluang.com,https://pluang.com/en/compare/menn-idss-vs-myor-idss,"Which is the better fit depends on your goals. MENN, MYOR. Market Cap. 76B&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),myor,full_keyword,FALSE,"Rejected: The keyword ""MYOR"" refers to the stock ticker for Mayora Indah Tbk., an Indonesian food manufacturing company, rather than a researcher or a technology-related entity. The article is a financial comparison of stock market metrics and does not contain any scientific, intellectual property, or translational research signals relevant to Yissum's business development goals.","FULL_TEXT: Senior Innovation Analyst for Yissum (TTO of Hebrew University).
+Validate a Google Alert for the keyword ""Myor"" (found as ""myor"").
+
+        *   Title: ""Menn Teknologi Indonesia Tbk. (MENN) vs Mayora Indah Tbk. (MYOR) - Pluang""
+        *   Snippet/Full Content: A comparison between two Indonesian stocks: Menn Teknologi Indonesia Tbk. (MENN) and Mayora Indah Tbk. (MYOR). It discusses market cap, business type (food production for Mayora), and stock performance.
+
+    *   Keyword found: ""myor"".
+    *   Context in text: ""Mayora Indah Tbk. (MYOR)"".
+    *   Entity identified in text: Mayora Indah Tbk. (a food manufacturing company in Indonesia).
+    *   Search Context (Implicit): The system flagged ""Myor"" as a potential researcher or company.
+
+    *   **Step 1: Entity Verification.**
+        *   Is ""MYOR"" a researcher from Hebrew University? No.
+        *   Is ""MYOR"" a portfolio company of Yissum/HUJI? No indication in the text.
+        *   The text identifies ""MYOR"" as a stock ticker for ""Mayora Indah Tbk."", an Indonesian food producer.
+
+    *   **Step 2: Main Article Validation.**
+        *   The entity ""MYOR"" is the main subject of the article (alongside MENN).
+
+    *   **Step 3: Strategic Value.**
+        *   Does this have TTO/Business Development value for Yissum?
+        *   The article is about stock market comparison/technical analysis (market cap, P/E, PBV, dividends) for Indonesian consumer goods stocks.
+        *   This is ""Auto-generated stock market spam/data"" or routine financial comparison.
+        *   It contains zero scientific research, zero IP, zero clinical trials, and zero connection to Hebrew University technologies or researchers.
+
+    *   **Step 4: Be Strict.**
+        *   The match is a ""False Positive"". The keyword ""myor"" is a stock ticker, not a researcher or a relevant tech company.
+
+    *   `relevant`: false
+    *   `reason`: Rejected: The keyword ""MYOR"" refers to the stock ticker for Mayora Indah Tbk., an Indonesian food manufacturing company, rather than a researcher or a technology-related entity. The article is a financial comparison of stock market metrics and does not contain any scientific, intellectual property, or translational research signals relevant to Yissum's business development goals.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
+13/09/2026,Compare Indointernet Tbk. (EDGE) vs Mayora Indah Tbk. (<b>MYOR</b>) Price &amp; Performance,pluang.com,https://pluang.com/en/compare/edge-idss-vs-myor-idss,"Which is the better fit depends on your goals. EDGE, MYOR. Market Cap. 9.88T&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: April 18, 2001.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+15/09/2026,Hidden proteins in 'non-coding' RNA may offer new clues to cancer progression - Medical Xpress,medicalxpress.com,https://medicalxpress.com/news/2026-09-hidden-proteins-coding-rna-clues.html,Hidden proteins in 'non-coding' RNA may offer new clues to cancer progression&nbsp;&nbsp;Medical Xpress,Google News - Researcher - Linial Michal,,precheck,,AI_RETRY: Fetch checkpoint before AI review.,Checkpoint before fetch,,,,,,google_news,Medical Xpress,resolved,https://news.google.com/rss/articles/CBMiggFBVV95cUxPWFVtbm9LRUNwaHp5TFRDdE13a3VaNVN2V2NLM2lfSnAxT3UzRk5ZdlBseTJmd3FDeGZ3RUNsQ0ZvZ08wZi14YnRCRFJfWlBibUl2OXZScG9oc0ZYd3JrVktfRGh5LWxRV2FpNWFkbkEyZVA5UWJ1SDdSRlN5WG42a0t3?oc=5,,,,
