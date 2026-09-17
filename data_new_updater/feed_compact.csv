@@ -1,4 +1,5 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+17/09/2026,STERLING MESS – herald,heraldonline.co.zw,https://www.heraldonline.co.zw/sterling-mess/,"SHOCKING dashcam footage shows Raheem Sterling waving an inflated “hippy crack” balloon at the wheel of his £270,000 Lamborghini – moments before he&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 16/09/2026,<b>SpliSense</b> Initiates Phase 2b Trial of SPL84 in Cystic Fibrosis - PR Newswire,prnewswire.com,https://www.prnewswire.com/news-releases/splisense-initiates-phase-2b-trial-of-spl84-in-cystic-fibrosis-302880256.html,"PRNewswire/ -- SpliSense, a clinical-stage biotechnology company developing RNA-based therapies for pulmonary diseases, today announced the&nbsp;...",Companies - Batch 01 (Sea-2-Cell→Wonder Veggies),splisense,full_keyword,TRUE,"Verified that the article discusses SpliSense, a clinical-stage biotech company based in Jerusalem. The company has initiated a Phase 2b clinical trial for its lead RNA therapy, SPL84, for Cystic Fibrosis, and holds FDA Fast Track and Orphan Drug designations. This represents a significant clinical milestone and translational progress, providing high strategic value for business development and portfolio monitoring.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
 Analyze a news item to see if it's strategically relevant for Business Development & Licensing.
 ""Splisense"" (Found as ""splisense"").
@@ -442,24 +443,3 @@ The snippet and full content mention: ""...due to expenditures for the acquisiti
 
     *Refining the reason for JSON:*
     ""The article confirms the acquisition of BioProtect Ltd. by Olympus Corp. for approximately ¥43.4 billion. This is a significant M&A event that provides concrete commercial intelligence regarding the company's market value and exit, meeting the strategic requirements for Business Development and Licensing monitoring.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
-10/09/2026,"Free Times presents Tony Molesworth, A Mystical Musical Evening - blogTO",blogto.com,https://www.blogto.com/events/free-times-presents-tony-molesworth-a-mystical-musical-evening-toronto/,"all in one place! He&#39;ll be weaving enchanting tunes, humorous stories, spoken word, metaphysical musings, one-liners, hippy wisdom &amp; pro-Fun-ditties.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-10/09/2026,Elephants Think Before They Act - Nautilus,nautil.us,https://nautil.us/elephants-think-before-they-act-1284893,"Will an elephant, for example, grab a proffered banana even if it means missing out on a better meal later on? Featured Video. In a study published&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),better meal,full_keyword,FALSE,"Rejected: The keyword 'better meal' appears in the text as a common descriptive phrase regarding elephant food rewards, not as a reference to a company, researcher, or technology. There is no connection to a business entity or Hebrew University, resulting in no TTO value.","FULL_TEXT: Senior Innovation Analyst for Yissum (HUJI TTO).
-Analyze a news item to determine strategic relevance for BD & Licensing teams.
-""Better Meal"".
-""Elephants Think Before They Act - Nautilus"".
-
-        1.  Entity Verification: Is it about the entity in the search context?
-        2.  Main Article Validation: Is the entity in the main body (not sidebar/footer)?
-        3.  Strategic Value: Is there commercial/translation signal?
-        4.  Strictness: High-quality intelligence only.
-
-    *   *Title:* ""Elephants Think Before They Act - Nautilus""
-    *   *Snippet:* ""...grab a proffered banana even if it means missing out on a **better meal** later on?""
-    *   *Content:* The article discusses impulse control in Asian elephants using food rewards (bananas, apples, pineapples). The phrase ""better meal"" is used as a common English phrase to describe a more desirable food reward.
-
-    *   *Entity Verification:* The keyword is ""Better Meal"". In the text, it appears as ""...missing out on a **better meal** later on?"".
-    *   *Analysis:* ""Better Meal"" is being used as a descriptive phrase (a meal that is better), *not* as a proper noun referring to a company, a researcher, or a specific project/technology.
-    *   *False Positive Identification:* This is a classic ""False Positive"". The Google Alert triggered on a common phrase that happened to match a keyword, but it doesn't refer to a business entity or a person.
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The keyword 'better meal' appears in the text as a common descriptive phrase regarding elephant food rewards, not as a reference to a company, researcher, or technology. There is no connection to a business entity or Hebrew University, resulting in no TTO value.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
