@@ -249,37 +249,3 @@ Google News researcher feed.
     *   `relevant`: false.
     *   `reason`: ""Rejected: While the article discusses a Hebrew University study regarding E. coli and mentions a potential target for future treatments, the researcher Rosenshine Ilan is not explicitly mentioned in the text. Because the entity cannot be verified within the article content and only appears in the search metadata, this is a false positive.""",,,,,,google_news,MedicalResearch.com,unresolved_google_news,https://news.google.com/rss/articles/CBMiugFBVV95cUxOUlRKQnZGNEs5R09pbndkZFIwNW4wZm12RjF0MVVMX0hmSFpiSGE2QkNXQ3hHeEpPVmFCRHhPY056endTZVdWOFBBNm9nYkkycWZubWVYN0htWXE2ZUtxZVRmbEx4NlBWN0c4eHFwQ0hvcGV2ZHQ3Y1ptWXFmU1RXYV9xWHFFdG5BRXBqaUJwWnRfeWFEVW5hVmVmbFlIWThVdlhlaENmSlRRazk0NUZsS2Zqcnk1SDYteVE?oc=5,gemma-4-31b-it,,,
 18/09/2026,Ireland&#39;s top docs to share &#39;<b>hippy</b> crack&#39; dangers with Dail ctte amid explosion of nitrous ...,thesun.ie,https://www.thesun.ie/news/17638689/oireachtas-laughing-gas-nitrous-oxide-dangers-health/,A DAIL committee will quiz top docs over the rise in recreational use of nitrous oxide. It comes after The Irish Sun launched its No Laughing...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-18/09/2026,Mandurah Race 2 Result - 18 Sep 2026 - Racenet,racenet.com.au,https://www.racenet.com.au/results/greyhounds/mandurah-20260918/signup-wa-race-2,7. Dixie Lad (7). T: Lewis Clay. SP-. 6. Junk Yard Hippy (6). 7th. 6. Junk Yard Hippy (6). T: Darryl Jeffries. SP-. 2. Bluey Brann (2). 8th. 2. Bluey&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-18/09/2026,Why is the Church of England fawning over a hardline Muslim? - Spiked,spiked-online.com,https://www.spiked-online.com/2026/09/18/why-is-the-church-of-england-fawning-over-a-hardline-muslim/,Did not one person in the archbishop&#39;s orbit think to spend three minutes on Google to check if Ashrafi really is a drippy hippy in a smock? If&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-18/09/2026,<b>SpliSense</b> begins Phase IIb SPL84 trial for cystic fibrosis - Yahoo,yahoo.com,https://www.yahoo.com/news/science/articles/splisense-begins-phase-iib-spl84-094532926.html,"Credit: Gorodenkoff / Shutterstock.com. SpliSense has commenced a Phase IIb clinical trial of its inhaled antisense oligonucleotide therapy, SPL84, in&nbsp;...",Companies - Batch 01 (Sea-2-Cell→Wonder Veggies),splisense,full_keyword,TRUE,"Verified: The article reports that SpliSense has commenced a Phase IIb clinical trial for its inhaled antisense oligonucleotide therapy, SPL84, targeting a specific mutation in cystic fibrosis. The mention of FDA Fast Track and Orphan Drug designations, as well as EMA PRIME designation, provides strong clinical and commercial translation signals highly relevant to Yissum's business development and portfolio monitoring.","FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item for strategic relevance for Business Development & Licensing.
-""Splisense"" (Found in text as ""splisense"").
-
-        *   Entity Verification: Is it actually about Splisense?
-        *   Main Article Validation: Is it part of the main content (not a sidebar/footer)?
-        *   Strategic Value: Does it contain commercial/translation signals (IP, clinical trials, FDA, M&A, etc.)?
-        *   Strictness: High quality only.
-Raw JSON object.
-
-    *   Title: ""SpliSense begins Phase IIb SPL84 trial for cystic fibrosis - Yahoo""
-    *   Snippet: ""SpliSense has commenced a Phase IIb clinical trial of its inhaled antisense oligonucleotide therapy, SPL84...""
-    *   Full Content Analysis:
-        *   Main story: SpliSense is starting a Phase IIb clinical trial for SPL84 (antisense oligonucleotide therapy) for cystic fibrosis patients with a specific mutation (3849+10 Kb C→T).
-        *   Details: Phase IIb study, combination with CFTR modulators, recruitment of ~40 participants, safety/tolerability objectives, anticipated results in 2027.
-        *   CEO: Gili Hart.
-        *   Regulators: Fast track and orphan drug designations from FDA, PRIME from EMA.
-        *   Noise: The text contains a lot of unrelated news (Trump, CNN, Iran war, etc.), which is typical for Yahoo News feeds or scrapers. However, the *main* lead article is clearly about SpliSense.
-
-    *   *Step 1: Entity Verification.* Yes, the article is about SpliSense, a biotech company.
-    *   *Step 2: Main Article Validation.* Yes, the title and the first several paragraphs are dedicated to SpliSense. It is the main story.
-    *   *Step 3: Strategic Value.*
-        *   Is SpliSense a portfolio company? (Implicitly, Yissum tracks them because the alert triggered).
-        *   Does it have commercial/translation signals? YES.
-            *   Phase IIb clinical trial.
-            *   FDA Fast Track and Orphan Drug designations.
-            *   EMA PRIME designation.
-            *   Specific therapeutic target (Cystic Fibrosis).
-        *   This is highly relevant for a TTO's Business Development & Licensing team as it tracks the progress of a translational asset towards market.
-
-    *   `relevant`: true
-    *   `reason`: Verified: The article reports that SpliSense has commenced a Phase IIb clinical trial for its inhaled antisense oligonucleotide therapy, SPL84, targeting a specific mutation in cystic fibrosis. The mention of FDA Fast Track and Orphan Drug designations, as well as EMA PRIME designation, provides strong clinical and commercial translation signals highly relevant to Yissum's business development and portfolio monitoring.",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,https://s.yimg.com/lo/mysterio/api/16925dcb011209541817eab9f79209beee1151fcd0ae208e7dda2b0e08edb9a0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fclinical_trials_arena_396%2F442db7a23f1b659ce6afce0afcd75ce0.jpg,evt_splisense_0,"SpliSense, a clinical-stage biotech company based in Jerusalem, has initiated a Phase IIb clinical trial for its lead inhaled antisense oligonucleotide therapy, SPL84. This therapy targets a specific or rare mutation in cystic fibrosis and holds significant regulatory designations including FDA Fast Track, Orphan Drug, and EMA PRIME. This milestone represents strong translational progress and a concrete path toward commercialization, making it highly relevant for Yissum's Business Development, Licensing teams, and portfolio monitoring efforts."
