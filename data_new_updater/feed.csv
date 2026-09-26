@@ -2,6 +2,36 @@ published_date,title,source_domain,url,snippet,feed_name,matched_names,match_sta
 25/09/2026,Five songs that defined life in 1969 - Far Out Magazine,faroutmagazine.co.uk,https://faroutmagazine.co.uk/five-songs-that-defined-life-in-1969/,"Peace certainly was one massive element of the final year of the &#39;60s. The hippy movement was in full flow, and as a result, a lot of the music that&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 25/09/2026,The only 1960s hit that Robert Plant actually liked - Far Out Magazine,faroutmagazine.co.uk,https://faroutmagazine.co.uk/only-top-ten-hit-of-the-1960s-that-robert-plant-actually-liked/,"He was still the idyllic hippy when he was working in The Band of Joy, but his true calling was working in the blues scene that Jimmy Page had&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 25/09/2026,Peter Simon&#39;s extraordinary collecting journey | Christie&#39;s,christies.com,https://www.christies.com/en/stories/monsoon-the-peter-simon-collection-london-20th-21st-century-art-highlights-bacon-boetti-de-kooning-mondrian-riley-warhol-c256f747f240487d959eef9dcb4ef81d,"Explore masterpieces by Bacon, Mondrian, de Kooning, Boetti and Bridget Riley offered in Monsoon: Peter Simon Collection, October 2026 at&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+25/09/2026,Introducing two Newcomer Project: Blue Connect and <b>BioProtect</b> | Research and Innovation,ec.europa.eu,https://ec.europa.eu/newsroom/rtd/redirection/item/843309/en/3483,"Discover Blue Connect and BioProtect, two groundbreaking projects driving the future of marine biodiversity conservation and restoration in&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),bioprotect,full_keyword,FALSE,"Rejected: While the article discusses a project named BioProtect, there is no indication that this entity is affiliated with Hebrew University or Yissum. Furthermore, the focus on marine biodiversity conservation lacks the commercial, IP, or translational signals required for TTO strategic relevance.","FULL_TEXT: *   Role: Senior Innovation Analyst for Yissum (HUJI TTO).
+    *   Task: Validate a Google Alert for the keyword ""BioProtect"".
+    *   Input:
+        *   Keyword: ""BioProtect""
+        *   Title: ""Introducing two Newcomer Project: Blue Connect and BioProtect | Research and Innovation""
+        *   Snippet/Full Content: ""Discover Blue Connect and BioProtect, two groundbreaking projects driving the future of marine biodiversity conservation and restoration in...""
+    *   Constraint: Use a strict TTO filter. Only mark TRUE if there's commercial/translation signal (IP, licensing, startup, clinical, fundable path, etc.).
+    *   Requirement: Raw JSON output.
+
+    *   *Step 1: Entity Verification.* The keyword is ""BioProtect"". The article is about a project called ""BioProtect"".
+    *   *Step 2: Main Article Validation.* The title explicitly mentions ""BioProtect"". It is the main subject.
+    *   *Step 3: Strategic Value.*
+        *   The project is about ""marine biodiversity conservation and restoration"".
+        *   Is there an affiliation with Hebrew University (HUJI)? The snippet does not mention HUJI or Yissum.
+        *   Is there a commercial/translational signal? It mentions ""groundbreaking projects driving the future of... conservation and restoration"". This sounds like an environmental/academic project.
+        *   Does ""BioProtect"" refer to a Yissum portfolio company or a specific HUJI researcher's tech? There is no evidence in the text provided that this is related to HUJI.
+        *   Looking at the nature of the project (marine biodiversity conservation), unless it's a specific HUJI-led spin-off, this looks like a generic project name (""BioProtect"" is a very common name for biological protection projects).
+
+    *   The prompt asks to be strict.
+    *   The ""Yissum Filter"" requires:
+        *   For researchers: Must be affiliated with HUJI. (Not mentioned).
+        *   For portfolio companies: Must show fundraising, trials, M&A, etc. (Not mentioned; sounds like a conservation project).
+        *   For Institutional: Must be new centers, donations, etc. (Not mentioned).
+    *   The text is very brief: ""two groundbreaking projects driving the future of marine biodiversity conservation and restoration"".
+    *   There is no mention of Hebrew University.
+    *   There is no mention of patents, licensing, or a startup venture.
+    *   ""BioProtect"" is a generic term. Without a HUJI link or a clear commercial signal, this is a ""False Positive"".
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: While the article discusses a project named BioProtect, there is no indication that this entity is affiliated with Hebrew University or Yissum. Furthermore, the focus on marine biodiversity conservation lacks the commercial, IP, or translational signals required for TTO strategic relevance.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 25/09/2026,"NAYA 8-K Filings - <b>NAYA Biosciences</b>, Inc. SEC 8-K - Stock Titan",stocktitan.net,https://www.stocktitan.net/sec-filings/NAYA/8-k.html,"Every NAYA Biosciences, Inc. (NAYA) 8-K filed with the SEC in the last 24 months, newest first, each with a summary and the impact and sentiment&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,old_article,FALSE,"Auto-Reject: Old article resurfaced by Google Alerts. Primary visible article date found: September 3, 2025.",Old article detected before keyword matching / AI.,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 25/09/2026,<b>MYOR</b>.SG - | Stock Price &amp; Latest News - Reuters,reuters.com,https://www.reuters.com/markets/companies/MYOR.SG/key-metrics/growth,"Growth(%). Title, Value. Revenue Growth (Quarterly YoY), --. Revenue Growth Rate (5Y), --. EPS Growth (Quarterly YoY)&nbsp;...",Companies - Batch 05 (MED PNC→Phenom Networks),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 25/09/2026,<b>MYOR</b>.SG - | Stock Price &amp; Latest News - Reuters,reuters.com,https://www.reuters.com/markets/companies/MYOR.SG/key-metrics/per-share-data/,"Mayora Indah Tbk PT. MYOR.SG. Equity. Last Price 0.0620. EUR price change 0.00 percent change -4.62%. Delayed quote as of Sep 24, 2026 7:55 PM UTC.",Companies - Batch 05 (MED PNC→Phenom Networks),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
@@ -180,38 +210,3 @@ Determine if a news item is strategically relevant for Business Development & Li
 19/09/2026,Raheem Sterling vows to be &#39;better than yesterday&#39; as former England footballer breaks his silence,dailymail.com,https://www.dailymail.com/sport/football/article-16144057/raheem-sterling-lamborghini-crash-guilty.html,Raheem Sterling says he is seeking &#39;progress over perfection&#39; after pleading guilty to dangerous driving and drug possession. Advertisement.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 19/09/2026,Mlada Boleslav vs Zbrojovka Brno match lineup | Chance Liga · 19 Sep 2026 - YSscores,ysscores.com,https://www.ysscores.com/en/lineup/5831177/FK-Mlada-Boleslav-vs-FC-Zbrojovka-Brno,Mlada Boleslav vs Zbrojovka Brno match lineup for Chance Liga on Saturday 19-09-2026. Starting XI and shirt numbers.,Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 19/09/2026,Last two mins: McCluggage the hero as huge late call helps Lions past Hawks - AFL,afl.com.au,https://www.afl.com.au/video/1616002/last-two-mins-lions-beat-hawks-in-all-time-classic-after-huge-late-decision?videoId=1616002&modal=true&type=video&publishFrom=1789812542001,Last two mins: Lions beat Hawks in all-time classic after huge late decision. The thrilling final moments between Hawthorn and Brisbane in the&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-19/09/2026,MedicalResearch.com | - MedicalResearch.com,medicalresearch.com,https://medicalresearch.com/,MedicalResearch.com |&nbsp;&nbsp;MedicalResearch.com,Google News - Researcher - Rosenshine Ilan,Rosenshine Ilan (Google News query match),full_keyword,FALSE,"Rejected: The provided text does not mention the researcher 'Rosenshine Ilan.' Although a snippet mentions 'New Hebrew University research' concerning EPEC bacterial strains, there is no explicit name match to verify the identity, and the text lacks specific details regarding IP, licensing, or commercial application required for strategic business development value.","FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item for strategic relevance to Business Development & Licensing.
-""Rosenshine Ilan"".
-A snippet/full text from `MedicalResearch.com`.
-A strict TTO (Technology Transfer Office) filter.
-
-    *   *Title:* ""MedicalResearch.com | - MedicalResearch.com"" (Very generic/no specific title).
-    *   *Snippet:* ""MedicalResearch.com |&nbsp;&nbsp;MedicalResearch.com"".
-    *   *Full Text Analysis:*
-        *   Segment 1: ""Atypical EPEC strains lack the bundle-forming pili used by classical strains... New Hebrew University research shows how these bacteria compensate through FimH mutations and bacterial elongation..."" (Wait, this mentions Hebrew University research).
-        *   Segment 2: ""Your 2026 MIPS score sets your 2028 Medicare reimbursement rate..."" (Medical billing/policy).
-        *   Segment 3: ""A successful implant procedure... Rutgers research..."" (Dental/Rutgers).
-        *   Segment 4: ""A mental health center... therapist..."" (Mental health).
-        *   Segment 5: ""New Jersey's two-year statute of limitations..."" (Legal).
-        *   Segment 6: ""VA disability math..."" (VA claims).
-        *   Segment 7: ""A 2025 study found 54,905 mesothelioma-related deaths..."" (Cancer/Death stats).
-        *   ... and several other unrelated medical/legal snippets.
-
-    *   The keyword is ""Rosenshine Ilan"".
-    *   Scanning the full text for ""Rosenshine"" or ""Ilan"":
-        *   Text: ""New Hebrew University research shows how these bacteria compensate...""
-        *   *Does the text mention Rosenshine Ilan?* **No.**
-
-    *   *Step 1 (Entity Verification):* The text mentions ""New Hebrew University research"" regarding EPEC strains, but it *never* names the researcher ""Rosenshine Ilan"". Even if Rosenshine Ilan is the researcher behind this specific EPEC study, the *article text provided* does not verify the identity.
-    *   *Step 2 (Main Article Validation):* The ""article"" is actually a collection of snippets/aggregator feed items from a website. The first snippet is about Hebrew University research, but the specific researcher is not named in the provided text.
-    *   *Step 3 (Strategic Value):* Even if we assumed the EPEC research *was* by Rosenshine Ilan (which we cannot confirm from this text), the text describes basic science (""how these bacteria compensate through FimH mutations and bacterial elongation""). While potentially interesting, the instructions state: ""Do not infer commercial value from generic scientific importance"" and ""Mark FALSE for... generic science news... or articles with only speculative long-term potential.""
-
-    *   The keyword ""Rosenshine Ilan"" is not found in the provided text.
-    *   The text mentions Hebrew University research, but without the name, I cannot validate the match.
-    *   The ""article"" is a list of miscellaneous medical snippets, not a dedicated news report on a single researcher or discovery.
-
-    *   *Drafting the reason:* ""Rejected: The provided text does not mention the researcher 'Rosenshine Ilan.' While the text includes a snippet regarding 'New Hebrew University research' on EPEC bacterial strains, it lacks the specific name required to confirm an identity match and does not provide concrete commercialization, IP, or clinical application signals necessary for TTO relevance.""
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The provided text does not mention the researcher 'Rosenshine Ilan.' Although a snippet mentions 'New Hebrew University research' concerning EPEC bacterial strains, there is no explicit name match to verify the identity, and the text lacks specific details regarding IP, licensing, or commercial application required for strategic business development value.""",,,,,,google_news,MedicalResearch.com,resolved,https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DQkd5QlYyX19rQlpzRUFrM2ZwaHVpd2VBWlZrODNzLWZkMmdrZWZZQ3Fzdk9jTmhudmp5dldnUFFaSHZJQUxMRHZtSmtRcERXMmJOMTViUm9JZk9IZGtR?oc=5,gemma-4-26b-a4b-it,,,
