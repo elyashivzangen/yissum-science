@@ -205,27 +205,3 @@ Raw JSON object with `relevant` (boolean) and `reason` (string).
 ```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
 23/09/2026,The Spot Community Challenges - YouTube,youtu.be,https://youtu.be/Cc7o0I6FHlU?is=P_e6drvzMTg2Pv7A,... Hippy Flip Sewer Rail HARDFLIP CHALLENGE Submit Any Hardflip and Voted on by Community (didn&#39;t win) Hippy Hardflip SF Docks Double Handrail DARIUS&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 23/09/2026,Quote Of The Day By Willie Nelson: &#39;I Still Think Music Is What ...&#39; - Grunge,grunge.com,https://www.grunge.com/2260298/quote-of-the-day-willie-nelson-music-brings-us-together/,"Despite all his fame and money, Nelson remains one of those artists you would actually enjoy meeting, thanks to his chill, rustic-hippy vibe and&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-22/09/2026,Cocaine hijacks a brain circuit that naturally supports flexible behavior - EurekAlert!,eurekalert.org,https://www.eurekalert.org/news-releases/1118180,Cocaine hijacks a brain circuit that naturally supports flexible behavior&nbsp;&nbsp;EurekAlert!,Google News - Researcher - Citri Ami,Citri Ami (Google News query match),full_keyword,FALSE,"Rejected: The article does not mention ""Citri Ami"" at any point in the title or body. The content focuses on neurobiological research regarding cocaine addiction conducted at Michigan State University by researchers A.J. Robison and Andrew Eagle. Therefore, there is no connection to the searched entity or any Yissum/Hebrew University commercialization interest. Does the JSON follow the format? Yes. Is the reason prose-only? Yes. Is the logic sound? Yes (Entity not found).","FULL_TEXT: Senior Innovation Analyst for Yissum.
-Determine if a news item is strategically relevant for Business Development & Licensing.
-""Citri Ami"" (via Google News researcher feed).
-""Cocaine hijacks a brain circuit that naturally supports flexible behavior - EurekAlert!"" (Content about cocaine addiction research at Michigan State University).
-
-    *   Article Title: ""Cocaine hijacks a brain circuit that naturally supports flexible behavior""
-    *   Content: Discusses research at Michigan State University by A.J. Robison and Andrew Eagle regarding cocaine addiction, specifically the protein DeltaFosB and the hippocampus.
-    *   Key names in text: A.J. Robison (Michigan State University), Andrew Eagle (Michigan State University), University of Texas Medical Branch.
-    *   Keywords found in search context: ""Citri Ami"".
-
-    *   Step 1: Entity Verification. Does the article mention ""Citri Ami""?
-        *   Scanning full text: No mention of ""Citri Ami"".
-    *   Step 2: Main Article Validation.
-        *   The main article is about cocaine addiction and Michigan State University.
-    *   Step 3: Strategic Value.
-        *   Since the entity ""Citri Ami"" is not found in the article text, it is a False Positive. The keyword match was likely a ""weak name match"" or an error in the Google News crawler's indexing/association.
-
-    *   `relevant`: false
-    *   `reason`: The article does not mention ""Citri Ami"" at any point in the title or body. The content focuses on neurobiological research regarding cocaine addiction conducted at Michigan State University by researchers A.J. Robison and Andrew Eagle. Therefore, there is no connection to the searched entity or any Yissum/Hebrew University commercialization interest.
-
-    *   Does the JSON follow the format? Yes.
-    *   Is the reason prose-only? Yes.
-    *   Is the logic sound? Yes (Entity not found).",,,,,,google_news,EurekAlert!,resolved,https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QZVhqTlFGYWo3c2M3RG9YZXNvWUd0WnJmby1OeXpueWFoTFFBT2lJTGdXNTZlam1HZks4SzliR0pZejZlZ1RFNjJIdFozbzFOcWtSOGticUFNMTl2?oc=5,gemma-4-26b-a4b-it,,,
-22/09/2026,,idnfinancials.com,https://www.idnfinancials.com/nl/company/prospectus/MYOR?sl=nl,,Companies - Batch 05 (MED PNC→Phenom Networks),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
