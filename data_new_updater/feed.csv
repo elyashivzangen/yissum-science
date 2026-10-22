@@ -324,22 +324,3 @@ Analyze a news item to see if it's strategically relevant for Business Developme
   ""reason"": ""Rejected: The keyword 'Myor' in this article refers to a consumer staples company undergoing financial analysis of its sales and gross profit margins. There is no mention of a researcher named 'Myor' affiliated with Hebrew University, nor any scientific work, intellectual property, clinical applications, startup activity, or other technology transfer signals. This is a false positive based on a company name matching the keyword, completely unrelated to Yissum's business development interests.""
 }
 ```",,,,,,google_alerts,Google Alerts,not_google_news,,gemini-2.5-flash,,,
-15/10/2026,Alteogen Merger Filing Flags Capital Expansion and Rising Biotech Risks,theglobeandmail.com,https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/7725790/alteogen-merger-filing-flags-capital-expansion-and-rising-biotech-risks/,"The merged entity aims to strengthen its position in platform‑based biobetter development and technology‑transfer, underpinned by capital&nbsp;...",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),,precheck,FALSE,Auto-Reject: Fetch checkpoint (will update if processed).,Checkpoint before fetch,,,,no_date_found,No visible article date was detected in the title/snippet/top article text.,google_alerts,Google Alerts,not_google_news,,,,,
-15/10/2026,"Automotive Retreaded Tires Market Size, Share &amp; Forecast 2036",factmr.com,https://www.factmr.com/report/automotive-retreaded-tires-market,By Product Type: Pre-Cure accounts for 65.8% share in 2026 as workshops apply prepared tread material to inspected casings. By Vehicle Type: Heavy&nbsp;...,Companies - Batch 02 (Philoseed→Scopus BioPharma),pre-cure,full_keyword,FALSE,"Rejected: The keyword 'Pre-Cure' is a technical industry term referring to a method of tire retreading within the automotive market, not a researcher, company, or intellectual property relevant to Yissum. The article is a generic market forecast report with no connection to Hebrew University or its technology transfer activities.","FULL_TEXT: Senior Innovation Analyst for Yissum.
-Analyze a news item for strategic relevance to Business Development & Licensing.
-""Pre-Cure"" (found in text as ""pre-cure"").
-A market report snippet titled ""Automotive Retreaded Tires Market Size, Share & Forecast 2036"".
-
-    *   The keyword ""Pre-Cure"" is used in the context of ""Product Type: Pre-Cure accounts for 65.8% share..."".
-    *   In the tire industry, ""pre-cure"" refers to a method of retreading where a pre-made tread is applied to a casing.
-
-    *   *Step 1: Entity Verification.* Is ""Pre-Cure"" a researcher or a company? No. It is a technical term/segment within the automotive tire market.
-    *   *Step 2: Main Article Validation.* The term ""Pre-Cure"" is indeed part of the main article's segmentation analysis. However, ""Pre-Cure"" is not the *subject* of the research or a *company/person* Yissum would be interested in.
-    *   *Step 3: Strategic Value.* The keyword was flagged because it matched ""Pre-Cure"". This is a classic ""False Positive"" from a Google Alert. Google thought ""Pre-Cure"" was a proper noun (like a person's name or a specific company name) and flagged it. In reality, it is a common industrial term. Even if it were a company, there is no mention of Hebrew University, Yissum, or any specific IP/translational technology related to Yissum's portfolio.
-
-    *   The keyword ""Pre-Cure"" is a technical term describing a type of tire retreading process, not a researcher, company, or technology related to Hebrew University.
-    *   The article is a generic market research report on the automotive industry.
-    *   There is zero TTO/business development value for Yissum.
-
-    *   ""relevant"": false
-    *   ""reason"": ""Rejected: The keyword 'Pre-Cure' is a technical industry term referring to a method of tire retreading within the automotive market, not a researcher, company, or intellectual property relevant to Yissum. The article is a generic market forecast report with no connection to Hebrew University or its technology transfer activities.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
