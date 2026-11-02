@@ -1,4 +1,68 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+02/11/2026,Could consciousness begin deep in the brain? Researchers make the case - Medical Xpress,medicalxpress.com,https://medicalxpress.com/news/2026-11-consciousness-deep-brain-case.html,Could consciousness begin deep in the brain? Researchers make the case&nbsp;&nbsp;Medical Xpress,Google News - Researcher - Devor Marshall,marshall devor,full_keyword,,AI_RETRY: AI Error: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.,"{
+  ""error"": {
+    ""code"": 503,
+    ""message"": ""This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."",
+    ""status"": ""UNAVAILABLE""
+  }
+}
+",,,,,,google_news,Medical Xpress,resolved,https://news.google.com/rss/articles/CBMifkFVX3lxTE5xV3F4WGhTWjg1eUE1Yi05UjMycGQ1OThiR1N5eTV3eHdPYlZsWlF4TWNJZmZvMFhqWWo3bDRqbnhURUtSN1lTT0NKSC1zOFZvMzROMUVIS2tOTkNmMDctLUljTnFjMWpsRVVKLVpLeUh4ckJhVjZ0RUs3eV82UQ?oc=5,,,,
+02/11/2026,Israeli AI breakthrough could unlock new possibilities for agriculture - شبكة تواصل الإخبارية,twaslnews1.twaslnews.com,https://thejewishedition.com/news/israel/2026/11/02/israeli-ai-breakthrough-could-unlock-new-possibilities-for-agriculture/,Israeli AI breakthrough could unlock new possibilities for agriculture&nbsp;&nbsp;شبكة تواصل الإخبارية,Google News - Researcher - Erez Amir,Erez Amir (Google News query match),full_keyword,FALSE,"Rejected: The name Erez Amir does not appear in the provided article text. While the news item discusses an AI breakthrough in agriculture (BBERT), there is no mention of the matched researcher or any affiliation with the Hebrew University, providing no basis for TTO relevance.","FULL_TEXT: Senior Innovation Analyst for Yissum (Hebrew University TTO).
+Analyze a news item for strategic relevance to BD & Licensing.
+""Erez Amir"".
+""Israeli AI breakthrough could unlock new possibilities for agriculture"".
+Strict TTO filter. Must be explicitly commercial, translational, IP-related, clinical, or significant scientific breakthrough linked to HUJI/Yissum.
+
+    *   Title: ""Israeli AI breakthrough could unlock new possibilities for agriculture""
+    *   Description: Mentions a tool called ""BBERT"" that recognizes patterns in bacterial DNA.
+    *   Full Text Analysis:
+        *   The text is essentially a webpage dump from ""The Jewish Edition"".
+        *   It contains various news headlines (Knesset, Iran, rotation government [satire]).
+        *   The specific article title mentioned is ""Israeli AI Breakthrough Could Unlock New Possibilities for Agriculture"".
+        *   The snippet describes ""BBERT"", a tool for bacterial DNA.
+        *   *Crucially*, I need to find the name ""Erez Amir"" in the full text provided.
+
+    *   Scanning the `FULL_TEXT` section:
+        *   ""Israeli AI Breakthrough Could Unlock New Possibilities for Agriculture"" - Title.
+        *   ""Called BBERT, the tool recognizes patterns in bacterial DNA..."" - Description.
+        *   ... (Menu items: Israel, US, Middle East, etc.) ...
+        *   ... (Other news: 26th Knesset, Rotation Government, War with Iran) ...
+        *   ... (Latest News list) ...
+        *   ... (CSS/HTML code for sharing buttons) ...
+    *   *Search for ""Erez Amir"" in the provided text*: I am scanning the provided `FULL_TEXT` field. The name ""Erez Amir"" does **not** appear anywhere in the provided `FULL_TEXT`.
+
+    *   Step 1 (Entity Verification): The search context flagged ""Erez Amir"". However, the text of the article provided does not mention Erez Amir.
+    *   Step 2 (Main Article Validation): The entity ""Erez Amir"" is absent from the main article body, the title, and the snippets. He is not mentioned in the ""Latest News"" or any other section of the text.
+    *   Step 3 (Strategic Value): Since the entity isn't even in the text, there is no strategic value.
+
+    *   The alert was likely triggered by a backend search query that matched a researcher's name to a topic or a different version of the page, but in the provided text, the name is missing.
+    *   Even if the article *is* about a breakthrough (BBERT), without the link to Erez Amir or Hebrew University explicitly stated in the text, it fails the ""Strict TTO filter"".
+    *   Actually, looking closer at the prompt's ""Full Content"", it seems to be a snippet of a webpage. The name ""Erez Amir"" is totally absent from the text.
+
+    *   `relevant`: false
+    *   `reason`: Rejected: The name Erez Amir does not appear in the provided article text. While the news item discusses an AI breakthrough in agriculture (BBERT), there is no mention of the matched researcher or any affiliation with the Hebrew University, providing no basis for TTO relevance.",,,,,,google_news,شبكة تواصل الإخبارية,resolved,https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsTUM0UktsQUk3U1VQdU5VZ1N5OWNUbVpRSFNMU1lJbDEwOHFWZmYwc25qLWRTYWQ2b2tPRzdEX2ZieEVlbWpGUUhxa1JZelg1UzdN?oc=5,gemma-4-31b-it,,,
+02/11/2026,,digikala.com,https://www.digikala.com/product/dkp-22910474/%D9%85%DA%A9%D9%85%D9%84-%DA%AF%D8%B1%D8%A8%D9%87-%D9%88%D8%AA-%D8%A7%DA%A9%D8%B3%D9%BE%D8%B1%D8%AA-%D9%85%D8%AF%D9%84-vet-expert-bioprotect-%D8%A8%D8%B3%D8%AA%D9%87-15-%D8%B9%D8%AF%D8%AF%DB%8C/?product_id=22910474&variant_id=84651183,,Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),bioprotect,full_keyword,FALSE,"Rejected: The entity 'BioProtect' mentioned in the article is a commercial pet supplement brand for cats, not a researcher or a technology affiliated with Hebrew University. The content is a retail product listing for vitamins and probiotics manufactured in Poland, providing no strategic intelligence or business development value for Yissum.","FULL_TEXT: Senior Innovation Analyst for Yissum.
+Determine if a news item is strategically relevant to Business Development & Licensing teams.
+""BioProtect"" (found as ""bioprotect"").
+Product listing for ""Vet Expert BioProtect,"" a cat supplement (vitamins, minerals, probiotics) from a brand called ""Vet Expert,"" manufactured in Poland, sold on the Iranian e-commerce site DigiKala.
+
+    *   The keyword ""BioProtect"" matches a commercial pet supplement product name.
+    *   The article is an e-commerce product page for ""Vet Expert BioProtect"" (a cat supplement).
+    *   Is ""BioProtect"" a Hebrew University researcher or a Yissum-linked portfolio company? No.
+    *   Is there any mention of Hebrew University, HUJI, or scientific/technological innovation that Yissum would care about? No.
+    *   The article is purely a commercial retail listing for a pet product in Poland/Iran.
+
+    *   *Step 1: Entity Verification:* The entity ""BioProtect"" in this context is a pet supplement brand/product name, not a researcher or a Yissum-related company.
+    *   *Step 2: Main Article Validation:* The article *is* about BioProtect (the supplement), but the supplement has no connection to the intended search context (presumably a researcher or biotech company named BioProtect).
+    *   *Step 3: Strategic Value:* There is zero strategic value for a TTO. It is a retail listing for animal vitamins.
+    *   *Step 4: Strictness:* Mark as FALSE.
+
+    *   Confirm identity mismatch: The ""BioProtect"" mentioned is a pet supplement brand, not a researcher or relevant technology.
+    *   Cite evidence: The article is a product description from DigiKala for ""Vet Expert BioProtect,"" a cat supplement containing vitamins and probiotics manufactured in Poland.
+    *   Explain lack of TTO value: There is no connection to Hebrew University, intellectual property, or translational science; it is simply a consumer retail listing.
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The entity 'BioProtect' mentioned in the article is a commercial pet supplement brand for cats, not a researcher or a technology affiliated with Hebrew University. The content is a retail product listing for vitamins and probiotics manufactured in Poland, providing no strategic intelligence or business development value for Yissum.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-26b-a4b-it,,,
 01/11/2026,Statistiques Sigma Olomouc vs Zbrojovka Brno - Chance Liga 2026/27,fr.besoccer.com,https://fr.besoccer.com/match/sk-sigma-olomouc/zbrojovka-brno/202712999,"Statistiques en direct Sigma Olomouc vs Zbrojovka Brno - Chance Liga 2026/27 : buts, passes décisives, cartons, changements, etc.",Companies - Batch 03 (AMAT (S) PTE.→Cooling Crops),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 01/11/2026,Bar owner &#39;feels very lucky to be part of history&#39; of famous Liverpool building,liverpoolecho.co.uk,https://www.liverpoolecho.co.uk/whats-on/whats-on-news/bar-owner-feels-very-lucky-34838735,"... Hippy Hole. Article continues below. At the time, the bar introduced a new era for the famous city centre site, offering a full French wine&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 01/11/2026,Mandurah Race 4 Betting Odds,odds.com.au,https://www.odds.com.au/greyhounds/mandurah-20261102/all-torque-engineering-race-4/,1: Bronte Blue Opal ; 2: Shinboner Abby ; 4: Here Comes Marg ; 5: Junk Yard Jeff ; 7: Junk Yard Hippy.,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
@@ -125,4 +189,3 @@ High strictness for Google News researcher feeds (commercial/translation signals
 27/10/2026,"In 1969, a Leonard Cohen song barely made the charts. Robert Plant couldn&#39;t imagine ...",faroutmagazine.co.uk,https://faroutmagazine.co.uk/in-1969-a-song-only-made-it-to-number-137-now-robert-plant-calls-it-one-of-the-best-lyrics-he-heard/,"He certainly wanted to be a great singer when he first started, but he also had a strong respect for the hippy movement going on at the time. He&nbsp;...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 26/10/2026,Photo Gallery: Spooky fun at &#39;Katonahween&#39; - Yorktown News,news.halstonmedia.com,"https://news.halstonmedia.com/yorktown-news/stories/katonah-katonahween-halloween,100897","&quot;Katonahween&#39;&#39; drew flocks of folks to show off their clever, creepy, and cute costumes.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 26/10/2026,Popular charity folk group build charity total | monmouthshirebeacon.co.uk,monmouthshirebeacon.co.uk,https://www.monmouthshirebeacon.co.uk/news/entertainment/popular-charity-folk-group-build-charity-total-966471,Dave Andrews from the band invites everybody to buy their tickets in support the Savoy and go full on &#39;hippy&#39; to celebrate the flower power generation&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-26/10/2026,Various Artists - Before The Gold Rush - An American Country Rock Anthology 1966-1973,atthebarrier.com,https://atthebarrier.com/2026/10/26/various-artists-before-the-gold-rush-an-american-country-rock-anthology-1966-1973-boxset-review/amp/,It was during the latter half of the 1960s that California&#39;s long-haired hippy musicians decided to shed the plumage of psychedelia and seek out&nbsp;...,Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,no_keyword,FALSE,Auto-Reject: No matching keywords found in text.,FULL_TEXT: Skipped,,,,,,google_alerts,Google Alerts,not_google_news,,,,,
