@@ -1,4 +1,38 @@
 published_date,title,source_domain,url,snippet,feed_name,matched_names,match_status,ai_relevant,ai_reason,ai_context,daily_relevant,daily_reason,detected_article_date,detection_status,detection_evidence,source_type,source_name,url_resolution_status,original_google_news_url,ai_model_used,image_url,event_group_id,event_summary
+02/11/2026,soi8fsgftxyh1.jpeg | GBAtemp.net,gbatemp.net,https://gbatemp.net/memes/image.10939783-600662/,"Today at 2:32 PM, by hippy dave 3 Telegram.",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
+02/11/2026,"In Kraków, 68 Participants Will Begin Creating an Exhibition About Jewish Women",jewishnews.com.ua,https://jewishnews.com.ua/en/society/in-krakow-68-participants-will-begin-creating-an-exhibition-about-jewish-women,"At the university, the delegation learned about the work of Yissum, the Hebrew University&#39;s technology transfer company. A separate part of the&nbsp;...",YISSUM (core),yissum,full_keyword,FALSE,"Rejected: The main article focuses on a cultural exhibition regarding Jewish women in Kraków. While the snippet mentions a delegation learning about Yissum, this is a generic institutional mention with no commercial, translational, or IP-related value, and the mention does not appear in the provided main article text.","FULL_TEXT: Senior Innovation Analyst for Yissum (TTO of Hebrew University).
+Analyze a news item to determine if it's strategically relevant for BD & Licensing.
+""YISSUM""
+
+        *   Title: ""In Kraków, 68 Participants Will Begin Creating an Exhibition About Jewish Women""
+        *   Snippet: Mentions Yissum.
+        *   Full Content: Discusses a project ""Her Story, Our World"" about Jewish women in Kraków. The main text focuses on an international kick-off meeting with students and teachers.
+        *   Looking closer at the full content: The snippet mentions Yissum, but the *full content* provided does not mention ""Yissum"" in the main article body.
+        *   Wait, looking at the end of the full content provided: It lists ""LATEST NEWS"" and a few headlines. One headline is ""Ukrainian Bloggers Meet with Israeli Foreign Ministry Representatives During Hi-Tech Tour"". Another mentions ""JUniversity students"".
+        *   Re-evaluating the provided snippet vs. full content. The snippet says: ""At the university, the delegation learned about the work of Yissum..."". This sentence is *not* in the ""Full Content"" section provided. The ""Full Content"" section jumps from the ""Her Story, Our World"" project to ""LATEST NEWS"".
+        *   Actually, looking at the ""Full Content"" again:
+            - Article Title: ""In Kraków, Participants Will Begin Creating an Exhibition About Four Jewish Women""
+            - Article Description: ""On November 27–29, 2026, 68 young people... will research the biographies of Jewish women...""
+            - Main Body: Discusses the kick-off meeting in Kraków.
+            - Latest News list:
+                - Farbrengen...
+                - Menorah...
+                - Leaders JUniversity Students Discussed Customs...
+                - JUniversity students studied the design...
+                - Ukrainian Bloggers Meet with Israeli Foreign Ministry...
+        *   The keyword ""Yissum"" appears in the *Snippet* provided by the user, but is missing from the *Full Content* provided. However, even if it were in the text (as suggested by the snippet), the topic is about an exhibition of Jewish women and a delegation learning about Yissum.
+
+    *   *Step 1: Entity Verification:* The snippet mentions Yissum.
+    *   *Step 2: Main Article Validation:* The main article is about a history/culture exhibition of Jewish women. The mention of Yissum (based on the snippet) seems to be a passing mention of a delegation learning about the TTO. However, the main body of the provided ""Full Content"" doesn't even contain the word ""Yissum"". Even if the snippet is accurate, the mention is incidental.
+    *   *Step 3: Strategic Value:* Does a delegation ""learning about the work of Yissum"" constitute a commercial/translation signal? No. It's a general institutional mention, likely part of a tour or a diplomatic visit. It does not involve IP, licensing, startups, clinical trials, or major grants.
+    *   *Step 4: Strict Filter:* The ""Special Rule for Google News researcher feeds"" (and the general TTO filter) says: ""Mark TRUE only if the article explicitly contains commercial/translation signals... If the commercial value is only speculative or generic, mark FALSE.""
+
+    *   The article is about a cultural exhibition.
+    *   The mention of Yissum (found in the snippet but absent from the main body of the provided full text) is a generic mention of an institutional visit.
+    *   There is zero TTO/Business Development value.
+
+    *   `relevant`: false
+    *   `reason`: ""Rejected: The main article focuses on a cultural exhibition regarding Jewish women in Kraków. While the snippet mentions a delegation learning about Yissum, this is a generic institutional mention with no commercial, translational, or IP-related value, and the mention does not appear in the provided main article text.""",,,,,,google_alerts,Google Alerts,not_google_news,,gemma-4-31b-it,,,
 02/11/2026,Could consciousness begin deep in the brain? Researchers make the case - Medical Xpress,medicalxpress.com,https://medicalxpress.com/news/2026-11-consciousness-deep-brain-case.html,Could consciousness begin deep in the brain? Researchers make the case&nbsp;&nbsp;Medical Xpress,Google News - Researcher - Devor Marshall,marshall devor,full_keyword,FALSE,"Rejected: The article correctly identifies Professor Marshall Devor as affiliated with the Hebrew University of Jerusalem and discusses his published hypothesis paper on the origins of consciousness. However, the content describes fundamental neuroscience research, explicitly stating it 'does not claim to establish a proven mechanism for consciousness' and 'proposes a framework for further investigation rather than a completed explanation'.","FULL_TEXT: ```json
 {
   ""relevant"": false,
