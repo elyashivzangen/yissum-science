@@ -594,19 +594,3 @@ Fetched text sample: What the menstrual cycle and blood sugar connection looks l
 07/11/2026,Dodgers Get Major Update on Two-Time Cy Young Winner in Free Agency - Heavy.com,heavy.com,https://news.google.com/rss/articles/CBMimAFBVV95cUxQRExRZmpRamRDRG9SWGlEeEJtMEstOF9PWVBQMTRjR3BvQUpMZVV2dFllN1k3QzFFMUo4UVJyZE1HNjZvX25JdlBCT3p3d1c2S19tN2lQYXBrdWVXOVpYZGRraWhYZXhYN0otTS1jX3cxbDd1UEhjWTdpaDNpNGV4QTg3WDFXM08zVWRURGpNRVNDblVGWXUzMg?oc=5,Dodgers Get Major Update on Two-Time Cy Young Winner in Free Agency Heavy.com,Google News - Company - Hippy (C.Y.) International,,insufficient_article_text,,AI_RETRY: insufficient evidence after Google News fallback context (snippet_only).,"INSUFFICIENT_CONTEXT: Fetch quality: {""ok"":false,""reason"":""snippet_only"",""wordCount"":13,""boilerplateSignals"":0,""titleOverlap"":1}
 Fetched text sample: Dodgers Get Major Update on Two-Time Cy Young Winner in Free Agency Heavy.com",,,,,,google_news,Heavy.com,unresolved_google_news,https://news.google.com/rss/articles/CBMimAFBVV95cUxQRExRZmpRamRDRG9SWGlEeEJtMEstOF9PWVBQMTRjR3BvQUpMZVV2dFllN1k3QzFFMUo4UVJyZE1HNjZvX25JdlBCT3p3d1c2S19tN2lQYXBrdWVXOVpYZGRraWhYZXhYN0otTS1jX3cxbDd1UEhjWTdpaDNpNGV4QTg3WDFXM08zVWRURGpNRVNDblVGWXUzMg?oc=5,,,,
 07/11/2026,"Jacquelyn Slick Obituary (1953 - 2026) - Kendallville, IN - WFFT-TV 55 News - Legacy",legacy.com,https://www.legacy.com/us/obituaries/wfft/name/jacquelyn-slick-obituary?id=62933327,"Though she will be profoundly missed, Jackie's family finds comfort in the impact she made through her hippy love, infectious laughter, and free- ...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
-07/11/2026,Catalyst Aggregation State Flips Chirality in Anti-Inflammatory Phosphine Synthesis - Bioengineer.org,bioengineer.org,https://bioengineer.org/catalyst-aggregation-state-flips-chirality-in-anti-inflammatory-phosphine-synthesis/,Catalyst Aggregation State Flips Chirality in Anti-Inflammatory Phosphine Synthesis Bioengineer.org,Google News - Company - Chiral,chiral,full_keyword,,AI_RETRY: AI Error: Your API key was reported as leaked. Please use another API key.,"{
-  ""error"": {
-    ""code"": 403,
-    ""message"": ""Your API key was reported as leaked. Please use another API key."",
-    ""status"": ""PERMISSION_DENIED""
-  }
-}
-",,,,,,google_news,Bioengineer.org,resolved,https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkVqR2pOTXhrQUhEQzR1bjFoQWNMUEQyY2hQNUprX3FldHFnSW43SDZ0VXd5b3FfUk15NDBXb1BzUm95Nk1qb1Q5bHFwdlU3dUJ2c2g3OUN5blRsM1BYWUVjM3dUR0hzZnFwekJLV1JKWC1uV28zcTNJRGtFZmVBSDV6UWtieEN5MHNWQm5VY1RGanFOYWhvWi1NVHZ3WWhsck1tX0F3Zk9McjB3?oc=5,,,,
-07/11/2026,"Lynne Garza Obituary (2026) - Pleasant Ridge, MI - Wessels & Wilk Funeral Home - Pleasant Ridge - Legacy | Obituary",legacy.com,https://www.wesselsandwilk.com/obituary/Lynne-Garza,"Lynne Garza Obituary (2026) - Pleasant Ridge, MI - Wessels & Wilk Funeral Home - Pleasant Ridge Legacy | Obituary",Google News - Company - WILK (BioMilk),wilk,full_keyword,,AI_RETRY: AI Error: Your API key was reported as leaked. Please use another API key.,"{
-  ""error"": {
-    ""code"": 403,
-    ""message"": ""Your API key was reported as leaked. Please use another API key."",
-    ""status"": ""PERMISSION_DENIED""
-  }
-}
-",,,,,,google_news,Legacy | Obituary,resolved,https://news.google.com/rss/articles/CBMif0FVX3lxTE1HTHZ6a1FySkd2TnVHQzlmcnpTakRXRllPLXY2b2xOemYwNU9TZm1qLUJWbXZja29mN3ByQmhyMjRHSGFFTlU0Y0xuOVNxVXZZQnFKOU5NbVNVc2l6aUZicGFYcGljYlFBb3AzRVdTaW9TTzd2M3dOMzBZOFZCd1E?oc=5,,,,
