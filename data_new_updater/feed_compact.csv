@@ -521,35 +521,3 @@ Fetched text sample: HKUST Develops Novel Perovskite Chiral Multiple Quantum-Wel
 09/11/2026,Mandurah 09 November 2026 Race 8 - thedogs,thedogs.com.au,https://www.thedogs.com.au/racing/mandurah/2026-11-09/8/all-torque-engineering?trial=false,"Junk Yard Hippy17.28. T: Darryl Jeffries R/T: 6Y, Darryl Jeffries ...",Companies - Batch 04 (Cytovia→Lyotropic Delivery Systems),,blacklisted_domain,FALSE,Auto-Reject: Blacklisted domain / known noise source.,"Stopped before fetch, date detection, keyword matching, and AI.",,,,,,google_alerts,Google Alerts,not_google_news,,,,,
 09/11/2026,Better hospital food can help build a healthier healthcare system | Rogers Victor - The Detroit News,detroitnews.com,https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRVhZbE9LNDZYREtVRlhIZzJJMUVYbDBYYjJRTnduTlhPT01kY1N2dVl5VUNsY3dmQW9PNUhBanp4Y2ExcVg2LTdSMWV4ZUNyQWduOS03OGVvcDZkQlN2UlZua2toQndOY29CR2MzODBQSzVTM0kya0drQVdROEJJQWR5eFRacWV2SUJNQTJrZGFHdnZBRlVBZHQ0RUhhUTdKZzh4bWpZbVlzRng3dkVmNk1jcWhOdU9PdVlWc0hDLVBxQ3Y1SFZ5MXNhcWVScGZRNHh2WmZDbE1ubkRJaDJwWW9val9lUU5JMmJuZQ?oc=5,Better hospital food can help build a healthier healthcare system | Rogers Victor The Detroit News,Google News - Company - Better Meal,,insufficient_article_text,,AI_RETRY: insufficient evidence after Google News fallback context (snippet_only).,"INSUFFICIENT_CONTEXT: Fetch quality: {""ok"":false,""reason"":""snippet_only"",""wordCount"":14,""boilerplateSignals"":0,""titleOverlap"":1}
 Fetched text sample: Better hospital food can help build a healthier healthcare system | Rogers Victor The Detroit News",,,,,,google_news,The Detroit News,unresolved_google_news,https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRVhZbE9LNDZYREtVRlhIZzJJMUVYbDBYYjJRTnduTlhPT01kY1N2dVl5VUNsY3dmQW9PNUhBanp4Y2ExcVg2LTdSMWV4ZUNyQWduOS03OGVvcDZkQlN2UlZua2toQndOY29CR2MzODBQSzVTM0kya0drQVdROEJJQWR5eFRacWV2SUJNQTJrZGFHdnZBRlVBZHQ0RUhhUTdKZzh4bWpZbVlzRng3dkVmNk1jcWhOdU9PdVlWc0hDLVBxQ3Y1SFZ5MXNhcWVScGZRNHh2WmZDbE1ubkRJaDJwWW9val9lUU5JMmJuZQ?oc=5,,,,
-08/11/2026,"Bank of Nova Scotia (BNS) Stock Price, Chart & Analysis - debelegger.nl",debelegger.nl,https://www.marketbeat.com/stocks/TSE/BNS/chart/,"Bank of Nova Scotia (BNS) Stock Price, Chart & Analysis debelegger.nl",Google News - Company - Bionanosim (BNS),bns,full_keyword,,AI_RETRY: AI Error: Your API key was reported as leaked. Please use another API key.,"{
-  ""error"": {
-    ""code"": 403,
-    ""message"": ""Your API key was reported as leaked. Please use another API key."",
-    ""status"": ""PERMISSION_DENIED""
-  }
-}
-",,,,,,google_news,debelegger.nl,resolved,https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ENXE5QWZNdjZ5dHQzU01KT29Td09HUEJtcDlQNTdiMFkwb2lUc3pHT0pJbmZlQzVXRFdSNjdudDNndGw4Z1d3THBTY0FjNmVRT1Iw?oc=5,,,,
-08/11/2026,West Point High School (MS) Football - MaxPreps,maxpreps.com,https://www.maxpreps.com/ms/west-point/west-point-green-wave/football/,West Point High School (MS) Football MaxPreps,Google News - Company - Point 6,Point 6 (Google News query match),full_keyword,,AI_RETRY: AI Error: Your API key was reported as leaked. Please use another API key.,"{
-  ""error"": {
-    ""code"": 403,
-    ""message"": ""Your API key was reported as leaked. Please use another API key."",
-    ""status"": ""PERMISSION_DENIED""
-  }
-}
-",,,,,,google_news,MaxPreps,resolved,https://news.google.com/rss/articles/CBMiekFVX3lxTFBOdFh2TXFrRWhnam1ZU1FfZWlGOXZiWkgxcFhQR2kyaHNjTWYyemxTTGRoVW1FTHRQT1ViaUU5V0gyb1Noa3RDR3RFc1VETUdOTG5DRUl6TlBRQ251c3p3WmtuMnRqOUFudHZCV1pWS3NHd3NMbmFvTGFB?oc=5,,,,
-08/11/2026,"The Bank of Nova Scotia (BNS.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",ca.finance.yahoo.com,https://www.marketwatch.com/investing/stock/bns,"The Bank of Nova Scotia (BNS.TO) Stock Price, News, Quote & History Yahoo! Finance Canada",Google News - Company - Bionanosim (BNS),bns,full_keyword,,AI_RETRY: AI Error: Your API key was reported as leaked. Please use another API key.,"{
-  ""error"": {
-    ""code"": 403,
-    ""message"": ""Your API key was reported as leaked. Please use another API key."",
-    ""status"": ""PERMISSION_DENIED""
-  }
-}
-",,,,,,google_news,Yahoo! Finance Canada,resolved,https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4aDE5UE00NXU0VzFjTEdYODhTejJ2QUo3ampTNnZUYm1LNFN6cDFsa0xiTzN5QmdZa3ZtVHg1R28zcDFidjV4MVJ6b0loc3JRWEN0RQ?oc=5,,,,
-08/11/2026,University of Oregon graduate employees declare intent to strike - Oregon Public Broadcasting - OPB,opb.org,https://www.opb.org/article/2026/09/18/classified-worker-strike-oregon-universities-seiu/,University of Oregon graduate employees declare intent to strike Oregon Public Broadcasting - OPB,Google News - Company - WILK (BioMilk),wilk,full_keyword,,AI_RETRY: AI Error: Your API key was reported as leaked. Please use another API key.,"{
-  ""error"": {
-    ""code"": 403,
-    ""message"": ""Your API key was reported as leaked. Please use another API key."",
-    ""status"": ""PERMISSION_DENIED""
-  }
-}
-",,,,,,google_news,Oregon Public Broadcasting - OPB,resolved,https://news.google.com/rss/articles/CBMid0FVX3lxTE1xbC1xNUVJS2k3emRfeHphY3lfT1JMZ2xQYTZqZmFYYnNLV21OSVlFVjB5enB0RTBTSVh3MFhKRHhpdWl6aENwVktLcmp2VFo4cU5vSC14eXFyWHNCZGR6dlBpNXFpb3YyQm1RMEZULTRMV2t1Ymtz?oc=5,,,,
