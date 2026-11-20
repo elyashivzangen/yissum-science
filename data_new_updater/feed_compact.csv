@@ -1066,37 +1066,3 @@ Analyze a news item to determine strategic relevance for Business Development & 
     ""Verified: The article discusses Altimmune's clinical progress, specifically the presentation of Phase 2b IMPACT trial data for pemvidutide at the EASL conference and the company's plan to initiate the Phase 3 PERFORMA trial in late 2026. This provides substantive clinical and regulatory development signals essential for tracking the company's value and progress.""",,,,,,google_news,Investing.com,resolved,https://news.google.com/rss/articles/CBMizAFBVV95cUxPX3ZXXzhnSElnZXBab0V6bEZvTEQtMTNFSXliVHpZLWthU0s3N3hnZmhuR3hRbU9VN1hDcG9OYVhnWWlmS1JvMEZDd1lROXd0OFEtcHhTUS1GTVk4b1FVdUlKbEZCS2VHQVdfbXZCNWJYWm80Y2FCTG1DaFVzR3dJemM3eXpwOXphREVSNWdPSGNLQzRtS185UV9ORXVSOGk1dkdOVDdJYjQtUXV0T0V5SWVlWHJ4LWQ5TmVZWWJqMmlETUxlWTJqRUNhcTE?oc=5,gemma-4-26b-a4b-it,,,
 13/11/2026,"BNS Jun 2027 87.500 call (BNS270617C00087500) stock price, news, quote and history - Yahoo Finance UK",uk.finance.yahoo.com,https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zTENCbjBnRzBXQzJqQ25iOHIxZ1E0STZSM2hDNVF1dE9CMk9RdHVhcVRiWjVZTng5RV9aUHNZZUN3Wkx5cjhaTUV2T1VkaWlrU19KeUVQWm95bFpLZGZPWXJmNlk?oc=5,"BNS Jun 2027 87.500 call (BNS270617C00087500) stock price, news, quote and history Yahoo Finance UK",Google News - Company - Bionanosim (BNS),,insufficient_article_text,,AI_RETRY: insufficient evidence after Google News fallback context (snippet_only).,"INSUFFICIENT_CONTEXT: Fetch quality: {""ok"":false,""reason"":""snippet_only"",""wordCount"":15,""boilerplateSignals"":0,""titleOverlap"":1}
 Fetched text sample: BNS Jun 2027 87.500 call (BNS270617C00087500) stock price, news, quote and history Yahoo Finance UK",,,,,,google_news,Yahoo Finance UK,unresolved_google_news,https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zTENCbjBnRzBXQzJqQ25iOHIxZ1E0STZSM2hDNVF1dE9CMk9RdHVhcVRiWjVZTng5RV9aUHNZZUN3Wkx5cjhaTUV2T1VkaWlrU19KeUVQWm95bFpLZGZPWXJmNlk?oc=5,,,,
-13/11/2026,A complete guide to baseball's 2026 awards season - MLB.com,mlb.com,https://www.mlb.com/news/when-are-2026-mlb-awards-announced-mvp-cy-young-rookie-of-the-year,A complete guide to baseball's 2026 awards season MLB.com,Google News - Company - Hippy (C.Y.) International,Hippy (C.Y.) International (Google News query match),full_keyword,FALSE,Rejected: The article content is about Major League Baseball awards and does not mention 'Hippy (C.Y.) International'. There is no connection between the matched entity and the article subject matter.,"FULL_TEXT: Senior Innovation Analyst for Yissum.
-Determine if a news item is strategically relevant for Business Development & Licensing.
-""Hippy (C.Y.) International"" (via Google News company feed).
-""A complete guide to baseball's 2026 awards season - MLB.com"".
-An article about Major League Baseball (MLB) awards season (MVP, Cy Young, etc.).
-
-    *   *Step 1: Entity Verification:* The keyword is ""Hippy (C.Y.) International"". The article is about ""MLB awards season"". There is zero overlap. The article does not mention ""Hippy (C.Y.) International"".
-    *   *Step 2: Main Article Validation:* The main article is about baseball awards.
-    *   *Step 3: Strategic Value:* Even if there were a mention, baseball awards are not relevant to a technology transfer office (TTO) unless it's about sports tech/IP, which is not present here.
-    *   *Step 4: Conclusion:* This is a False Positive. The search query likely triggered on a term within the snippet or metadata that was unrelated, or it's a complete mismatch in the search engine logic.
-
-    *   Identify the mismatch.
-    *   State that ""Hippy (C.Y.) International"" is not mentioned in the article.
-    *   Explain that the article is about Major League Baseball awards.
-    *   Conclude it is a False Positive.
-
-    *   `relevant`: false
-    *   `reason`: ""Rejected: The article is entirely about Major League Baseball (MLB) awards and does not mention the entity 'Hippy (C.Y.) International'. This is a clear false positive where the search keyword does not appear in the news content.""
-
-    *   Must be raw JSON.
-    *   Reason must be finished prose.
-    *   No markdown, no bullet points, no ""Rejected:"" labels if they look like meta-commentary (though ""Rejected:"" is often used in these prompts to start the prose, I will ensure it reads as a professional explanation).
-
-    *Refined Reason:* ""Rejected: The article content is about Major League Baseball awards and does not mention 'Hippy (C.Y.) International'. There is no connection between the matched entity and the article subject matter.""",,,,,,google_news,MLB.com,resolved,https://news.google.com/rss/articles/CBMilgFBVV95cUxQcTdWR1FIRlZHWWRKSXREQmpEZ2ZzR1R6eEZIbml4MFR4YnV1U0ZVZG9yZVlFRWFSQlczLXAwNGVvY2xFZ18xOWxHT2RPVkVlV0pSRGhpTzhjOUR5R1UzVFlvTG04WkJhYWNTSlJUazBvQ1lMdjh2aEVhTlgxd0l3SDFPUHVxeVFsMV9VOEdDcHV6SU54S0HSAaIBQVVfeXFMTUhlVE1ndUVfeUFITHRCcjRoZ0JsU3lYMVkyZW9GTmR2Vm5kX1Y1SkxEb0xjWXFwOGc3QWJELXllZXpxXzBqZEIxSzU3RHBQMkZRYTUwWjJIbFhCUXRWZDZsZXlXQXhCNlZreVZZblFpRmJ1TzBTZzlNNXBReDNzN2R5T0VlSnFCV3NFUVVGcmFNV05JMDFDZGZ2em5VTkRaNnZ3?oc=5,gemma-4-26b-a4b-it,,,
-13/11/2026,Altimmune Reports Q3 2026 Results: Net Loss of $31.6 Million - Gotrade,heygotrade.com,https://www.heygotrade.com/en/news/altimmune-q3-2026-financial-results/,Altimmune Reports Q3 2026 Results: Net Loss of $31.6 Million Gotrade,Google News - Company - Pharmathene Inc. / Altimmune,altimmune,full_keyword,,"AI_RETRY: AI Error: The requested combination of response modalities (TEXT) is not supported by the model. models/gemini-2.5-flash-preview-tts accepts the following combination of response modalities:
-* AUDIO
-","{
-  ""error"": {
-    ""code"": 400,
-    ""message"": ""The requested combination of response modalities (TEXT) is not supported by the model. models/gemini-2.5-flash-preview-tts accepts the following combination of response modalities:\n* AUDIO\n"",
-    ""status"": ""INVALID_ARGUMENT""
-  }
-}
-",,,,,,google_news,Gotrade,resolved,https://news.google.com/rss/articles/CBMie0FVX3lxTE5GQVNjcmVvSXoyajBfYUk4elNXdGJWbXk3VXAtTHIwRzktb2JodGMyRWRqTjlqZG5YNkFtdVhwUWNic25wMlEtWnlIalJvRTVqbVItWDFtU29JR2VHcUVnZkhva2ZsYzE0YUdEbWJ4ajF3SVBpcnVUTWJMbw?oc=5,,,,
